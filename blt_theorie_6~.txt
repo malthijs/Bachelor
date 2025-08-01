@@ -1,0 +1,223 @@
+[*sequencing*]
+Sequencing = bepalen van de sequentie ("volgorde") van de bouwstenen
+in een molecuul
+
+Eiwit: sequentie van aminozuren
+DNA: sequentie van nucleotiden
+
+[*DNA sequencing generations*]
+First generation:
+- 1977: Sanger chain termination sequencing
+
+Next, second generation (high-throughput):
+- 2005: 454 Life Sciences pyrosequencing
+- 2005: Solexa/Illumina sequencing by synthesis
+
+Third generation (single-molecule):
+- 2011: Pacific Biosciences single-molecule sequencing
+- 2014: Oxford Nanopore single-molecule sensing
+
+[*sanger sequencing*]
+Ontworpen door Frederick Sanger
+
+Principe: maak een kopie van je DNA-streng en observeer per stap
+welke nucleotide wordt ingebouwd
+
+Nucleotide detectie is de basis voor bijna alle sequencing methodes
+
+Net als bij PCR wordt bij sanger sequencing een nucleotide ingebouwd
+by ssDNA
+
+Vervolgens wordt gedetecteerd welke nucleotide op welke
+positie wordt ingebouwd
+
+HOE?
+
+Gebaseerd op chain termination door dideoxynucleoside triphosphate
+(ddNTPs)
+
+ddNTPs bevatten een H aan de linker-onderkant in plaats van een OH
+Hierdoor kan er niet verder gebouwd worden aan de ketting
+Condensatiereactie heeft namelijk het zuurstofatoom nodig
+(fosfodiësterbinding)
+
+2 methoden:
+- gel elektroforese
+- capillaire elektroforese
+
+Gebaseerd op de lengtes van de getermineerde sequenties
+Ze worden gesorteerd
+
+[*gel elektroforese*]
+Vier master-mixes worden aangemaakt waarbij elke mix een unieke
+ddNTP bevat. Na de PCR-reacties worden de mengsels in 4 lanen
+gepipetteerd. Hierna kan de sequentie van het DNA achterhaalt
+worden door de banden van onder naar boven te lezen.
+
+[*capillaire elektroforese*]
+In plaats van normale ddNTPs worden fluorescerende ddNTPs ingebouwd.
+Hier wordt gebruikt gemaakt van 1 mastermix. Na de PCR-reactie wordt
+het mengsel in een capillaire buis gebracht. Een laser scant de
+fluorescerende labels terwijl de fragmenten passeren. Een computer
+zet het signaal om in een elektrogram (pieken van A, T, C, G).
+
+[*ingrediënten*]
+Template DNA
+1 primer
+dNTPs
+ddNTPs
+DNA-polymerase
+
+1 primer?
+Omdat we 1 strand willen gebruiken en niet allebei!
+
+[*chromatogram*]
+Geeft weergave over hoe goed of slecht je sequentie is
+Controle op mis-calls
+
+Een goede sequentie:
+- gelijkmatig verspreide pieken
+- geen achtergrond
+- hoogte van de pieken mag van elkaar verschillen (30%)
+
+Een klein beetje ruis hoeft geen probleem te zijn, als de pieken
+goed af te lezen zijn
+
+Te veel belemmert het juist aflezen van pieken
+De afgelezen base hoeft niet altijd de juiste te zijn
+Kwaliteitscore base-call: Phred score
+
+[*phred score*]
+Gebaseerd op Phred programma
+Phred scores geven schatting van de kans op een foute base-call
+Logaritmische schaal
+
+Q = -10 log₁₀ P
+P = 10**(-Q / 10)
+
+Q = 10 = 1/10 = 90% accuracy
+Q = 20 = 1/100 = 99% accuracy
+Q = 30 = 1/1000 = 99.9% accuracy
+e.t.c.
+
+[*complicaties*]
+Sequencing producten worden op grootte gescheiden m.b.v.
+gelelektroforese.
+- alle fragmenten verschillen slechts 1 base van elkaar
+- een gel heeft altijd een optimum voor een bepaalde range van
+productgroottes
+
+Grote fragmenten zijn moeilijker van elkaar te scheiden dan kleinere
+fragmenten
+Het verschil in grootte wordt procentueel steeds kleiner
+
+Scheiding van kleine fragmenten is minder betrouwbaar
+De dye maakt een relatief groter deel van het fragment uit
+
+Overlappende sequenties bij de chromatogram
+Doordat er 2 primers zijn toegevoegd
+
+Aflopende sequentie door bijvoorbeeld repetitieve sequenties
+("slipping" DNA-polymerase)
+
+Kan leiden tot inserties/deleties.
+
+[*kenmerken sanger sequencing*]
+Targeted sequencing: je hebt een primer nodig specifiek voor het
+stukje DNA dat je wilt sequencen
+
+Voordelen:
+- Hoge kwaliteit van data (heel nauwkeurig) in vergelijking met NGS
+(0.001 %)
+- Kan snel en makkelijk uitgevoerd worden
+
+Nadelen:
+- Hoge kosten per base
+- Hoog aantal moleculen van het target DNA nodig
+
+Wordt nog toegepast om kleine stukjes DNA te testen; voor het
+sequencen van een vector
+< 900 bp
+
+[*first-gen & next-gen sequencing*]
+Zowel Sanger als NGS detecteren het inbouwen van (geblokkeerde)
+nucleotiden op een template door DNA-polymerase
+
+Voor zowel Sanger als NGS is vooraf amplificatie van het DNA nodig
+(signal boost)
+- bij Sanger: d.m.v. cloning of PCR
+- bij NGS: d.m.v. bridge PCR
+
+Sanger: single long fragment, known primer sequence
+NGS: many short fragments, unknown sequence
+
+[*NGS*]
+1. Fragmentatie van dsDNA (d.m.v. enzymen of sonicatie)
+2. End repair en A-tailing (maken van blunt-ends en dan
+A-overhangs creëren)
+3. Ligation (T-tailed adapter wordt geligeerd aan beide kanten)
+4. PCR-amplification (versterken van het signaal voor hogere
+betrouwbaarheid)
+
+Veel, random moleculen (sequencing library)
+Het template-DNA meestal in kleine fragmenten
+Er wordt gebruik gemaakt van een universele primer die aan de
+adapters bindt
+
+NGS: veel tegelijk verlopende, onafhankelijke sequencing reacties
+(massive parallel)
+
+[*illumina sequencing: amplificatie*]
+Bridge amplificatie
+
+Bridge amplificatie is het proces waarbij DNA-fragmenten die aan een
+flow cell zijn gehecht, worden geamplificeerd om een cluster van
+identieke DNA-fragmenten te creëren. Deze clusters zijn essentieel
+voor de Illumina sequencing technologie, omdat ze zorgen voor sterke
+signalen die gedetecteerd kunnen worden tijdens de sequencing.
+
+Specifieke primers binden aan de adapters.
+Er worden 2 verschillende primers gebruikt.
+Een bindt aan de 5' adapter en de ander aan de 3' adapter.
+
+De 5' en 3' primer zitten vast aan de flowcell. DNA wordt
+gedenatureerd en buigt waardoor de 3' adapter aan de 3' primer
+bindt. PCR vormt clusters na een paar herhalingen.
+
+[*detectie*]
+- nucleotiden bevatten: terminator & label
+- reversible terminator en fluorescerende label kunnen verwijderd
+worden
+- bij verwijderen geeft het label een lichtflits, deze wordt gemeten
+
+Herhaalt zich cyclus na cyclus
+
+[*paired-end sequencing*]
+Single-end: één uiteinde van het DNA-fragment wordt gesequencet
+Paired-end: beide uiteinden van het DNA-fragment wordt gesequencet
+
+[*NGS*]
+Wordt het nog gebruikt?
+Ja, heel erg veel!
+
+Nadelen:
+Hoog aantal moleculen DNA nodig, dus DNA amplificatie essentieel
+
+Nadelen DNA amplificatie
+- zorgt voor biases
+- onevenredige amplificatie van fragmenten
+
+Fouten geïntroduceerd door DNA polymerase
+Vernietigd informatie (nucleotide modificaties)
+
+korte lengte van fragmenten
+2 x 300 bp
+1% foutmarge
+
+Wat limiteert de read lengtes bij NGS?
+- elk cluster bevat dezelfde 1000den DNA-kopieën
+- tijdens sequencen geven deze allemaal hetzelfde signaal
+
+DNA-polymerasen kunnen "out of sync" gaan lopen
+Hoe langer het DNA-fragment hoe meer polymerasen "out of sync"
+zullen zijn: kwaliteit van sequencing daalt

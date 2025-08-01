@@ -1,0 +1,122 @@
+[*statistische analysemethoden*]
+- Normal distribution/z-test
+- T-test (paired/unpaired)
+- Binomial
+- Wilcoxon Signed-Rank test or Sign test
+- Chi-square
+- ANOVA
+- Post-hoc tests
+- Correlation/regression
+
+De vraag bij de data bepaald welke analyse er moet worden toegepast
+
+[*vraag 1*]
+Er is voor docenten gekeken naar het aantal kilometers afstand die
+zij van school wonen en hun rijstijd. Is er een verband tussen de
+rijstijd en het aantal kilometers?
+
+Variabelen zijn numeriek en je wilt de relatie beschrijven:
+Correlation/regression
+
+[*vraag 2*]
+Er is voor docenten gekeken naar het aantal kilometers afstand die
+zij van school wonen en hun rijstijd. Stel een model op waarmee je
+de reistijd kan schatten met het aantal kilometers.
+
+Variabelen zijn numeriek en je wilt de relatie beschrijven:
+Correlation/regression
+
+[*vraag 3*]
+Er wordt gekeken naar de werking van een medicijn. Hiervoor wordt
+bij een reeks patiënten zowel voor als na inname de bloeddruk
+gemeten. Is de bloeddruk significant lager na inname?
+
+Meten van een verschil tussen twee numerieke metingen binnen
+dezelfde groep waarbij de metingen afhankelijk van elkaar zijn:
+
+normal: CI for μₚ using paired t
+not normal: Wilcoxon Signed-Rank test or Sign test or transform
+then...
+
+[*vraag 4*]
+Er wordt gekeken naar de werking van een medicijn. Hiervoor wordt
+een reeks patiënten en gezonde mensen na inname de bloeddruk
+gemeten. Is de bloeddruk significant lager in gezonde mensen?
+
+Meten van een verschil tussen twee numerieke metingen binnen
+dezelfde groep waarbij de metingen onafhankelijk van elkaar zijn:
+
+normal: CI for μ₁ - μ₂ using t
+not normal: Wilcoxon-Mann-Whitney or transform then...
+
+[*vraag 5*]
+Een directeur wil dat alle 10.000 studenten van een hogeschool
+goed beschermd zijn tegen de griep. Alle studenten krijgen een
+griepvaccinatie. Toch blijkt dat 6% van de gevaccineerde studenten
+griep opliepen. Wat is de kans bij een opleiding van 80 studenten
+dat hiervan minstens 15 de griep krijgt?
+
+Er zijn twee mogelijke uitkomsten en de dataset is klein:
+Binomial
+
+[*enquête*]
+Er is een enquête uitgevoerd naar het reisgedrag van docenten aan
+de hogeschool Leiden. Hierbij zijn alle docenten van de hogeschool
+ingedeeld in drie leeftijdscategorieën en per type vervoer. Er zijn
+een aantal gegevens verzameld, te zien in de tabel. Studenten zijn
+gevraagd deze gegevens te onderzoeken. Er worden verschillende
+onderzoeken gedaan met verschillende gegevens.
+
+[*vraag 6*]
+In het onderzoek is de gemiddelde rijstijd (in minuten) bepaald.
+Toets of de reistijd verschilt met de leeftijd en met het type
+vervoermiddel.
+
+Er zijn meer dan twee onafhankelijke groepen en twee factoren:
+Two-Way ANOVA
+
+[*vraag 7*]
+In het onderzoek is de gemiddelde reistijd (in minuten) bepaald.
+Toets of de reistijd verschilt met het type vervoermiddel.
+
+Er zijn meer dan twee onafhankelijke groepen en één factor:
+One-Way ANOVA
+
+[*vraag 8*]
+In het onderzoek wordt weer de gemiddelde reistijd (in minuten)
+gebruikt. Toets of de reistijd verschilt tussen docenten die reizen
+met de auto of met de trein.
+
+Meten van een verschil tussen twee numerieke metingen binnen
+dezelfde groep waarbij de metingen onafhankelijk van elkaar zijn:
+
+normal: CI for μ₁ - μ₂ using t
+not normal: Wilcoxon-Mann-Whitney or transform then...
+
+[*vraag 9*]
+In het onderzoek wordt weer de gemiddelde reistijd (in minuten)
+gebruikt. Bepaal in hoeverre het vervoermiddel en de leeftijd
+invloed hebben op de reistijd van docenten.
+
+Er zijn meer dan twee onafhankelijke groepen en twee factoren:
+Two-Way ANOVA
+
+[*vraag 10*]
+In het onderzoek zijn de docenten ingedeeld over de verschillende
+categorieën. Toets of het aantal docenten verschilt tussen
+de leeftijdsgroepen en tussen type vervoermiddel.
+
+Er zijn meer dan twee onafhankelijke groepen en twee factoren:
+Two-Way ANOVA
+
+[*vraag 11*]
+In het onderzoek zijn de aantallen docenten wederom ingedeeld over
+de verschillende categorieën. De gegevens in de tabel zijn weer
+aantallen docenten. Toets of er een verband is tussen de leeftijd en
+het type vervoermiddel van docenten
+
+Er zijn twee categorische groepen die onafhankelijk van elkaar zijn
+en meerdere niveaus bevatten:
+
+Many levels each; independent samples: Chi-square independence test
+for r x k

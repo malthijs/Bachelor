@@ -1,0 +1,64 @@
+[*statistical procedure*]
+1. Formuleer H₀ en H₁
+2. Kies α
+3. Bepaal steekproefgrootte n
+4. Bereken kritieke gebied (CI) of overschrijdingskans p
+5. Bepaal uitkomst steekproef (H₀ behouden of verwerpen)
+6. Formuleer conclusie
+
+[*response variable*]
+Een "response variable" is een afhankelijke variabele dat onderzocht
+wordt. Het gaat altijd gepaard met één of meer onafhankelijke
+"explanatory variable(s)" die het beïnvloeden.
+
+* voorbeeld *
+De genexpressie van 50 patiënten is voor en na chemotherapie gemeten
+
+Gemeten genexpressie = response variable
+Chemotherapie behandeling = explanatory variable
+
+[*numerical response variable*]
+Numerical explanatory variable(s)
+- Correlation/regression
+
+Categorical explanatory variable(s)
+- 1 group
+normal: CI for μ using t
+not normal: transform then...
+
+- 2 groups
+independent:
+normal: CI for μ₁ - μ₂ using t
+not normal: Wilcoxon-Mann-Whitney or transform then...
+
+dependent:
+normal: CI for μₚ using paired t
+not normal: Wilcoxon Signed-Rank test or Sign test or transform
+then...
+
+- 3 or more independent groups
+normal:
+common σ: ANOVA
+uncommon σ: Kruskal-Wallis or transform then...
+
+not normal: Kruskal-Wallis or transform then...
+
+[*categorical response variable*]
+Numerical explanatory variable(s)
+- Logistic regression
+
+Categorical explanatory variable(s)
+- 1 group
+yes/no:
+n large: CI for p using Z
+n small: Binomial
+
+many categories: Chi-square goodness-of-fit
+
+- 2 groups
+2 levels each:
+independent: Chi-square independence test for 2 x 2 or
+             Fisher's exact test
+dependent: McNemar's test
+
+Many levels each: Chi-square independence test for r x k

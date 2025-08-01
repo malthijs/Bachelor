@@ -1,0 +1,233 @@
+[*proteomica*]
+Probeert het karakteriseren van het proteoom
+Op hoge schaal identificatie en karakterisatie van eiwitten
+en alle kenmerken
+
+Proteoom
+Totale hoeveelheid eiwitten in een systeem
+- alle eiwitten die door een genoom tot expressie komen onder
+specifieke condities
+- een set van eiwitten met gedeelde kenmerken
+
+Genomica --> Transcriptomica --> Proteomica --> Metabolica
+
+Waarom proteomica?
+Genomica en transcriptomica hebben al heel data geleverd over
+biologische systemen
+- sequenties
+- genexpressie
+
+Soms kunnen alleen eiwitniveaus gemeten worden
+
+Eiwitten hebben diverse eigenschappen
+- eiwitfunctie is afhankelijk van de structuur en interactie met
+andere eiwitten
+- gen knock-outs of RNAi zijn "extreme" tools om functie van
+eiwitten te bepalen
+- mRNA niveaus kunnen verschillen van functionele eiwit niveaus
+- splicing kan eiwitten creëren die verschillende functies hebben
+- PTMs beïnvloeden functie
+- localisatie van eiwitten is belangrijk voor de functie
+- functionaliteit maakt eiwitten een perfecte target voor "drugs"
+
+[*uitdagingen*]
+DNA/RNA heeft 4 bouwstenen en een uniforme structuur
+Eiwitten hebben 20 bouwstenen, variabele structuur, hydrofobiciteit
+en lading
+Eiwitten hebben een correcte vouwing nodig voor veel (functionele)
+proteomica applicaties
+
+Dynamic Range Problem
+Het nauwkeurig detecteren en kwantificeren van weinig en veel
+voorkomende eiwitten
+
+Het is lastig om eiwitten te studeren die een lage expressie in
+cellen hebben
+- proteomics hebben geen methode zoals PCR
+
+Eiwitten verschillen erg veel in de chemische composities
+- oplosbaarheid
+- lading
+
+Eiwitten ondergaan post-translational modifications (PTMs)
+- toename complexiteit
+- toename dynamische bereik
+
+Sampling en scheiding zijn extreem belangrijk in proteomica
+
+[*2D gel approach*]
+Eiwitten worden gescheiden in twee dimensies gebaseerd op 2
+verschillende eigenschappen
+Er wordt een dye toegevoegd aan de eiwitten zodat de verschillen
+gescand kunnen worden
+Visuele methode: verschillen zijn makkelijk om waar te nemen
+
+[*1st dimension: isoelectric focussing*]
+Lage pH (+)
+    |
+    | Zuur
+    |
+    | Neutraal
+    |
+    | Basisch
+    |
+Hoge pH (-)
+Elektrisch veld
+
+Zure eiwitten gaan naar boven
+Basische eiwitten gaan naar beneden
+
+[*2nd dimension: SDS-PAGE*]
+Polyacrylamide gel
+
+Eiwitten worden op een gel geplaatst en gescheiden gebaseerd op hun
+moleculaire gewicht (MW)
+
+[*2D gel approach*]
+Eigenschappen van eiwitten kunnen sterk verschillen:
+- Normaal gesproken worden alleen eiwitten gevonden die veel
+voorkomen en goed oplosbaar zijn (200 - 300 eiwitten)
+- Membraan eiwitten kunnen niet gevonden worden
+
+Gels moeten gealigned zijn om te vergelijken en quantificeren
+- slechte reproduceerbaarheid
+- vlekken kunnen overlappen
+
+Automatie is extreem lastig (low-throughput)
+
+Identificatie
+- knip de vlek
+- knip de eiwitten in kleine peptides
+- purificeer peptides
+- analyseer met massa spectrofotometer (MS)
+- identificeer eiwitten gebaseerd op peptides (PMF)
+
+[*knippen van eiwitten*]
+Trypsin is de meest gebruikte "agent" voor het knippen van eiwitten
+Knipt na lysine (K) of arginine (R)
+Behalve KP en RP (proline)
+
+Goede frequentie van voorkomen om correcte grootte peptides voor MS
+Goede grootte en + geladen uiteinde
+
+Tryptische peptide (een peptide dat door trypsine is geknipt)
+Basische einde NH₃⁺ van een tryptische peptide zorgt voor goede
+ionisatie
+
+Verschillende metingen per eiwit (specificiteit neemt toe)
+Ionisatie meer efficient
+Kleine grootte zorgt voor grote resolutie (verbeterde ID)
+
+Zorgt voor identificatie door vingerafdruk wat iemand nodig heeft:
+hoge precisie MS
+Detectie van meerdere peptide ionen van een eiwit tegelijk
+
+MALDI-TOF MS?
+Nee!
+
+[*LC-MS/MS analyse*]
+Vloeistofchromatografie kan je gebruiken om peptiden te scheiden
+bij proteomics. Daardoor kan je de peptiden achter elkaar meten in
+de massaspectrometer, waardoor er tijd is om fragmentatie spectra te
+maken.
+
+Vloeistofchromatografie gekoppeld aan massaspectrometrie
+        LC                                  MS
+
+Mogelijk in meerdere dimensies: MDLC en MS/MS
+
+Peptides worden individueel gedetecteerd
+- geen PMF
+- fragmentatie van peptides → aminozuur sequentie voor ID
+
+Wat is het en hoe werkt het?
+
+[*chromatografie*]
+Een afbeelding met kleuren
+
+Fasen in LC
+
+Mobiele fase: zure, waterige milieu met een gradiënt van organisch
+oplosmiddel (acetonitrile, methanol)
+
+Omgekeerde fase vloeistof chromatografie
+
+1. adsorptie van vloeistof   |
+2. desorptie van vloeistof   ↓
+
+HPLC
+High Performance Liquid Chromatography
+
+1. Solvent (mobiele fase reservoir)
+2. Pomp (solvent manager)
+3. Sample
+4. Injector
+5. HPLC kolom
+6. Detector
+7. Computer Data Station (chromatogram)
+8. Afval
+
+Kolom is horizontaal
+Een detector is stroomafwaarts geplaatst van de kolom
+Gekleurde componenten worden gescheiden op de kolom en gedetecteerd
+Een recorder neemt de signalen op → chromatogram
+
+Multi-dimensional LC
+Detectie van duizenden peptides
+
+[*elektrospray ionisation*]
+Gebruik een hele dunne naald (5 μm)
+Ionen dragen verschillende ladingen (2, 3, 4)
+
+Detectie van lading in ESI-MS
+MS analyse: RP LC-MS
+
+1 SCX fractie (van de 32) elueren van een RP kolom in de MS
+Veel ionen worden gelijk geëlueerd
+Er is nodig:
+- hoge precisie
+- snelle analyse en peptide fragmentatie voor MS/MS
+
+[*quadrupole*]
+Continuous ion-source
+Een oscillerende elektrische veld tussen 4 staven zorgt voor spirale
+baan van ionen
+Het ligt aan de toegepast voltage, alleen ionen met 1 m/z waarde
+kunnen passeren, anderen worden geëjecteerd
+
+Drie operationele modes
+- fixed m/z
+- scanning
+- pass-trough
+Lage resolutie, maar versatiel en goedkoop
+
+[*ion trap*]
+Vergelijkbaar in concept als quadrupole, lage resolutie
+
+Vorm staat opsluiting van ionen toe
+- De ionen kunnen gemanipuleerd worden (verzameld, gefragmenteerd)
+- Alleen fragmenten > 200 Da kunnen geobserveerd worden
+
+[*Thermo Scientific LTQ-Orbitrap*]
+Elke 1.2 seconden
+- een MS scan is uitgevoerd
+(orbitrap, hoge resolutie)
+
+- drie MS/MS scans zijn uitgevoerd
+(linear ion trap, lage resolutie)
+
+[*peptide mass fingerprinting*]
+Vergelijken van de massa van peptiden met een database om de
+eiwitten te identificeren
+
+Er zijn veel verschillende massa spectrofotometers
+Ze scheiden moleculen gebaseerd op massa/lading ratio (m/z)
+- Molecules moeten geladen zijn (delen door nul)
+- Meeste moleculen moet geïoniseerd worden
+- Hoge vacuum nodig
+- Voorkomen van botsingen
+- Oplosbare moleculen satureren de detector
+
+Niet elke sequentie kan worden bepaald
+- iso-barische aminozuren
+- pieken missen vaak van het fragmentatiespectrum

@@ -1,0 +1,20 @@
+[*square-root law*]
+De standaarddeviatie van steekproefwaarnemingen is een factor √(n)
+kleiner dan de standaarddeviatie van individuele waarnemingen:
+σₓ = σ/√(n)
+
+[*choosing alpha*]
+α = kans dat de gevonden waarde alleen verklaard wordt door de
+bestaande variatie
+
+In de natuurwetenschap vaak 0.05 en in de medische wereld 0.01
+
+[type I & type II error*]
+Belangrijk dat je een goede H₀ hebt
+Belangrijk dat je een goede α kiest
+
+Type 1 fout: alfa te groot ("false positive")
+Je zegt dat er een verschil is, maar dat is er niet
+
+Type 2 fout: alfa te klein ("false negative")
+Je zegt dat er geen verschil is, maar dat is er wel

@@ -1,0 +1,220 @@
+[*PCR*]
+Polymerase Chain Reaction
+Amplificatie (exponentiële toename) van een specifiek DNA-fragment
+Gebaseerd op DNA replicatie
+
+Waarom?
+Interesse in de aanwezigheid van een specifiek stukje DNA
+Meetmethode heeft een hoge (minimale) hoeveelheid DNA nodig
+
+Toepassingen
+- DNA diagnostiek
+Prenataal onderzoek
+Wordt tijdens de zwangerschap uitgevoerd om informatie te krijgen
+over de gezondheid en ontwikkeling van de baby
+
+Ouderschapstest
+Ouders en kind geven een DNA-monster af
+Er wordt onderzocht of de vader genetisch verwant is aan het kind
+
+Screening op de aanwezigheid van virussen zoals HIV
+Er wordt bloedonderzoek uitgevoerd om te bepalen of er bepaalde
+antistoffen of antigenen aanwezig zijn
+
+- Forensische identificaties
+STR (Short Tandem Repeat) analyse
+Hiervoor wordt PCR toegepast om STR loci te kopiëren
+Er wordt een STR-profiel opgesteld, dat uniek is voor elk individu
+
+- Kloneren van gen-fragmenten of genen
+Een gen in een plasmide plaatsen en dan de bacterie kloneren
+
+- DNA sequencing
+Dit is een techniek waarmee de volgorde van nucleotiden
+(de bouwstenen van DNA) in een DNA-molecuul wordt bepaald
+
+- Kwantitatieve verandering in genexpressie (qPCR)
+Dit is een techniek waarmee de genexpressie van een bepaald
+DNA-monster gemeten wordt
+
+Meestal wordt mRNA eerst omgezet naar cDNA: RT-qPCR
+
+[*DNA replicatie*]
+- Helicase
+Ritst het dubbelstrengs DNA open
+
+- Topoisomerase
+Verlicht de spanning in DNA-strengen die ontstaat nadat de
+DNA-strengen gescheiden worden door helicase
+
+- Single strand binding protein
+Stabiliseert het uitgerolde enkelstrengs DNA
+
+Leading strand
+Wordt continue gesynthetiseerd nadat een RNA primer aan het begin
+door primase is toegevoegd
+
+Lagging strand
+Wordt in stukken gesynthetiseerd nadat een RNA primer aan het begin
+door primase is toegevoegd (heeft te maken met helicase dat het
+DNA moet openritsen: replication fork)
+
+- Primase
+Plaatst RNA primer op het DNA
+
+- Polymerase III
+Bindt basen aan elkaar met behulp van dNTPs en MgCl₂
+Beweegt 5' naar 3' om nucleotiden toe te voegen
+Beweegt 3' naar 5' om nucleotiden te verwijderen
+
+- Polymerase I
+Verandert RNA primer naar DNA
+Beweegt 5' naar 3' om nucleotiden toe te voegen
+Beweegt 3' naar 5' om nucleotiden te verwijderen
+
+- Ligase
+Bindt okazaki fragmenten aan elkaar
+
+[*workflow*]
+Proces
+1. Denaturation
+Input: dubbelstrengs DNA
+Strengen scheiden op basis van temperatuur
+Bevat het gen van interesse
+
+60 seconden
+94 graden
+
+2. Annealing
+Input: primers
+Er wordt afgekoeld zodat de primers waterstofbruggen kunnen vormen
+1 op elke template ("complementair")
+
+Binden aan de "flanking regions"
+Net voor upstream en net na downstream
+
+45 seconden
+54 graden
+
+3. Elongation / Extension
+Input: polymerase, dNTPs en MgCl₂
+Polymerase voegt nucleotiden toe aan de 3' einde van elke primer
+
+120 seconden
+72 graden
+
+Ongeveer 30 tot 40 cycli leveren voldoende DNA op
+Pas in de derde cyclus is het dubbelstrengs DNA verdubbelt
+Het neemt exponentieel toe (2ˣ)
+
+Cyclus 1
+5' ———————————————————————— 3'
+
+3' ———————————————————————— 5'
+
+
+5' ———————————————————————— 3'
+                   ————
+           |——————|
+            target
+            region
+           |——————|
+       ————
+3' ———————————————————————— 5'
+
+
+5' ———————————————————————— 3'
+   ————————————————————
+
+       ————————————————————
+3' ———————————————————————— 5'
+
+[*polymerase*]
+Polymerase heeft dNTPs nodig om nucleotiden te kunnen plaatsen
+
+MgCl₂ is co-factor van polymerase
+Stabiliseert DNA-helix
+Verhoogt Tm (smelttemperatuur)
+
+Menselijke polymerase denatureert rond de 60 graden
+Overleeft de 2de cyclus niet
+
+Extremofiel
+Thermus aquaticus (Taq)
+Kan temperaturen boven de 80 graden aan
+
+[*thermal cycler*]
+Bevat speciale PCR tubes
+
+PCR reactiemengsel
+- DNA-template
+- primers
+- Taq polymerase
+- dNTPs
+- MgCl₂
+
+[*DNA-template*]
+Een goede kwaliteit, indien mogelijk
+Wees alert op mogelijke inhibitors
+Bloed? Overweeg commerciële kits / reagentia (Qiagen, Roche, ...)
+Bepaal de juiste hoeveelheid
+
+[*primers*]
+Forward en reverse primer
+
+[*Taq polymerase*]
+Thermus aquaticus
+- optimale synthese: 72 graden
+- thermostable
+- veel verschillende te koop
+- geen proofreading
+
+[*dNTPs en MgCl₂*]
+dNPTs = dATP, dCTP, dGPT, dTTP
+Equimolaire mix: 20 - 200 µg
+
+Binden Mg²⁺
+- te hoog: faulty build, mutatie
+- te laag: lage synthese snelheid, specifiek
+
+dNTPs + MgCl₂
+
+[*PCR buffer*]
+- juiste pH optimum voor het enzym
+- eiwit in buffer stabiliseert het enzym
+- ionen, juiste osmolariteit
+- kan al Mg bevatten, meestal: 1.5 mM
+
+[*mastermix*]
+Maak genoeg mastermix voor het aantal reacties
+Voeg vervolgens (eventueel) template DNA toe
+
+Verzamel alle ingredienten en stop die in eppendorf tubes
+1. PCR buffer
+2. dNTPs en MgCl₂
+3. Taq polymerase
+4. primers
+5. DNA-template
+
+Bewaar 1 mix zonder template DNA
+
+[*controles*]
+DNA contaminatie kan een probleem zijn
+
+- negatieve controle (altijd)
+Bevat geen template DNA
+
+- positieve controle (soms)
+Bevat wel template DNA
+
+[*resultaat*]
+Wordt er een gen geamplificeerd? Het juiste product/gen?
+
+Soms werkt een PCR niet
+- Slechte DNA-kwaliteit
+- Een van de primers werkt niet/past niet
+- Te veel of te weinig startmateriaal
+
+Zijn er (onverwachte) producten gevormd?
+- A-specifieke primers
+- Primer-dimeren

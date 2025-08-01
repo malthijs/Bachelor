@@ -1,0 +1,144 @@
+[*moleculaire biologie*]
+Is een tak van de biologie die zich richt op de moleculaire
+mechanismen binnen cellen, met name hoe DNA, RNA en eiwitten
+interacteren om cellulaire functies uit te voeren
+
+Doel?
+Begrip van de werking van genen of eiwitten
+Door middel van experimenten op cellen of proefdieren
+
+Moet gen aan kunnen zetten
+Of uit kunnen zetten
+
+[*interfering-RNA*]
+Herkent mRNA
+
+Lichaamsvreemd RNA of DNA komt cel binnen
+
+Als het DNA is, dan wordt het getranscribeerd door RNA-polymerase
+naar RNA
+
+Het enzym DICER herkent het dsRNA en knipt het in kleinere stukken:
+siRNA (small interfering RNA)
+
+RISC (RNA-induced silencing complex) bindt siRNA. Ago (Argonaut) is
+een subunit van deze complex en ontwindt het siRNA. Hierbij wordt
+het strand die behouden wordt de guide strand benoemd en het
+strand die verworpen wordt de passenger strand genoemd.
+
+Hierna zoekt RISC mRNA met een complementaire sequentie (target
+mRNA). Als een complementaire sequentie gevonden is, dan knipt Ago
+het mRNA of inhibeert het de translatie.
+
+[*micro-RNA*]
+Vermindert of stopt (vooral) de genexpressie van de cel zelf.
+
+Wordt door RNA-polymerase getranscribeerd naar pri-mRNA. Hierna
+wordt pri-mRNA omgezet naar pre-mRNA (Drosha enzym). Hierna zet
+DICER pre-mRNA om in miRNA. RISC gebruikt dan miRNA om aan target
+mRNA te binden en die te degraderen of inhiberen.
+
+Inhibitie komt vaker voor bij miRNA
+
+[*verschillen*]
+siRNA: exogenous double-stranded RNA binds
+perfectly to its mRNA target in animals
+
+miRNA: endogenous single-stranded RNA pairing
+is imperfect to its mRNA target
+
+[*RNAi als moleculaire biologisch gereedschap*]
+Small hairpin RNA design
+
+Transgenen zijn genen die afkomstig zijn van andere organismen
+
+Nadelen transgenen
+- Expressie altijd (meestal) aan
+- Vaak niet de oorspronkelijke promoter
+- Context: genoom van andere cel. Hier staat vaak een homoloog
+gen op
+
+Nadelen RNAi
+- Off-target effects
+Non-perfect matches: andere mRNA moleculen worden beïnvloed
+- Overload
+Verstoring "normale" RNAi systeem
+
+Transient = tijdelijk
+
+Nadelen plasmiden
+- Weinig controle over mate van genexpressie
+- Transient
+
+Nadelen virale vectoren
+- Non-integratie: transient
+- Integrating: stabiele expressie, maar geen controle over
+plek in het genoom waar de integratie plaats vindt
+- Afweermechanismen
+
+Was er maar een tool die direct het genoom kan veranderen,
+precies op een bepaalde plek en de verandering precies
+is te bepalen (deletie, insertie, mutatie, ...)
+
+Natuur: bacteriële afweermechanismen tegen virussen
+
+[*CRISPR/CAS9*]
+Eenvoudig, efficient en goedkoop systeem om genomen te editen
+
+Herkent DNA
+Dubbelstrengs breuk
+Recombination
+
+Clustered Regularly Interspaced Short Palindromic Repeats
+(CRISPR)
+
+CRISPR associated protein 9
+(CAS9)
+
+Oorsprong CRISPR/CAS9
+- onderdeel van het adaptief immuunsysteem
+- integreert viraal DNA in host genoom
+- dit virale DNA functioneert als een guide om nieuwe virus-DNA
+(zelfde soort) te identificeren
+- inactiveert virus door het te introduceren van een double strand
+break in virale genoom
+
+Afhankelijk van PAM (protospacer-adjacent motif)
+
+1. Cas1 en Cas2 knippen viraal DNA en voegen een stukje
+(protospacer) toe aan de CRISPR-array in het bacteriële genoom
+
+Spacers = opgeslagen DNA van een virus in het genoom van een
+bacterie
+
+2. De CRISPR-array wordt getranscribeerd naar pre-crRNA. crRNA
+ontstaat als tracr-RNA hybridiseert via baseparing en geknipt wordt
+door RNase III
+
+3. crRNA vormt een complex met cas9 waardoor cas9 viraal DNA kan
+herkennen en uitschakelen
+
+Eerst kijkt het complex naar het PAM-motief. Als dat aanwezig is,
+dan controleert het complex of het crRNA overeenkomt met het virale
+DNA
+
+crRNA: CRISPR RNA
+tracrRNA: Trans-activating CRISPR RNA
+
+[*non-homologous end joining*]
+Herstel van fouten in twee strengen
+Geen template nodig (plakt simpel weg de eindes aan elkaar vast)
+Tijdens G₁ fase
+Fout gevoelig
+Veroorzaakt chromosoom rearrangements (duplicaties, transposities,
+deleties, inserties)
+
+[*homologous end joining*]
+Herstel van fouten in twee strengen
+Gebruikt zusterchromatide als template
+Alleen mogelijk na DNA-replicatie (S of G₂)
+
+[*tool in de bioinformatica*]
+Er wordt een guide streng gesynthetiseerd dat cas9 aanzet tot het
+knippen van het genoom op een specifieke locatie. Breuk wordt
+hersteld waarbij het gen wordt ingebouwd.

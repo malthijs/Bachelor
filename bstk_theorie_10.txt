@@ -1,0 +1,122 @@
+[*multiple testing*]
+Correctiemethoden voor multiple testing:
+- Bonferroni
+- Fischer's LSD
+- Tukey's HSD
+
+Een correctiemethode wordt toegepast na een ANOVA
+
+Family-wise error / Experiment-wise error
+De kans om minstens één type I fout te maken
+tijdens het uitvoeren van meerdere hypothesen
+
+Niet perfect en niet nodig als je alleen wilt weten of een factor
+invloed heeft op de uitkomst
+
+[*Bonferroni correctie*]
+Correctie op α
+
+αₑ = α꜀/k
+
+αₑ = alpha voor het experiment ("experiment wise")
+α꜀ = alpha voor elke vergelijking ("comparison wise")
+k = aantal vergelijkingen
+
+* voorbeeld *
+α꜀ = 0.05
+k = 6
+0.05/6 = 0.0083
+
+CI = 1 - 0.0083 = 0.9917
+
+Als het onduidelijk is of er gecorrigeerd is voor multiple testing,
+dan zijn de conclusies onbetrouwbaar
+
+[*anova*]
+Waarom niet een reeks paarsgewijze t-testen uitvoeren?
+
+1. multiple testing fouten voorkomen bij het vergelijken van groepen
+2. bepalen welke factoren belangrijk zijn voor de uitkomst en welke
+niet
+
+Belangrijkste vraag:
+- hoe invloedrijk is een factor t.o.v. anderen?
+
+Als je wilt weten welke groepen van de factor voor het verschil
+zorgen, dan is een paarsgewijze vergelijking nodig
+
+[*post-hoc test*]
+Paarsgewijze vergelijkingen na een ANOVA
+Post-hoc test = test-na-een-test
+
+Altijd eerst een ANOVA uitvoeren. Bij een significant effect van een
+factor: post-hoc-test
+
+Meest gebruikte testen: Fisher's LSD of Tukey's HSD
+
+[*Fisher's LSD*]
+Fischer's Least Significant Distance
+
+* voorbeeld *
+H₀ = de ondergrondse biomassa van zeegras is gelijk bij de vier
+verschillende oester dichtheden
+Hₐ = de ondergrondse biomassa van zeegras is ongelijk bij de vier
+verschillende oester dichtheden
+
+α = 0.05
+p-waarde = 0.0243
+
+p-waarde < α
+H₀ verwerpen
+
+Let op: het bewijs is niet sterk, want de p-waarde is niet erg klein
+
+* voorbeeld *
+Bij welke dichtheden zijn er significante verschillen?
+
+H₀: μₙ = μₘ
+Hₐ: minstens 1 van de vergelijking onder H₀ is onwaar
+
+p-waarden zijn automatisch gecorrigeerd voor meerdere
+vergelijkingen: p-adjusted
+
+Gebruikt een lineaire combinatie:
+L = ...
+SE (L) = ...
+
+Snelle manier om telkens 2 combinaties te vergelijken uit het totaal
+aantal mogelijke combinaties
+
+[*p-waarde bepalen*]
+tₛ = L / SE (L) = 1.68 / 6.828 = 0.246
+
+In tabel opzoeken:
+p-waarde = 0.80
+
+[*CI bepalen*]
+df = 33
+α = 0.05
+Kritieke T-waarde = 2.0345
+
+Marge = 2.0345 * 6.828 = 13.89
+
+x = 1.68 - 13.89 = -12.21
+x = 1.68 + 13.89 =  15.57
+CI = -12.21 ≤ x ≤ 15.57
+
+[*Tukey's HSD*]
+Tukey's Honest Significant Distance
+
+Principe hetzelfde als Fischer's LSD: contrasten tussen gemiddelden
+van paarsgewijze groepen
+
+Toetsen worden niet uitgevoerd met behulp van een t-verdeling, maar
+met een verwante verdeling: studentized range verdeling
+
+In R:
+TukeyHSD()
+
+Let op: gebruikt output van aov() inplaats van anova()
+
+Met p.adjust() kunnen er verschillen soorten correcties
+toegepast worden

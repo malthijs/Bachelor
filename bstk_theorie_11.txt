@@ -1,0 +1,104 @@
+[*binomiale verdeling*]
+Discrete kansverdeling:
+- uitkomst kan beperkt aantal waarden aannemen
+- gehele getallen
+
+Geeft aantal successen weer van experiment dat aantal keren wordt
+herhaald
+
+Bij iedere poging zijn 2 uitkomsten mogelijk:
+- goed/fout
+- kop/munt
+- raak/mis
+
+[*kop/munt*]
+Gooi een euro 5 keer
+
+Aantal keer munt (j):
+- maximaal 5
+- minimaal 0
+
+Aantal success afhankelijk van:
+- aantal pogingen
+- kans op success per poging
+- kans op geen succes per poging
+
+j ~ Bin(n, p)
+n = aantal pogingen
+p = kans op success per poging
+
+[*raak/mis*]
+Kans op scoren = 70%
+Kans op missen = 30%
+
+* voorbeeld *
+Wat is de kans dat 4 strafschoppen achter elkaar worden gescoord?
+(0.7)⁴ = 0.2401
+
+In R:
+dbinom(4, size = 4, prob = 0.7)
+
+* voorbeeld *
+Wat is de kans dat 3 strafschoppen raak zijn?
+RRRM = 0.7 * 0.7 * 0.7 * 0.3 = 0.1029
+
+Alle mogelijke combinaties = 0.1029 * 4 = 0.4116
+
+In R:
+dbinom(3, size = 4, prob = 0.7)
+
+[*binomiaalcoëfficiënt*]
+       n!
+P = --------
+    (n-j)!j!
+
+Som van alle kansen is 1
+
+In R:
+dbinom(x=c(0:4), size = 4, prob = 0.7)
+
+[*verwachtingswaarde en standaarddeviatie*]
+Verwachtingswaarde = n * p
+Verwachtingswaarde kan in de praktijk afwijken
+
+Variantie = n * p(1 - p)
+Standaarddeviatie = √(n * p(1 - p))
+
+* voorbeeld *
+n = 20
+p = 0.7
+
+Verwachtingswaarde = 20 * 0.7 = 14
+Standaarddeviatie =  √(20 * 0.7(1 - 0.7)) = 2.05
+
+[*sign test*]
+Niet-parametrische toets voor gepaarde steekproeven
+Niet erg krachtig
+Flexibel en eenvoudig om toe te passen
+
+Kijkt alleen naar het teken +/- van het verschil tussen Y1 en Y2 en
+niet naar de grootte van het verschil zoals bij gepaarde t-toets
+
+* voorbeeld *
+H₀ = de overlevingstijd van huidtransplantatie is niet langer als
+HL-A goed is
+Hₐ = de overlevingstijd van huidtransplantatie is langer als
+HL-A goed is
+
+Aantal + = 9
+Aantal - = 2
+
+n = 11
+
+p = 0.5
+α = 0.05
+
+P (Y = 9) = 11!/((11-9)!9!) = 0.02686
+P (Y = 10) = 11!/((11-10)!10!) = 0.00537
+P (Y = 11) = 11!/((11-11)!11!) = 0.00049
+
+Totaal = 0.03272
+p < α: verwerp H₀
+
+Huidtransplantatie heeft een langere overlevingstijd als er HL-A
+goed is

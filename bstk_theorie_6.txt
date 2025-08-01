@@ -1,0 +1,139 @@
+[*chi-kwadraattoets*]
+Categorische data = data die in categorieën (groepen) kan worden
+ingedeeld
+
+1. komt een gevonden verdeling over verschillende waarden van een
+kenmerk overeen met verwachte verdeling?
+
+* voorbeeld *
+- dobbelsteen; wordt elke zijde 1/6 van alle keren geworpen?
+- hardy-weinberg; gevonden frequenties van genotypes volgens
+verwachting?
+
+2. is er een verband tussen categorieën?
+
+* voorbeeld *
+mannen/vrouwen en rokers/niet-rokers
+
+[*stappenplan*]
+1. Formuleer H₀ en Hₐ
+2. Bepaal x²
+3. Bepaal aantal vrijheidsgraden
+4. Gebruik x² verdeling en bijbehorende tabel om grenswaarde van
+x² te bepalen
+5. gevonden x² > grenswaarde? → H₀ verwerpen
+
+in R: chisq.test(x)
+
+[*goodness of fit*]
+komt de gevonden verdeling over de verschillende waarden van een
+kenmerk overeen met verwachte verdeling?
+- Pearsons chi-square test
+
+[*gedragsonderzoek met ratten*]
+Hoek met vijf kamers met verschillende inhoud
+
+Is de inhoud van de kamer van invloed op het gedrag van de ratten?
+
+Data: voor 70 ratten wordt bepaald in welke kamer de meeste tijd
+wordt doorgebracht
+
+H₀ = aantal ratten per kamer is gelijk
+Hₐ = aantal ratten per kamer is ongelijk
+
+x² = sum((o-e)²/e)
+kamer           observed    expected    (o-e)²/e
+leeg            21          14          3.5
+voer            13          14          0.07
+voer + drinken  8           14          2.56
+looprek         11          14          0.64
+drinken         17          14          0.64
+totaal          70          70          7.41 = x²
+
+Welke verdeling? Hang af van het aantal vrijheidsgraden!
+Aantal vrijheidsgraden (df): k - 1 = 5 - 1 = 4
+
+Kritische grens chi-kwadraat in dit onderzoek: x² = 9.49
+7.41 < 9.49, dus H₀ niet verwerpen
+
+Conclusie: ratten hebben geen voorkeur voor een bepaalde kamer
+
+In R:
+chi_ratten <- c("leeg" = 21,
+                "voer" = 13,
+                "voer + drinken" = 8,
+                "looprek" = 11,
+                "drinken" = 17)
+chisq.test(chi_ratten)
+
+p = 0.1149
+p > α, dus H₀ niet verwerpen
+
+Conclusie bij chi-kwadraat is altijd:
+- geen/wel verschil in verdeling tussen groepen
+
+[*independence*]
+Is er een verband tussen categorieën?
+
+Indeling van groepen volgens twee verschillende kenmerken:
+- Hangen deze twee kenmerken samen
+- Kruistabellen ("contigency tables")
+
+Indien kenmerk A en B onafhankelijk zijn geldt:
+- P(A & B) = P(A) * P(B)
+
+Deze regel gebruiken we om de verwachte verdeling te berekenen onder
+de nulhypothese: onafhankelijkheid
+
+[*licht en donker*]
+Hoek van ratten bevat een lichte en een donkere kamer
+
+Is er verschil in de verdeling van mannetjes en vrouwtjes ratten
+over de twee kamers?
+
+Waargenomen frequenties:
+        Kamer I Kamer II    Totaal
+Vrouw   24      36          60
+Man     6       34          40
+Totaal: 30      70          100
+
+Verwachte frequenties:
+Vrouw Kamer I: 0.6 * 0.7 = 0.42
+Vrouw Kamer II: 0.6 * 0.3 = 0.18
+Man Kamer I: 0.4 * 0.7 = 0.28
+Man Kamer II: 0.4 * 0.3 = 0.12
+
+x² = sum((o-e)²/e)
+kamer           observed    expected    (o-e)²/e
+Vrouw I         24          18          2
+Vrouw II        36          42          0.86
+Man I           6           12          3
+Man II          34          28          1.29
+totaal          100         100         7.14 = x²
+
+H₀: er is onafhankelijkheid
+Geen verschil in verdeling mannen en vrouwen tussen donker en licht
+
+Hₐ: er is geen onafhankelijkheid
+Wel verschil in verdeling mannen en vrouwen tussen donker en licht
+
+k = columns
+r = rows
+Aantal vrijheidsgraden: (k-1) * (r-1) = (2-1) * (2-1) = 1
+
+chi_ratten <- matrix(c(24, 36, 6, 34),
+                     nrow = 2,
+                     ncol = 2,
+                     byrow = T,
+                     dimnames = list(c("vrouw", "man"),
+                                     c("donker", "licht")))
+chisq.test(chi_ratten, correct=F)
+p = 0.0075 < alpha, dus verwerp H₀
+
+Conclusie: keuze voor donker/licht en man/vrouw zijn in bepaalde
+mate afhankelijk
+
+Waardoor wordt deze afhankelijkheid met name bepaald?
+
+chisq.test(chi_ratten)$observed -
+chisq.test(chi_ratten)$expected^2/chisq.test(chi_ratten)$expected

@@ -1,0 +1,141 @@
+[*populatie en steekproef*]
+50% van de vrouwen < 1.62m
+Op basis van een steekproef van 5000 vrouwen
+
+Wanneer is een gevonden waarde significant verschillend
+van μ?
+
+Toets uitvoeren!
+- z-toets
+- t-toets
+
+[*bepalen van alfa*]
+α = kans dat de gevonden waarde alleen verklaard wordt door de
+bestaande variatie (=toeval)
+
+OF
+
+α = kans dat de H₀ onterecht verworpen wordt; er wordt verklaard dat
+er een significant verschil is, terwijl dat niet zo is
+
+In de natuurwetenschap vaak 0.05 en in de medische wereld 0.01
+
+* voorbeeld *
+Bacterie celdeling
+
+Verdubbelingstijd in voedingsmedium a:
+μₓ = 300 min
+σ = 3 min
+
+Verdubbelingstijd in voedingsmedium b:
+μᵧ = 292 min
+σ = 3 min
+
+Is er een significant verschil in verdubbelingstijd tussen de
+twee voedingsbodems?
+
+[*grenzen voorspellingsinterval*]
+Grenswaarden berekenen
+Valt meting binnen of buiten de grenswaarden?
+
+α = 0.05
+0.5α = 0.025
+
+Z-score = aflezen Z-tabel = 1.96 & -1.96 (symmetrisch)
+α = 0.05 komt overeen met 95% confidence interval (CI)
+
+y = μ + zσ
+y = 300 + 1.96 * 3 = 305.88
+
+y = μ - zσ
+y = 300 - 1.96 * 3 = 294.12
+
+Kritieke gebied = 294.12 < y < 305.88
+μᵧ = 292 ligt er buiten
+Verwerp H₀
+
+[type I & type II fouten*]
+Goede opzet van het stappenplan
+Belangrijk dat je een goede H₀ hebt
+Belangrijk dat je een goede α kiest
+
+α te groot?
+Kans op "FP"
+Je zegt dat er wel een verschil is, maar dat is er niet
+Type 1 fout
+
+α te klein?
+Kans op "FN"
+Je zegt dat er geen verschil is, maar dat is er wel
+Type 2 fout
+
+[*bepalen van overschrijdingskans*]
+Alternatief van kritieke gebied: overschrijdingskans p
+Kans dat waarde wordt gevonden en dat H₀ waar is
+Nog steeds vergelijking met vooraf bepaalde α
+
+α = 0.05
+0.5α = 0.025
+
+z = (292 - 300)/3 = -2.67
+
+p-waarde aflezen in Z-tabel = 0.0038
+0.0038 < 0.025
+Verwerp H₀
+
+Er is een significant verschil in verdubbelingstijd tussen de twee
+voedingsbodems
+
+[*t-toets*]
+Wanneer t-toets?
+In werkelijkheid zal de standaarddeviatie σ vaak niet bekend zijn
+
+m.b.v. de gegevens van een steekproef kan er een schatting gemaakt
+worden van σ
+Deze geschatte standaarddeviatie wordt aangeduid met s
+
+Indien we een geschatte standaarddeviatie s hebben, maken we gebruik
+van de t-verdeling in plaats van de normale verdeling
+
+* voorbeeld *
+Bewering: gemiddelde volwassen Nederlander is 182 cm. De BI-docenten
+wijken af van dit gemiddelde.
+
+s² = sum((yᵢ - ȳ)²)/(n - 1)
+
+ȳ = (192 + 180 + 194 + 188 + 187 +
+     201 + 182 + 174 + 189 + 197)/10 = 188.4
+
+s² = ((3.6)² + (-8,4)² + (5.6)² + (-0.4)² + (-1.4)² +
+     (12.6)² + (-6.4)² + (-14.4)² + (0.6)² + (8.6)²)/(10 - 1)
+
+s² = 66.48
+s = √66.48 = 8.15
+
+H₀: μ₁ = μ₂ = 182
+Hₐ: μ₁ ≠ μ₂
+
+t = ((ȳ - μ)√n)/s
+t = ((188.4 - 182)√10)/8.15 = 2.482
+
+Kritieke T-waarde = aflezen T-tabel
+Aantal vrijheidsgraden = n - 1 (=waarmee σ² geschat is)
+n = 10
+
+Aantal vrijheidsgraden = 10 - 1 = 9
+α = 0.025 (tweezijdig!!!)
+
+T = 2.262
+
+2.482 > 2.262
+Verwerp H₀
+
+In R:
+lengte_docenten <- c(192, 180, 194, 188, 187,
+                     201, 182, 174, 189, 197)
+gemiddelde_NL <- 182
+
+t.test(lengte_docenten, mu = gemiddelde_NL)
+p-waarde = 0.03488
+p-waarde < 0.05
+Verwerp H₀

@@ -1,0 +1,64 @@
+[*tweefactor variantieanalyse*]
+Twee "behandelingen" tegelijk analyseren
+Mogelijkheid van interactie tussen twee behandelingen bekijken
+
+* voorbeeld *
+2 diëten voor kankerpatiënten: I en II
+
+16 mannen
+- 4 mannen tussen 21-30 jaar
+- 4 mannen tussen 31-40 jaar
+- 4 mannen tussen 41-50 jaar
+- 4 mannen tussen 51-60 jaar
+
+Per leeftijdsgroep: iedere man krijgt 1 dieet: I of II
+Na maand wordt gewichtstoename gemeten
+
+Is er een verschil tussen de diëten m.b.t. het gewicht dat mannen
+zijn aangekomen na 1 maand?
+
+Is er verschil tussen de leeftijdsgroepen m.b.t. het gewicht dat
+mannen zijn aangekomen na 1 maand?
+
+In R:
+Kolom 1 = "response variable"
+Kolom 2 = leeftijd
+Kolom 3 = dieet
+
+In R:
+anova(lm(waardes ~ groepen, data = data))
+
+* voorbeeld *
+Drie onderzoeksvragen:
+1. Hangt de gemiddelde gewichtstoename af van de leeftijdscategorie?
+2. Is er een verschil tussen dieet I en dieet I m.b.t.
+gewichtstoename?
+3. Is er interactie tussen leeftijdscategorie en dieet?
+
+SSI: Sum of Squares Interaction
+
+H₀(1): geen effect dieet
+H₀(2): geen effect leeftijd
+H₀(3): geen interactie tussen dieet en leeftijd
+
+SSI = n * sum((x̄ᵢⱼ - x̄ᵢ - x̄ⱼ + x̄)² + ...)
+
+n = aantal groepen
+x̄ᵢⱼ = gemiddelde van een observatie
+x̄ᵢ = gemiddelde van de observaties (groepen)
+x̄ⱼ = gemiddelde van de observaties (factoren)
+x̄ = gemiddelde van alle gemiddelden
+
+* voorbeeld *
+Tabel 1     I       II      SSA
+21-30 jaar  4.6     5.35    4.975
+31-40 jaar  5.85    5.95    5.9
+41-50 jaar  5.15    7.95    6.55
+51-60 jaar  5.2     5.95    5.57
+SSB         5.2     6.3     5.75
+
+n = 4
+x̄ = 5.75
+
+SSI = 4 * sum((4.6 - 5.2 - 4.975 + 5.75)² + ... +
+              (5.95 - 6.3 - 5.57 + 5.75)²)

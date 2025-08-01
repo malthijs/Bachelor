@@ -1,0 +1,249 @@
+[*kloneren*]
+Stappenplan:
+1. Isoleer het target DNA
+2. Gebruik een restrictie-enzym om het
+target DNA te fragmenteren en de plasmide te knippen
+3. Voeg target DNA en plasmide samen (ligase): recombinant-DNA
+4. Breng de recombinante plasmide in een host cel: transformatie
+5. Identificeer en isoleer de strain die het target DNA bevat
+
+Plasmide wordt heel vaak vermenigvuldigd
+
+[*restrictie-enzymen*]
+Restrictie-enzymen herkennen DNA en breken dat af
+Restrictie-enzymen kunnen niet binden aan DNA dat gemethyleerd is
+
+Restrictie = knippen
+Gereedschap = enzymen
+
+Functie en voorkomen:
+- prokaryoten
+- herkennen een specifieke basen-volgorde en knippen
+- breken vreemd DNA af (bacteriofaag: virus)
+- beschermen de bacterie tegen deze indringers
+
+Modificatie en restrictie:
+- bacterien beschermen zichzelf tegen werking eigen (endogene)
+restrictie-enzymen
+- m.b.v. modificatie-enzymen: DNA-methylering
+
+[*typen*]
+Er zijn 5, maar 3 hoofdgroepen:
+Type I
+- herkennen 7 of meer basen
+- knippen op grote afstand van herkenningssite (400 - 7000 basen)
+
+Type II
+- herkennen 4 tot 6 (soms 7 of 8) basen
+- knippen binnen herkenningsplaats
+- gebruiken Mg²⁺ als cofactor
+- worden gebruikt voor recombinante-DNA technieken
+
+Type II is heel nuttig voor het lab
+Reproduceerbaar
+Specifiek
+
+Type III
+- knipplaats nabij herkenningsplaats (25 - 27 basen)
+
+[*type II*]
+Genoemd naar de soort waarin ze ontdekt zijn
+bv. EcoRI = Escherichia coli
+
+Veel verschillende soorten
+
+Knipt de DNA-backbone, beide strengen
+Phosphodiester bond hydrolysis
+
+[*palindromen*]
+5' --> 3'
+3' <-- 5'
+= hetzelfde
+
+* voorbeeld *
+5' -GAATTC- 3'
+3' -CTTAAG- 5'
+
+Enzym knipt tussen G en A
+
+5' -G AATTC- 3'
+3' -CTTAA G- 5'
+
+[*sticky- & blunt ends*]
+Restrictie-site en cleavage-site
+
+* voorbeeld *
+Sticky ends 5'
+5' -G 3'
+3' -CTTAA 5'
+
+5' AATTC- 3'
+    3' G- 5'
+
+Sticky ends 3'
+5' -GGTAC 3'
+3' -C 5'
+
+    5' C- 3'
+3' CATGG- 5'
+
+Blunt ends
+CCC GGG
+GGG CCC
+
+Knipt tussen suiker- en fosfaat groep
+Is een hydrolyse reactie waarbij een OH aan de suiker overblijft
+
+Restrictie-enzymen
+Zijn homodimeren
+Magnesium nodig tegen sterke negatieve lading van DNA
+
+Intermolecular association
+Tussen moleculen binden
+
+Intramolecular association
+Uiteinden van het molecuul binden aan elkaar
+
+* voorbeeld *
+Sticky ends kunnen aan elkaar binden
+Ze willen waterstofbruggen vormen
+
+[*isoschizomeren*]
+Een enzym is een isoschizomeer van een ander enzym als
+ze dezelfde herkenningssite en knipsite hebben
+
+Voorwaarde
+De enzymen zijn afkomstig van verschillende bacterien
+
+[*neoschizomeren*]
+Een enzym is een neoschizomeer van een ander enzym als
+ze dezelfde herkenningsite hebben, maar een andere knipsite
+
+[*isocaudomeren*]
+Een enzym is een isocaudomeer van een ander enzym als
+ze dezelfde nucleotide uiteinden produceren
+
+[*praktijk*]
+Op het lab
+
+± 140 verschillend restrictie-enzymen
+Kies 2 verschillende enzymen
+
+De commerciele leverancier voorziet informatie over
+de optimale reactie condities
+
+1U = hoeveelheid enzym dat nodig is om 1 microgram
+DNA binnen 60 minuten te verteren in optimale omstandigheden
+
+Houdt rekening dat de herkenning/knipsite niet in het gen ligt
+
+Restrictie-enzym = eiwit
+Denatureren bij hoge temp, hoge pH, e.t.c.
+Verliezen gemakkelijk activiteit
+Opslaan in glycerol (=visceus) bij -20 °C
+
+Niet de hele punt van de pipet in de oplossing doen, dit blijft aan
+de punt plakken: verspilling van duur materiaal
+
+Glycerol is plakkerig
+
+[*recept*]
+... microliter milli Q          (zuiver water)
+2 microliter incubation buffer  (=10x verdunt)
+... DNA                         (1 microgram)
+... restrictie-enzym            (3U)
+Totaal: 20 microliter
+
+Hoeveel je nodig hebt moet je berekenen
+
+Mix de tube door te tikken en te spinnen in een microcentrifuge
+Incubeer rond 37 °C voor 1 uur
+Incubeer rond 70 °C voor 10 minuten
+Mix de tube door te tikken en te spinnen in een microcentrifuge
+Sla reactiemengsel op in ijs
+
+Enzymen moeten compatible zijn met de buffer!
+Waarom 2 restrictie-enzymen nodig? Kloneren!
+
+[*plasmides*]
+Klein
+Circulair
+Zelf-replicerende DNA-molecuul los van het bacteriële chromosoom:
+- Origin of Replication (ORI)
+Codeert voor non-essentiële eigenschappen, zoals
+antibiotica resistentie en zware metalen tolerantie
+
+Polylinker
+Multiple cloning site (MCS)
+- Plek waarvan je weet waar je restrictie-enzymen binden
+
+Zorgt dat je één restrictie-enzym aan de achterkant gebruikt en
+één aan de voorkant
+
+Voorkomt dat geknipte DNA-fragment terug gaat plakken
+Zorgt ervoor dat gen in de correcte richting wordt ingebouwd
+
+Verschillende overhangen zijn dus belangrijk
+
+[*enzymen*]
+Polymerasen
+- polymeriseren nucleotiden tot poly-nucleotiden
+Ligasen
+- koppelen nucleïnezuur-fragmenten: herstel
+Modificerende enzymen
+- brengen veranderingen aan: methylatie
+Topoisomerasen
+- veranderen de winding van een DNA-molecuul door te knippen
+Nucleasen
+- verbreken fosfodiësterbindingen → restrictie-enzymen
+
+[*polymerasen*]
+Polymerase I van E. coli
+5' --> 3' polymerase
+3' --> 5' proofreading
+5' --> 3' verwijdering RNA primer
+
+Als 5' → 3' exonuclease domein van de polymerase I afbreekt
+Dan blijft er een groter fragment over: large klenow fragment
+Heeft 3' → 5' exonuclease activiteit
+
+T4 DNA polymerase
+5' --> 3' polymerase
+3' --> 5' exonuclease (geen 5' --> 3' exonuclease)
+
+Verschil tussen T4 DNA polymerase en Klenow fragment
+- T4 DNA-polymerase heeft 200 keer nuclease activiteit vergeleken
+met Klenow fragment (voorkeur voor het maken van blunt ends bij
+3' overhangs)
+
+[*ligasen*]
+T4 DNA ligase
+
+Creëert een covalente binding tussen 5' fosfaat en 3' OH groep in
+dsDNA (sticky- en blunt ends)
+
+Co-factor: ATP
+
+Sticky ends
+- Stabiliteit door waterstofbruggen
+- Optimale temperatuur ligase: 37 °C
+- Optimale temperatuur sticky ends: 10-22 °C
+
+Blunt ends
+- Lastig te koppelen
+- Sticky end maken door middel van homopolymer tailing
+
+[*modificerende enzymen*]
+Terminaal transferase
+Additie nucleotide aan de 3' OH groep
+
+Hiermee kunnen sticky-ends aangemaakt worden van blunt-ends
+Worden daarna gerecombineerd
+Voeg altijd 1 type dNTPs toe
+
+Homopolymer tailing wordt toegepast als een sticky-end maken niet
+mogelijk is met restrictie-enzymen
+
+Methylasen
+Aanbrengen methylgroep (CH₃)
+Blokkeren werking restrictie-enzymen

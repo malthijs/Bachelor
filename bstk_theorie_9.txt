@@ -1,0 +1,193 @@
+[*correlatie*]
+Soms negatief of positief lineair verband tussen twee variabelen
+Sterkte van dit verband: correlatie
+
+* voorbeeld *
+Lengte vs Gewicht
+
+Sterkte van de correlatie: z-score
+Onafhankelijk van schaal
+
+zₓ = (xᵢ - x̄)/sₓ
+zᵧ = (yᵢ - ȳ)/sᵧ
+
+Geobserveerde waarde - gemiddelde / standaarddeviatie
+Kan positief of negatief zijn
+
+Correlatie: gemiddelde van het product van de z-scores
+r = (1 / (n - 1)) * sum((xᵢ - x̄)/sₓ * (yᵢ - ȳ)/sᵧ)
+
+-1 ≤ r ≤ 1
+
+In R:
+colleges_aanwezig = c(1, 4, 7, 3, 8, 3, 5, 2, 4, 8)
+cijfers_module = c(3.0, 6.8, 7.0, 6.5, 9.0, 4.2, 5.8, 3.8, 6.3, 7.5)
+cor(x=colleges_aanwezig, y=cijfers_module) = 0.874
+
+[*significantie correlatie*]
+Sample correlatie (r)
+Populatie correlatie (p)
+
+Alleen als x en y waarden random uit de populatie zijn geselecteerd
+is r een schatting van p
+
+Bivariate random sampling model: (xᵢ, yᵢ) random gesampled uit
+populatie (x, y)
+
+H₀: geen correlatie tussen X en Y
+Hₐ: wel correlatie tussen X en Y
+
+t-test!!!
+
+In R:
+cor.test(x=colleges_aanwezig, y=cijfers_module)
+p = 0.00094
+
+Correlatie != Gevolg
+
+* voorbeeld *
+Mexican lemon imports prevent highway deaths.
+
+Soms kan 1 punt (outlier) een hele grote invloed hebben op de
+correlatie
+
+[*lineaire regressie*]
+De lineaire gefitte lijn (of "least square" line)
+
+Helling:
+r(sᵧ/sₓ)
+
+Formule van een rechte lijn:
+Y = ax + b
+
+a = helling
+b = intercept (x = 0)
+
+Residual Sum of Squares
+Hoe goed beschrijft de lijn de data?
+Verticale afstand lijnpunt tot werkelijke meetpunt
+
+Y-waarde voorspeld door lijn:
+ŷᵢ = ax + b
+
+Y werkelijkheid: Yᵢ
+Residual: eᵢ = Yᵢ - ŷᵢ
+
+Meestal gebruikt: kwadraat van de residuals!
+SS(resid) = sum(Yᵢ - ŷᵢ)²
+
+Beste lijn: minimale waarde voor de residual sum of squares!
+Onafhankelijk van individuele interpretatie
+Levert goede inschatting van de distributie van Y waarden op voor X
+
+Residual Standard Deviation
+Vertelt hoe ver boven of onder de lijnpunten lijken te zitten
+
+SS(std) =  sqrt(SS(resid) / (n - 2))
+
+Interpretatie SS(std)
+
+Lijn goed indien:
+68% binnen 1 SS(std) van de gefitte lijn
+95% binnen 2 SS(std) van de gefitte lijn
+
+Determinatie coëfficiënt: r²
+Percentage van de variantie in Y dat verklaard kan worden door het
+lineaire verband met X
+
+0 ≤ r² ≤ 1
+
+Lineaire regressie in R:
+plot(cijfers_module ~ colleges_aanwezig)
+lm(formula = cijfers_module ~ colleges_aanwezig)
+
+[*interpolatie*]
+Voorspellen van nieuwe waarde
+Wel binnen meetbereik
+
+[*extrapolatie*]
+Voorspelling van nieuwe waarde
+Niet binnen meetbereik
+Probeer dit te vermijden!
+
+[*lineaire model*]
+Y = ax + b + ε
+ε = random error (Y kan variëren bij dezelfde waarde van X)
+
+a is een schatting van de ware helling α
+b is een schatting van de ware intercept β
+a en b hebben een standaard error
+
+* voorbeeld *
+SEₐ = sₑ/(sₓ * √(n - 1))
+
+ε is een schatting van σ
+
+Is er een lineair verband?
+
+H₀ = β is gelijk aan 0
+Hₐ = β is ongelijk aan 0
+
+summary(lm(calcium ~ blood_pressure))
+
+p-waarde = 0.000122
+p < a
+
+H₀ wordt verworpen
+Er is een lineair verband
+
+Soms zit een lineair model ernaast:
+- curvilineariteit
+- outliers
+- influentiële punten
+
+[*curvilineariteit*]
+Correlatie laat geen verband zien
+Lijn beschrijft de data niet goed
+Grote standaarddeviatie
+
+[*outliers*]
+Liggen ver van de gevonden trend
+Zorgen voor een grote standaarddeviatie
+grote invloed op de lijn
+
+[*influentiële punten*]
+Machtspunten/leverage points: punten die mogelijk een grote invloed
+hebben
+Influentiële punten/influential points: punten die daadwerkelijk
+een grote invloed uitoefenen
+
+Het is dus belangrijk dat de hele x-range gecoverd wordt
+
+[*residual plots*]
+Toont lineaire trend van afwijkende punten
+Vereenvoudigt vinden van non-lineaire trends
+Vereenvoudigt vinden van outliers
+
+In R:
+plot(calcium, blood_pressure)
+abline(0, 0)
+
+[*multiple lineair regression*]
+Curvilinear regressie:
+Y = ax² + bx + c + ε
+
+* voorbeeld *
+Bloeddruk hangt af van:
+- leeftijd op een curvilinear manier
+- cholesterol op een lineaire manier
+- glucose op een lineaire manier
+
+Y = ax² + b₁x₁ + b₂x₂ + b₃x₃ + c
+
+[*logistische regressie*]
+Stel Y is een categorische parameter
+
+* voorbeeld *
+Cholesterol niveau is een predictor of iemand wel of niet een
+hartaandoening heeft
+
+Y is nu gelijk aan 0 of 1
+
+Kijk naar de fracties!
+P (Y = 1 | x) = (e ** (ax + b))/(1 + e ** (ax + b))

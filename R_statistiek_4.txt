@@ -1,0 +1,244 @@
+
+[*z-test*]
+De standaarddeviatie σ is bekend
+
+* voorbeeld *
+Bacterie celdeling
+
+Verdubbelingstijd in voedingsmedium a:
+μₓ = 300 min
+σ = 3 min
+
+Verdubbelingstijd in voedingsmedium b:
+μᵧ = 292 min
+σ = 3 min
+
+Is er een significant verschil in verdubbelingstijd tussen de
+twee voedingsbodems?
+
+[*kritieke gebied*]
+α = 0.025
+
+Aflezen z-tabel = 1.96 & -1.96
+y = μ + zσ
+y = 300 + 1.96 * 3 = 305.88
+
+y = μ - zσ
+y = 300 - 1.96 * 3 = 294.12
+
+Kritieke gebied = 294.12 < y < 305.88
+μᵧ = 292 ligt er buiten
+Verwerp H₀
+
+Er is een significant verschil in verdubbelingstijd tussen de twee
+voedingsbodems
+
+[*overschrijdingskans*]
+α = 0.025
+
+z = (292 - 300)/3 = -2.67
+Aflezen z-tabel = 0.0038
+
+p-waarde = 0.0038
+0.0038 < 0.025
+Verwerp H₀
+
+Er is een significant verschil in verdubbelingstijd tussen de twee
+voedingsbodems
+
+
+
+[*verschiltoetsen*]
+Worden gebruikt voor het meten van verschillen tussen steekproeven
+
+* voorbeeld *
+Uitgaven van consumenten tijdens Kerst in 2022 en 2023
+Leverwaarden van mensen voor en na Nieuwjaar
+
+Waarnemingen uit twee steekproeven
+Is er een significant verschil tussen deze waarnemingen?
+
+Eenzijdig en tweezijdig toetsen
+Ongepaard onafhankelijk en gepaard afhankelijk toetsen
+
+Onafhankelijke steekproeven
+De werking van een medicijn wordt onderzocht door één groep
+patiënten het medicijn toe te dienen en een ander groep patiënten te
+behandelen met een placebo.
+
+Afhankelijke steekproeven
+Onderzoek naar de effecten van een medicijn. Patiënten worden voor
+en na de behandeling onderzocht.
+
+* voorbeeld *
+Is er een significant verschil tussen het gewicht van mannen
+en vrouwen?
+
+Indien standaarddeviaties bekend zijn: z-toets
+Anders: t-toets
+
+[*Shapiro-Wilk*]
+Moet altijd als eerste uitgevoerd worden bij verschiltoetsen!
+
+Wat is H₀ en Hₐ?
+H₀: data is normaal verdeeld
+Hₐ: data is niet-normaal verdeeld
+
+Wat is alfa?
+α = 0.05
+
+LET OP:
+Als je twee groepen vergelijkt, dan moeten beiden groepen apart
+getest worden voor normaliteit!
+
+Indien één van de groepen niet-normaal verdeeld, dan geen test die
+van normaliteit uit gaat
+
+[*kiezen van een toets*]
+Data is normaal verdeeld
+Data is een steekproef van een populatie
+Data is onafhankelijk. Dus ongepaard
+Het doel is om te bepalen of er een verschil is tussen twee
+groepen. Dus tweezijdig toetsen
+
+Conclusie:
+Ongepaarde en tweezijdige t-toets
+
+[*kritieke gebied tweezijdige t-toets*]
+H₀: Er is geen significant verschil in gewicht tussen mannen en
+vrouwen
+Hₐ: Er is wel significant verschil in gewicht tussen mannen en
+vrouwen
+
+dfₓ (vrouwen) = 20 - 1
+dfᵧ (mannen) = 20 - 1
+df = min(dfₓ, dfᵧ) = 19
+
+Mannen
+μ = 85.83
+σ = 18.95
+
+Vrouwen
+μ = 63.50
+σ = 4.11
+
+Verschil
+μ = 85.83 - 63.50 = 22.33
+σ = 1.15
+
+SE (Standard Error) = sqrt(var) = 1.074
+
+α = 0.05
+0.5α = 0.025
+
+Kritieke T-waarde in T-tabel = 2.093
+
+x₁ = 0 - SE * t = 0 - 1.074 * 2.093 = -2.247
+x₂ = 0 + SE * t = 0 + 1.074 * 2.093 =  2.247
+
+Kritieke gebied = -2.247 < x < 2.247
+
+Gemiddelde verschil ligt ver buiten het kritieke gebied
+H₀ wordt verworpen
+Er is een significant verschil
+
+[*overschrijdingskans tweezijdige t-toets*]
+t = v / SE
+t = 22.33 / 1.074 = 20.79
+20.79 > 2.093
+H₀ wordt verworpen
+
+t > 0: gemiddelde x > gemiddelde y
+t < 0: gemiddelde x < gemiddelde y
+
+In R:
+t.test(mannen, vrouwen)
+t = 20.791
+p = 0
+
+95% CI:
+20.123 - 24.531
+
+0 ligt ver buiten de opgestelde CI
+H₀ wordt verworpen
+Mannen zijn wel significant zwaarder dan vrouwen
+
+[*eenzijdige t-toets*]
+Upper- of lower tail
+
+H₀: Mannen zijn niet significant zwaarder dan vrouwen
+Hₐ: Mannen zijn wel significant zwaarder dan vrouwen
+
+α = 0.05
+Kritieke T-waarde in T-tabel = 1.729
+
+Kritieke waarde:
+- Grens: 0 - SE * t = 0 + 1.074 * 1.729 = 1.857
+
+Gemiddelde verschil ligt ver buiten het kritieke grens
+H₀ wordt verworpen
+Mannen zijn wel significant zwaarder dan vrouwen
+
+Richting is belangrijk!
+
+In R:
+t.test(mannen, vrouwen, alternative = "greater")
+t = 20.791
+p = 0
+
+95% CI:
+20.498 - Inf
+
+0 ligt ver buiten de opgestelde CI
+H₀ wordt verworpen
+Mannen zijn wel significant zwaarder dan vrouwen
+
+[*gepaarde t-toets*]
+Er zijn situaties waarbij er een verband is tussen waarden:
+- bloedwaarden van patiënten voor en na behandeling met een medicijn
+- aantal vruchten per appelboom gemeten over meerdere jaren
+
+Getallen vormen paren
+Altijd evenveel waarnemingen in beide groepen
+Er wordt niet naar het globale verschil gekeken, maar naar het
+verschil per instantie
+
+* voorbeeld *
+Bloeddruk voor en na medicijn tegen hoge bloeddruk
+
+shapiro.test(bloeddruk$voor)
+W = 0.9601
+p-value = 0.7993
+
+shapiro.test(bloeddruk$na)
+W = 0.97548
+p-value = 0.9371
+
+p-values > 0.05: data is normaal verdeeld
+
+df = 9 - 1 = 8
+α = 0.05
+Kritieke T-waarde in T-tabel = 1.860
+
+normal: CI for μₚ using paired t
+Gemiddelde verschil (v) = (-25 + 8 + -2 + -27 + -20 +
+                          (-30 + 1 + -14 + -33)/9 = -15.8
+
+s²ᵥ = sum(vᵢ - v)²/(n - 1) = 221
+SEᵥ = sqrt(s²ᵥ/n) = sqrt(221/9) = 4.96
+
+Kritieke waarde:
+- Grens: 0 - t * SEᵥ = 0 - 1.860 * 4.96 = -9.2
+
+v ligt in het kritieke gebied
+H₀ wordt verworpen
+Het medicijn verlaagt de bloeddruk
+
+In R:
+t.test(bloeddruk$voor, bloeddruk$na, paired = T,
+       alternative = "greater")
+t = 3.1844
+p = 0.006456
+
+3.1844 > 1.860
+H₀ wordt verworpen

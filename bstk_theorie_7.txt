@@ -1,0 +1,149 @@
+[*variantieanalyse*]
+Analysis Of Variance: ANOVA
+
+Vergelijken van de verdeling (spreiding/variantie) binnen groepen
+met de verdeling tussen groepen
+
+Waarom variantieanalyse?
+Verschiltoetsen: 2 steekproeven
+
+Maar wat als er meer dan 2 steekproeven zijn?
+
+Alle groepen apart toetsen!
+- accumulatie van fouten (0.95⁵ = 0.77)
+
+Oplossing:
+ANOVA
+
+1. Geen aparte toetsen nodig voor elke paarsgewijze vergelijking
+- als je dat doet dan niet 	α = 0.05, maar "eindkans"
+- post-hoc tests
+
+2. Vaak wil je alleen weten of er een verschil is
+- model van "response variable" met "explanatory variable(s)"
+
+3 aannames:
+- normale verdeling
+- variantie van elke groep is ongeveer gelijk (=probleem bij lage n)
+- onafhankelijke steekproeven
+
+Geen normale verdeling?
+- transformeren van de "response variable(s)"
+- niet-parametrische toets: Kruskal-Wallis
+
+Hypothesen:
+H₀: u₁ = u₂ = u₃ = uₙ (n = aantal steekproeven)
+Hₐ: u₁ != u₂ EN/OF u₁ != u₃ EN/OF u₂ != u₃
+Ook wel: u₁ != uₘ
+
+Hₐ: minstens één van de groepsgemiddelden (u₁) verschilt van een
+ander (uₘ)
+
+Concept: vergelijken van twee varianties
+Is vergelijkbaar met een t-toets. Alleen wordt nu niet het verschil
+van de gemiddelden en spreiding van twee groepen getoetst, maar de
+ratio.
+
+Kansverdeling F
+
+S₁² en s₂² schattingen zijn van dezelfde σ²
+Ratio is ongeveer 1 (=geen verschil)
+Door beperkt aantal waarnemingen kunnen er verschillen zijn: toetsen
+met F
+
+Vorm van kansverdeling F
+
+Deze hangt af van het aantal waarnemingen voor S₁² en s₂²
+Vrijheidsgraden teller: df₁ = n₁ - 1
+Vrijheidsgraden noemer: df₂ = n₂ - 1
+
+* voorbeeld *
+df₁ = 2
+df₂ = 23
+
+F(2, 23)
+F = s₁²/s₂²
+
+[*éénfactormodel*]
+One-Way ANOVA
+
+Eenvoudigste vorm van variantieanalyse
+Twee variabelen:
+- onafhankelijke variabelen ("explanatory variable(s)")
+- afhankelijke variabelen ("response variable")
+
+Doel: toetsen of de verdeling van de "response variable" van alle
+groepen hetzelfde is
+
+Toetsen met F: de ratio van de 2 varianties
+
+* voorbeeld *
+Economie: x̄₁ = 33
+Techniek: x̄₂ = 50
+Gezondheidszorg: x̄₃ = 24
+
+De vraag:
+Zijn de steekproef verdelingen door toeval verschillen of zijn er
+werkelijk gescheiden populaties?
+
+Anders gezegd:
+- zijn de steekproefvarianties ongeveer gelijk aan elkaar?
+- bij welk verschil is het geen toeval meer?
+
+Om dit te beantwoorden wordt de variantie van de drie groepen
+geanalyseerd
+
+[*binnenvariantie*]
+s² binnen = sum(xᵢ - x̄)²/(n - 1)
+
+Economie: s₁² = 1892/(10 - 1) = 210.2
+Techniek: s₂² = 718/(8 - 1) = 102.6
+Gezondheidszorg: s₃² = 1112/(8 - 1) = 158.9
+
+            (n₁ - 1) * s₁² + (n₂ - 1) * s₂² + (n₃ - 1) * s₃²
+s² binnen = ------------------------------------------------
+                     (n₁ - 1) + (n₂ - 1) + (n₃ - 1)
+
+s² binnen = (1892 + 718 + 1112) / (9 + 7 + 7) = 161.8
+
+Binnenvariantie:
+Is bepaald aan de hand van de spreiding van de "response variable"
+binnen de drie groepen
+
+Tussenvariantie:
+Variantie tussen gemiddelden van de steekproeven ten opzichte van
+het gewogen totaalgemiddelde van alle waarnemingen
+
+[*tussenvariantie*]
+s² tussen = sum(nᵢ * (x̄ᵢ - x̄)²) / (k - 1)
+
+nᵢ = aantal waarnemingen in een groep
+k = aantal groepen
+x̄ᵢ = (33 * 10 + 50 * 8 + 24 * 8)/26 = 35.46
+
+            10 * (33-35.46)² + 8 * (50-35.46)² + 8 * (24-35.46)²
+s² tussen = ---------------------------------------------------
+                                    3-1
+
+s² tussen = 2802.5/2 = 1401.25
+
+F-ratio = s² tussen / s² binnen = 1401.3 / 161.8 = 8.66
+
+p-waarde → opzoeken in tabel
+
+In R:
+anova(lm(waardes ~ groepen, data = data))
+
+[*terminologie*]
+s² binnen
+SS = Sum of Squares
+SSE = Sum of Squares Error
+MS = Mean Square Error
+
+s² tussen
+SSG = Sum of Squares of Groups
+MSG = Mean Square Group
+
+[*preprocessing*]
+Missende waarden aangeven
+Elke variabele in een eigen kolom plaatsen

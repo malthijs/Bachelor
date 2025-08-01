@@ -1,0 +1,91 @@
+[*normal distribution*]
+- Gaussverdeling of klokkromme
+- Continue verdeling: elke waarde is mogelijk (als er nauwkeurig
+genoeg gemeten is)
+- Kans wordt bepaald door middel van oppervlakte
+
+Is symmetrisch
+Kans = 1 = 100 %
+
+Dichtheidsfunctie
+Afhankelijk van verwachtingswaarde μ en standaarddeviatie σ
+
+Oppervlakte onder de grafiek van de dichtheidsfunctie geeft de
+kans aan
+
+Grote σ = brede curve
+Kleine σ = hoge curve
+
+Door μ te veranderen wordt de curve naar rechts of links verplaatst
+
+Vallen samen:
+- Mediaan
+- Modus
+- Verwachtingswaarde
+
+Notatie: Y ~ N(μ, σ)
+Betekenis: Data Y volgt een normaalverdeling met μ = ... en σ = ...
+
+Kans = integraal van dichtheidsfunctie
+Dat is lastig
+
+Omzetten van normaalverdeling naar standaard normaalverdeling
+Z ~ N(μ = 0, σ = 1)
+
+Bepaling z-score
+Z = (y - μ)/σ
+y = grenswaarde
+μ = verwachtingswaarde
+σ = standaarddeviatie
+
+Kans = aflezen z-tabel
+
+In R hoeft een normaalverdeling niet omgezet te worden naar een
+standaard normaalverdeling
+
+* voorbeeld *
+pnorm(q = 90, mean = 80, sd = 6) = 0.9522 = 95.22%
+
+[*empirical rule*]
+Data is normaal verdeeld indien:
+- 68.26% ligt binnen ± 1 SD
+- 95.44% ligt binnen ± 2 SD
+- 99.74% ligt binnen ± 3 SD
+
+[*normal probability plot*]
+Een grafiek die op basis van een referentielijn aangeeft of data
+normaal of niet-normaal verdeeld is
+
+x-as: verwachte waarden
+y-as: geobserveerde waarden
+
+* voorbeeld *
+lengte_vrouwen <- c(61, 62.5, 63, 64, 64.5, 65,
+                    66.5, 67, 68, 68.5, 70.5)
+qqnorm(lengte_vrouwen)
+qqline(lengte_vrouwen)
+
+Voor veel testen (b.v. t-test en ANOVA) is het een voorwaarde dat de
+data die geanalyseerd wordt normaal verdeeld is
+
+Het is soms moeilijk om visueel te bepalen of een verdeling normaal
+of niet-normaal is
+
+[*Shapiro-Wilk*]
+Een statistische toets die op basis van getallen aangeeft of data
+normaal of niet-normaal verdeeld is
+
+Stappenplan:
+1. H₀: data is normaal verdeeld. H₁: data is niet-normaal verdeeld
+2. Kies α = 0.05
+3. R: shapiro.test(x)
+4. Vergelijk p-waarde met α
+
+* voorbeeld *
+shapiro.test(lengte_vrouwen)
+
+p-waarde = 0.9833
+α = 0.05
+
+p > α
+Conclusie: data is normaal verdeeld

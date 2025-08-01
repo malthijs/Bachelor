@@ -1,0 +1,153 @@
+[*t-toets*]
+Voor vergelijken van onafhankelijke steekproeven of van afhankelijke
+steekproeven
+
+Aanname: data is normaal verdeeld
+Bestudeerd bepaalde parameters:
+- gemiddelde
+- standaarddeviatie
+
+[*niet-parametrische toetsen*]
+Indien data niet normaal is verdeeld
+
+Onafhankelijke data:
+- Wilcoxon-Mann-Whitney test
+
+Afhankelijke data:
+- Wilcoxon Signed-Rank test
+- Sign test
+
+[*Wilcoxon-Mann-Whitney test*]
+Voor vergelijken van twee onafhankelijke steekproeven
+Alternatief voor t-toets
+
+Verdelingsvrije toets omdat deze gebruikt kan
+worden als de data een normale of een niet-normale
+verdeling volgt (distributie-onafhankelijk)
+
+Niet parametrische toets omdat er niet op een bepaalde
+parameter (gemiddelde, SD) wordt gefocust
+
+Nadelen:
+- minder "krachtig"
+Een onjuiste hypothese zal minder snel worden verworpen
+- meetwaarden worden niet gebruikt
+
+Volgorde van de waarnemingen wordt gebruikt
+
+Algemene formulering H₀ en Hₐ:
+- H₀: de (populatie) distributie van Y1 en Y2 zijn hetzelfde
+- Hₐ: de (populatie) distributie van Y1 en Y2 zijn niet hetzelfde
+
+[*soil respiration*]
+Tweezijdig:
+H₀: soil respiration is gelijk in "growth" gebied en in "gap" gebied
+Hₐ: soil respiration verschilt in "growth" gebied en in "gap" gebied
+
+Eenzijdig:
+H₀: soil respiration is niet groter in "growth" gebied dan in "gap"
+gebied
+Hₐ: soil respiration is groter in "growth" gebied dan in "gap"
+gebied
+
+* voorbeeld *
+qqnorm(growth, main, xlab, ylab)
+qqnorm(gap, main, xlab, ylab)
+
+shapiro.test(growth)
+W = 0.80335, p-value = 0.04421
+p-value < alpha = niet-normaal verdeelde data
+
+shapiro.test(gap)
+W = 0.9596, p-value = 0.8063
+p-value > alpha = normaal verdeelde data
+
+wilcox.test(growth, gap, paired = F)
+W = 49.5, p-value = 0.015
+
+paired = F: Wilcoxon-Mann-Whitney test
+paired = T: Wilcoxon Signed-Rank test
+
+[*Wilcoxon-Mann-Whitney test statistic*]
+Geeft de mate van scheiding of verschuiving aan tussen twee
+steekproeven
+
+Waarde van W is afhankelijk van relatieve posities van Y1 en Y2
+
+W is groot: weinig overlap tussen 2 steekproeven
+
+Er zijn tabellen met daarin de kritieke waarden van W
+
+[*vervolg soil respiration*]
+1. zet waarnemingen van Y1 en Y2 op volgorde
+2. bepaal kritieke waarde K₁:
+- voor iedere waarneming in Y1 wordt aantal waarnemingen in Y2
+bepaald dat kleiner is
+- indien gelijke waarde voor Y1 en Y2: tel 0.5
+- vervolgens bij elkaar optellen
+- bepaal kritieke waarde K₂ op soortgelijke manier
+
+K₁ = 5 + 6 + 6.5 + 8 + 8 + 8 + 8 = 49.5
+K₂ = 0 + 0 + 0 + 0 + 0 + 1 + 2.5 + 3 = 6.5
+
+3. W is de grootste van deze twee waarden = 49.5
+4. de p-waarde kan vervolgens m.b.v. een tabel worden bepaalt, maar
+in R wordt deze al direct gegeven
+
+wilcox.test(growth, gap)
+W = 49.5, p-value = 0.015
+
+p-waarde < alpha: H₀ wordt verworpen en Hₐ wordt aangenomen
+Hₐ: soil respiration verschilt in "growth" en "gap"
+
+Grote waarde voor K₁: Y1s hebben neiging om groter te zijn dan Y2
+Grote waarde voor K₂: Y2s hebben neiging om groter te zijn dan Y1
+
+[*Wilcoxon Signed-Rank test*]
+Voor vergelijken van twee afhankelijke steekproeven
+Alternatief voor t-toets
+
+Verdelingsvrije toets omdat deze gebruikt kan
+worden als de data een normale of een niet-normale
+verdeling volgt (distributie-onafhankelijk)
+
+Niet parametrische toets omdat er niet op een bepaalde
+parameter (gemiddelde, SD) wordt gefocust
+
+Nadelen:
+- minder "krachtig"
+Een onjuiste hypothese zal minder snel worden verworpen
+- meetwaarden worden niet gebruikt
+
+Gebaseerd op verschil Y1 - Y2
+
+Bevat elementen van t-test en van sign-test:
+- kijkt naar het teken (+/-) van het verschil
+- kijkt naar de groottes van de verschillen
+
+[*cijfers van studenten*]
+Cijfers van studenten worden op 2 momenten bepaald (start en eind
+studiejaar). De data is niet normaal verdeeld.
+
+Is er een verschil tussen de cijfers bij “start” en bij “eind”?
+Kies alfa = 0.05
+
+H₀: er is geen verschil in cijfers tussen start en eind
+Hₐ: er is wel verschil in cijfers tussen start en eind
+
+1. bereken het verschil
+2. bepaal de absolute waarde van het verschil
+3. rangschik de absolute waarden van klein naar groot
+4. optellen van:
+- alle waarden met een + teken (V₊)
+- alle absolute waarden met - teken (V₋)
+5. voeg weer een + of - teken toe
+6. V = grootste waarde van V₊ en V₋
+- V = 57
+7. m.b.v. de waarde voor V kan in een tabel de p-waarde worden
+opgezocht
+- wilcox.test(cijfers$start, cijfers$eind, paired = T)
+- V = 57, p-value = 0.1763
+
+p-waarde > alpha: H₀ wordt aangenomen
+conclusie: er is geen verschil in cijfers tussen start en eind

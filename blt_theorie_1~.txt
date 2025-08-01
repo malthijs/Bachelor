@@ -1,0 +1,101 @@
+[*DNA en RNA isolatie*]
+DNA en RNA kunnen uit verschillende biologische materialen worden
+geïsoleerd:
+- witte bloedcellen
+- weefsel
+- gekweekte cellen
+- bacteriecellen
+- schimmelcellen
+- plantencellen
+- dierencellen
+- ontlasting
+- agarose gel
+
+[*commerciële kits*]
+Gebruikte procedure hangt af van:
+- Type startmateriaal
+- Kwaliteit startmateriaal
+- Hoeveelheid
+- Kosten
+
+[*cellyse*]
+- Mechanische disruptie: malen en hypotonische lyse
+Het celmembraan wordt fysiek afgebroken door externe krachten
+
+Cellyse kan ook worden bevorderd door cellen te suspenderen in een
+hypotonische buffer, waardoor ze opzwellen en gemakkelijker barsten
+onder externe krachten
+
+- Chemische behandeling: detergent lyse
+Gebruik van een wasmiddel om de lipiden van het celmembraan te
+emulgeren, waardoor de celcomponenten vrijkomen
+
+- Enzymatische vertering: proteinase K
+Breekt eiwitten af die de celmembraan stabiliseren
+
+[*inactivatie van cellulaire nucleases*]
+- Proteinase K
+Kan ook enzymen deactiveren die DNA/RNA afbreken
+
+[*scheiding van het DNA/RNA en de cellulaire debris*]
+- precipitatie/extractie
+Is een proces waarbij opgeloste stoffen uit een oplossing worden
+neergeslagen door toevoeging van een reagentia ("precipitatie")
+
+Neergeslagen componenten worden verzameld ("extractie")
+
+- chromatografie
+Is een proces waarbij een mobiele fase door een stationaire fase
+heen beweegt (b.v. papier of silica)
+
+Grootte componenten bewegen langzamer dan kleinere componenten,
+waardoor ze van elkaar gescheiden worden
+
+Kan ook gebaseerd zijn op basis van lading, polariteit of zelfs
+affiniteit met een ligand
+
+- centrifugatie
+Middelpuntvliedende kracht wordt toegepast om componenten in een
+mix van elkaar te scheiden op basis van grootte en/of dichtheid
+
+- gelelektroforese
+Kleinere DNA-fragmenten ondervinden minder weerstand, waardoor ze
+sneller door een gel kunnen bewegen dan grotere DNA-fragmenten
+
+Dit verschil in snelheid zorgt ervoor dat DNA-fragmenten worden
+gescheiden op basis van grootte
+
+Katode (negatief) --> Anode (positief) = KNAP
+DNA-fragmenten bewegen van katode naar anode
+
+Elektrisch veld
+Kathode neemt elektronen op
+Anode staat elektronen af
+
+DNA is negatief geladen door de fosfaatgroepen in het suikerfosfaat
+backbone
+
+  5' end
+    |
+O = P —— O⁻ Fosfodiësterbinding
+    |
+    O
+    |
+    CH₂     Nucleotide
+    |       |
+    |   O   |
+    |  / \  |
+    |/ H H \|
+    |\_|_|_/|
+    H  | |  H
+       O H
+       |
+     3' end
+
+[*DNA isolatie*]
+1. Sample
+2. Lyse
+3. Bind (het vasthechten van DNA aan een kolom of membraan)
+4. Wash
+5. Elute (het loslaten van gezuiverd DNA uit een kolom of membraan)
+6. Ready-to-use DNA

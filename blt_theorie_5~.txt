@@ -1,0 +1,252 @@
+[*kloneren*]
+Inzicht krijgen in de functie van een gen/eiwit
+- mutaties
+Om zelf nieuwe eiwitten te ontwerpen
+
+Maken van een gen/eiwit
+DNA-fabriek (prokaryoot)
+Eiwit-fabriek (pro- of eukaryoot)
+
+Met restrictie-enzymen maak je puzzelstukjes die precies
+op elkaar passen
+
+[*workflow*]
+Vector Preparation
+- restriction digestion
+- dephosphorylation (voorkomt dat de uiteinden terug plakken)
+- sticky-end / blunt-end (depends on insert)
+- purification
+
+Insert Preparation
+- restriction digestion
+- sticky-end / blunt-end (depends on vector)
+- purification
+
+Ligation
+- T4 DNA ligase
+- polyethylene glycol (PEG)
+- vector to insert ratio (1:3)
+- reaction time and temperature
+- purification / heat-inactivation (inactiveren van T4 DNA ligase)
+
+Transformation
+- transformation efficiencies
+- competent cell choices
+- chemical and electrocompetent cells
+
+Colony Screening
+- blue / white colonies
+- positive selection
+- restriction digestion
+- colony PCR
+- sanger sequencing
+
+[*vectoren*]
+Waarom stoppen we ons DNA in een ander stuk DNA voordat het
+de cel ingaat?
+
+Recombinant DNA plasmid
+
+Vector
+- zorgt dat het DNA gekopieerd (vermeerderd) wordt
+- zet (vaak) de gastcel aan tot het maken van recombinant eiwit
+
+Wat bepaalt de keuze voor een vector?:
+- hoe makkelijk gaat de vector de gastcel binnen?
+- hoeveel kopieën van de vector per gastcel?
+- kunnen we de cellen die de vector opgenomen hebben, makkelijk
+terugvinden? (markers)
+- kan je makkelijk je recombinant-DNA in de vector zetten?
+- hoe groot kan het recombinant-DNA zijn? (Kb)
+- kunnen we de vector makkelijk opzuiveren?
+
+Meest voorkomende vector types:
+- plasmiden
+- cosmiden
+- virussen
+- kunstmatige genoom
+BAC voor bacteriën
+YAC voor gist
+
+[*plasmides*]
+- lage / hoge kopie aantal plasmiden
+Laag: gekoppeld aan autosomale replicatie (worden gereguleerd)
+Hoog: autonome replicatie
+
+De essentiële karakteristieken van plasmiden zijn door
+moleculaire biologie geadopteerd voor kloneren
+
+- kunnen elke gen dragen
+- repliceren in bacteriën
+
+1. Marker (antibiotische resistentie: AMPʳ)
+2. Origin Of Replication (ORI: REP-eiwitten)
+3. Multiple Cloning Sequence (MCS)
+4. Secundaire markers (optioneel)
+
+Plasmide: de werker van de moleculaire biologie
+- Prokaryote promoter
+- Soms "shuttle vector" → heeft eukaryote ORI en eukaryote promoter
+- Resistentie markers: antibiotica, toxines
+- Auxotrofische markers: aanzetten van de productie van
+essentiële nutriënten dat het organisme normaal niet kan produceren
+- < 10 kb fragment grootte
+- Makkelijk om mee te werken
+
+[*transformatie*]
+Introductie van recombinante DNA (plasmide) in een gastcel
+("competent cells")
+
+Competence: de kracht van een cel om extracellulaire
+DNA op te kunnen nemen
+
+Twee methoden om E. coli competent te maken:
+- chemische behandeling van de cellen met calciumchloride
+(CaCl₂) en een hitteschok (0 °C--> 42 °C)
+- elektroporatie: maakt cellen competent met een elektrische schok
+
+[*chemische behandeling*]
+Ca²⁺ stabiliseert het negatief geladen DNA en de negatief geladen
+membraanlipiden, waardoor het DNA makkelijker naar binnen kan
+
+De hitteshock verhoogt tijdelijk de permeabiliteit van het
+celmembraan, waardoor het DNA makkelijker naar binnen kan
+diffunderen
+
+[*elektroporatie*]
+Hogere efficiëntie
+Elektrische puls: membraan permeabiliteit wordt tijdelijk aangepast
+waardoor DNA naar binnen kan door middel van de gecreëerde poren
+~80% van de overlevende cellen transformeren
+Geschikt voor eukaryoten
+
+[*1e selectie*]
+Gewenst resultaat: vector met verlangde insert
+Ongewenste resultaten: insert niet geligeerd, vector niet geligeerd,
+geen insert of geen vector
+
+1e selectie voor bacteriën die plasmide (met gekloneerde gen)
+hebben opgenomen
+- 0.001 - 10% van de populatie bacteriën is competent en
+kan (maar hoeft niet) "vreemd" DNA (plasmide) opnemen
+
+Hoe selecteer je de bacteriën die een plasmide hebben opgenomen?
+Voedingsbodem met antibioticum (ampicilline)
+Wel of geen groei op voedingsbodem met antibioticum?
+
+[*antibiotica*]
+Antimicrobiële middelen (AMM)
+Bactericide: antibioticum doodt de bacteriën
+Bacteriostatisch: antibioticum remt de bacteriën,
+omdat groei wordt voorkomen kan de afweer van de gastheer de
+bacteriën bestrijden.
+
+Werking antibiotica
+Chemische compound die bindt aan belangrijke onderdelen
+van de bacterie en daardoor interfereert met de groei
+
+Eiwitten / suikers in de celwand
+Enzymen betrokken bij DNA replicatie / eiwitproductie
+
+Selectieve toxiciteit: prokaryoot vs eukaryoot
+
+Smal-spectrum antibiotica: tegen een beperkt aantal groepen van
+bacteriën werkzaam
+(b.v. penicilline tegen grampositieve bacteriën en slechts tegen
+een enkele gramnegatieve bacteriën)
+
+Breed-spectrum antibiotica: tegen een groot aantal zowel
+gramnegatieve als grampositieve bacteriën werkzaam
+(b.v. tetracycline)
+
+Aangrijpingspunten antibiotica
+- remming celwandsynthese
+- remming eiwitsynthese
+- remming van nucleïnezuursynthese
+- beschadigen van celmembraan
+- aangrijpen op specifieke bacteriestofwisseling
+
+[*remming celwandsynthese*]
+Opbouw celwand: dwarsverbindingen peptidoglycaan-laag voor
+stevigheid
+
+Penicilline: verstoren van dit proces → verzwakte celwand
+- bacteriocide werking
+- beta-lactam antibiotica (penicilline derivatief: penams)
+- cephalosporins (cephems)
+- monobactams
+- carbapenems
+
+Resistentie door beta-lactamase
+Enzymatische afbraak van antibioticum
+(maakt een knip in de beta-lactam ring)
+
+[*remming eiwitsynthese*]
+50s en 30s
+50s = grote subunit ribosoom
+30s = kleine subunit ribosoom
+
+Chloramphenicol: bindt aan de 50s deel en inhibeert de formatie
+van peptidebindingen
+
+Erythromycin: bindt aan de 50s deel en voorkomt
+translocatie-bewegingen van het ribosoom langs de mRNA
+
+Tetracyclines: interfereert met de koppeling van tRNA aan
+mRNA-ribosoom complex
+
+Streptomycin: verandert vorm van 30s deel, waardoor de code op
+het mRNA verkeerd afgelezen wordt
+
+70s prokaryotische ribosoom
+
+[*remming van nucleïnezuursynthese*]
+Remming van foliumzuursynthese
+- foliumzuur essentieel voor vorming purine en pyrimidine. Te kort
+leidt tot stopzetting van de replicatie van DNA en synthese van RNA
+- bacteriën synthetiseren zelf foliumzuur
+- PABA is noodzakelijk in één van deze stappen
+Sulfonamiden: competitie met PABA (para-aminobenzoëzuur)
+Breed spectrum, bacteriostatisch
+
+Resistentie
+- Meer PABA produceren
+- Gemuteerde enzymen (lage affiniteit voor sulfonamiden →
+foliumzuursynthese blijft doorgaan)
+- Alternatieve foliumzuurpathway
+- Meer efflux pompen (sulfonamiden worden de cel actief uitgepompt)
+
+[*resistentie*]
+Genetische mutaties
+Mechanismen van antibiotica resistentie
+1. enzymatische afbraak van antibiotica
+2. voorkomen van binnendringen antibiotica
+3. verandering van "target site"
+4. snel verwijderen van antibiotica door ejectie uit cel
+(efflux pomp)
+Resistentie genen worden vaak via plasmides of transposons
+overgedragen tussen micro-organismen.
+
+[*kolonie PCR*]
+In de praktijk een mix van gewenst en ongewenste resultaten
+Kolonie-PCR om te kijken of we het juiste hebben gemaakt
+
+Een "positive clone" verwijst naar een kolonie die het gewenste
+recombinante DNA bevat
+
+Een "negative clone" verwijst naar een kolonie waar het
+gewenste recombinante DNA niet aanwezig is
+
+Insert-specific primers: binden aan de insert
+Geen product bij de "negative clone"
+
+Backbone-specific primers: binden aan de vector
+Is kleiner bij de "negative clone"
+
+Orientation-specific primers: binden aan de insert
+Geen product bij de "negative clone"
+
+[*isolatie*]
+Pak juiste kolonie van bacteriën
+Plasmiden kunnen worden geïsoleerd met spin columns
+Hierna kan het DNA worden gesequencet

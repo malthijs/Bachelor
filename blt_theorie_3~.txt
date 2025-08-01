@@ -1,0 +1,93 @@
+[*agarose*]
+Gel wordt gemaakt van agarose, veganistisch, lijkt op gelatine
+Komt van zeewier af
+
+Agarose vormt een netwerk van moleculaire vezel, waardoor de
+beweging van DNA vertraagd wordt
+
+[*elektroforese*]
+Controleren van de kwaliteit van de PCR
+Gel is ondergedompeld in een buffer met neutrale pH
+
+Gel bevat slotjes
+Hierin wordt DNA gepipetteerd
+
+Loading dye
+Helpt PCR-producten om in de slotjes te zakken, anders lopen ze
+eruit
+
+Voeg kleurstof en suikers toe aan het DNA/PCR-product
+Suikers --> PCR-product wordt zwaarder
+Kleurstof --> indicatie / marker
+
+Kleurstoffen:
+- Ethidium bromide
+- GelRed
+- SybrGreen
+- SybrSafe
+
+Kleurstoffen zijn kankerverwekkend:
+- zitten tussen waterstofbruggen van DNA
+- geven licht als UV erop geschenen wordt
+
+Aan het laatste slot wordt een ladder toegevoegd
+Dit wordt ook wel een molecular weight marker genoemd
+Bij de ladder is de lengte (bp) bekend
+
+Als het elektrisch veld aan wordt gezet dan ontstaan er bands in de
+lanen
+
+Bepalen van de lengte van de DNA-producten
+
+Na 30 min
+Kleinste moleculen aan het eind
+Grote moleculen aan het begin
+Hiermee kan grootte PCR-producten bepaald worden
+
+Stop tijdig
+Anders lopen PCR-producten van de gel af
+
+Kleine moleculen = hoge agarose % (1.0 tot 5.0)
+Grote moleculen = lage agarose % (0.5 tot 1.0)
+
+[*primer design*]
+Lengte primers = 17 - 30 bp
+GC-content: 50 - 60 %
+3' eindigt met een G of een C (indien mogelijk)
+
+Voorkom secundaire structuren
+- hairpin loops
+         5' GGGAA \
+            || |   A
+3' TATCTAGGACCTTA /
+
+- primer-dimers
+      5' GGGAAAATTCCAGATCTAT 3'
+              ||||
+3' TATCTAGGACCTTAAAAGGG 5'
+
+Tm (smelt temperatuur) tussen 55 en 65 °C
+
+* voorbeeld *
+Bereken GC content
+Bereken Tm temperatuur = 2 * (A + T) + 4 * (C + G)
+(gebruik alleen annealing bases)
+
+Annealing temperatuur is lager dan smelt temperatuur
+(5 - 10 °C lager)
+
+Orientatie en plaats
+- vooral belangrijk in RT-PCR experimenten (e.g., spanning
+intron/exon junctions)
+Dat primers niet worden afgebroken door intronen en exonen van DNA
+
+[*primer binding*]
+CODING STRAND
+5' atttcgataacctgttcgatgctgccattgcccgcgccga 3'
+             ggacaagctacgacggtaac
+             3'               5' REVERSE
+
+TEMPLATE STRAND
+3' catgttgaccgcattagtaccgggaagccccggtaacaaa 5'
+             cgtaatcatggcccttcggg
+             5'               3' FORWARD
