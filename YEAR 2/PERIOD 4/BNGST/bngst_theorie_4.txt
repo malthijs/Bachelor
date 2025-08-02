@@ -1,0 +1,75 @@
+[*assembly*]
+Hoe groter een genoom, hoe meer repetitief DNA
+Geen referentie genoom beschikbaar
+
+Contig = een geordende sequentie van reads, zonder gaps
+Scaffold = een geordende sequentie van contigs, met eventuele gaps
+
+[*N50*]
+1. leg alle contigs op volgorde van lengte
+2. bepaal het totaal aantal basen
+3. bepaal wat de 50% is van het totaal aantal basen
+4. tel de contigs bij elkaar op van lang naar kort tot 50%
+5. de lengte van deze contig = N50
+
+[*graph theorie*]
+Wordt toegepast om redundantie te verminderen door efficiënte paden
+te vinden die knopen met elkaar verbinden.
+
+1. maak een pairwise alignment tussen alle reads
+2. maak een graph:
+- elke read is een node
+- elke overlap is een connectie (edge)
+- de connectie heeft een richting (directed edge)
+3. vindt het pad door de graph waarbij elke node maximaal 1 keer
+wordt bezocht
+4. bepaal de sequentie van de contig
+
+Leveren de twee paden identieke sequenties op? Dan zijn de paden
+hetzelfde
+
+Leveren de twee paden verschillende sequenties op? Dan zijn de paden
+anders
+
+[*de bruijn graph*]
+Gebaseerd op k-mers
+Geen alignment nodig
+Wordt toegepast op short reads
+
+Stappenplan:
+1. selecteer een k-mer grootte
+2. maak een verzameling van unieke k-mers
+Dit worden de nodes
+3. De overlap van lengte (k-mer - 1) tussen alle k-mers wordt
+bepaald
+Dit worden de connecties
+
+[*overlap-layout-consensus*]
+Bepaal de werkelijke sequentie door middel van de majority vote
+van de gealignde reads
+
+Gebaseerd op alignments
+Wordt toegepast op lange reads
+
+[*assembly*]
+Sommige eigenschappen van genomen maken een graph extra ingewikkeld:
+- repetitieve sequenties: knopen
+- polymorfismes: bubbels
+- sequencing error tips zorgen voor niet-bestaande eindpunten en
+verbindingen
+
+Hierdoor valt een assembly uiteen in contigs
+
+- Short reads
+Veel meer reads
+Veel hogere kwaliteit
+Niet geschikt voor lange repeats
+
+- Long reads
+Veel minder reads
+Veel lagere kwaliteit
+
+Gepaarde reads worden toegepast voor het transformeren van
+contigs naar scaffolds
+
+Hierbij is de orientatie van de reads bekend

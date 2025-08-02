@@ -1,0 +1,140 @@
+[*experimenteel design*]
+Meet het effect van condities op een biologisch systeem
+
+* voorbeeld *
+Behandeling A vs B
+Ziek vs gezond
+Resistent vs niet-resistent
+Celtype A vs celtype B
+
+Maar er is vrijwel altijd sprake van meer variatie tussen beide
+condities, vooral als er gewerkt wordt met samples die
+"uit het veld" komen
+
+* voorbeeld *
+Patiënten
+Bodemsamples
+Wilde planten/dieren
+
+Experimenteel design: controleert voor variatie tussen condities die
+niet gemeten moeten worden
+
+[*confounding effects*]
+Ontstaan door experimenten die niet goed ontworpen zijn
+
+*voorbeeld *
+Onderzoeksvraag: vindt het verschil tussen controle en behandelde
+planten
+
+Experimentele design: groei alle controle planten in één veld en
+groei alle behandelde planten in het andere veld
+
+Verschillen die ontstaan door het verschil in velden kunnen niet
+onderscheiden worden door het verschil in behandeling → CONFOUNDED
+
+[*bronnen van variatie*]
+Biologische variatie
+Individuele verschillen door omgeving of genetische factoren
+
+Technische variaties
+- library preparation effect
+- cell flow effect
+- lane effect
+
+[*biologische variatie*]
+Individuen verschillen van elkaar in genexpressie,
+omgevingsfactoren, fenotype, genetica, e.t.c.
+
+Cellen van dezelfde weefsel in gelijke omstandigheden kunnen
+van elkaar verschillen in hoeveelheid mRNA
+
+Meerdere cellen meten: biologische replica's
+- Hoeveelheid is afhankelijk van de variatie die er verwacht wordt
+tussen de condities en binnen de groepen
+- Sample grootte berekening
+- Minimaal 3 biologische replica's
+
+[*technische variatie*]
+Allerlei factoren kunnen van invloed zijn op de uitkomst van een
+experiment
+
+Alle stappen in een experiment zijn beïnvloedbaar
+
+Meerdere keren uitvoeren van verschillende stappen: technische
+replica's
+
+[*principes*]
+Replicatie
+Verbetering schatten variabiliteit in experimentele resultaten,
+vergroot de significantie en betrouwbaarheid van conclusies
+- om te onderzoeken of de "response variabele(s)" consistent zijn
+
+Blokken
+- om confounding te voorkomen
+- om het effect van experimenteel handelen te kwantificeren
+- om meer statistische kracht te verkrijgen
+
+Randomiseer wat niet geblokt kan worden
+Randomiseren
+- om confounding te voorkomen
+- om bias door experimenteel handelen te voorkomen
+
+[*workflow in wetlab*]
+Samples --> Isolate RNA --> Generate cDNA --> Fragment cDNA -->
+Sequence --> Map to Genome or Transcriptome
+
+[*onderzoeksvraag*]
+Wat is het effect van chemotherapie op luminale borstkanker op het
+niveau van (differentiële) genexpressie en betrokken biologische
+pathways?
+
+[*design matrix*]
+Een matrix die aan DESeq2 doorgeeft wat er vergeleken moet worden
+
+dds <-  DESeqDataSetFromMatrix(countData = countData,
+                               colData = colData,
+                               design= ~type)
+
+Gepaarde samples
+Blad van plant A na 3 dagen zon vs blad van plant A na 3 dagen regen
+
+[*PCA*]
+Nadat het experiment is uitgevoerd, wordt er gehoopt dat de variatie
+die waargenomen wordt, de variatie is die onderzocht wordt.
+
+PCA en Heatmaps
+PCA = Principal Component Analysis
+
+Toont waar de meeste variantie zit tussen samples
+Twee uitkomsten in context van genexpressie data:
+- X: de plaatsing van de samples op de componenten
+- Rotation ("loadings"): de bijdrage van elk gen aan het component
+
+pca <- prcomp(t(countData))
+plot(pca$x, col=factor(metaData$voor.na), pch=30, cex=2)
+
+[*batch effect*]
+Correctie kan met een design matrix
+
+dds <-  DESeqDataSetFromMatrix(countData = countData,
+                               colData = colData,
+                               design= ~type + run)
+
+OF
+
+dds <-  DESeqDataSetFromMatrix(countData = countData,
+                               colData = colData,
+                               design= ~run + type)
+
+Waren alle sample preparations uitgevoerd op dezelfde dag?
+Waren alle library preparations uitgevoerd op dezelfde dag?
+Heeft dezelfde persoon de preparations uitgevoerd voor alle samples?
+Waren dezelfde reagentia toegevoegd voor alle samples?
+Waren de preparations uitgevoerd op dezelfde locatie?
+
+Wat als er geen clustering is?
+Mogelijk is de factor die onderzocht wordt erg subtiel
+Controleer altijd de bekende bronnen van variatie; hiervoor moet
+gecorrigeerd worden
+
+PCA ook nuttig om outliers en sample swaps op te sporen

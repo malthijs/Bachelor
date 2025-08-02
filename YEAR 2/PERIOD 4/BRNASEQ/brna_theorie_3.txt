@@ -1,0 +1,83 @@
+[*transcriptoom analyse*]
+Vergelijken van transcriptomen maakt dat er genen kunnen worden
+geïdentificeerd die differentieel tot expressie komen in bepaalde
+cel populaties of in respons tot verschillende omstandigheden
+
+[*experimenteel design*]
+Wat is het protocol?
+- Is het RNA van de verschillende samples onder exact dezelfde
+omstandigheden verkregen en verwerkt?
+- Wat is de kwaliteit van het RNA?
+- Welk type RNA? cDNA synthese
+
+Hoeveel samples?
+- Biologische variatie
+- Technische variatie
+
+Welk platform?
+
+[*mapping*]
+Waar komen de reads vandaan?
+Mapping: reads terug plaats op de juiste plek
+
+Opties:
+- Genoom
+- Transcriptoom
+- Aan elkaar: de novo assembly
+
+Alternative splicing
+Intronen worden verwijderd en exonen worden (eventueel) geshuffeld:
+isovormen
+
+Exon-exon junctions zijn een uitdaging voor alignment tools
+Reads die over zo’n junction lopen kunnen niet in één stuk aan het
+genoom worden gealigneerd
+
+[*summarization*]
+Tellen van het aantal reads per exon, gen of transcript
+Minimaal 80% van een read moet alignen met een exon, anders wordt
+het gefilterd
+
+[*normalisatie*]
+Huidige workflow:
+- RNA ⇾ mRNA (Oligo dT enrichment)
+- Random hexamer primed cDNA synthesis
+- Mapping to transcriptome
+
+Bij bepalen van DGE is het essentieel om zoveel mogelijk andere
+factoren constant te houden
+
+Voor sommige (externe) factoren kan dat niet vooraf: normaliseren
+Biases waar mogelijk te voorkomen door goed experimenteel design
+
+Controleren op biases d.m.v. normalisatie
+- transcript lengte
+- library lengte
+- sequentie specificiteit
+
+[*binnen samples*]
+RPKM: Reads Per Kilobase of transcript per Million mapped reads
+
+RPKM = (amount of mapped reads * 10⁹)/(length transcript *
+                                       total amount of mapped reads)
+* voorbeeld *
+RPKM = (900 * 10⁹)/(2500 * 8.000.000) = 45
+
+Presteert goed voor het vergelijken van genen binnen samples, maar
+niet altijd voor het vergelijken tussen samples: compositie bias
+
+RPKM corrigeert voor lengte van een gen, maar niet voldoende voor
+library size + compositie van RNA
+
+Als in één sample een paar genen superhoog tot expressie komen
+(b.v. ribosomaal RNA), dan drukken die andere genen naar beneden
+
+[*tussen samples*]
+DESeq2 median of ratios
+dds <- DESeq(dds)
+
+Voert differentieel expressie analyse uit met genormaliseerde count
+data
+
+Input moet niet genormaliseerd zijn
+Genormaliseerde output kan wel opgevraagd worden!!!

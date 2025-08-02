@@ -1,0 +1,133 @@
+[*variant calling*]
+Is het proces waarbij verschillen tussen sequencingdata en een
+referentiegenoom worden opgespoord
+
+Varianten: mismatches tussen reads en referentie
+- single nucleotide polymorphisms (SNP)
+- indels < 50 bp
+- structural variation (SV)
+- indels >= 50 bp
+- duplications
+- translocations
+- inversions
+- transposons
+
+[*genetic variants*]
+GWAS = genome-wide association study
+Spoort genetische varianten in het genoom op en koppelt deze aan
+fenotypische kenmerken of ziektes om onderliggende genetische
+factoren te identificeren
+
+Bronnen:
+- nDNA
+- mtDNA
+- RNA
+- RNA-sequencing → RNA-editing
+- whole-genome
+- exome
+- somatic variation (tumoren)
+
+Errors:
+- PCR-artefacts
+- sequencing errors
+- alignment errors
+- variant calling errors
+
+Betrouwbaarheid:
+- hoeveel reads mappen op die locatie
+- wat is de mapping quality van die reads
+- hoeveel van die reads hebben de variant
+- wat is de base quality op die plek
+- strand balance
+
+Variants worden over het algemeen gecalled met behulp van een
+threshold of door middel van een statistische model
+
+[*variant call format*]
+Elke rij in een VCF-bestand beschrijft één genetische variant:
+1. CHROM — Naam van het chromosoom
+2. POS — Positie op het chromosoom
+3. ID — Unieke identifier van de variant
+4. REF — Referentiebase(s) op deze positie
+5. ALT — Alternatieve base(s) die afwijken van de referentie
+6. QUAL — Phred kwaliteitsscore van de variant
+7. FILTER — Status van de variant (gefilterd of doorgelaten)
+8. INFO — Extra informatie over de variant, zoals de hoeveelheid
+samples, sequencingdiepte, allel frequentie, voorouderlijke allel,
+...
+9. FORMAT — Beschrijving van het formaat van de genotypedata van de
+gevonden samples
+
+[*indels*]
+Kies een aligner die hiermee om kan gaan
+
+Deletions zijn het makkelijkst:
+- flanking regions worden gecoverd
+
+Insertions zijn moeilijker:
+- read lengte gelimiteerd
+
+Aligners geven vaak een hogere penalty voor een deletion of
+insertion vergeleken met een substitution
+
+Indel realignment
+Verbetert de alignment rond inserties en deleties, waardoor
+"verborgen" varianten beter zichtbaar worden
+
+[*haplotype phasing*]
+Een haplotype is een groep van genetische varianten die dicht bij
+elkaar op hetzelfde chromosoom voorkomen en samen worden doorgegeven
+
+In dit proces wordt vastgesteld welke genetische varianten samen op
+hetzelfde chromosoom voorkomen. Dit gebeurt door sequencing reads te
+analyseren waarin meerdere varianten overlappen, waardoor zichtbaar
+wordt welke varianten tegelijkertijd aanwezig zijn.
+
+Is makkelijker met long reads
+
+[*structural variation*]
+Gepaarde en gesplitste reads met een insertie mappen dichter bij
+elkaar op het referentiegenoom dan reads met een deletie
+
+Gepaarde reads:
+- alignen onafhankelijk
+- index wordt toegepast om de paren te bepalen na alignment
+
+Gesplitste reads:
+- één read
+- probeer om te alignen in één stuk
+- geen hit? split in 2 stukken en probeer opnieuw
+
+[*copy number variation*]
+Detectie kan met diverse tools
+Kwaliteit en methode sterk afhankelijk
+- whole genome
+- whole exome
+- small panels
+- paired-end
+- lengte reads / inserts
+- vergelijkingsmateriaal
+
+Homozygous deletion, heterozygous deletion, duplication
+
+[*follow-up analyses*]
+Filtering
+Varianten filteren op kwaliteit, betrouwbaarheid, frequentie,
+...
+
+Functionele annotatie
+Varianten koppelen aan biologische processen, functies, locaties,
+...
+
+Variant database
+Opzoeken van de varianten voor het interpreteren van de resultaten
+
+Uitdagingen:
+- BAM en VCF zijn geen efficiënte manier van opslag
+
+[*graph representation*]
+Een pan-genoom is de verzameling van alle genetische variaties
+binnen een soort
+
+Om deze grote hoeveelheid variatie efficiënt op te slaan, wordt
+de bruijn graph toegepast

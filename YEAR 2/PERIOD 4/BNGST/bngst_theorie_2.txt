@@ -1,0 +1,184 @@
+[*workflow*]
+1. experimental design
+2. sample preparation
+3. library preparation
+4. sequencing
+5. preprocessing
+- quality control
+- trimming
+6. analysis
+7. interpretation
+8. publication
+
+[*accuracy vs precision*]
+Systematische afwijkingen (accuracy):
+- DNA-library
+- PCR-artefacts
+Oplossing: read alignment
+
+Random afwijkingen (precision):
+- wrong base calling
+- indels
+Oplossing: meer sequencen
+
+[*Phred quality score*]
+Phred score geeft aan hoe betrouwbaar een base call is
+
+! = slecht
+~ = goed
+
+Signal-to-noise: hoe duidelijk een daadwerkelijk signaal te
+onderscheiden is van achtergrondruis
+
+Lage Phred score:
+- Crosstalk, waarbij het fluorescentiesignaal van één base (deels)
+wordt opgepikt als dat van een andere base (door nabije clusters)
+- Dephasing, waarbij de DNA-polymerasen binnen een cluster niet
+synchroon de basen toevoegen
+
+Q = -10 * log₁₀ (P)
+P = 10 ** (-Q / 10)
+Kans op een incorrecte base call
+
+Q = 10 = 90%
+Q = 20 = 99%
+Q = 30 = 99.9%
+
+ASCII
+Phred + 33 ([!, ~])
+Phred + 64 ([@, ~])
+
+* voorbeeld *
+Gegeven is een DNA-sequentie:
+
+Posities 1234567890
+Base ATGTAGTAGA
+Quality score @f!/LkF0%I
+
+Welke positie heeft een Phred score van 74?
+
+74 + 33 = 107
+k = 107
+positie = 6
+
+[*FASTQ*]
+Het kan met zowel gepaarde als ongepaarde reads omgaan
+Het bevat 4 rijen:
+- header
+- sequence
+- header
+- quality score
+
+[*short reads vs long reads*]
+Verschillen tussen short reads & long reads:
+- lengte reads
+- kwaliteit reads
+- status poriën / enzymen
+- hoeveelheid basen / reads
+
+Short reads:
+FastQC
+
+Long reads:
+Nanopore QC
+N50
+
+[*N50*]
+1. leg alle reads op volgorde van lengte
+2. bepaal het totaal aantal basen
+3. bepaal wat de 50% is van het totaal aantal basen
+4. tel de reads bij elkaar op van lang naar kort tot 50%
+5. de lengte van deze read = N50
+
+* voorbeeld *
+Totaal aantal basen gesequenced:
+200K + 140K + 110K + 70K + 65K + 50K + 35K + 18K + 12K + 3K = 703K
+
+50% van het totaal aantal basen: 351.5K
+
+Tel de reads bij elkaar op (van lang naar kort):
+200K < 351.5K
+340K < 351.5K
+450K >= 351.5K
+
+N50 = 110K
+
+Conclusie
+50% van de gesequenced basen zitten in reads met een minimale lengte
+van 110K
+
+[*trimming*]
+Reads kunnen adapter / barcode sequenties bevatten:
+adapter trimming
+
+Ruwe reads zijn vaak van slechtere kwaliteit aan beide uiteinden:
+quality trimming
+
+Doel: trimmen van slechte posities op basis van kwaliteit
+("e.g. rand van flowcell")
+
+Resultaat: verwijderen van "slechte" sequenties aan het begin en
+eind van een read
+
+Veelgebruikte dynamische methoden:
+- sliding window
+- running sum
+
+[*sliding window*]
+1. bedenk de cut-off grootte
+2. definiëer een window van n basen lang
+3. plaats het window aan een uiteinde van een read
+4. bereken gemiddelde p-waarde voor die window
+- als gemiddelde p-waarde ≤ cut-off
+Vanaf deze positie is de kwaliteit voldoende
+- als gemiddelde p-waarde > cut-off
+Trimmen en schuif het window één base verder
+
+2x toepassen per read
+
+* voorbeeld *
+cut-off = 15
+window = 4
+
+            A    T    G    T     T    C    ...
+Q-score    11   13   15   16    17   20    ...
+
+Gemiddelde p-waarde = (11 + 13 + 15 + 16)/4 = 13.75
+15 > 13.75
+verwerp nucleotide
+
+Gemiddelde p-waarde = (13 + 15 + 16 + 17)/4 = 15.25
+15 ≤ 15.25
+behoud nucleotide
+
+[*running sum*]
+1. bedenk de cut-off grootte
+2. trek van elke p-waarde de cut-off af
+3. bepaal de cumulatieve som over de p-waarden per positie
+- als cumulatieve p-waarde >= 0
+Trim de basen tot de positie waar de cumulatieve p-waarde niet
+positief is
+- als afgeleide cumulatieve som < 0
+Trim de basen vanaf de positie van de daling in de cumulatieve som
+
+Trimt zowel start als eind van een read
+
+* voorbeeld *
+cut-off = 15
+
+             A     T    G    T     T    C    ...
+Q-score     11    13   15   16    17   20    ...
+
+A = 15 - 11 =  4  4
+T = 15 - 13 =  2  6
+G = 15 - 15 =  0  6
+T = 15 - 16 = -1  5
+T = 15 - 17 = -2  3
+C = 15 - 20 = -5 -2
+
+[*guide*]
+Trim nooit in het midden
+Bepaal tot slot een minimum lengte van een read na
+trimmen (bijvoorbeeld >= 25 bp)
+Als één gepaarde read wegvalt, dan moet de andere gepaarde read
+ook verwijderd worden (paired FASTQ-bestanden)

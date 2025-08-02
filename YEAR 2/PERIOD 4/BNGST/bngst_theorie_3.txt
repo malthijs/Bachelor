@@ -1,0 +1,113 @@
+[*alignment*]
+Door het alignen van een read kan de plek op het genoom aangewezen
+worden waarvan deze read afkomstig is. Hiervoor is een referentie
+genoom nodig.
+
+Gaat niet altijd soepel:
+- mismatches
+- slechte kwaliteit van de reads
+- reads passen op meerdere locaties in het genoom
+
+Reference based mapping is alleen nuttig als er een geschikt
+referentie genoom beschikbaar is
+
+De referentie moet sterk op het genoom van de sample lijken:
+- andere individu, dezelfde soort
+- verwante soort
+
+Doel: identificeren van subtiele verschillen tussen het onderzochte
+genoom en het referentiegenoom
+- single nucleotide polymorphisms (SNP)
+- indels < 50
+- structural variation (SV)
+- indels >= 50
+- duplications
+- translocations
+- inversions
+- copy number variation (CNV)
+
+[*Burrows-Wheeler Transform*]
+Makkelijke doorzoekbaar (gesorteerd op alfabet)
+Comprimeerbaar (AAAAA = 5A)
+Omkeerbaar
+Werkt niet goed op lange reads
+
+Read mappen met BWT:
+1. maak een BWT van de referentie sequentie
+2. bereken de LF-matrix (sorteer op alfabet)
+3. zoek de sequentie op aan de rechterkant van de LF-matrix
+4. zoek de sequentie op aan de linkerkant van de LF-matrix
+
+Dit wordt ook wel "backward" search genoemd
+De BWT is de laatste kolom
+Andere methode: minimizers
+
+[*minimizers*]
+Hierbij wordt het genoom opgedeeld in kortere stukken (k-mers). Om
+redundantie zo veel mogelijk te voorkomen, worden alleen de k-mers
+met minimale overlap opgeslagen in een hash-map een soort
+dictionary. Deze hash-map kan vervolgens gebruikt worden om de
+plaats van de reads op het genoom op te zoeken
+
+Bepaal seeds voor elke read
+Bepaal anchors voor elke read
+Langste chain aan anchors vormt de optimale alignment
+
+[*SAM/BAM*]
+Sequence Alignment Map
+Bevat het resultaat van het mappen van elke read tegen de referentie
+Is het standaard bestandsformaat voor alignments
+
+SAM = tekstformaat
+BAM = binairformaat (gecomprimeerd)
+
+Een chimere read bevat delen die op verschillende locaties op het
+genoom mappen
+
+Hoofdletters = gealigned
+Kleine letters = geclipd (doen niet mee)
+
+De 3 belangrijkste kolommen:
+kolom 2 = bitwise flag
+kolom 5 = mapq score
+kolom 6 = cigar string
+
+[*bitwise flag*]
+Is een getal dat met behulp van binaire waarden meerdere
+eigenschappen van een read tegelijk kan aangeven
+
+* voorbeeld *
+99 = 2⁰ + 2¹ + 2⁵ + 2⁶
+
+Een score van 0 geeft aan dat de sequentie gemapt is op de forward
+strand en ongepaard is
+
+[*mapq score*]
+Is een getal dat aangeeft hoe betrouwbaar een read uniek op de
+referentie is uitgelijnd
+
+Q = -10 * log₁₀ (P)
+
+[*cigar string*]
+Compact Idiosyncratic Gapped Alignment Report
+
+Is een string dat met behulp van letters aangeeft hoe een read is
+uitgelijnd op de referentie genoom
+
+* voorbeeld *
+8M2I4M1D3M
+
+8 matches (8M)
+2 inserties (2I)
+4 matches (4M)
+1 deletie (1D)
+3 matches (3M)
+
+[*NIPT*]
+Opsporing van trisomie 21 door standaard coverage met trisomie
+coverage te vergelijken
+
+Breadth: het percentage van een genoom dat minimaal door 1 read
+wordt bedekt
+
+Depth: het aantal keer dat een positie gesequenced is

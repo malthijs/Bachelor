@@ -1,0 +1,114 @@
+[*transcriptoom*]
+DNA --> RNA --> Proteins --> Nucleotiden en Aminozuren
+
+Elke cel heeft hetzelfde DNA
+Toch heeft iedere celtype een andere fenotype
+
+Fenotype: de verzameling van alle waarneembare eigenschappen dat
+bepaald wordt door genexpressie
+
+DNA = Genomics
+RNA = Transcriptomics
+Proteins = Proteomics
+Metabolomics = Nucleotiden en Aminozuren
+
+Transcriptomics:
+- bestuderen van alle RNA-transcripten die door het genoom
+geproduceerd worden onder specifieke omstandigheden of in een
+specifieke cel m.b.v. high through-put technologieën
+
+- vergelijken van transcriptomen maakt dat er genen kunnen worden
+geïdentificeerd die differentieel tot expressie komen in bepaalde
+celpopulaties of in respons op verschillende omstandigheden
+
+Transcriptoom reflecteert de genen die actief tot expressie gebracht
+worden op een bepaalde moment in een bepaalde cel
+
+RNA
+- Coding
+mRNA (1 - 4%)
+
+- Non-coding
+tRNA (15%)
+rRNA (80 - 85%)
+snRNA
+snoRNA
+miRNA
+siRNA
+
+[*types RNA*]
+- tRNA
+Transfer RNA
+20 aminozuurdragende varianten
+Karakteristieke klaverblad structuur
+Anti-codon loop: herkent mRNA codons
+3' end amino-acetyl tRNA synthetase zet aminozuur hieraan vast
+
+- rRNA
+Ribosomaal RNA
+Vormen structurele en functionele componenten van ribosomen:
+eiwitsynthese
+Complexe en repetitieve structuur
+Variabel in grootte van loci tussen individuen
+Fylogenetische analyses
+
+- ncRNA
+snRNA: small nuclear RNA
+RNA splicing
+snoRNA: small nucleolar RNA
+Ribosoom assemblage
+
+miRNA: micro RNA
+siRNA: small interfering RNA
+Post-transcriptional regulation
+
+[*splicing*]
+- Prokaryoot
+Geen splicing
+Koppeling transcriptie & translatie
+
+- Eukaryoot
+Wel splicing
+Transcriptie en translatie zijn gescheiden
+
+[*genregulatie*]
+20.000 eiwit-coderende gebieden in het humane genoom
+
+Regulatie van genexpressie maakt het verschil
+- hart vs lever
+- gedurende ontwikkeling
+- respons op omgeving
+- ziekte
+- mutaties
+
+Kwalitatief: welk deel van het genoom komt tot expressie, in welke
+cellen en in welke mRNA isoform
+- transcripten in kaart brengen
+- bepalen van genstructuur
+
+Kwantitatief: vergelijken van genexpressie tussen condities en
+begrijpen van biologische mechanismen
+- kwantificeren van genexpressie
+- bepalen van differentiële gen expressie (DGE)
+- genregulatie netwerken
+
+
+DNA --> pre-mRNA --> spliceosome --> mRNA --> Protein
+                          ^
+                          |
+                        snRNA
+
+[*RNA isolatie*]
+Selection/Depletion:
+
+Total RNA
+Isoleert alle typen RNA zonder deze van elkaar te filteren
+
+rRNA reduction
+Isoleert RNA waarbij rRNA gefilterd wordt
+
+PolyA selection
+Isoleert polyadenylerende RNA’s; vooral mRNA
+
+cDNA capture
+Isoleert cDNA dat overeenkomt met target-RNA na reverse transcriptie

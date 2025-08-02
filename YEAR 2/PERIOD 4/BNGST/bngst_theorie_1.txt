@@ -1,0 +1,217 @@
+[*Sanger sequencing*]
+Principe: maak een kopie van een DNA-streng en observeer per stap
+welke nucleotide wordt ingebouwd
+
+Nucleotide detectie is de basis van bijna all sequencing methodes
+Amplificatie (PCR of cloning) voor sequencing en detectie
+
+Gebaseerd op: chain termination door dideoxynucleoside triphosphate
+(ddNTP)
+
+De 3' OH-groep wordt vervangen met een H-groep. Hierdoor kan er
+geen fosfodiësterbinding gevormd worden met de volgende nucleotide
+en stopt de verlenging van de DNA-streng.
+
+[*capillary gel*]
+De DNA-streng wordt verlengd en willekeurig afgekapt door een
+ddNTP met een fluorescerende label. Hierna worden de DNA-strengen
+gesorteerd en worden de nucleotiden door een laser en detector
+afgelezen. Tot slot wordt het signaal in een chromatogram
+weergegeven.
+
+[*NGS sequencing*]
+Gebaseerd op: sequencing by synthesis door blocked deoxynucleoside
+triphosphate (dNTP)
+
+De 3' OH-groep wordt tijdelijk geblokkeerd door een chemische groep.
+Nadat de toegevoegde nucleotide is afgelezen, wordt deze blokkerende
+groep verwijderd, zodat een nieuwe nucleotide kan worden toegevoegd.
+
+Heel veel onbekende sequenties worden aan adapters met bekende
+sequenties geligeerd. Hierna worden de fragmenten met behulp van
+bridge PCR vermenigvuldigd en clusters gevormd. Tot slot wordt met
+behulp van een sequencer per cyclus één dNTP met een fluorescerende
+label ingebouwd en worden de nucleotiden door een laser en detector
+afgelezen.
+
+Door het vormen van clusters (vooraf amplificeren) wordt het signaal
+versterkt: signal boost
+
+Nadelen:
+- amplificatie introduceert fouten
+- amplificatie vernietigd informatie (nucleotide modificaties)
+- amplificatie limiteert read lengte
+
+[*amplificatie introduceert fouten*]
+Onevenredige amplificatie van fragmenten → PCR-bias
+Het ene fragment wordt vaker vermeerdert dan een ander fragment
+
+[*amplificatie vernietigd informatie*]
+Gemethyleerde nucleotiden worden als normale nucleotiden afgelezen,
+terwijl ze de genexpressie beïnvloeden
+
+[*amplificatie limiteert read lengte*]
+Elke illumina cluster bevat 1000den DNA-kopieën
+
+Tijdens sequencen geven ze allemaal hetzelfde signaal
+- DNA-polymerasen kunnen "out of sync" gaan lopen
+
+Hoe langer het DNA-fragment, hoe meer polymerasen "out of sync"
+zullen zijn: kwaliteit van sequencing daalt
+
+Phasing
+Sommige DNA-fragmenten in een cluster lopen achter op de rest
+doordat ze een nucleotide niet goed hebben geïncorporeerd
+
+Pre-phasing
+Sommige DNA-fragmenten in een cluster lopen vooruit doordat ze per
+ongeluk een extra nucleotide hebben geïncorporeerd
+
+[*TGS sequencing*]
+Gebaseerd op het analyseren van één DNA-molecuul: single-molecule
+sequencing
+
+Hiervoor is amplificatie niet nodig:
+- minder amplificatie fouten
+- minder vernietigde informatie
+- verhoogde lengte van fragmenten
+
+Single-molecules zijn lastiger om te detecteren:
+- gevoeligere detectoren nodig
+- minder moleculen worden tegelijk gesequenced ("slomer")
+- hoge sequencing error
+
+[*Pacific Biosciences*]
+Zero Mode Waveguide (ZMW) is de kleinste licht detectie cel van de
+wereld
+
+Ze zorgen voor weinig achtergrond licht, waardoor zwakke flitsen
+gedetecteerd kunnen worden
+
+Elke cel bevat 1 DNA-polymerase en 1 DNA-molecuul
+
+[*SMRT sequencing*]
+Single Molecule Real Time sequencing
+Elke sequencing chip bevat 1000den ZMW cellen: multiplexed ZMWs
+
+Hairpin adapters
+Hierdoor kan DNA-polymerase het DNA-molecuul meerdere keren
+rondgaan en synthetiseren
+
+Tijdens de sequencing worden nucleotiden continu ingebouwd en in
+real-time gedetecteerd. Hiervoor wordt het DNA-polymerase zodanig
+aangepast dat de synthese gevolgd kan worden door de detectoren.
+
+Benodigdheden:
+- DNA-polymerase
+- Fluorescent gelabelde dNTPs
+- Gevoelige detector voor fluorescentie
+- ssDNA
+
+Activiteit van polymerase limiteert read lengte
+Reads hebben verschillende lengtes:
+- geen fragmentatie vooraf
+- DNA-polymerasen verschillen in processiviteit
+
+[*HiFi sequencing*]
+Wordt ook wel High Fidelity sequencing genoemd
+
+Circular Consensus Sequencing (CCS)
+DNA-molecuul wordt kunstmatig rond gemaakt waardoor DNA-polymerase
+het in een loop meerdere keren kan amplificeren
+
+De gecreëerde strands worden onder elkaar gelegd, waardoor een hoge
+kwaliteit wordt bereikt
+
+[*Pacific Biosciences*]
+Modificaties zoals methylatie hebben een eigen "pulse profile"
+
+Long molecules:
+- enkele passage door DNA-polymerase
+- slechte kwaliteit
+
+Short molecules:
+- meerdere passages door DNA-polymerase
+- goede kwaliteit
+
+Voordelen:
+- weinig DNA nodig
+- lange reads
+- mogelijkheid om gemodificeerde nucleotiden te detecteren
+
+Nadelen:
+- hoge error rates ("single pass")
+- grote en dure apparaten
+
+[*Nanopore sequencing*]
+Compleet andere principe dan Sanger, Illumina en PacBio
+Gebaseerd op nanopore sensing
+
+DNA wordt niet gesynthetiseerd met behulp van DNA-polymerase, maar
+gescand door middel van een porie. De porie ligt op een membraan met
+een zwakke potentiaal. Als er een k-mer doorheen beweegt, verandert
+het weerstandsniveau, dit wordt gemeten.
+
+Het dsDNA wordt verbonden met een motoreiwit. Dit motoreiwit zorgt
+ervoor dat één van de twee DNA-strengen door de nanopore wordt
+getrokken. Verder reguleert het motoreiwit ook de snelheid van het
+DNA door de nanopore.
+
+Base calling wordt in real-time uitgevoerd. De verstoring in
+ionenstroom wordt in een Squiggle plot weergegeven.
+
+1D² consensus mode
+Tweemaal hetzelfde molecuul lezen
+
+Beide strengen van het dsDNA worden achtereenvolgens afgelezen.
+Vervolgens wordt een consensussequentie verkregen door deze twee 
+reads te combineren.
+
+Nanopore sequencers kunnen elke structureel intacte DNA-molecuul
+aflezen
+
+MinION
+- 1 flowcell
+GridION
+- 5 flowcells
+PromethION
+- 48 flowcells
+
+Nanopore is erg scalable
+
+[*technologieën*]
+Sanger
+Illumina
+PacBio
+Nanopore
+
+- maximale read lengtes:
+400 - 900 bp
+< 2 x 300 bp
+< 60.000 bp
+< 4.000.000 bp
+
+- error rates:
+< 0.1%
+< 1%
+11% - < 1%
+8% - < 1%
+
+Sanger is het duurst ($2400 per Mbp) door reagentia en
+arbeidsintensiviteit. Wordt gebruikt voor het controleren van
+plasmides.
+
+Illumina is het snelst doordat miljoenen sequenties tegelijk
+sequenced kunnen worden: high-throughput. Wordt gebruikt voor
+RNA-sequencing, ChIP-sequencing en resequencing.
+
+Verder kan illumina één uiteinde van een DNA-streng (single-end)
+sequencen, maar ook beide uiteinden van een DNA-streng (paired-end)
+sequencen
+
+PacBio wordt toegepast voor de novo genome sequencing en
+iso-sequencing. Bijvoorbeeld om onbekende genomen te assembleren
+en varianten te vinden.
+
+Nanopore wordt toegepast voor real-time sequencing. Bijvoorbeeld om
+snel ziekteverwekkers te identificeren tijdens uitbraken.

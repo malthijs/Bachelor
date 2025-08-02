@@ -1,0 +1,159 @@
+[*transcriptomics*]
+De studie van het transcriptoom — de volledige set aan
+RNA-transcripten die door het genoom geproduceerd worden onder
+specifieke omstandigheden of in een specifieke cel — door middel
+van high-throughput methoden, zoals RNA-sequencing
+
+[*bulk RNA-sequencing*]
+Weefsel → Sequencing → Gemiddelde genexpressie → Cellulaire
+heterogeniteit gemaskeerd
+
+Hierbij kunnen individuele cellen niet van elkaar worden
+onderscheiden door het "gemiddelde"
+
+[*single-cell RNA-sequencing*]
+Weefsel → Cellen → Sequencing → Genexpressie profiel → Cellulaire
+heterogeniteit en subpopulatie variabiliteit onthult
+
+Hierbij kunnen individuele cellen en subpopulaties van elkaar
+worden onderscheiden door het "profiel"
+
+[*cell dissociation*]
+Cellen losmaken van elkaar met behulp van enzymen die cellen
+"losknippen", waarbij losse en intacte cellen overblijven
+
+Problemen:
+- te zacht: incomplete dissociatie
+Dit leidt tot celklontering
+- te ruw: cellen kunnen stuk gaan
+Dit leidt tot RNA-degradation en RNA-leakage ("achtergrondruis")
+
+[*single cell capture*]
+Losse cellen op afzonderlijke plekken krijgen
+
+Vroeger: met behulp van een micropipet door losse cellen te pakken
+en te verdelen (soms ook met laser capture)
+- gebaseerd op morfologie of fluorescente markers
+
+Later: met behulp van FACS
+- FACS = Fluorescence Activated Cell Sorting
+- gebaseerd op grootte of fluorescente markers
+
+Nu: met behulp van microfluidics (soms ook met microdroplets)
+- kunnen pre-sorteren met FACS
+
+[*single cell lysis*]
+Cellen openbreken zodat RNA geïsoleerd kan worden
+Optimale condities voor lysis variëren per celtype
+
+[*reverse transcription*]
+cDNA maken van mRNA, zodat een stabieler product gesequenced kan
+worden
+
+Hiervoor wordt een Oligo (dT) primer toegepast. Het is complementair
+aan de poly-A staart van het mRNA. Hiernaast bevat de Oligo (dT)
+primer ook een UMI, cell barcode en adapter.
+
+UMI = Unique Molecular Identifier
+Uniek per transcript
+- geven (bijna) het exacte hoeveelheid counts in sequencing
+experimenten
+- reduceren amplificatieruis door (bijna) complete de-duplicatie
+van gesequenced fragmenten
+
+Cell barcode: uniek per cel
+Adapter: hetzelfde voor alle transcripten, wordt toegepast voor het
+sequencen
+
+[*pre amplification*]
+Vermeerderen van input DNA voor sequencing
+
+[*library preparation*]
+full-length sequencing → detect gene expression, splicing variants
+3' sequencing → detect gene expression
+
+[*sequencing*]
+Pool libraries
+Meerdere libraries van verschillende samples worden gemengd en
+in één run tegelijk geanalyseerd
+
+Paired-end sequencing
+Beide uiteinden van een DNA-fragment wordt afgelezen
+
+[*expression matrix*]
+Genereer FASTQ-bestanden
+Extraheer UMI, cell barcode en read
+
+Read 1: UMI + cell barcode
+Read 2: cDNA sequentie
+
+[*cell-QC filtering*]
+Wat is de kwaliteit van de single cell
+Intact, beschadigd of extreem beschadigd
+
+Kijken naar coverage:
+- niet-mitochondriaal RNA
+- mitochondriaal RNA
+- spike-in RNA (synthese RNA, wordt zelf toegevoegd, is referentie)
+
+Lage coverage niet-mitochondriaal RNA
+Beschadigd
+
+Lage coverage mitochondriaal RNA
+Extreem beschadigd
+
+Andere indicaties:
+- Lage sequentie diepte
+- Lage hoeveelheid genen die tot expressie komen
+- Hoge relatieve spike-in RNA ("RNA calibrator")
+
+[*normalisation*]
+Elke count is gevolg van succesvolle protocol (capture, RT,
+sequencing) van één mRNA molecuul
+
+Variabiliteit in (één) van deze stappen zorgt voor verschillen in
+count depth
+
+Normalisatie: corrigeren voor deze variabiliteit
+- schaling op basis van count depth (CPM)
+- down sampling naar X transcripten per cel
+- complexere methoden
+
+Log-transformatie: reduceren van de impact van genen met extreem
+hoge expressie
+
+[*batch correction*]
+Ongewilde biologische variatie:
+- verschillende tussen individuen/samples
+- celcyclus
+
+Technische variatie:
+- experiment (tijdspunten)
+- drop-outs (genen die tot expressie komen worden niet gemeten door
+technische beperkingen)
+- PCR-bias
+- count depth
+- sequencing lanes
+
+[*feature selection*]
+Niet alle genen komen differentieel tot expressie
+- veel genen niet informatief
+- veel genen een count van 0
+
+Verminderd ruis, computationele last en verbeterd visualisatie
+Selecteer genen die variabel zijn tussen de samples (groepen)
+
+[*data visualisation*]
+Projecteer genexpressie in een lage-dimensionale ruimte, om de
+onderliggende datastructuur op te vangen
+
+Principal Component Analysis
+- elke component representeert een "metagen" dat lineaire informatie
+combineert van een gecorreleerde genset
+
+Voor "data summarization" en "data visualisation"
+- PCA
+- UMAP
+- tSNE
+
+Tot slot: downstream analyse

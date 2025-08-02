@@ -1,0 +1,155 @@
+[*targeted sequencing*]
+Het sequencen van een subset aan genen of regio's van het genoom:
+- goedkoper
+- snellere data-analyse
+- makkelijker te interpreteren
+- wettelijke problemen
+- ethische bezwaren
+
+Meest gebruikte technieken:
+- whole exome sequencing (WES)
+- specific gene-set sequencing (panel)
+
+Kan worden gebruikt voor:
+- detectie van SNPs
+- detectie van kleine indels
+- detectie van CNVs
+
+Het selecteren van het DNA van interesse in een sample wordt
+"enrichment" genoemd
+
+[*whole exome sequencing*]
+Probe = een gelabeld fragment ssDNA of ssRNA
+
+dsDNA → ssDNA + DNA-probes → DNA-probes bind to gene of interest
+
+Probe is gebonden aan biotine
+Streptavidine is gebonden aan een bead ("ijzerbal")
+
+Biotine bindt aan streptavidine: toepassen van magneet om gebonden
+en ongebonden fragmenten te scheiden
+
+[*specific gene-set sequencing*]
+Specifieke fragmenten van bepaalde genen
+Speciale primers aanmaken voor het creëren van amplicons
+
+Vaak: 1 amplicon = 1 exon
+Probleem: indien een exon erg groot is ("PCR-fragmenten")
+
+[*inherited disease panels*]
+Panels voor genen of varianten die geassocieerd zijn met ernstige
+recessieve erfelijke aandoeningen
+- probes voor specifieke genen
+- probes voor regio's met ziekte geassocieerde mutaties
+Veel commerciele aanbieders
+Academische ziekenhuizen hebben vaak eigen panels
+
+[*NIPT*]
+Non-Invasive Prenatal Testing ("liquid biopsy")
+
+Aangeboren aandoeningen worden vaak getest op bloedsamples → niet
+invasief
+Mutaties in tumoren worden vaak getest op tumor weefsel, verkregen
+uit biopten → invasief
+Screening van ongeboren kinderen door middel van
+vruchtwaterpuncties → invasief
+
+Invasief: pijnlijk, kans op complicaties
+Alternatief: bloedtest
+
+Onderliggende observatie: DNA van het ongeboren kind is terug te
+vinden in het bloed van de moeder vanaf ongeveer 11 à 12 weken
+zwangerschap
+
+Percentage DNA van kind is laag, maar voldoende om complete
+chromosoom-afwijkingen te detecteren:
+- Trisomie 13 (Patau syndroom)
+- Trisomie 18 (Edwards syndroom)
+- Trisomie 21 (Down syndroom)
+
+Maternal blood sample → DNA → Fetal DNA → Massively parallel
+sequencing → Alignment & counting
+
+Onderliggende observatie: DNA van de tumor en/of losse tumorcellen
+zijn terug te vinden in bloed patient
+
+Kan gebruikt worden om:
+- resultaat behandeling / voortgang van de ziekte te monitoren
+Hoe groter de tumor, hoe meer tumor-DNA in het bloed
+- mogelijke behandel-opties of therapie resistentie te vinden op
+basis van bekende genetische afwijkingen
+
+Erg veel verschillende technieken worden ontwikkeld / onderzocht
+
+[*protein-DNA interactions*]
+Veel verschillende eiwitten hebben interacties met DNA
+- reguleren genexpressie
+- celdeling
+- "onderhoud" van DNA
+
+* voorbeelden **
+- transcriptie factoren
+- polymerases
+- ...
+
+[*ChIP-sequencing*]
+Chromatin Immunoprecipitation
+
+Nauwkeurige identificatie van genomische bindingsplaatsen
+Gebruikt antilichamen om eiwitten gebonden aan het DNA te isoleren
+
+Antilichamen kunnen specifieke eiwit-complexen herkennen en binden
+Vissen met antilichamen = immunoprecipitatie
+
+DNA with interacting proteins → Cross link → Cleave → DNA-protein
+complexes → immunoprecipitation → Purify → DNA sequencing
+
+Scherpe pieken vormen bij de promotors van de genen
+
+[*epigenetics*]
+Het gaat over genetische controle met factoren anders dan een
+DNA-sequentie van een individu
+
+Epigenetische veranderingen kunnen genen aan of uitzetten en
+bepalen welke eiwitten getranscribeerd worden
+
+- histon modificaties
+- DNA-methylatie
+- RNA geassocieerde silencing
+
+[*histon modifications*]
+acetylering, methylering, fosforylering, ubiquitinilatie, ...
+
+N-terminale staart is plaats voor modificaties
+
+Meestal:
+acetylatie histonen → geactiveerde transcriptie
+deacetylatie histonen → gedeactiveerde transcriptie
+
+[*ChIP-sequencing*]
+Antilichamen kunnen voor allerlei eiwitten en epigenetische markers
+gemaakt worden
+
+Antilichamen binden aan histonen met een modificatie
+De genen met deze histonen worden gepurificeerd en geamplificeerd
+
+Brede pieken vormen bij de promotors van de genen
+
+[*DNA methylation*]
+Methylatie van Cytosine in CpG
+Remt transcriptie
+
+CpG islands: vaak in promoter
+
+[*bisulfite sequencing*]
+Unmethylated: NH₂ → O (cytosine = uracil)
+Methylated: NH₂ → NH₂ (cytosine = cytosine)
+
+DNA → Bisulfite conversion → Sequencing
+
+[*SMRT sequencing*]
+IPD = inter-pulse duration
+Long duration between bases: modification
+
+[*Nanopore sequencing*]
+Gemodificeerde basen veranderen het weerstandsniveau

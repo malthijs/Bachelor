@@ -1,0 +1,135 @@
+[*metagenomics*]
+Het bestuderen van het genetische materiaal van volledige
+leefgemeenschappen van organismen
+
+Karakteriseren van (onzichtbare) biodiversiteit met behulp van DNA
+Hiervoor wordt vaak "environmental DNA" toegepast (eDNA)
+
+Toepassingen:
+Ecologie / conservatie:
+- in kaart brengen van biodiversiteit
+- zoeken naar zeldzame soorten
+- bewijzen dat een soort aanwezig is / was
+- ontdekken van nieuwe soorten
+Medisch:
+- microbioom belangrijk bij ziekten
+- zoeken naar antibiotica resistentie
+Landbouw:
+- bodemleven belangrijk voor plantengroei
+
+[*biodiversity*]
+Alfa-diversiteit: aantal soorten binnen één sample
+Shannon index: gebaseerd op het aantal soorten en het aantal
+individuen per soort
+
+Hoge index = hoge diversiteit
+Lage index = lage diversiteit
+
+Beta-diversiteit: verschillen in diversiteit tussen samples
+Jaccard distance (aanwezigheid / afwezigheid van soorten)
+Wordt toegepast voor het vergelijken van biodiversiteit tussen
+samples
+
+Hoge afstand = weinig overeenkomst in gedeelde soorten
+Lage afstand = veel overeenkomst in gedeelde soorten
+
+* voorbeeld *
+Set A = ("Leeuw", "Tijger", "Cheetah", "Luipaard", "Neushoorn")
+Set B = ("Leeuw", "Aap", "Cheetah", "Kat", "Hond")
+
+Aantal observaties in beide sets = 2
+Aantal unieke observaties in beide sets = 8
+Jaccard distance = 1 - |2| / |8| = 0.75
+
+[*metagenomics*]
+Classificeren:
+- welke soorten/organismen zijn er aanwezig
+- zijn er verschillen tussen samples
+- wat is de diversiteit van een sample tussen samples
+De novo discovery:
+- welke nieuwe soorten zijn aanwezig in een sample
+Functionele analyse:
+- welke genen zitten er in een sample
+- welke genen komen differentieel tot expressie
+
+[*classification*]
+Amplicon sequencing
+Whole genome sequencing
+K-mer analyse (diversiteit)
+
+[*amplicon sequencing*]
+Meerdere kopieën van fragmenten van één target gene
+
+eDNA → DNA-extraction → Amplify DNA markers → High-throughput
+sequencing → Bioinformatic processing → Species identification
+→ Ecological analysis
+
+Marker gen bevat een geconserveerde en variabele regio
+
+Geconserveerde regio wordt toegepast als primer bindplaats
+Variabele regio wordt toegepast om soorten te onderscheiden
+
+Prokaryoten: 16S
+Schimmels: ITS
+Planten: matK
+Dieren: CO1
+
+Swarm clustering
+A) growth: clusters worden iteratief uitgebreid door sequenties met
+een kleine afstand aan bestaande clusters toe te voegen
+B) breaking: clusters worden gesplitst wanneer duidelijke grenzen
+ontstaan om "overclustering" te voorkomen
+
+OTU = een operational taxonomic unit is een definitie om een groep
+verwante organismen te classificeren
+
+[*whole genome sequencing*]
+eDNA → DNA-extraction → High-throughput sequencing → Bioinformatic
+processing → Species identification → Ecological analysis
+
+Classificeren met behulp van blast is te intensief
+Alternatieve methoden:
+- machine learning
+- kraken
+
+[*kraken*]
+1. bouwt een database met k-mers van de referentie genomen
+2. verdeelt gesequenced fragmenten in k-mers
+3. voor elk k-mer zoekt het de laagst mogelijke (meest specifieke)
+gemeenschappelijke taxonomische voorouder (LCA) op in de database
+4. combineert alle k-mers van een read om een consensus taxonomische
+toewijzing te bepalen (concatenate)
+
+Stap 3 past de FM-index toe voor efficiënte doorzoeking
+Output: Krona plot
+Toont de procentuele verdeling van soorten in een eDNA-sample
+
+[*k-mer analysis*]
+k-mer profiles: sequence content comparison (kPal)
+
+* voorbeeld *
+PCA op k-mer profielen van 2 personen
+Component 1 scheidt heel goed man en vrouw
+Component 1 scheidt heel goed de tijd
+
+Profielen vergelijken kan nuttig zijn
+
+k-mer based sample comparison (Mash): beta-diversity
+
+[*de novo discovery*]
+Welke nieuwe soorten zijn aanwezig in een sample
+
+Hi-C workflow:
+Cross-linked nuclei → Restriction digestion → Biotin labelling
+ligation → Hi-C
+
+MAGs = Meta-genome Assembled Genomes
+
+[*functional analysis*]
+Welke genen zitten er in een sample
+De novo genoom assemblage gevolgd door gene prediction
+
+Welke genen komen differentieel tot expressie
+Alternatief: meta-transcriptomics (RNA)
+
+Metabolic pathways
