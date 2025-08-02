@@ -1,0 +1,22 @@
+Enzymen hebben een drie-dimensionale 'cleft' of 'crevice' waar
+substraten aan kunnen binden: actieve bindingsplaats.
+
+Naast covalente bindingen zijn er ook interacties:
+- VdW interacties (dipool-dipool en london dispersie)
+- elektrostatische interacties
+- hydrofobe en hydrofiele interacties
+
+Er zijn verschillende mechanismen waardoor enzymen reacties kunnen
+katalyseren:
+- covalente katalyse
+- zuur-base katalyse
+- metaal-ion katalyse
+- catalysis by approximation
+
+Enzymen kunnen gereguleerd worden. Denk aan feedback inhibitie,
+regulerende eiwitten of covalente modificaties aan het enzym.
+
+Er zijn 3 vormen van feedback inhibitie:
+1. competitieve remming
+2. non-competitieve remming
+3. anti-competitieve remming

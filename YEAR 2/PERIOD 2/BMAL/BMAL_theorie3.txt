@@ -1,0 +1,111 @@
+[*soorten learning*]
+- supervised
+- unsupervised
+- associatie
+
+Supervised
+- gebruikt een klasse bij bouwen model
+- beschrijven van de structuur van de data zodat de klasse voorspelt
+kan worden op basis van de attributen
+
+Unsupervised
+- gebruikt geen klasse bij bouwen model
+- opzoek naar de onderliggende structuur in de dataset, zonder
+gebruik te maken van de klasse
+
+Associatie
+- voorspelt iets anders dan een klasse
+- regels = pure associatie
+
+[*regels*]
+- classificatie regels
+- uitzonderingsregels
+- relationele regels
+- associatie regels
+- 1R
+
+Voorspellen aan de hand van attribuut-waarden tot welke klasse een
+onbekende instantie behoort
+
+Classificatie regels
+If grade >= 5.5 and assignment = V: Passed
+
+Uitzonderingsregels
+If grade >= 5.5 and assignment = V: Passed
+Except if attendance < 50%
+
+Relationele regels
+If grade >= 5.5 and assignment = V: Passed and 5 ECTs
+
+Associatie regels
+If assignment = V, then grade >= 5.5
+(80% confidence)
+
+[*1R*]
+Set van regels die elk 1 attribuut testen
+
+Voor elke attribuut-waarde
+- bepaal de frequentie waaronder het geclassificeerd word
+
+Voor elke klasse:
+- tel de frequentie van de attribuut-waarde(s) op
+- kies de klasse met de kleinste error-rate (aantal fout / totaal)
+
+Voordeel
+Snel en goed
+
+Nadeel
+- kijkt naar 1 attribuut
+- kan niet alles invangen
+- weinig informatie over datastructuur
+
+* voorbeeld *
+BIJNA HETZELFDE ALS NAIVE BAYES
+KIES DE REGELS MET DE LAAGSTE WAARDE
+SELECTEER DAN DE KLASSE MET DE LAAGSTE ERROR RATE fout/totaal
+
+[*beslisbomen*]
+- zo klein mogelijke bomen
+- kies het attribuut welke de meeste pure nodes produceert
+
+Shannon Entropy
+Entropy(E) = -p₁ * ²log(p₁) -p₂ * ²log(p₂) -pₙ * ²log(pₙ)
+
+Input
+- totale instanties bij een splitsing
+- instanties per attribuut-waarde bij een splitsing
+
+* voorbeeld *
+Zonder splitsing:
+-7/15 * ²log(7/15) = 0,513 bits
+-8/15* ²log(8/15)) = 0,484 bits
+-------------------------- +
+= 0,997 bits
+
+Met splitsing:
+5/15 * (-2/5 * ²log(2/5) -3/5 * ²log(3/5)) =
+6/15 * (-3/6 * ²log(3/6) -3/6 * ²log(3/6)) =
+2/15 * (-1/2 * ²log(1/2) -1/2 * ²log(1/2)) =
+2/15 * 0 =
+--------------------------------------------
+= ...
+
+Gain = voor splitsing - na splitsing = ...
+
+Kies attribuut met hoogste information gain
+Maak boom af door te blijven splitsen
+
+[*pruning*]
+Snoeien in nodes en leaves
+
+Backward pruning
+Vanaf de bladen tot de wortel
+
+1. subtree replacement
+2. subtree raising
+
+Voordeel
+Verkleint kans op overfitting
+
+Nadeel
+Tijdsintensief

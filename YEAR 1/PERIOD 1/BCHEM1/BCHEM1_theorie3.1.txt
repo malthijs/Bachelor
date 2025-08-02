@@ -1,0 +1,61 @@
+LES 3
+12-sep-2023
+
+hoofdstuk 3
+[***structure and properties of ionic and covalent compounds***]
+
+paragraaf 1
+[**chemical bonding**]
+
+[*lewis-symbolen*]
+Het aantal valentie-elektronen wordt vaak aangegeven met behulp van
+lewis-symbolen. In de meeste gevallen bevinden zich maximaal 8 elektronen in de
+buitenste schil van een atoom, waardoor ze voldoen aan de octetregel.
+
+Een stip wordt op elke zijde van het atoom geplaatst totdat er 4 stippen rond
+het atoom staan. Pas nadat er 4 stippen zijn, worden er paren gemaakt door aan
+elke zijde een tweede stip toe te voegen. Het aantal stippen komt overeen met
+het aantal valentie-elektronen, en niet-gepaarde stippen zijn beschikbaar voor
+het vormen van chemische bindingen.
+
+In situaties waarin een atoom een lading draagt, wordt een elektron toegevoegd
+aan het atoom, en dit wordt aangegeven door het gebruik van grote blokhaken
+rond het atoom, met de lading vermeld rechtsboven.
+
+[*soorten chemische bindingen*]
+- ionische binding
+Een ionische binding ontstaat wanneer atomen elektronen uitwisselen om
+positieve en negatieve ionen te vormen. Deze ionen hebben een verschil in
+elektrische lading en worden aangetrokken tot elkaar, resulterend in een
+ionische binding.
+
+- covalente binding
+Een covalente binding treedt op wanneer atomen elektronen delen om een stabiele
+molecuul te vormen. Bijvoorbeeld, in het geval van waterstof (H2), delen twee
+waterstofatomen elk een elektronenpaar om een waterstofmolecuul (H2) te vormen.
+
+[*elektronegativiteit*]
+Elektronegativiteit is een eigenschap van een atoom die aangeeft hoe sterk dat
+atoom de elektronen in een chemische binding aantrekt.
+
+- polair covalente binding
+Een polair covalente binding ontstaat wanneer atomen met voldoende
+verschillende elektronegativiteiten elektronen delen in een covalente binding.
+
+Atomen met hogere elektronegativiteit bevinden zich doorgaans aan de
+rechtsboven van het periodiek systeem, terwijl elementen met lagere
+elektronegativiteit zich linksonder bevinden.
+
+[*verschil in elektronegativiteit*]
+Wordt gebruikt om het karakter van een chemische binding te bepalen.
+
+- covalent: ΔEN < 0.5
+- polair covalent: ΔEN >= 0.5 and ΔEN < 2.0
+- ionisch: ΔEN >= 2.0 (binding metaal en niet-metaal altijd ionisch)
+
+* voorbeeld *
+KI
+K: 0.8 ΔEN
+I: 2.7 ΔEN
+
+ΔEN = 2.7 - 0.8 = 1.9 (ionisch, want binding metaal en niet-metaal)

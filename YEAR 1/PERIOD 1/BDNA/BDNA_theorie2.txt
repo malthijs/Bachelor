@@ -1,0 +1,220 @@
+[*celmembraan*]
+Wordt ook wel plasmamembraan genoemd, en is bij dierlijke cellen de buitenste
+laag. Wordt beschreven met behulp van het "fluid mosaic model": een dynamische
+structuur (iets wat constant beweegt) dat bestaat uit fosfolipiden, cholesterol
+en eiwitten.
+
+[*fosfolipiden*]
+Het celmembraan bestaat voornamelijk uit een fosfolipiden dubbellaag, ook wel
+de bilaag genoemd. Deze laag bestaat uit twee rijen van fosfolipiden, met
+hydrofobe staarten die naar binnen wijzen en hydrofiele koppen die naar buiten
+wijzen. Dit zorgt ervoor dat het celmembraan amfipatisch wordt; bevat hydrofobe
+en hydrofiele eigenschappen.
+
+Fosfolipiden kunnen zich op verschillende manieren verplaatsen:
+- Laterale beweging: horizontaal
+- flip-flop beweging: verticaal
+
+Laterale bewegingen komen vaker voor dan flip-flop bewegingen omdat die minder
+energie vereisen.
+
+De staarten van fosfolipiden kunnen verzadigd of onverzadigd zijn. Verzadigde
+vetzuren zijn minder vloeibaar dan onverzadigde vetzuren. Cholesterol fungeert
+als een buffer dat ervoor zorgt dat de temperatuur niet te veel veranderd.
+
+* voorbeeld *
+Een penguin dat in een koud klimaat leeft bevat vooral onverzadigde vetzuren
+omdat die flexibeler zijn dan verzadigde vetzuren (ze worden niet zo stijf)
+waardoor het celmembraan normaal kan blijven functioneren.
+
+[*membraan eiwitten*]
+Er zijn twee hoofdtypen membraaneiwitten: integrale en perifere eiwitten.
+
+Integrale eiwitten doordringen het membraan
+volledig, met specifieke domeinen in het hydrofobe membraangedeelte
+en andere in het hydrofiele milieu.
+
+Perifere eiwitten bevinden zich aan de
+oppervlakte van het membraan of zijn eraan gebonden.
+
+[*functies membraan eiwitten*]
+Enzymatische activiteit: Het bevat eiwitten die als enzymen fungeren,
+wat betekent dat ze chemische reacties binnen de cel kunnen
+katalyseren.
+
+Signaaltransductie: Het plasmamembraan bevat receptoreiwitten die
+signalen van buiten de cel kunnen detecteren en deze signalen kunnen
+doorgeven naar het interieur van de cel.
+
+Cel-cel herkenning: Het helpt cellen identificeren en communiceren
+met andere cellen, bijvoorbeeld bij het immuunsysteem of bij de
+ontwikkeling van multicellulaire organismen.
+
+Transport: Het reguleert welke stoffen de cel binnenkomen en
+verlaten, wat van vitaal belang is voor het behoud van de juiste
+chemische samenstelling binnen de cel.
+
+intercellulaire verbindingen: Membraaneiwitten van aangrenzende
+cellen kunnen op verschillende manieren met elkaar verbinden,
+zoals via gap junctions of tight junctions.
+
+Verbindingen tussen ECM en cytoskelet: Fibronectine en integrinen
+zijn eiwitten die fungeren als bruggen tussen de ECM en het
+cytoskelet. Deze verbindingen zijn essentieel voor celbeweging en
+het handhaven van de juiste celvorm. Tijdens processen zoals
+embryonale ontwikkeling, kunnen cellen zich verplaatsen en
+differentiëren dankzij deze verbindingen, wat cruciaal is voor de
+vorming van weefsels en organen.
+
+LES 3
+22-sep-2023
+
+Paragraph 2
+[**Membrane Structure Results in Selective Permeability**]
+
+[*semipermeabele membranen*]
+Zeer selectief: hydrofobe stoffen kunnen er gemakkelijk doorheen
+omdat de staart hydrofoob is. Hydrofiele stoffen kunnen hier echter
+niet doorheen; ze mengen niet en hebben daarom hulp nodig van
+transporteiwitten. Afhankelijk van de richting kan dit passief of
+actief zijn. Een voorbeeld van hydrofobe stoffen is zuurstof of
+CO2, die gemakkelijk in en uit kunnen diffunderen. Aan de andere
+kant hebben sommige stoffen, zoals water, hulp nodig om door te
+komen.
+
+Paragraph 3
+[**Passive Transport is Diffusion of a Substance Across a Membrane with no Energy Investment**]
+
+[*diffusie zonder transporteiwit*]
+Diffusie is het proces waarbij deeltjes zich verplaatsen van een
+gebied met een hoge concentratie naar een gebied met een lagere
+concentratie. Stel je voor dat je een vloeistof hebt, zoals water
+met daarin een kleurstof. Als je deze vloeistof met rust laat, zul
+je na verloop van tijd zien dat de kleurstofmoleculen zich door de
+vloeistof beginnen te verspreiden. Dit komt doordat de
+kleurstofmoleculen een natuurlijke neiging hebben om zich zo ver
+mogelijk van elkaar te bevinden.
+
+Naarmate de tijd verstrijkt, zullen de kleurstofmoleculen zich
+blijven verplaatsen totdat ze een punt bereiken waar ze min of meer
+gelijkmatig verspreid zijn in de hele vloeistof. Op dit punt wordt
+gezegd dat het systeem in evenwicht is, en dit wordt "equilibrium"
+genoemd. Het betekent niet dat de moleculen volledig stilstaan, maar
+dat hun nettoverplaatsing minimaal is, omdat er geen nettoverandering
+in concentratie meer optreedt.
+
+[*diffusie met transporteiwit*]
+Bij faciliteerde diffusie wordt de diffusie van deeltjes
+vergemakkelijkt door de aanwezigheid van een membraan of een ander
+kanaal. Dit membraan kan selectief zijn, wat betekent dat het sommige
+deeltjes wel doorlaat en andere niet. Een voorbeeld hiervan is de
+diffusie van water door een celmembraan met behulp van
+aqua poriën. Deze eiwitten fungeren als kanalen of dragers
+die de watermoleculen door het membraan helpen bewegen.
+
+Gefaciliteerde diffusie, zoals het transport van glucose, vereist
+ook geen directe input van energie, omdat het gebruikmaakt van de
+natuurlijke concentratiegradiënt van moleculen om ze passief door
+celmembranen te laten bewegen.
+
+[*osmose (diffusie met semipermeabel membraan)*]
+Diffusie van watermoleculen wordt osmose genoemd. Stel je een
+semipermeabel membraan voor waar water doorheen kan maar geen
+glucose. Als je aan één kant meer suiker toevoegt, zal het water
+zeggen: "Wacht even, hier is meer glucose," en het water zal naar
+die kant worden getrokken.
+
+Osmose is vooral relevant voor organismen zonder celwand. Ze zijn
+afhankelijk van de tonaliteit van hun omgeving. Dit is gekoppeld aan
+de concentratie van stoffen zoals suiker of zout in die omgeving.
+
+[*concentraties*]
+Hypotone omgeving: Weinig opgeloste stoffen zoals suiker of zout
+Isotone omgeving: Gelijke concentraties van opgeloste stoffen
+Hypertone omgeving: Veel opgeloste stoffen zoals suiker of zout
+
+Bij een hypotone omgeving zal een rode bloedcel opzwellen omdat water
+de cel ingaat terwijl.
+Bij een hypertone omgeving zal een rode bloedcel verschrompelen omdat
+water de cel uitgaat.
+
+Planten zijn aan de andere hand beter bestand tegen veranderingen
+in het interne milieu. Ook worden deze toestanden anders genoemd:
+
+Hypotoon: Turgid
+Isotoon: Flaccid
+Hypertoon: Plasmolyzed
+
+Paragraph 4
+[**Active Transport uses Energy to move Solutes against their Gradients**]
+
+[*Actief transport*]
+Actief transport is een proces waarbij cellen energie verbruiken
+om moleculen of ionen te verplaatsen, en deze verplaatsing kan zowel
+tegen als met hun natuurlijke concentratiegradiënt in plaatsvinden,
+afhankelijk van de behoeften van de cel. Belangrijk is dat actief
+transport altijd energie vereist, vaak in de vorm van ATP, om de
+verplaatsing van deze stoffen mogelijk te maken. Voorbeelden van
+actief transport zijn onder andere de natrium-kaliumpomp, die
+3 natriumionen tegen hun gradiënt uit de cel pompt en 2 kaliumionen
+in de cel pompt. De
+richting van de beweging kan variëren, maar de energievereiste is
+consistent.
+
+[*membraanpotentiaal*]
+Het is het verschil in elektrische lading over het celmembraan. Dit
+verschil wordt vaak gecreëerd door ionenpompen, zoals de protonenpomp.
+
+De protonenpomp, bijvoorbeeld, pompt protonen (H+) vanuit de cel naar
+buiten, waardoor er een overmaat aan positief geladen ionen ontstaat
+buiten de cel en een negatieve lading aan de binnenkant. Dit fenomeen
+creëert een elektrische gradient over het membraan, vergelijkbaar met
+een stuwdam, die een aanzienlijke hoeveelheid energie kan opslaan.
+Deze opgeslagen energie is nuttig voor diverse celprocessen.
+
+Deze energie kan
+worden gebruikt voor co-transport, waarbij bijvoorbeeld protonen (H+)
+worden gebruikt om andere moleculen door het membraan te
+transporteren. Dit proces maakt het mogelijk dat grote moleculen op
+een gecontroleerde manier door het membraan kunnen passeren.
+
+Paragraph 5
+[**Bulk Transport Across the Plasma Membrane Occurs by Exocytosis and Endocytosis **]
+
+[*Exocytose*]
+Binnen de wereld van celbiologie ontdekken we een reeks complexe
+processen die bekend staan als bulktransport. Deze processen spelen
+een cruciale rol bij het verplaatsen van grote hoeveelheden moleculen
+en materialen binnen en buiten de cel.
+
+Vesikels, kleine blaasjes, fungeren als de transportvoertuigen van de
+cel en spelen een centrale rol in bulktransport. Ze kunnen versmelten
+met het plasmamembraan om hun inhoud naar buiten te brengen, een
+proces dat exocytose wordt genoemd. Exocytose is verantwoordelijk
+voor het vrijgeven van verschillende stoffen buiten de cel, zoals
+hormonen, componenten van de celwand en de extracellulaire matrix,
+evenals neurotransmitters.
+
+[*Endocytose*]
+Aan de andere kant hebben we endocytose, een proces dat het
+tegenovergestelde is van exocytose en zich binnen de cel afspeelt.
+Endocytose omvat verschillende mechanismen, waaronder fagocytose,
+pinocytose en receptor-gemedieerde endocytose.
+
+Fagocytose wordt vaak omschreven als "cellulair eten." In dit proces
+herkent de cel grote moleculen die door het celmembraan kunnen
+passeren en "eet" ze op door ze te omhullen met een blaasje en naar
+binnen te halen. Lysosomen spelen een cruciale rol bij het afbreken
+van de opgenomen deeltjes, en cellen zoals macrofagen hebben veel
+lysosomen om deze functie uit te voeren.
+
+Pinocytose wordt vaak aangeduid als "cellulair drinken." Hierbij
+vormt de cel blaasjes gevuld met kleine moleculen, die worden
+opgenomen. Pinocytose is minder specifiek dan andere vormen van
+endocytose en kan soms ook water opnemen.
+
+Receptor-gemedieerde endocytose is een proces waarbij cellen
+specifieke moleculen, zoals hormonen, herkennen en opnemen door
+middel van receptoren op het celmembraan. Coat-eiwitten spelen een
+rol bij het vormen van vesikels om deze moleculen te vangen en intern
+te transporteren voor verdere verwerking.

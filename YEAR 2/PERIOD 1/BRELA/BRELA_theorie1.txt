@@ -1,0 +1,125 @@
+[*excel*]
+Niet optimaal voor grote, complexe datasets
+
+Redundantie
+Modificatie problemen
+Data-integriteit
+
+Alternatief: relationele database
+
+[*relationele database*]
+Slaat informatie op in tabellen: entiteiten
+
+Kolom = attribuut
+Rij = instantie
+
+Laat partiële data toe: NULL-waarden
+Veel vragen kunnen stellen zonder herstructureren van data: queries
+
+[*relationship*]
+Is een associatie tussen entiteiten
+Wordt weergegeven door een lijn met een naam en richting
+
+[*kardinaliteit*]
+Aantal entiteiten die in een relationship mee doen: degree
+
+Recursieve relatie
+    Degree = 1
+Binaire relatie
+    Degree = 2
+Tertiaire relatie
+    Degree = 3
+
+Maximum kardinaliteit
+Het maximaal aantal instanties van een entiteit die aan een relatie
+deelnemen
+1 of *
+
+Minimum kardinaliteit
+Het minimaal aantal instanties van een entiteit die aan een relatie
+deelnemen
+0 of 1
+
+* voorbeeld *
+Een verhuurder biedt één of meer verhuurpanden aan
+Een verhuurpand wordt door één verhuurder aangeboden
+
+Kraaienpoot notatie (weergeeft kardinaliteit)
+0...1 = optioneel-een   ------O|-
+0...* = optioneel-veel  ------O<-
+1...1 = verplicht-een   ------||-
+1...* = verplicht-veel  ------|<-
+
+[*many-to-many relationship*]
+Soms bestaat er een relatie waarbij, aan beide kanten, meerdere
+instanties kunnen deelnemen
+Dit mag niet
+
+Gebruik een koppeltabel dat deze instanties verbindt
+
+* voorbeeld *
+Een student kan zich inschrijven voor meerdere cursussen
+Een cursus kan door meerdere studenten worden gevolgd
+
+Studenten (student_id, student_naam)
+Cursussen (cursus_id, cursus_naam)
+Koppeltabel (student_id, cursus_id)
+
+[*sleutels*]
+Een attribuut of set van attributen die een rij van een entiteit
+uniek identificeert
+
+Kandidaat sleutel (candidate key)
+Primaire sleutel (primary key)
+Samengestelde primaire sleutel (composite key)
+Externe sleutel (foreign key)
+Surrogaat sleutel (surrogate key)
+
+Primaire sleutel: de beste kandidaat sleutel
+Elk entiteit moet één primaire sleutel bevatten
+
+Als er geen unieke attribuut is:
+Samengestelde primaire sleutel
+Surrogaat sleutel
+
+Leggen van relaties tussen tabellen:
+Externe sleutel
+
+[*data-integriteit*]
+Domein integriteit
+Selecteren van de correcte data type, range en constraints voor een
+attribuut
+
+Data types
+CHAR(n)     Vast aantal tekens
+VARCHAR(n)  Variabel aantal tekens <= n
+TEXT
+
+INT
+DECIMAL(precision, scale)
+Precision: hoeveelheid cijfers
+Scale:     hoeveelheid cijfers na komma
+
+DATE
+YEAR
+
+Constraints
+NOT NULL
+UNIQUE
+PRIMARY KEY
+FOREIGN KEY
+DEFAULT
+CHECK()
+
+Entiteit integriteit
+Elke rij van een entiteit moet uniek zijn
+Dit wordt (meestal) door primaire sleutels geregeld
+
+Referentiele integriteit
+Als een entiteit een externe sleutel heeft, dan moet de waarde van
+die sleutel in een andere entiteit bestaan als waarde van een
+primaire sleutel
+
+Gebruikergedefinieerde integriteit
+Specifieke regels die door de ontwerper zelf worden ingesteld omdat
+ze anders niet door andere data-integriteitsregels worden gedekt

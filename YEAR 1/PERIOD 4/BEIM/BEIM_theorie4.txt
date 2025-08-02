@@ -1,0 +1,4 @@
+Transmembraan eiwitten (hydrofoob in membraan en hydrofiel buiten
+membraan):
+- Transmembraan alpha-helix
+- Transmembraan beta-sheet (beta-barrels)

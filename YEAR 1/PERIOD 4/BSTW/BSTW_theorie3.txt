@@ -1,0 +1,29 @@
+Permutaties (elementen k uit verzameling n waarbij de volgorde van
+belang is)
+- n!
+
+Variaties (selectie van k elementen uit verzameling n waarbij de
+volgorde van belang is)
+- n!/(n - k)!
+
+Combinaties (selectie van k elementen uit verzameling n waarbij de
+volgorde niet van belang is)
+- n!/((n - k)!k!)
+
+Aantal groepen na teruglegging (getrokken element k uit verzameling
+n wordt teruggeplaatst)
+- nᵏ
+
+Kansrekening
+1. altijd tussen 0 en 1
+2. som van kansen is maximaal 1
+3. kans dat iets wel gebeurt = 1 - kans dat iets niet gebeurt
+4. als gebeurtenissen niet overlappen
+- P(A ∪ B) = P(A) + P(B)
+- P(A ∩ B) = P(A) * P(B)
+5. als gebeurtenissen wel overlappen
+- P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+- P(B | A) = P(A ∩ B)/P(A)
+∪ = 'of'
+∩ = 'en'
+| = 'onder de voorwaarde dat'

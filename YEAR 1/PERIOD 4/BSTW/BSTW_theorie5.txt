@@ -1,0 +1,55 @@
+t-toets
+Kleine dataset n ≤ 30
+
+z-toets
+Grote dataset n > 30
+
+Nulhypothese (H₀)
+Er is niets aan de hand.
+
+Testhypothese (Hₐ)
+Er is iets aan de hand.
+
+Deze hypothesen zijn het tegenovergestelde van elkaar.
+
+α = significantie (0.01 - 0.05)
+y = (z * σ) + μ (kritieke gebied)
+
+Waarden die binnen het kritieke gebied vallen: H₀ is waar
+Waarden die buiten het kritieke gebied vallen: Hₐ is waar
+
+Indien α te groot: fout van de eerste soort
+Indien α te klein: fout van de tweede soort
+
+Dus hoe formuleer je een statistische toets?:
+1. formuleer H₀ en Hₐ
+2. kies α
+3. kies steekproefgrootte en verzamel data
+4. bereken gemiddelde en standaarddeviatie
+5. bereken kritieke gebied
+6. bepaal of gemiddelde binnen of buiten kritieke gebied ligt
+7. formuleer conclusie
+
+α-waarde = bepaal je vooraf
+p-waarde = vindt je na berekening (met behulp van z-waarde)
+
+Eenzijdig of tweezijdig toetsen
+Als nulhypothese gelijk aan iets is, tweezijdig
+Als nulhypothese kleiner of groter dan iets is, eenzijdig
+
+       steekproefgemiddelde - nulhypothese gemiddelde
+t =    ----------------------------------------------
+          standaarddeviatie / √(steekproefgrootte)
+
+t꜀ (critical value):
+t-tabel
+- α = significance
+- n = steekproefgrootte
+
+Als t꜀ > t: verwerp H₀
+
+z-tabel
+- verticaal = cijfer en eerste decimaal
+- horizontaal = tweede decimaal
+
+Als p-waarde < α: verwerp H₀

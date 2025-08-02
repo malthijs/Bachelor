@@ -1,0 +1,48 @@
+[*natuurlijke selectie*]
+It is not the strongest of species that survives, nor the most
+intelligent, but the one most responsive to change
+(Charles Darwin)
+
+Fitness (w):
+hoeveelheid genetische bijdrage aan volgende generatie
+
+Initial frequency: 0.10 (lage selectiedruk)
+W1/1: 0.99
+w1/32: 0.99
+w32/32: 1.0
+
+Initial frequency: 0.20 (hoge selectiedruk)
+w1/1: 0.75
+w1/32: 0.75
+w32/32: 1.0
+
+q(g+1) = (verwachte freq q)/(totaal)
+
+              w(aa) q(g)² + w(Aa) 0.5(2p(g)q(g))
+q(g+1) = --------------------------------------------
+         w(AA) q(g)² + w(Aa) (2p(g)q(g)) + w(aa) q(g)²
+
+* voorbeeld *
+Bereken genotypefrequenties huidige generatie
+Bereken genotypefrequenties volgende generatie
+Deel door de gemiddelde fitness (standaardiseren)
+
+100 individuen in generatie g
+Frequentie allel A: 0.5 en a: 0.5
+Frequentie genotype AA: 0.25, Aa: 0.50 en aa: 0.25
+Overleving genotype AA: 100%, Aa: 90% en aa: 80%
+
+        g     w    g + 1
+    AA 0.25  1.00  0.25
+    Aa 0.50  0.90  0.45
+    aa 0.25  0.80  0.20
+Totaal: 1          0.90
+
+100 --> 90 (w) individuen
+f(AA) = 0.25
+f(Aa) = 0.45
+f(aa) = 0.20
+
+          0.20 + 0.5(0.45)
+q(g+1) = ------------------ = 0.472
+         0.25 + 0.45 + 0.20

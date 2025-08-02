@@ -1,0 +1,66 @@
+[*hardy weinberg*]
+Is de populatie in equilibrium?
+
+Stappenplan
+Bereken eerst de allelfrequenties op basis van de waargenomen
+genotypefrequenties
+
+Bereken daarna de genotypefrequenties voor de volgende generatie
+
+[*chi-kwadraattoets*]
+Is de volgende generatie gelijk aan de huidige?
+
+Formule
+x² = sum(observed - expected)²/(expected)
+
+Observed: geobserveerde genotypen
+Expected: gecalculeerde genotypen
+x²: chi-kwadraat
+
+Tel de berekende chi-kwadraten bij elkaar op
+
+H₀: er is equilibrium
+Hₐ: er is geen equilibrium
+
+Alpha (α): 0.05
+Vrijheidsgraden: k - m - 1
+
+k = hoeveelheid genotypen
+m = hoeveelheid allelen minus 1
+
+* voorbeeld *
+CCR5 genotype
+1/1: 69%
+1/Δ32: 30%
+Δ32/Δ32: 1%
+Mensen met het Δ32/Δ32 genotype zijn homozygoot recessief en zijn
+grotendeels immuun voor HIV
+
+1
+H₀: er is HWE equilibrium
+Hₐ: er is geen HWE equilibrium
+
+2
+Allelfrequentie: 0.69 + 0.5 * 0.30 = 0.84 = 84%
+Allelfrequentie: 0.01 + 0.5 * 0.30 = 0.16 = 16%
+
+3
+Genotypefrequentie: 0.84² = 0.7056 = 70,56%
+Genotypefrequentie: 0.16² = 0.0256 = 2,56%
+Genotypefrequentie: 2 * 0.84 * 0.16 = 0.2688 = 26,88%
+
+4
+Chi-kwadraat: (69 - 70,56)²/(70,56) = 0,0345
+Chi-kwadraat: (1 - 2,56)²/(2,56) = 0,9506
+Chi-kwadraat: (30 - 26,88)²/(26,88) = 0,3621
+Totaal: 0,0345 + 0,9506 + 0,3621 = 1,347
+
+Alpha (α): 0.05
+Vrijheidsgraden (d): 3 - 1 - 1 = 1
+
+TABEL
+Kritieke chi-waarde = 3,841
+
+1,347 < 3,841
+Er is equilibrium
+H₀ niet verwerpen

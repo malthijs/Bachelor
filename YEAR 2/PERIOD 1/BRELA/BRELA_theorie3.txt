@@ -1,0 +1,40 @@
+1
+select district from city
+where population > 1000000 and capital = true;
+
+2
+select name from country
+where name like 'B%';
+
+3
+select code from country
+where code like '%B%'
+order by code asc;
+
+4
+select name from country
+where headofstate like '%Beatrix%'
+order by gnp asc;
+
+5
+select name, population from city
+where capital = true
+order by population asc
+limit 5;
+
+6
+select distinct governmentform from country
+where governmentform like '%Republic%';
+
+7
+select name, gnp, gnpold from country
+where gnp > 2 * gnpold
+order by gnp / gnpold desc;
+
+8
+select count(*) from country
+where indepyear between 1800 and 1900;
+
+9
+select countrycode, language from countrylanguage
+where isofficial = true and percentage > 99;

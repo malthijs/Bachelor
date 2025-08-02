@@ -1,0 +1,31 @@
+paragraaf 7
+[**trends in the periodic table**]
+
+[*grootte van het atoom*]
+Over het algemeen neemt de grootte van atomen toe wanneer je van boven naar
+beneden en van rechts naar links in het periodiek systeem beweegt. Deze toename
+wordt veroorzaakt door een groter aantal energieniveaus (schillen) naarmate je
+verder naar beneden gaat, en door een afname in kernlading als je van rechts
+naar links beweegt.
+
+[*grootte van het ion*]
+Over het algemeen geldt dat kationen kleiner zijn dan de overeenkomstige
+neutrale atomen, terwijl anionen groter zijn. Dit komt doordat kationen
+elektronen verliezen en anionen elektronen winnen waardoor het atoom groter
+wordt.
+
+[*ionisatie-energie*]
+Ionisatie-energie verwijst naar de energie die nodig is om een
+elektron uit een atoom te verwijderen. Over het algemeen geldt dat
+ionisatie-energie toeneemt van links naar rechts en van onder naar boven in
+het periodiek systeem. Dit komt doordat de afstand tussen de elektronen en de
+kern afneemt door toenemende lading van de kern, en door afnemende
+elektronenschillen.
+
+[*elektronenaffiniteit*]
+Elektronenaffiniteit verwijst naar de neiging van een atoom om een
+elektron op te nemen. Over het algemeen geldt dat elektronenaffiniteit
+toeneemt van links naar rechts en van onder naar boven in het periodiek
+systeem. Dit komt doordat atomen aan de rechterkant van het periodiek systeem
+een bijna volledige buitenste schil hebben, en door afnemende
+elektronenschillen.

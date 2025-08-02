@@ -1,0 +1,114 @@
+[*erfelijkheid*]
+Heredity, de overdracht van eigenschappen van een generatie naar de volgende.
+Het verschijnsel dat kinderen van dezelfde ouders niet hetzelfde DNA hebben
+is variation. De studie hiernaar heet genetics.
+
+De overdracht van eigenschappen gebeurt met genen, de eenheden van
+erfelijkheid. De specifieke locatie van een gen op een chromosoom is een locus.
+
+[*reproductie*]
+Organismen die aseksueel voortplanten (ongeslachtelijk) zijn de enige ouders.
+Zij creëren nakomelingen met exact hetzelfde DNA, genaamd klonen. Aan de andere
+kant zijn er organismen die seksueel voortplanten (geslachtelijk) waarbij er
+twee ouders betrokken zijn. Hun nakomelingen hebben over het algemeen niet
+exact hetzelfde DNA.
+
+[*chromosomen*]
+Tijdens de metafase van de mitose wordt er een micrograph van de chromosoom
+paren gemaakt door een lichtmicroscoop. Een manier om de chromosoom paren weer
+te geven is met een karyogram, waarbij de chromosoom paren gesorteerd zijn op
+basis van lengte. Alle chromosoomparen, met uitzondering van het
+sekschromosoom paar, zijn homoloog en worden autosomen genoemd. Homologe
+chromosomen vertonen sterke gelijkenissen, maar dragen verschillende versies
+van genen op dezelfde loci, ook wel bekend als allelen.
+
+* voorbeeld *
+Een chromosoom heeft een allel voor de aanwezigheid van sproeten, maar de
+andere chromosoom heeft een allel voor de afwezigheid van sproeten.
+
+Opmerkelijk is dat de X chromosoom groter is dan de Y chromosoom en dat er
+delen van deze chromosomen homoloog met elkaar zijn.
+
+Een cel die per chromosoom twee paren bevat, wordt diploïd genoemd, wat voor de
+mens neerkomt op 2n = 46. Cellen die per chromosoom één paar bevatten, worden
+haploïd genoemd, wat voor de mens n = 23 betekent.
+
+* voorbeeld *
+Haploïd bij een man: X of Y
+Diploïd bij een man: X en Y
+
+[*levenscyclus*]
+Een levenscyclus is de opeenvolging van reproductie van een organisme van
+generatie naar generatie.
+
+Er zijn drie categorieën levenscycli: dieren, planten en enkele algen,
+schimmels en enkele protisten.
+
+Dieren:
+Eerst ondergaat een dier meiose, waardoor gameten gevormd worden. Wanneer er
+fertilisatie plaatsvindt, wordt er een zygoot gevormd. Die zal mitose
+ondergaan, waardoor een dier zal ontstaan.
+
+Planten en enkele algen:
+Eerst ondergaat een sporofyt meiose, waardoor sporen gevormd worden. Deze
+sporen ondergaan mitose waardoor een gametofyt ontstaat.
+
+Daarna zal er gameten gevormd worden die gefertiliseerd moeten worden. Als dat
+gebeurt, wordt er een zygoot gevormd en zal er mitose plaatsvinden waaruit een
+sporofyt zal ontstaan.
+
+Een sporofyt en een gametofyt zijn beide multicellulaire organismen. Dit
+wordt alternation of generations genoemd, waarbij een organisme tussen haploïde
+en diploïde fasen afwisselt.
+
+Schimmels en enkele protisten:
+Het reproductieve proces van schimmels en sommige protisten begint wanneer
+twee gameten fuseren: fertilisatie. De gevormde zygoot ondergaat vervolgens
+zowel meiose als mitose om zich te ontwikkelen tot een schimmel of protist.
+Daarna zal er nog een keer mitose plaats vinden waardoor cellen gevormd worden
+die in gameten zullen ontwikkelen.
+
+Diploïde cellen kunnen mitose en meiose ondergaan. Haploïde cellen kunnen
+alleen mitose ondergaan.
+
+Genetische variatie tussen nakomeling is een fundamentele overeenkomst tussen
+alle organismen.
+
+[*meiose*]
+Meiose zorgt voor genetische variatie. Bij de meiose worden er vier
+dochtercellen gevormd. De meiose of reductiedeling wordt verder onderverdeeld
+in de volgende fasen:
+- Interfase: dupliceert chromosomen
+- Meiose I: scheidt de chromosomen
+- Meiose II: scheidt de zusterchromatiden
+
+[*meiose I*]
+- profase I:
+Er vindt crossing over plaats, waarbij twee non-zusterchromatiden met elkaar
+kruisen en samenvoegen waardoor tetrads gevormd worden. Hierdoor worden allelen
+met elkaar verwisselt. Het kruis dat gevormd is heet een chiasmata.
+
+Vorming chiasmata (verdieping):
+De twee non-zusterchromatiden worden op precieze locaties geknipt door
+specifieke eiwitten. Het synaptonemal complex houdt ze daarna stevig aan elkaar
+vast. Tijdens deze associatie, die synapsis wordt genoemd, worden de
+knipplaatsen gesloten. Zo worden de non-zusterchromatiden met elkaar verbonden.
+
+[*genetische variatie*]
+Mutatie is de bron van genetische variatie. Er zijn 3 mechanismen die bij
+seksuele voortplanting voor genetische variatie zorgen:
+
+- independent assortment
+Zorgt voor genetische variatie doordat chromosoomparen willekeurig oriënteren
+tijdens metafase I.
+
+Hoeveelheid mogelijke oriëntaties: 2^(chromosoomparen)
+
+- crossing over
+Is het proces tijdens meiose waarbij allelen worden uitgewisseld tussen
+chromosomen, wat leidt tot de vorming van recombinant chromosomes, met nieuwe
+combinaties van allelen.
+
+- random fertilization
+Het willekeurige proces waarbij een zaadcel een eicel bevrucht.
+

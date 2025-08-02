@@ -1,0 +1,21 @@
+[*BLAST*]
+Basic Local Alignment Search Tool
+
+1. blastn: nucleotide --> nucleotide
+2. blastp: protein --> protein
+3. blastx: nucleotide --> protein
+4. tblastn: protein --> nucleotide
+
+E-value: laat zien of een bepaalde gevonden overeenkomst toeval is of niet
+(des te lager des te beter)
+
+Query coverage: (length subject/length query) x 100
+Identity: percentage aminozuren die met elkaar overeenkomen
+Positives: percentage aminozuren die niet met elkaar overeenkomen, maar alsnog
+een positieve score opleveren
+
+- Clustal Omega
+https://www.ebi.ac.uk/Tools/msa/clustalo/
+
+Wat is een cluster?
+Een groep organismen met een gemeenschappelijke voorouder.

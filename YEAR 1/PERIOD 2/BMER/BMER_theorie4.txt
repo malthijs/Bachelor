@@ -1,0 +1,150 @@
+[*fotosynthese*]
+Fotosynthese is een anabolisch proces waarbij cellen anorganische moleculen,
+zoals koolstofdioxide en water, omzetten in organische moleculen (suikers) met
+behulp van externe energiebronnen, zoals zonlicht, waarbij zuurstof als
+bijproduct wordt vrijgegeven.
+
+- autotroof: synthetiseert voedingsstoffen door inorganische moleculen op te
+nemen en die om te zetten in organische moleculen met behulp van externe
+energiebronnen (zoals cyanobacteriën)
+
+- heterotroof: ontneemt de omgeving van organische moleculen door het te
+consumeren (zoals geiten)
+
+[*experimenten*]
+In 1931 daagde Cornelis Bernardus van Niel de heersende opvatting uit dat
+planten zuurstof uit koolstofdioxide verkregen. Hij bestudeerde paarse
+zwavelbacteriën en groene zwavelbacteriën die waterstofsulfide gebruikten in
+plaats van water voor fotosynthese. Van Niel stelde voor dat alle
+fotosynthetische organismen een waterstofbron nodig hebben, waarbij de bron kan
+variëren:
+- 6 CO₂ + 12 H₂S → 6 CH₂O (glucose) + 6 H₂O + 12 S
+- 6 CO₂ + 12 H₂O → 6 CH₂O (glucose) + 6 H₂O + 6 O₂
+- 6 CO₂ + 12 H₂X → 6 CH₂O (glucose) + 6 H₂O + 12 X
+
+In 1941 bevestigde Ruben & Kamen deze hypothese door zuurstof-18, een zwaar
+isotoop, te gebruiken als tracer voor zowel koolstofdioxide in experiment 1 als
+water in experiment 2. De experimenten toonden aan dat zuurstof die door
+planten werd geproduceerd alleen zuurstof-18 bevatte wanneer water als tracer
+werd gebruikt, niet wanneer het werd geïntroduceerd als koolstofdioxide. Dit
+bevestigde dat water, niet kooldioxide, de bron van zuurstof is tijdens
+fotosynthese.
+
+[*chloroplast*]
+Is een celorganel dat bestaat uit een buitenmembraan, een intermembraan, een
+binnenmembraan, stroma, thylakoïden en lumen. Een stapel van thylakoïden wordt
+een granum genoemd.
+
+In het algemeen bevinden chloroplasten zich in het mesofyl weefsel van
+plantenbladeren. Er zijn twee hoofdtypen: palissadeparenchym en sponsparenchym.
+
+Ook bevatten planten stomata, oftewel huidmondjes om gassen uit te wisselen:
+CO₂ (naar binnen)
+O₂ (naar buiten)
+
+[*pigmenten en golflengte*]
+Er is een primair pigment genaamd chlorofyl-a en accessoire pigmenten zoals
+chlorofyl-b en carotenoïden. De kleur van een plant wordt door pigmenten
+bepaalt; de golflengte dat het meest gereflecteerd wordt.
+
+- zwart absorbeert alles
+- wit reflecteert alles
+
+[*de twee fasen van fotosynthese*]
+1. light reactie
+Heeft zonlicht nodig om te kunnen functioneren.
+
+2. kelvin cyclus (donker reactie)
+Heeft geen zonlicht nodig om te kunnen functioneren, maar wel energie in de
+vorm van ATP en NADPH.
+
+[*lichtreactie*]
+twee fotosystemen
+- fotosysteem II
+- fotosysteem I
+
+Ze zitten op het membraan van een thylakoid.
+Fotosysteem II komt voor fotosysteem I omdat het eerder ontdekt was.
+
+Lichtabsorptie begint met de thylakoid, waar pigmenten zoals chlorofyl a,
+chlorofyl b en carotenoïden deel uitmaken van de light-harvesting complexes.
+Deze pigmenten fungeren als moleculaire antennes, vangen fotonen op en brengen
+één van hun elektronen naar een hogere energietoestand. Als het elektron terug
+valt, dan geeft het energie af aan een ander pigment (waardoor één van hun
+elektronen naar een hogere energietoestand gaat).
+
+Uiteindelijk zal de energie aan het reaction-center complex van fotosysteem II
+afgegeven worden. Hier bevinden zich speciale paren chlorofyl a-moleculen; p680
+pair. Zij brengen een van hun elektronen naar een hogere energietoestand die
+dan aan een andere molecuul doorgeven wordt; primary electron acceptor.
+
+Dit proces wordt in gang gehouden door een enzym dat de splitsing van een
+watermolecuul katalyseert in twee elektronen, twee waterstofionen en een
+zuurstofatoom (fotolyse). De elektronen worden één voor één geleverd aan de
+p680⁺ pair, zodat de elektronen niet opraken.
+
+Daarna wordt het elektron van de primary electron acceptor doorgegeven aan
+fotosysteem I door middel van een electron transport chain. Deze keten omvat
+plastoquinone (pq), een cytochroom-complex en plastocyanine (pc). Tijdens dit
+traject ondergaat het elektron verschillende redoxreacties, waarbij het
+elektron aan verschillende moleculen wordt overgedragen.
+
+Als gevolg van deze redoxreacties wordt waterstof actief gepompt naar het lumen
+van het thylakoid. De ophoping van protonen in het lumen zorgt voor een
+protonengradiënt.
+
+ATP-synthase, een enzymcomplex dat in het membraan is ingebed, maakt gebruik
+van de opgebouwde potentiële energie en synthetiseert ATP via een proces
+genaamd chemiosmosis.
+
+Terwijl dit gebeurt worden er fotonen in fotosysteem I opgevangen door de
+light-harvesting complexes. Uiteindelijk zal de energie aan het reaction-center
+complex van fotosysteem I afgegeven worden. Hier bevinden zich speciale paren
+chlorofyl a-moleculen; p700 pair. Zij brengen een van hun elektronen naar een
+hogere energietoestand die dan aan een andere molecuul doorgeven wordt; primary
+electron acceptor.
+
+Daarna komt het elektron van fotosysteem II eraan om de verloren elektron van de
+p700⁺ pair aan te vullen.
+
+Daarna wordt het elektron van de primary electron acceptor doorgegeven aan
+NADP+ reductase door middel van een tweede electron transport chain. Deze keten
+omvat ferredoxin (fd).
+
+Het enzym NADP+ reductase katalyseert de overdracht van elektronen van
+ferredoxin naar NADP+. Voor de reductie zijn er 2 elektronen nodig.
+
+Samenvatting:
+12 H₂O + 12 NADP⁺ + 18 ADP + 18 Pᵢ → 6 O2 + 12 NADPH + 12 H⁺ + 18 ATP
+
+[*cyclic electron flow*]
+Bij dit proces wordt alleen fotosysteem II gebruikt:
+
+- Fotonen worden opgevangen door de light-harvesting complexes van fotosysteem
+II.
+- Uiteindelijk wordt de energie aan het reaction-center complex van fotosysteem
+II doorgegeven.
+- Een elektron van de p700 pair wordt naar een hogere energietoestand gebracht
+en aan de primary electron acceptor afgegeven.
+- Daarna wordt het elektron naar verschillende moleculen geleid waardoor ATP
+gesynthetiseerd wordt: fd, cytochroom complex, pc en terug naar p700⁺ pair.
+
+[*kelvin cyclus*]
+Input:
+18 ATP, 12 NADPH en 6 CO₂
+
+Output:
+6 CH₂O (= glucose)
+
+Vindt plaats in de stroma van de chloroplast.
+
+1. koolstof fixatie: eerst wordt een CO₂ molecuul met behulp van rubisco aan
+een koolstofketen van 5 gekoppeld (CO₂ acceptor).
+2. Daarna vinden er een reeks reacties plaats waarbij energie verbruikt wordt
+om 2x CH₂O te maken. Dit kost 2 ATP en 2 NADPH
+3. De eerste CH₂O is de output, en de tweede wordt gebruikt om de CO₂ acceptor
+te regenereren. Dit kost 1 ATP.
+
+[*fotorespiratie*]
+Is een proces in planten waarbij rubisco zuurstof koppelt in plaats van
+koolstofdioxide, vindt plaats als er te weinig koolstofdioxide aanwezig is.

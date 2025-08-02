@@ -1,0 +1,77 @@
+[*metabolisme*]
+Geheel van biochemische processen die plaatsvinden in de cellen van een
+organisme.
+
+Opbouwende pathway (anabole pathway)
+- maakt moleculen aan
+- neemt energie op
+- fotosynthese
+
+Afbrekende pathway (katabole pathway)
+- breekt moleculen af
+- geeft energie af
+- celademhaling
+
+[*thermodynamica*]
+1e wet: energie in het universum blijft constant
+2e wet: universum neigt naar toenemende wanorde
+
+ΔG = ΔH − TΔS
+
+- ΔG is de verandering in vrije Gibbs energie,
+- ΔH is de verandering in enthalpie (exotherm, endotherm),
+- ΔS is de verandering in entropie (gas, vloeibaar, vast) en
+- T is de temperatuur (kelvin)
+
+Als G < 0: spontaan; exergonisch
+- reactanten - energie → producten
+
+Als G > 0: niet-spontaan; endergonisch
+- reactanten + energie → producten
+
+Als G != 0: een van de kenmerkende eigenschappen van leven; er moeten processen
+blijven draaien.
+
+Soms wordt de vrijgekomen energie in een exergonische reactie gebruikt om een
+endergonische reactie aan te drijven, dit wordt energy coupling genoemd.
+
+[*enzymen*]
+Katalyseren reacties door het verlagen van de activeringsenergie waarbij het
+niet verbruikt wordt. Bevat bindingsplaatsen waarop ofwel één substraat kan
+binden, dat vervolgens wordt afgebroken, ofwel meerdere substraten kunnen
+binden die daarna worden samengevoegd.
+- verhoogt reactiesnelheid
+
+Als een substraat aan de bindingsplaats van een enzym bindt, dan verandert de
+bindingsplaats van vorm waardoor het substraat strakker gebonden wordt: induced
+fit.
+- enzymen zijn substraatspecifiek
+
+Geactiveerd complex: onstabiele arrangement van deeltjes waarvan de oude
+bindingen verbroken worden en nieuwe gevormd worden; overgang van reactanten
+naar producten (transition state).
+
+De effectiviteit van een enzym wordt beïnvloed door verschillende factoren:
+1. temperatuur
+2. pH
+3. substraatconcentratie
+4. enzymconcentratie
+- indien de temperatuur en pH niet optimaal is kan een enzym denatureren
+
+Ook zijn er activators die de activiteit van enzymen verhogen en inhibitors die
+de activiteit van enzymen verlagen.
+
+[*co-factoren en co-enzymen*]
+Het verschil tussen co-factoren en co-enzymen is dat co-factoren van
+simpele metaalionen gemaakt zijn terwijl co-enzymen van complexe organische
+moleculen. Beide assisteren ze enzymen met het vervullen van hun functies.
+
+[*feedback inhibition*]
+Is een reguleringsmechanisme waarbij het eindproduct van een biochemisch pad
+de activiteit van een enzym in een eerdere stap remt, waardoor overmatige
+productophoping voorkomen wordt (is altijd allosterisch).
+
+Remming van een enzym vindt plaats als:
+- molecuul bindt aan de active site: competitive inhibition
+- molecuul bindt aan een andere site: noncompetitive inhibition (zoals
+allosteric site)

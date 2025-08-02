@@ -1,0 +1,55 @@
+Gemiddelde
+(X₁ + X₂ + ... + Xₙ)/n
+
+Gewogen gemiddelde
+(X₁ * Y₁ + X₂ * Y₂ + ... + Xₙ * Yₙ)/(Y₁ + Y₂ + ... + Yₙ)
+
+Modus
+Getal dat het meeste voorkomt
+
+Mediaan
+- Oneven
+Getal dat in het midden ligt (als de reeks gesorteerd is)
+
+- Even
+Het gemiddelde van de twee getallen die in het midden liggen (als de
+reeks gesorteerd is)
+
+Spreidingsbreedte
+Max - Min
+
+Gemiddelde absolute afwijking
+(|X₁ - x̄| + |X₂ - x̄| + ... + |Xₙ - x̄|)/n
+
+Variantie
+σ² = ((X₁ - x̄)² + (X₂ - x̄)² + ... + (Xₙ - x̄)²)/(n - 1)
+
+n - 1 als het een steekproef is
+n - 0 als het een populatie is
+
+Standaarddeviatie
+σ = √(σ²)
+
+Kwartielen
+Min
+- Hieronder ligt 0% van de gegevens
+
+Eerste kwartiel (Q₁)
+- Hieronder ligt 25% van de gegevens
+
+Tweede kwartiel (mediaan)
+- Hieronder ligt 50% van de gegevens
+
+Derde kwartiel (Q₃)
+- Hieronder ligt 75% van de gegevens
+
+Max
+- Hieronder ligt 100% van de gegevens
+
+LET OP: data moet geordend zijn
+
+Uitbijters
+Min = Q₁ - 1.5*(Q₃ - Q₁)
+Max = Q₃ + 1.5*(Q₃ - Q₁)
+
+Als een getal buiten deze range valt, dan is het een uitbijter

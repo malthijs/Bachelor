@@ -1,0 +1,142 @@
+[*biomoleculen*]
+- koolhydraten
+- eiwitten
+- lipiden
+- nucleïnezuren (DNA en RNA)
+
+[*koolwaterstoffen*]
+- aromatisch (C-C=C-C=C)
+
+- alifatisch:
+Alkanen (C-C)
+Cycloalkanen
+
+Alkenen (C=C)
+Cycloalkenen
+
+Alkynen (C≡C)
+Cycloalkynen
+
+[*functionele groepen*]
+- gesorteerd op basis van kookpunt (hoog naar laag):
+          R
+          |
+Amiden (O=C-NH₂)
+
+               R
+               |
+Carbonzuren (O=C-OH)
+
+Alcoholen (R-OH)
+
+           R¹
+           |
+ketonen (O=C-R²)
+
+             R
+             |
+Aldehyden (O=C-H)
+
+Aminen (R-NH₂)
+
+          R¹
+          |
+Esters (O=C-OR²)
+
+Ethers (R¹-O-R²)
+
+Alkyl
+- Methyl: R-CH₃
+- Ethyl: R-CH₃(CH₂)
+- Propyl: R-CH₃(CH₂)₂
+
+Functionele groepen kunnen primair, secundair of tertiair zijn.
+
+Bij alcoholen is dit afhankelijk van het koolstofatoom waaraan het gebonden is.
+Des te meer waterstofatomen aan de koolstofatoom
+
+
+
+* voorbeeld *
+Een primair koolstofatoom is gebonden aan één koolstofatoom.
+Een secundair koolstofatoom is gebonden aan twee koolstofatomen.
+Een tertiair koolstofatoom is gebonden aan drie koolstofatomen.
+Een quarternair koolstofatoom is gebonden aan vier koolstofatomen.
+
+[*intermoleculaire krachten*]
+London dispersie (VdW): aantrekking tussen moleculen is groter als het
+oppervlak van het molecuul groter is.
+
+Dipool-dipool: aantrekking tussen polaire moleculen, waarbij de positieve pool
+van het ene molecuul wordt aangetrokken tot de negatieve pool van een ander
+molecuul, en andersom.
+
+* voorbeeld *
+Waterstofbruggen: O-H, N-H en F-H
+
+[*alkanen*]
+Formule: CₙH₂ₙ₊₂
+Structuur: Tetraëder
+Hoek: 109.5 graden
+
+London dispersie
+Apolair, niet oplosbaar in water
+
+Enkele bindingen zijn draaibaar.
+Bindingen die niet draaibaar zijn worden starre bindingen genoemd.
+
+Staggered: H'tjes liggen uit elkaar (stabiel, energetisch meest gunstig)
+Eclipsed: H'tjes liggen dichtbij elkaar (onstabiel, energetisch minst gunstig)
+
+De koolstofatomen zijn verzadigd (volledig omringd door 4 atomen/moleculen)
+Methaan: CH₄
+Ethaan: C₂H₆
+Propaan: C₃H₈
+Butaan: C₄H₁₀
+Pentaan: C₅H₁₂
+Hexaan: C₆H₁₄
+Heptaan: C₇H₁₆
+Octaan: C₈H₁₈
+Nonaan: C₉H₂₀
+Decaan: C₁₀H₂₂
+Methaan → decaan: smeltpunt en kookpunt wordt hoger
+
+[*formules*]
+Lewisformule: atomen, bindingen en valentie elektronen
+Structuurformule: atomen en bindingen
+Gecondenseerde formule: geeft de typen en hoeveelheid atomen in een molecuul
+weer, waarbij de structuur behouden wordt
+Molecuul formule: geeft de typen en hoeveelheid atomen in een molecuul weer,
+waarbij de structuur niet behouden wordt
+Lijn formule: elke hoekpunt is een koolstofatoom en elke streep is een binding
+
+[*Naamgeving*]
+I.U.P.A.C. (International Union of Pure and Applied Chemistry)
+
+1. Bepaal langste keten en benoem deze op basis van de aanwezige bindingen en
+karakteristieke groepen
+2. Nummer de keten zodanig dat de eerste substituent een zo laag mogelijk
+nummer krijgt
+3 Benoem en nummer alle substituenten
+4 Als een substituent meerder keren voorkomt, noteer dan de posities van laag
+naar hoog en voeg daarna een prefix toe (di, tri, tetra, e.t.c.)
+5. Rangschik de substituenten naar alfabetische volgorde
+
+* voorbeeld *
+1-broom-4-ethyl-2-methylcyclohexaan
+2-jood-2,3,3-trimethylpentaan
+
+[*cycloalkanen*]
+algemene formule: CₙH₂
+
+London dispersie
+Apolair, niet oplosbaar in water
+
+De koolstofatomen zijn verzadigd (volledig omringd door 4 atomen/moleculen)
+
+Stoel vorm: energetisch meest gunstig en stabiel; H'tjes uit elkaar
+Boot vorm: energetisch minst gunstig en onstabiel: H'tjes dichtbij elkaar
+ringflip: stoel <--> boot
+
+Axiaal: verticaal
+Equatoriaal: horizontaal

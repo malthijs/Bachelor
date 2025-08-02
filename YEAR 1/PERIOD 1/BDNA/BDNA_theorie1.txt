@@ -1,0 +1,192 @@
+[*light microscope*]
+Lichtmicroscopen werken door zichtbaar licht met een golflengte variërend van
+ongeveer 400 tot 700 nanometer door monsters te laten gaan.
+
+[*electron microscope*]
+Twee soorten elektronenmicroscopen zijn belangrijk:
+1. scanning-elektronenmicroscoop (SEM) voor oppervlaktetopografie
+2. transmissie-elektronenmicroscoop (TEM) voor interne celstructuur
+
+Elektronenmicroscopen maken gebruik van een bundel elektronen met kortere
+golflengtes dan zichtbaar licht.
+
+[*cell fractionation*]
+Een waardevolle techniek waarbij cellen worden gedemonteerd en belangrijke
+subcellulaire structuren zoals organellen worden gescheiden. Hierbij worden
+celcomponenten gescheiden op basis van hun grootte en dichtheid, waarbij er
+op een bepaalde snelheid gedraaid wordt; differentiële centrifugatie.
+
+[*leven*]
+LUCA = Last Universal Common Ancestor
+
+Om iets levend te kunnen noemen moet het voldoen aan (de meeste van) de
+volgende criteria:
+- groei en ontwikkeling
+- reproductie
+- metabolisme
+- homeostase
+- evolutionaire adaptatie
+- respons op stimuli
+- organisatie/structuur
+
+Een cel is de kleinste eenheid die (bijna) alle conventionele kenmerken van
+leven vertoont.
+
+[*endomembraansysteem*]
+celkern
+endoplasmatische reticulum: ruw en glad
+golgi-apparaat
+lysosomen (vacuole bij planten)
+
+Over het algemeen helpt het endomembraansysteem bij het synthetiseren,
+modificeren en transporteren van eiwitten, vetten, suikers en ionen.
+
+[*celkern*]
+De kern van een cel bevat het genetische materiaal in de vorm van chromosomen,
+waarin de DNA-moleculen opgevouwen zijn. De kern wordt omhuld door een dubbel
+membraan, het kernmembraan genaamd. Dit membraan heeft talloze kleine poriën
+waardoor kleine moleculen zoals mRNA kunnen passeren. Tot slot bevindt de
+nucleolus zich in de buurt van het midden van de celkern en is het
+verantwoordelijk voor de synthese van ribosomen.
+
+Opvallend is dat de buitenkant van de celkern vaak in direct contact staat met
+het ruw endoplasmatisch reticulum (ER), dat zo genoemd wordt vanwege de vele
+ribosomen die aan het oppervlak ervan gevestigd zijn.
+
+[*ribosomen*]
+Ze zijn niet gebonden aan één locatie. Sommige van hen zwerven in het cytosol,
+wat een onderdeel is van het cytoplasma, en worden ze vrije ribosomen genoemd.
+En andere hebben hun intrek genomen in de mitochondriën, de energiecentrales
+van de cel. De ribosomen zijn essentieel voor de synthese van eiwitten.
+
+[*ruw ER*]
+Het ruw endoplasmatisch reticulum (RER) is een cruciale locatie voor de
+synthese van eiwitten.
+
+[*glad ER*]
+Het glad endoplasmatisch reticulum, oftewel (GER), vervult diverse essentiële
+taken in een cel. Eén van zijn voornaamste verantwoordelijkheden is de
+productie van lipiden zoals cholesterol. Daarnaast is het ook betrokken bij de
+detoxificatie van de cel en zal het bijvoorbeeld bij alcoholisten veel in de
+lever voorkomen. Tot slot wordt het ook gebruikt voor de opslag van ionen zoals
+Ca²⁺.
+
+[*ER*]
+Het ER vervoert eiwitten met behulp van blaasjes die vesikels genoemd worden.
+Meestal zullen ze naar het golgi-apparaat verstuurd worden (vesikels zijn GEEN
+organellen).
+
+[*golgi-apparaat*]
+- modificeert eiwitten met behulp van enzymen
+- sorteert eiwitten
+- verstuurt eiwitten met behulp van vesikels naar een bestemming binnen of
+buiten de cel
+
+[*lysosomen*]
+De lysosoom is een organel dat enzymen bevat die grote moleculen kunnen
+afbreken. Dit proces vindt plaats in een zure omgeving.
+
+[*autofagie*]
+Autofagie is het proces waarbij beschadigde organellen en eiwitten binnen de
+cel opgenomen worden door autofagosomen en afgebroken worden door lysosomen.
+
+[*fagocytose*]
+Fagocytose is het proces waarbij een cel deeltjes buiten de cel opneemt en
+verpakt in blaasjes die fagosomen genoemd worden. Deze fagosomen fuseren
+net als autofagosomen met lysosomen om de opgenomen materialen af te breken.
+
+[*mitochondrium en chloroplasten*]
+Chloroplasten: planten
+- maakt glucose
+
+Mitochondrium: planten en dieren
+- maakt ATP
+
+[*endosymbiose theorie*]
+In het verleden bestond er een eenvoudigere vorm van leven. Er waren twee
+cellen; een cel dat een essentiële functie uitvoerde zoals productie van ATP en
+en een andere cel dat deze cel opnam met behulp van fagocytose. In plaats van
+deze cel te verteren ontstond er een symbiotische relatie tussen deze twee
+cellen waarbij de eerste cel energie leverde en de tweede cel bescherming
+aanbood; mitochondrium en chloroplast (hebben eigen DNA en ribosomen).
+
+[*peroxisomen*]
+Peroxisomen zijn organellen in de cel die een cruciale rol spelen bij het
+afbreken van stoffen dat een lysosoom niet kan afbreken. Bij de afbraak van
+stoffen genereert het waterstofperoxide (H2O2), wat giftig is voor de cel.
+Om deze reden bevatten peroxisomen enzymen genaamd catalase, die dit afbreken
+tot water en zuurstof.
+
+[*glyoxysomen*]
+Glyoxysomen zijn organellen die voornamelijk worden aangetroffen in
+plantencellen, en ze zijn betrokken bij een specifieke functie, namelijk de
+omzetting van vetten in glucose. Dit proces is essentieel voor groeiende
+spruiten omdat het hen in staat stelt om energie te halen uit vetreserves in
+zaden voordat ze voldoende fotosynthese kunnen uitvoeren.
+
+[*cytoskelet*]
+Fungeert als een soort 'skelet' van microscopisch kleine buisjes en filamenten,
+die celorganellen op hun plaats houden en dienen als snelwegen voor transport
+van moleculen binnen de cel.
+
+[*microtubuli*]
+De microtubuli vormen de ruggengraat van de cel; motorproteïnen bewegen langs
+deze microtubuli en helpen organellen en andere celcomponenten te verplaatsen
+naar specifieke locaties binnen de cel. Dit transport is gevoed door de
+energiebron ATP, die de motorproteïnen aandrijft.
+
+[*microfilamenten*]
+Zorgt voor spiercontractie waarbij de motorproteïnen myosine en actine aan
+elkaar binden met behulp van ATP; actine-myosine complex. Daarnaast zorgen ze
+ook net als microtubuli voor het verplaatsen van organellen en andere
+celcomponenten naar specifieke locaties binnen de cel.
+
+[*intermediate filamenten*]
+Essentieel voor de structuur, flexibiliteit en stabiliteit van de cel.
+
+[*microvilli*]
+Ten slotte zijn er microvilli, die de oppervlakte van celmembranen verhogen. Ze
+zijn vooral prominent aanwezig op het oppervlak van cellen die betrokken zijn
+bij de absorptie, zoals de epitheelcellen van de dunne darm waardoor de
+diffusie toeneemt.
+
+[primaire celwand]
+De primaire celwand, gelegen aan de buitenkant van plantencellen, biedt
+voornamelijk flexibiliteit en dient als eerste beschermingslaag voor de cel.
+
+[secundaire celwand]
+De secundaire celwand vormt zich na de primaire celwand en bestaat uit extra
+lagen cellulose en andere versterkende materialen, waardoor het de cellen van
+planten voorziet van bijkomende structurele ondersteuning en stevigheid.
+
+[lamellen]
+Deze dunne, driehoekige structuren, genaamd lamellen, bevinden zich tussen de
+primaire celwanden van plantencellen en dragen bij aan de stabiliteit van de
+plant door het verstrekken van extra ondersteuning tussen aangrenzende cellen.
+
+[*plasmodesmata*]
+Plasmodesmata zijn microscopische kanaaltjes waarmee plantencellen met elkaar
+verbonden zijn; hierdoor kunnen ze met elkaar communiceren en voedingsstoffen
+uitwisselen.
+
+[*extracellulaire matrix*]
+De extracellulaire matrix bestaat uit collagenen die vastgehouden worden door
+proteoglycanen. Dit vormt een essentiële structuur dat op het celmembraan
+verankerd wordt door integrines met behulp van fibronectines die als brug
+fungeren. Zorgt voor structurele integriteit en signaaltransductie (doorgeven
+van een signaal).
+
+[*intercellulaire verbindingen*]
+Bij meercellige organismen zie je dat cellen op bepaalde manieren zijn
+georganiseerd, dit gebeurt met behulp van tight junctions, desmosomen en
+gap junctions.
+
+[*tight junctions*]
+Zorgen voor ondoorlaatbare en waterdichte verbindingen, zoals in het epitheel
+van de darmen, om te voorkomen dat darmsappen lekken.
+
+[*desmosomen*]
+Zorgen voor koppeling tussen cellen, bijvoorbeeld in de spiercellen.
+
+[*gap junctions*]
+Zijn vergelijkbaar met de plasmodesmata; uitwisseling van ionen.

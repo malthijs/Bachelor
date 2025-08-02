@@ -1,0 +1,114 @@
+[*instance based learning*]
+Wordt ook wel rote-learning genoemd
+(memorization based on repetition)
+
+Classificatie
+- Groepeert op basis van "zo veel mogelijk van 1 klasse in de groep"
+- Met klasse: Supervised
+
+Clustering
+- Groepeert op basis van overeenkomst
+- Zonder klasse: Unsupervised
+
+Hoe bepaald je dan die overeenkomst?
+→ instance-based
+→ niet exclusief voor clustering, er bestaat ook instance-based
+classificatie
+
+Er wordt geen model/algoritme gebouwd
+Traininginstanties worden doorzocht op het moment dat een nieuwe
+instantie wordt toegevoegd
+Op welke bestaande instantie lijkt de nieuwe instantie het meest
+(kwantificeer dit)
+
+[*classificatie*]
+- KNN
+
+* voorbeeld *
+Er wordt een nieuwe instantie aan de trainingset toegevoegd
+Hierbij is k dichtstbijzijnde instantie(s) een oneven getal
+
+Stel er zijn twee klassen: "dwerg" en "elf":
+Bij k = 3 liggen 2 dwergen en 1 elf in de radius, dus deze
+instantie wordt dwerg
+Bij k = 5 liggen 2 dwergen en 3 elven in de radius, dus deze
+instantie wordt elf
+
+Voordeel
+Niet zo gevoelig voor outliers
+Slaat de volledige trainingsdata op en gebruikt dat tijdens elke
+voorspelling
+
+Nadeel
+Rekenintensief
+
+Oplossing:
+- regions
+
+[*clustering*]
+Het opdelen van een dataset in subsets, waarbij elke subset
+gedeelde kenmerken bevatten
+
+[hiërarchische clustering*]
+- Agglomerative
+Bottom-up:
+- elk datapunt is een cluster
+- samenvoegen op basis van de afstand tot een ander punt
+
+- Divisive
+Top-down:
+- alle datapunten liggen in één cluster
+- splitten op basis van de afstand tot een ander punt
+
+[*agglomeratieve clustering*]
+Datapunten / clusters worden samengevoegd op basis van afstand
+1. bepaal de afstand tussen datapunten / clusters
+2. voeg de 2 datapunten / clusters met de kortste afstand samen
+3. herhaal stap 2 totdat alle punten in 1 cluster liggen
+
+Het bepalen van de afstand tussen datapunten / clusters kan op
+verschillende manieren... verschillen
+
+Linkage-methoden
+- single-linkage
+- complete-linkage
+- average-linkage
+- centroid-linkage
+
+[*single-linkage*]
+Wordt ook wel minimum methode genoemd
+Vormt een ketting doordat de kortste afstand genomen wordt
+Low to High
+
+[*complete-linkage*]
+Wordt ook wel maximum methode genoemd
+Vormt een compacte cluster doordat de langste afstand genomen wordt
+High to Low
+
+[*average-linkage*]
+Vormt een cluster doordat de gemiddelde afstand genomen wordt
+
+* voorbeeld *
+UPGMA
+
+[*centroid-linkage*]
+Het afstand tussen de gewogen gemiddelden/middelpunt van 2 clusters
+
+[*k-means clustering*]
+0. Er wordt bij parameter k aangegeven hoeveel clusters de
+gebruiker wilt hebben (k = aantal centroiden)
+
+1. Willekeurige start centroiden
+2. Elk centroid heeft een verzameling aan datapunten die van andere
+centroiden gescheiden worden door middel van middelloodlijnen
+3. Centroiden bewegen naar het gewogen gemiddelde
+4. Herhaal
+5. Stop als de centroiden niet meer van positie veranderen
+
+Voordeel
+Geen klasse nodig
+Efficient
+
+Nadeel
+Vantevoren bepalen hoeveel clusters je verwacht
+Inconsistent (startpunt voor de centroiden is willekeurig)

@@ -1,0 +1,47 @@
+[*genetische variatie*]
+Populatie
+Een lokale groep individuen behorende tot dezelfde soort die
+werkelijk of potentieel genetische materiaal uitwisselen
+
+Gene pool
+Het genetische materiaal dat door de reproductieve individuen van
+een populatie gedragen wordt
+
+Meeste populaties bevatten een hoge mate van heterozygositeit
+Er is dus veel genetische variatie
+
+Dynamisch
+- Geboorte
+- Overlijden
+- Migratie
+
+[*hardy weinberg*]
+Er is equilibrium als
+1. geen mutaties
+2. willekeurig paren
+3. geen natuurlijke selectie
+4. oneindig grote populatie
+5. geen geneflow
+6. geen genetic drift
+
+Ideale populatie
+Frequentie allelen stabiel/constant
+Genotype nakomelingen voorspelbaar en te berekenen
+
+Formules
+p + q = 1
+p² + 2pq + q² = 1
+
+Hiermee kunnen twee dingen berekend worden:
+1. allelfrequentie
+2. genotypefrequentie
+
+* voorbeeld *
+Taaislijmziekte is een recessieve aandoening die ongeveer 1 op de
+2500 baby's treft
+
+f(aa) = 0,0004
+f(a) = √(0,0004) = 0,02
+f(A) = 1 - 0,02 = 0,98
+f(AA) = 0,98² = 0,9604
+f(Aa) =  1 - (0,98² + 0,02²) = 0,0392

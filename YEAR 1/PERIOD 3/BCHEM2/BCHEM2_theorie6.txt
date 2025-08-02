@@ -1,0 +1,104 @@
+[*eiwitten*]
+Een waterstofatoom, een NH₃⁺ molecuul, een COO⁻ molecuul en een R groep zitten
+vast aan een centraal koolstofatoom: α-carbon. Het is afgesproken dat de
+geprotoneerde amine links wordt getekend en de carboxylaat rechts.
+
+De R groep is voor elke aminozuur anders. Opvallend is dat alle aminozuren
+chiraal zijn, behalve glycine, waarbij de R groep een H is.
+
+Normaal komen alle aminozuren in de L vorm voor, waarna ze in een eiwitketen
+worden ingebouwd (bij de L vorm is de geprotoneerde amine groep links).
+
+- aminozuur
+- dipeptide: 2 aminozuren
+- oligopeptide: 3-10 aminozuren
+- polypeptide: > 10 aminozuren
+
+Niet-polair alifatische R groepen:
+Glycine
+Alanine
+Proline
+Valine
+Leucine
+Isoleucine
+Methionine
+- deze aminozuren zijn slecht oplosbaar.
+
+Aromatische R groepen:
+Fenylalanine
+Tyrosine
+Tryptofaan
+
+Polair ongeladen R groepen:
+Serine
+Threonine
+Cysteïne
+Asparagine
+Glutamine
+- deze aminozuren zijn goed oplosbaar
+
+Positief geladen R groepen:
+Lysine
+Arginine
+Histidine
+
+Negatief geladen R groepen:
+Asparaginezuur
+Glutamaat
+
+Bij een eiwit kan een deel hydrofoob zijn en een ander deel hydrofiel, denk
+bijvoorbeeld aan membraaneiwitten.
+
+Aminozuren kunnen in 3 vormen voorkomen, afhankelijk van de pH en concentratie:
+geprotoneerd, ongeladen (zwitterionic form) en gedeprotoneerd.
+
+- Geprotoneerd: NH₃⁺ en COOH
+- Ongeladen: NH₃⁺ en COO⁻
+- Gedeprotoneerd: NH₂ en COO⁻
+
+pK₁ (overgang geprotoneerd naar ongeladen)
+pK₂ (overgang ongeladen naar gedeprotoneerd)
+pI (gemiddelde van pK₁ en pK₂, wordt iso-elektrisch punt genoemd)
+
+pKᵣ (ioniseerbare zijgroepen)
+
+pH < pK₁ --> COOH
+pH > pK₁ --> COO⁻
+
+pH < pK₂ --> NH₃⁺
+pH > pK₂ --> NH₂
+
+- If R is COOH:
+pH < pKᵣ --> COOH
+pH > pKᵣ --> COO⁻
+
+If R is NH₃⁺:
+pH < pKᵣ --> NH₃⁺
+pH > pKᵣ --> NH₂
+
+Basically, des te lager de pH des te hoger de kans dat er een extra H'tje is,
+en andersom.
+
+Histidine is een bijzonder aminozuur aangezien de pKᵣ rond de 6 zit en dus
+makkelijk omgezet kan worden.
+
+Synthese van peptide:
+Zoals al eerder vermeld, teken van N terminus naar C terminus. De bindingen
+tussen aminozuren worden peptide- of amide bindingen genoemd. Ze vertonen
+resonantie, waardoor ze erg stabiel zijn.
+
+Primair structuur: een keten aan aminozuren
+Secundair structuur: alpha helix en beta sheet
+Tertiare structuur: alpha helices en beta sheets
+Quarternaire structuur: meerdere eiwitten
+
+Een beta sheet kan parallel of antiparallel zijn. Alpha helices en beta sheets
+worden gevormd door waterstofbruggen.
+
+Naast waterstofbruggen bestaan er ook andere interacties zoals ionisch,
+hydrofoob en hydrofiel.
+
+Problemen met het vouwen van eiwitten:
+Alzheimer
+Huntington
+Parkinson

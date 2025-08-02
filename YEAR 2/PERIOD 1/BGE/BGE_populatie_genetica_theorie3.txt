@@ -1,0 +1,120 @@
+[*hardy weinberg*]
+Formule bij 2 allelen:
+(p + q)² = 1
+p² + 2pq + q² = 1
+
+Formule bij 3 allelen:
+(p + q + r)² = 1
+p² + q² + r² + 2pq + 2pr + 2qr = 1
+
+* voorbeeld *
+Stel de frequenties van 4 bloedgroepen in een populatie zijn als
+volgt:
+A: 0,53 (AA + AO + OA)
+B: 0,13 (BB + BO + OB)
+O: 0,26 (OO)
+AB: 0,08 (AB + BA)
+Bereken de allel- en genotype frequenties
+
+Allelfrequenties:
+f(O): √(0,26) = 0,51
+f(A): 1 - 0,51 - f(B)
+f(B): ABC formule
+
+B:
+f(B): 0,13 = B² + 2(B * f(O))
+x = B² + 1,02B - 0,13
+
+
+     -1,02 ± √(1,02² - 4 * 1 * -0,13)
+x =  ------------------------------- = -1,135 v 0,115
+                 (2 * 1)
+
+f(B) = 0,115
+f(A): 1 - 0,51 - 0,115 = 0,375
+
+Genotypefrequenties:
+OO: 0,26
+BB: 0,115²
+AA: 0,375²
+AB: 2 * 0,375 * 0,115
+AO: 2 * 0,375 * 0,51
+BO: 2 * 0,115 * 0,51
+
+[*selectie*]
+Niet alle genotypen planten evenveel voort
+
+Directional selection
+Extreem heeft voordeel
+
+Stabilizing selection
+Gemiddelde heeft voordeel
+
+Disruptive selection
+Beide extremen hebben voordeel
+
+Selectiedruk
+q(g) = q(0)/(1 + gq(0))
+
+[*mutatie*]
+Kan leiden tot nieuwe allelen
+→ verandering allelfrequenties
+
+Mutation rate
+μ = aantal nieuwe mutaties / aantal allelen
+
+* voorbeeld *
+Stel 500.000 mensen (100% d/d)
+Na 1 generatie weer 500.000, waarbij 14 D/d
+
+μ = 14 / 1.000.000 = 1.4*10**-5
+f(d) = (1.000.000 - 14)/(1.000.000)
+
+Verandering van allelfrequentie
+p(g + 1) = p(g) * μp(g)
+q(g + 1) = q(g) * μq(g)
+
+f(D) = p
+f(d) = q
+Alleen mutaties D --> d
+
+[*migratie*]
+Migratie met allelen
+p₁' = (1-m)p₁ + mp₂
+
+Migratie zonder allelen
+p(g + 1) = p(g) - mp(g)
+
+Op een eiland is de frequentie van het allel A: 0,4
+Op het vaste land is de frequentie van het allel A: 0,6
+10% van de ouders op het eiland komt van het vaste land (0,1)
+
+Bereken de allelfrequentie A na migratie (p₁')
+p₁' = (1-0,1)*0,4 + 0,1*0,6 = 0,42
+
+[*genetic drift*]
+Toevallige variatie in allelfrequentie
+
+Founder effect
+Vorming van een populatie door een subpopulatie waarbij de genotypen
+een klein deel van de aanwezige allelen in de oorspronkelijke
+populatie bevatten
+
+Bottleneck effect
+Verandering van allelfrequentie die plaatsvindt als een populatie
+(tijdelijk) in grootte is afgenomen
+
+[*nonrandom mating*]
+Allelfrequenties verandert niet, alleen genotype frequenties
+
+positive assortive mating --> mensen (lengte, status)
+Negative assortive mating --> sommige planten (zelfbestuiving)
+Inteelt → aantal heterozygoten neemt snel af
+
+AA en aa: Fₙ = (1 - (1/2ⁿ))/2
+Aa: Fₙ = (1/2ⁿ)
+
+Negatief: grote kans op ziektes
+Opstapeling homozygoot recessieve loci
+
+Positief: veredeling

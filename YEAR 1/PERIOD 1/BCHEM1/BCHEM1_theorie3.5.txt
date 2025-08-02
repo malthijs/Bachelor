@@ -1,0 +1,32 @@
+paragraaf 5
+[**properties based on molecular geometry and intermolecular forces**]
+
+[*polariteit van moleculen*]
+Een molecuul wordt als polair beschouwd als de centra van positieve en
+negatieve lading niet samenvallen.
+
+[*inter- en intramoleculaire krachten*]
+Intramoleculaire krachten zijn de aantrekkende krachten die zich binnen een
+molecuul bevinden en ontstaan als gevolg van chemische bindingen tussen atomen
+in dat molecuul.
+
+Intermoleculaire krachten daarentegen zijn de aantrekkende krachten die zich
+tussen verschillende moleculen bevinden.
+
+(kan je onthouden door intratuin: binnentuin en intercity: tussen steden)
+
+[*waterstofbruggen*]
+Waterstofbruggen zijn specifieke intermoleculaire krachten die optreden tussen
+H2O-moleculen en moleculen met een OH-, NH- of FH-groep (komt doordat H2O
+een polair molecuul).
+
+[*fasewisselingen*]
+Hoe groter de intermoleculaire krachten tussen de moleculen in een stof, des te
+meer energie er nodig is om deze krachten te overwinnen, wat resulteert in een
+hoger kookpunt voor vloeistoffen en een hoger smeltpunt voor vaste stoffen.
+
+[*oplosbaarheid*]
+Oplosbaarheid verwijst naar de maximale hoeveelheid van een op te lossen stof
+(solute) die kan oplossen in een oplosmiddel (solvent). Polaire moleculen
+lossen over het algemeen het best op in polaire oplosmiddelen, terwijl
+niet-polaire moleculen het best oplossen in niet-polaire oplosmiddelen.

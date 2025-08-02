@@ -1,0 +1,172 @@
+[*evolutie*]
+Natuurlijke selectie heeft ervoor gezorgd dat de meest efficiënte organismen
+overleven en zich kunnen vermeerderen. Als dus alleen de genen aangezet worden
+die nodig zijn, dan geeft dat een evolutionair voordeel.
+
+[*prokaryoot; negatieve gen regulatie*]
+(precursor betekent voorloper; komt als eerste aan de beurt)
+
+Precursor molecuul wordt door verschillende enzymen omgezet in verschillende
+stoffen tot uiteindelijk tryptofaan. Als er genoeg tryptofaan aanwezig is, dan
+remt tryptofaan de activiteit van een enzym in een eerdere stap.
+
+Deze enzymen liggen allemaal in de buurt van elkaar op verschillende genen in
+een chromosoom. Als genen met een gerelateerde functie gegroepeerd zijn, dan
+kunnen ze allemaal tegelijk aan of uitgezet worden. Dit wordt gereguleerd door
+een regio dat meestal op een promotor ligt: de operator.
+
+Het gehele stuk DNA dat nodig is voor de productie van de enzymen van de
+tryptofaan pathway wordt een operon genoemd.
+
+De operator kan uitgezet worden door een molecuul genaamd de repressor, wat
+aan de operator bindt zodat (meestal) RNA-polymerase er niet aan kan binden.
+
+Regulerende genen lezen repressor eiwitten af.
+
+- tryptofaan repressor:
+1. binding is omkeerbaar
+2. wordt inactief gesynthetiseerd
+3. wordt actief als tryptofaan (co-repressor) aan allosterische zijde bindt
+
+Als er dus voldoende tryptofaan aanwezig is worden de repressors actief en
+wordt de operator uitgezet (negatieve gen regulatie, want er wordt iets geremd)
+
+Tryptofaan operon is een repressible operon omdat de transcriptie altijd aan
+staat, behalve als het geïnhibeerd wordt.
+
+Aan de andere kant staat een inducible operon altijd uit, behalve als het
+geïnhibeerd wordt. Dit is bijvoorbeeld het geval bij het lac operon waarbij
+een inducer nodig is om de repressor inactief te maken.
+
+[*prokaryoot; positieve gen regulatie*]
+Als glucose en lactose beide aanwezig zijn in de omgeving, dan prefereert de
+bacterie E. coli glucose. Als er geen glucose is, maar wel lactose, dan wordt
+lactose gebruikt als energiebron.
+
+Dus de bacterie E. coli zal dan van gen verwisselen zodat lactose in plaats van
+glucose afgebroken kan worden. Dit gebeurt door een eiwit genaamd cAMP dat
+vormt als er weinig glucose is. cAMP zal dan aan het regulerend eiwit CRP
+binden, dat een activator is, waardoor transcriptie bevorderd wordt.
+
+Als dan allolactose, dat een inducer is, aan de repressor bindt, dan wordt de
+repressor inactief en worden de enzymen voor lactose afgelezen.
+
+Samenvattend staat het lac operon onder dual control: negatieve controle door
+de lac repressor en positieve controle door CRP.
+
+[*eukaryoten: gen expressie*]
+De meeste cellen in een multicellulaire organisme hebben identieke genomen. 35%
+van de genen op het genoom worden geuit door de meeste cellen, die housekeeping
+genes genoemd worden. Aan de andere kant zijn er ook genen die alleen geuit
+worden bij specifieke cellen, dit fenomeen wordt differential gene expression
+genoemd.
+
+Stappen in gene expression:
+1. chromatine modificatie (DNA wordt uitgepakt)
+2. transcriptie van gewenste gen
+3. RNA-processing
+4. transport naar cytoplasma
+
+5. degradatie en translatie
+6. protein processing en degradatie
+7. transport naar cellulaire destinatie
+
+[*chromatine modificatie*]
+DNA is opgevouwen in een complex genaamd chromatine, waarvan twee typen zijn:
+1. heterochromatine: strakker gevouwen
+2. euchromatine: losser gevouwen
+
+Chromatine is opgebouwd uit nucleosomen, die uit DNA bestaan dat om 8 histonen
+gewikkeld is. De N-terminus (stikstof uiteinde) van elke histon steekt naar
+buiten, dat toegankelijk is voor verschillende modificerende enzymen:
+
+1. acetylering
+2. methylering
+3. fosforylering
+4. ubiquitinering
+
+Histon acetylering: toevoeging van een acetyl-groep bevorderd transcriptie;
+chromatine structuur wordt losser.
+
+Histon methylering: toevoeging van een methyl-groep hindert transcriptie;
+chromatine structuur wordt strakker
+
+Genomic imprinting: een epigenetisch fenomeen waarbij specifieke genen in het
+genoom, afhankelijk van de ouders, ofwel worden onderdrukt of juist tot
+expressie komen (wordt geërfd).
+
+Epigenetica: verwijst naar veranderingen in genexpressie die optreden zonder
+wijzigingen in het DNA.
+
+[*transcriptie*]
+Als de chromatine optimaal bewerkt is begint de initiatie van de transcriptie.
+Dat gebeurt door transcriptie factoren: general transcription factors en
+specific transcription factors.
+
+General transcription factors:
+Zijn essentieel voor de initiatie van de transcriptie van alle eiwit-coderende
+genen. De meeste binden aan eiwitten en sommige binden aan de DNA-sequentie
+(zoals promoter).
+
+Sommige genen worden constant getranscribeerd, maar andere niet; ze worden
+gereguleerd. Voor deze genen zijn er specific transcription factors nodig.
+
+Specific transcription factors:
+Zijn voor gereguleerde genen essentieel voor het initialiseren van de
+transcriptie.
+
+Transcriptie factoren binden aan control elements. Er zijn twee typen:
+1. proximal control elements
+2. distal control elements (enhancer: groep van distal control elements)
+
+Op het DNA kunnen zich één of meerdere groepen van control elements bevinden,
+waarbij het type kan variëren (proximal/distal).
+
+Het is belangrijk om op te merken dat een enhancer gemiddeld bestaat uit 10
+control elements. Elk control element heeft het vermogen om 1 of 2 specifieke
+transcriptiefactoren te binden. De genexpressie wordt bepaald door de
+specifieke combinatie (volgorde maakt niet uit) van de control elements.
+
+Een enhancer wordt aangedreven door activators, waardoor transcriptie bevorderd
+wordt.
+
+Daarna gaan er mediator proteins en transcriptie factoren aan de activatoren
+binden: transcription initiation complex. Daarna transcribeert RNA-polymerase
+II het gen waardoor pre-mRNA ontstaat.
+
+[*RNA-processing*]
+pre-mRNA wordt verder bewerkt. Er wordt bijvoorbeeld een 5'-cap en poly-A-tail
+toegevoegd.
+
+Daarna worden intronen en eventueel exonen (alternative splicing) verwijderd
+waardoor mRNA ontstaat, dat naar cytoplasma getransporteerd wordt.
+
+PTMs (posttranscriptionele modificaties, vindt plaats in cytosol):
+- mRNAi
+- siRNA
+- miRNA
+Ze bevorderen allemaal de degradatie van mRNA, wat leidt tot verminderde
+eiwitsynthese.
+
+[*translatie*]
+Tot slot wordt verkregen mRNA getransleerd naar een eiwit (en wordt het eiwit
+naar zijn bestemming gebracht).
+
+[*degradation*]
+Als mRNA zijn functie voldaan heeft en niet meer nodig is wordt het afgebroken:
+mRNA degradation.
+
+Als eiwit zijn functie voldaan heeft en niet meer nodig is wordt het
+afgebroken: protein degradation (door proteasomen).
+
+[*tumoren*]
+Een gezwel waarbij cellen ontsnappen aan hun normale controlemechanismen voor
+celdeling. Ontstaan door spontane mutaties, straling, carcinogenen (kanker
+verwekkende stoffen) of virussen.
+
+Oncogenen: genen die kanker veroorzaken
+Proto oncogenen: genen die voor eiwitten coderen die celdeling bevorderen,
+kunnen in oncogenen veranderen (zoals ras gen: geeft signaal door van een
+groeifactorreceptor)
+Tumor suppressor genen: encoderen eiwitten die cellen inhibiteren waardoor
+overmatige celdeling voorkomen wordt (zoals p53 gen: is een activator)

@@ -1,0 +1,75 @@
+[*stamcellen*]
+Kunnen verschillende type cellen vormen
+Regeneratie van weefsel
+Embryonale stamcellen (ES)
+
+Proliferilatie: vermeerderen van hoeveelheid cellen
+Differentiatie: specialiseren van cellen
+
+Kiembladen: endoderm, mesoderm en ectoderm
+Zygoot --> Morula --> Blastocyst --> Gastrula
+Klievingsdelingen
+
+4 categorieën stamcellen:
+Totipotent: kan alle type cellen en dus individu vormen
+Zygoot: eerste cel dat gevormd wordt na fertilisatie
+
+Pluripotent: geen individu, maar wel bijna alle cellen
+Inner cell mass (ICM): cluster van stamcellen in een blastocyst
+
+Multipotent: kan een beperkte aantal celtypen vormen
+(bv: cellen in rode beenmerg)
+
+Unipotent: kan nog maar 1 celtype vormen
+(bv: huidstamcellen en spierstamcellen)
+
+Waarom handig?
+Transplantatie, want geen afstoting
+
+[*kloneren*]
+Genetisch identiek individu of cel afkomstig van een enkele cel door
+herhaalde aseksuele delingen (mitose)
+
+Reproductief kloneren → individuen
+Embryo splitsing
+spontaan
+- eeneiige tweeling
+in het lab
+- salamander
+- muis
+
+Celkern transplantatie (meercellige organismen)
+Celkern verwijderen van eicel
+Nieuwe kern toevoegen:
+- Kern van andere eicel
+- Kern van embryonale stamcel
+- Kern van somatische cel
+
+Planten: stekken is reproductief kloneren
+
+Kloneren populair:
+- huisdieren
+- uitgestorven dieren
+
+Therapeutisch kloneren → cellen
+Gebruik van embryonale stamcellen (ES)
+Verkregen uit inner cell mass van blastocyst
+Mag niet to individu ontwikkelen (wettelijk niet toegestaan)
+(kan ook niet, want cellen zijn pluripotent)
+
+Verkrijgen van stamcellen:
+Embryonaal
+- pre-implantatie embryos
+- foetus
+- navelstrengbloed
+
+Volwassen
+- rode beenmerg
+
+Leukemie --> chemotherapie --> beenmergtransplantatie (eigen cellen)
+
+Overige toepassingen:
+- kweken van zenuwcellen (parkinson/dwarslesie)
+- kweken van huid (brandwonden)
+- kweken van spiercellen/hartcellen (infarcten)
+- kweken van botcellen

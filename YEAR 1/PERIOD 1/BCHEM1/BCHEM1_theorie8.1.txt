@@ -1,0 +1,31 @@
+LES 6
+4-okt-2023
+
+hoofdstuk 8
+[***acids and bases and oxidation-reduction***]
+
+paragraaf 1
+[**acids and bases**]
+
+[*theorieën over zuren en basen*]
+De Arrhenius en Brønsted-Lowry theorieën zijn beide modellen die worden
+gebruikt om zuren en basen te begrijpen en te definiëren, maar ze verschillen
+in hun benadering van wat een zuur en een base is.
+
+- Arrhenius theorie
+Definieert zuren als stoffen die waterstofionen (H+) in water afgeven en basen
+als stoffen die hydroxide-ionen (OH-) in water afgeven. Deze theorie is beperkt
+tot oplossingen in water en werkt niet goed voor niet-waterige systemen.
+
+- Brønsted-Lowry theorie
+Deze theorie definieert zuren als deeltjes die waterstofionen (H+) doneren en
+basen als deeltjes die waterstofionen accepteren. Deze theorie is veel breder
+toepasbaar dan de Arrhenius-theorie, omdat het niet beperkt is tot oplossingen
+in water en ook van toepassing is op niet-waterige systemen.
+
+[*geconjugeerde zuur-base paren*]
+Wanneer een zuur een proton (H+) afstaat, transformeert het in een zwakkere
+zuur of base. Daarentegen wordt een base een zwakkere base of zuur wanneer deze
+een proton (H+) opneemt. Deze unieke setjes worden aangeduid als geconjugeerde
+zuur-base paren, en wat hen opvallend maakt, is dat ze slechts één proton (H+)
+van elkaar scheiden.

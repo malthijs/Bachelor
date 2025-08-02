@@ -1,0 +1,11 @@
+pgweb
+- host: 145.97.18.240
+- username: s1128088
+- password: s1128088
+- database: s1128088_db / world
+
+pgweb
+- host: 145.97.18.240
+- username: bpapge09
+- password: bpapge09
+- database: bpapge09_db

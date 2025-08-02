@@ -1,0 +1,114 @@
+[*statistische modellen*]
+Naive Bayes
+1. Frequentietabel
+2. Laplace correctie
+3. Probability density function
+
+* voorbeeld *
+- protein function identification
+- genomic sequence identification
+
+Gebaseerd op kans
+Hoe groot is de kans dat een bepaalde combinatie van
+attribuut-waarde(s) resulteren in een bepaalde classificering
+
+Aanname
+Alle attributen zijn onafhankelijk en dragen evenveel bij aan de
+klassenbepaling
+
+* voorbeeld *
+Als een stuk snoep groen is en naar appel smaakt, dan is het
+afhankelijk
+
+Stelling van Bayes
+P(A|B) = (P(B|A) * P(A))/P(B)
+
+Wat als een attribuut niet voorkomt in trainingsdataset?
+Laplace correctie!
+
+* voorbeeld *
+Bereken of de snack Maltesers met de volgende eigenschappen wel of
+niet geclassificeerd wordt als lekker
+- hoge percentage cacao
+- hoog in kilocalorieën
+- losse snacks
+
+Frequentietabellen
+hoge percentage cacao
+      Lekker  Niet-Lekker
+High: 2/5     0/4
+Low:  1/5     2/4
+None: 2/5     2/4
+
+-->
+
+hoge percentage cacao
+      Lekker  Niet-Lekker
+High: 3/8     1/7
+Low:  2/8     3/7
+None: 3/8     3/7
+
+hoog in kilocalorieën
+        Lekker  Niet-Lekker
+High:   3/5     2/4
+Medium: 0/5     2/4
+Low:    2/5     0/4
+
+losse snacks
+   Lekker  Niet-Lekker
+J: 3/5     2/4
+N: 2/5     2/4
+
+Lekker: 3/8 * 3/5 * 3/5 * 5/9 = 0,075000
+0,075000/(0,075000 + 0,015873) = 0,825 * 100 = 82,5%
+
+Niet lekker: 1/7 * 2/4 * 2/4 * 4/9 = 0,015873
+0,015873/(0,015873 + 0,075000) = 17,5%
+
+Indien numerieke attributen
+Neem probability density function aan
+(de kans dat een discrete variabele een bepaalde waarde heeft)
+
+Bepaal verdeling per attribuut
+(bv: normaalverdeling)
+
+Bepaal parameters
+(bv: gemiddelde en standaarddeviatie)
+
+Bereken probability density
+f(x) = ...
+Met x als waarde van attribuut
+
+Voordeel:
+Kijkt naar alle attributen
+Missing values = geen probleem
+
+Nadeel:
+Neemt onafhankelijke attributen aan
+Sterk afhankelijk van trainingsset (Laplace correctie)
+kijkt naar alle attributen (slechte voorspellers)
+
+[*numerieke modellen*]
+Lineaire modellen
+Vertegenwoordigen een eenvoudige vorm van representatie waar de
+output de soms is van de gewogen attribuutwaarden
+y = w₁x₁ + w₂x₂ + ... + wₙxₙ
+
+Gewichten worden toegepast op elke attribuut
+Uitdaging ligt in het vinden van waarden die de output van het model
+laten overeenkomen met de gewenste output
+
+Regressie
+Het proces omvat het vinden van gewichten die resulteren in een
+lineair model: een regressie model is een lineair model voor
+numerieke voorspellingen
+
+* voorbeeld *
+y = -70 + 0,014a + 2,1b - 0,28c
+
+[*druglikeness*]
+Lipinski's rule of 5
+- max 5 waterstofbrug-donoren (FH, OH, NH)
+- max 2x5 waterstofbrug-acceptoren (F, O, N)
+- max 500 Dalton (massa)
+- logP < 5 (maat hydrofobiciteit)

@@ -1,0 +1,87 @@
+[*mutatie*]
+Wijziging ten opzichte van het origineel
+Twee soorten:
+    1. genmutatie
+    - chemische verandering
+    2. chromosoommutatie
+    - aantal
+    - structuur
+
+[*meiose*]
+Reductiedeling
+Leidt tot 4 genetisch verschillende haploïde dochtercellen
+Onder normale omstandigheden bevatten deze dochtercellen de helft
+van het oorspronkelijke aantal chromosomen
+
+[*karyotype*]
+Wordt (meestal) gemaakt tijdens de metafase van de mitose
+Is een weergave van de chromosoomparen
+
+[*chromosoom aantallen*]
+Aneuploïdie
+- monosomie
+2ₙ - 1
+- disomie
+2ₙ + 0
+- trisomie
+2ₙ + 1
+
+Euploïdie
+- monoploïdie
+1ₙ
+- diploïdie
+2ₙ
+- triploïdie
+3ₙ
+
+[*aneuploïdie*]
+Winst of verlies van één of meerdere chromosomen, maar niet de
+complete set
+
+Kan op verschillende manieren ontstaan:
+- non-disjunctie tijdens meiose I
+- non-disjunctie tijdens meiose II
+
+Turner syndroom (45 XO)
+Turner mosaicism
+- kan onvolledig zijn waardoor sommige cellen alsnog 46 XX bevatten
+(heeft met een fout in de mitose van embryocellen te maken)
+
+Monosomie sekschromosomen
+- levensvatbaar
+Monosomie autosomen
+- lethaal
+- problemen met dosage
+(aantal kopieën van een gen op het genoom)
+
+Klinefelter syndroom (47 XXY)
+Trisomie sekschromosomen
+- levensvatbaar
+
+Down syndroom (47 21+)
+Trisomie autosomen
+- minder lethaal
+- problematisch bij grote chromosomen
+
+Gedeeltelijke monosomie en trisomie
+- deletie van chromosoomsegment
+- minder lethaal dan "complete" monosomie en trisomie
+
+[*euploïdie*]
+Winst of verlies van één of meerdere complete sets aan chromosomen
+
+Kan op verschillende manieren ontstaan:
+- non-reductie tijdens meiose I
+- non-reductie tijdens meiose II
+
+Polyploïdie
+Meer dan 2 complete sets aan chromosomen
+
+Komt vaak voor bij planten
+Wordt ook wel "Whole Genome Duplication" genoemd
+
+- Autoploïdie
+Complete sets aan chromosomen van dezelfde soorten
+- Alloploïdie
+Complete sets aan chromosomen van verschillende (verwante) soorten
+(hybridisatie)

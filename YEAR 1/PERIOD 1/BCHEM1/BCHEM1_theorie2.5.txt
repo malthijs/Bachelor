@@ -1,0 +1,30 @@
+paragraaf 5
+[**electron arrangement and the periodic table**]
+
+[*elektronenconfiguratie*]
+Beschrijft waar elektronen zich bevinden rondom de kern van een atoom.
+
+[*Erwin Schrödinger*]
+Erwin Schrödinger was degene die ons vertelde dat elektronen in feite
+kansverdelingen in de ruimte zijn, zoals bepaald door de principes van de
+quantummechanica.
+
+Om dit complexe concept te organiseren, introduceerde Schrödinger
+principiële energieniveaus, genummerd van 1 tot 7, en subniveaus met de
+letters s, p, d en f. Elk subniveau bestaat uit een of meer atomaire orbitals,
+die maximaal 2 elektronen kunnen bevatten.
+
+s: 1 orbital = 2 elektronen
+p: 3 orbitals = 6 elektronen
+d: 5 orbitals = 10 elektronen
+f: 7 orbitals = 14 elektronen
+
+Het maximale aantal elektronen in een principiële energieniveau is 2(n)²,
+waarbij n het nummer van het principiële energieniveau is.
+
+[*elektronendichtheid*]
+Vertegenwoordigt de waarschijnlijkheid om een elektron op een bepaalde plek
+binnen een atoom of molecuul te vinden.
+
+[*James Chadwick*]
+Ontdekte de neutron (beryllium bombardement experiment).

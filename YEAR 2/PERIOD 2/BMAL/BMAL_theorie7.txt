@@ -1,0 +1,148 @@
+[*valideren en evalueren*]
+Welk model is het beste?
+Wat is de kwaliteit van de data?
+
+Error rate: trainingsdata
+- veel data om model te bouwen
+- geen data om te controleren of het model goed werkt
+
+Trainingsdata gebruiken als testdata? (te optimistisch)
+- geen nieuwe (onbekende) datapunten
+- resubstitution error
+
+Error rate: testdata
+- realistische weergave werkelijkheid: testen op nieuwe instanties
+- kleinere trainingsset
+
+Wanneer is welke error rate acceptabel?
+Hangt van de situatie af!
+- voorspellen vulkaanuitbarsting? 1%
+- voorspellen aantal voldoendes? 5%
+
+[*10-fold cross validation*]
+Is iteratief:
+90% = trainingsdata (9-fold)
+10% = testdata (1-fold)
+
+Uiteindelijk zal elk datapunt 1x voorkomen in de testset
+Er is geen ongeziene data
+
+Error rate: gemiddelde van alle "folds"
+
+[*k-fold cross validation*]
+Hetzelfde als 10-fold cross validation, wat een specifieke versie
+hiervan is
+
+Testset: totaal/k
+
+[*leave-one-out cross validation*]
+Hetzelfde als k-fold cross validation, maar gebruikt steeds 1
+instantie als testset
+
+Testset: totaal - 1
+
+Rekenintensief
+Nuttig bij kleine datasets
+
+[*performance testing*]
+Hoe goed voorspelt een model/classifier?
+- testen op trainingsdata
+Goed resultaat
+Niet betrouwbaar
+
+- testen op testdata
+Testdata wordt niet gebruikt in trainingsdata
+Grote initiële dataset nodig
+
+- cross-validation
+Gebruikt totale dataset
+Ook bruikbaar bij kleine datasets
+
+Ideaal scenario:
+- trainingsset
+- testset
+- validatieset
+
+[*stratificatie*]
+Het random verdelen van data over trainingsset en testset
+- verhouding klassen in trainingsset = verhouding klassen in testset
+
+[*bootstrapping*]
+Sampling with replacement
+Uit de originele dataset wordt een trainingsset gevormd door n keer
+te sampelen
+
+Dataset en trainingsset zijn even groot
+Elk geselecteerde instantie wordt teruggelegd
+Instanties die niet geselecteerd zijn: testset
+
+Testset heeft geen vaste grote
+Kans om niet gesampled te worden: (1 - 1/n)ⁿ = e⁻¹ = 0,368
+
+[*kappa statistiek*]
+k = (D observed - D expected)/(D perfect - D expected)
+Is het gemiddelde van 10-fold cross validation
+Wordt gebruikt om te meten hoe goed de prestatie van een model is in
+vergelijking met een willekeurig model
+
+Confusion matrix (observed) --> Kappa matrix (expected)
+- Totaal rij (N)/Totaal x Totaal kolom (N)
+
+[*recall & precision*]
+Recall: welke fractie van de te vinden instanties zijn er gevonden?
+Precision: Welke fractie van de voorspelde uitkomst is correct?
+
+[*f-measure*]
+Zowel recall als precision zijn belangrijk, zoek de correcte balans!
+F = (2x recall x precision)/(recall + precision)
+
+F: 1 = perfecte balans
+
+[*receiver operating characteristics-curve*]
+Een grafische weergave van de prestaties van een classificatiemodel
+door de False Positive Rate (x-as) tegen de True Positive Rate
+(y-as) uit te zetten
+
+FPR = False Positive Rate = FP/(FP + TN)
+TPR = True Positive Rate = TP/(TP + FN)
+Diagonaal: line-of-no-discrimination
+
+Sensitiviteit = TPR
+Specificiteit = 1 - FPR
+
+Het gebied onder de grafiek geeft aan hoe goed het model presteert
+
+[*bagging*]
+- verdeel dataset
+- maak een classifier voor elke subset
+
+OF
+
+- maak verschillende classifiers
+- beste classifier wordt gekozen
+
+[*boosting*]
+Wordt ook wel "stacking" genoemd
+Eerst wordt een model gemaakt waarbij alle instanties evenveel wegen
+
+- data wordt verdeeld in "makkelijk" en "moeilijk" te classificeren
+Makkelijk: TP/TN = licht
+Moeilijk: FP/FN = zwaar
+
+- maak een nieuw model waarbij de instanties een gewicht hebben
+- beste model wordt gekozen
+
+[*cost*]
+Sommige "fouten" zijn "erger"
+
+1. achteraf berekenen
+- eerst classifier bouwen
+- cost meenemen in voorspelling
+2. meenemen in classifier
+- instanties die goed voorspellen moeten meerdere keren voorkomen in
+trainingsset
+
+The bagging technique combines multiple models trained on different subsets of data, whereas boosting trains the model sequentially, focusing on the error made by the previous model
+
+Bagging heeft te maken met het trainen van modellen op subsets van een dataset
+Stacking heeft te maken met het sequentieel trainen van een model, waarbij op de fouten van de vorige model gefocust wordt

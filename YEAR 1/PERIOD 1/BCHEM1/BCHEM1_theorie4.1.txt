@@ -1,0 +1,20 @@
+LES 5
+26-sep-2023
+
+hoofdstuk 4
+[***calculations and the chemical equation***]
+
+paragraaf 1
+[**the mole concept and atoms**]
+
+[*eenheden*]
+Een mol is een belangrijke eenheid in de chemie. Het staat voor het aantal
+deeltjes gelijk aan de constante van Avogadro: 6.022 * 10^23 deeltjes.
+
+Naast mollen worden andere eenheden zoals een dozijn (12), gros (144) en ton
+(1000 kilogram) gebruikt om aantallen of hoeveelheden aan te duiden.
+
+Een andere belangrijke term in de chemie is molariteit, die de concentratie van
+een oplossing aangeeft. Molariteit wordt uitgedrukt in mol opgeloste stof per
+liter oplossing (mol/L). Dit geeft aan hoeveel mol van een stof is opgelost in
+een liter oplossing.

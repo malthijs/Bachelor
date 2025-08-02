@@ -1,0 +1,11 @@
+paragraaf 2
+[**naming compounds and writing formulas of compounds**]
+
+[*chemische formules*]
+Een chemische formule is een schriftelijke notatie die wordt gebruikt om de
+chemische samenstelling van een stof weer te geven en omvat:
+
+- symbolen van de atomen
+- hoeveelheid van de atomen en moleculen
+- fase van de atomen en moleculen (gas, vloeibaar, vast)
+- lading van de atomen (indien van toepassing)

@@ -1,0 +1,90 @@
+[*Carolus Linnaeus*]
+Fylogenie: de evolutionaire geschiedenis van een soort of groep soorten.
+
+Kan achterhaald worden op basis van:
+- fossielen
+- geografie
+- morfologie
+- fysiologie
+- genetica
+
+De discipline die zich richt op het classificeren van organismen en het
+bepalen van hun evolutionaire relaties wordt systematiek genoemd.
+
+De binominale nomenclatuur is binaire benaming van soorten.
+Het Linnaean System of Classification groepeert soorten (zoals Panthera pardus,
+Panthera leo en Panthera onca).
+
+Later werd het uitgebreid: genera worden in families geplaatst, families in
+classes, classes in phyla, phyla in kingdoms en kingdoms in domains.
+
+Een groep op een bepaalde level in de hiërarchie wordt een taxon genoemd.
+Panthera is een taxon op genus level en Mammalia op class level.
+
+[*fylogenetische boom*]
+Een fylogenetische boom toont de evolutionaire geschiedenis tussen een groep
+van organismen.
+
+Een root vertegenwoordigt het oudste punt in de boom. Een branch point toont
+een overeenkomende voorouder tussen evolutionary lineages. Een evolutionary
+lineage is een sequentie van organismen die tot een afstammeling leiden.
+
+Een sister taxa zijn een groep van organismen die dezelfde voorouder delen, dat
+andere groepen niet delen. Een basal taxon is een evolutionary lineage dat
+vroeg van de andere evolutionary lineages gedivergeerd is.
+
+Bij een polytomy is het niet duidelijk hoe een bepaalde groep evolutionary
+lineages gedivergeerd zijn. Dit kan opgelost worden door meer data te vergaren.
+
+[*cladistiek*]
+Biologen proberen populaties in groepen op te delen, genaamd clades.
+
+Er zijn drie verschillende clades:
+- Monophyletic:
+Hierbij wordt de voorouder en al zijn afstammelingen getoond ("single tribe").
+Dit is hetzelfde als een taxon.
+
+- Paraphyletic:
+Hierbij wordt de voorouder, maar niet al zijn afstammelingen getoond ("beside
+the tribe").
+
+- Polyphyletic:
+Hierbij worden de afstammelingen, maar niet hun voorouder getoond ("many
+tribes").
+
+Organismen hebben characters dat ze met hun voorouders delen en characters dat
+ze niet met hun voorouders delen. Characters dat ze met hun voorouders delen
+worden shared ancestral characters genoemd, en characters dat ze niet met hun
+voorouders delen worden shared derived characters genoemd.
+
+Shared derived characters zijn per clade uniek, hierdoor kunnen clades
+met elkaar vergeleken worden.
+
+- Ingroup: de groep van soorten die bestudeerd worden
+- Outgroup: een soort dat gerelateerd is aan de groep van soorten die bestuurd
+wordt, maar die daar geen deel van uit maakt.
+
+Een fylogenetische boom kan lastig zijn om te maken. Om dit makkelijker te
+maken zijn er twee principes bedacht:
+- Maximum parsimony:
+Onderzoek de simpelste uitleg dat consistent is met de feiten (Occam's Razor).
+Dus zo min mogelijk homoplasieën: organismen die op elkaar lijken door
+convergente evolutie (en dus niet door afstamming).
+
+- Maximum likelihood:
+Bepaling van een fylogenetische boom op basis van waarschijnlijkheid.
+
+Soms kunnen de takken van een fylogenetische boom gebaseerd zijn op tijd.
+
+Fylogenetische bomen zijn hypothetisch en niet feitelijk, en kunnen dus
+aangepast worden als er nieuwe resultaten verschijnen.
+
+Er zijn twee soorten homologe genen:
+- Orthologe genen:
+Speciatie
+
+- Paraloge genen:
+Duplicatie (hierdoor ontstaan gene families: alpha- en beta hemoglobine)
+
+Horizontale gene transfer, een process waarbij genen van een organisme naar
+een andere doorgegeven worden, door bv transposons.

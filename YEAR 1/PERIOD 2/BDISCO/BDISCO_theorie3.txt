@@ -1,0 +1,42 @@
+[*aminozuren*]
+De 20 aminozuren worden onderverdeeld in 3 categorieën:
+1. non-polar
+2. polar
+3. electrically charged
+- acidic
+- basic
+
+[*eiwitstructuren*]
+Aminozuursequentie bepaalt vorm.
+Vorm bepaalt functie.
+
+Primaire structuur: bestaat uit aminozuren.
+Secundaire structuur: α-helix of β-sheet.
+Tertiare structuur: bestaat uit α-helices en/of β-sheets.
+Quaternaire structuur: bestaat uit eiwitcomplexen.
+
+[*PTMs*]
+Post translational modifications; veranderingen van het eiwit na translatie,
+zoals:
+- fosforylering
+- glycosylering
+- methylering
+- acetylering
+
+Zwavelbruggen: covalente binding tussen twee S-atomen (cysteine) → zeer sterk
+Veel invloed op 3D-structuur van een eiwit.
+
+Acetylering histon: activatie van transcriptie
+Methylering histon: repressie van transcriptie
+
+STRING
+- protein-protein interacties
+
+YASARA
+- software dat eiwitten visualiseert
+
+SignalP 6.0
+- identificeert signaalpeptiden en voorspelt de posities waar ze worden
+gesplitst
+
+Isoform: alternative splicing

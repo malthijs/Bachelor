@@ -1,0 +1,56 @@
+[*Onverzadigde koolwaterstoffen*]
+Alkenen
+Alkynen
+
+De koolstofatomen zijn onverzadigd (onvolledig omringd door 4 atomen/moleculen)
+
+London dispersie
+Apolair, niet oplosbaar in water
+
+Energetisch minst gunstig: door de dubbele en drievoudige bindingen kunnen de
+atomen niet zo ver mogelijk uit elkaar liggen; moeilijk draaibaar
+
+[*alkenen*]
+CₙH₂ₙ (aanname: er is één dubbele binding)
+120 graden: plat vlak
+
+Additie reactie: x + y = z
+Additie van waterstof = hydrogenering (H₂)
+Additie van water = hydratatie (H₂O)
+alkeen → alkaan
+alkyn → alkaan
+Onverzadigd → verzadigd
+
+Markovnikov: het C-atoom met de meeste H's krijgt het H-atoom, het ander
+C-atoom krijgt het OH-molecuul.
+
+Major product: grootste molecuul na een reactie
+Minor product: kleinste molecuul na een reactie
+
+[*alkynen*]
+CₙH₂ₙ-2 (aanname: er is één drievoudige binding)
+180 graden: lineair
+
+[*aromaten*]
+Aromatische verbindingen zijn lastig om te hydrogeneren en te hydrateren omdat
+ze erg stabiel zijn. Benzeen, als voorbeeld, vertoont resonantie waarbij
+meerdere lewisstructuren mogelijk zijn (hierdoor verschijnen er ook kleuren en
+geuren).
+
+Benzeen = C₆H₆
+Fenol = benzeen + OH
+
+Heterocyclische aromaten: staan bekend om hun goede coördinatie met metalen,
+zoals hemoglobine. Het bevat heemgroepen met stikstofatomen die gebonden zijn
+aan Fe²⁺.
+
+Pyrimidine: benzeen, maar met stikstofatomen op de 1e en 3e positie.
+Pyridine: benzeen, maar met een stikstofatoom aan de onderkant.
+Purine: benzeen, maar met stikstofatomen op de 1e en 3e positie en een vijfring
+dat een amine aan de onderkant en een stikstofatoom aan de rechterkant bevat.
+
+Pyrimidine: TC
+Purine: AG
+
+AT = twee waterstofbruggen
+CG = drie waterstofbruggen

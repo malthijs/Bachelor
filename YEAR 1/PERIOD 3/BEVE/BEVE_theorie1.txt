@@ -1,0 +1,177 @@
+[*celdeling*]
+Continuïteit van leven is gebaseerd op cellen die zich kunnen vermeerderen.
+- groei
+- herstel
+- reproductie
+
+[*genetische informatie*]
+De genetische informatie van een cel wordt het genoom genoemd. Deze genetische
+informatie is opgevouwen in chromosomen. Chromosomen bevatten DNA-moleculen
+waarop genen liggen die voor eiwitten kunnen coderen. De DNA-moleculen en
+eiwitten die de chromosomen opbouwen worden samen chromatine genoemd.
+
+Ergens in het midden van een chromosoom is er een ingesnoerd gebied. Deze
+locatie wordt het centromeer genoemd. Omdat het zeldzaam is dat het centromeer
+precies in het midden zit, wordt de kleine deel de p-arm (petite) genoemd en
+grote deel de q-arm (queue).
+
+Elk organisme bevat één of meerdere chromosomen.
+
+* voorbeeld *
+De celkern van de somatische cellen van de mens hebben 46 chromosomen. Gameten,
+oftewel geslachtscellen, bevatten daarentegen de helft van het aantal
+chromosomen, namelijk 23.
+
+[*celcyclus*]
+Er zijn 4 fasen:
+- G₁ (eerste groei)
+- S (synthese van DNA)
+- G₂ (tweede groei)
+- M (mitose en cytokinese)
+
+De G₁, S en G₂ fasen worden samen de interfase genoemd, wat vaak 90% van de
+celcyclus omvat.
+
+Tijdens de S fase worden de chromosomen gedupliceerd, wat resulteert in twee
+identieke zusterchromatiden voor elk chromosoom. Deze zusterchromatiden worden
+bij elkaar gehouden door cohesines, wat bekend staat als zusterchromatide
+cohesie. Verder wordt ook de centrosoom gedupliceerd.
+
+Mitose zorgt voor de gelijke verdeling van genetische materiaal. Bij de mitose
+worden er twee identieke dochtercellen gevormd. De mitose of kerndeling wordt
+verder onderverdeeld in de volgende fasen:
+- profase
+- prometafase
+- metafase
+- anafase
+- telofase
+Cytokinese dat met de anafase en telofase overlapt completeert de M fase.
+
+[*profase*]
+De chromosomen condenseren waardoor ze dikker en korter worden. De spoelfiguur
+vormt, dat opgebouwd is uit centrosomen en microtubili. Microtubili is
+opgebouwd uit tubiline eiwitten. Microtubuli die zich om de centrosomen heen
+bevinden, worden asters genoemd vanwege hun opstelling dat een stervorm
+aanneemt.
+
+Dit is de langste fase.
+
+[*prometafase*]
+De chromosomen zijn volledig gecondenseerd. De nucleaire envelop fragmenteert.
+De centrosomen bewegen naar de uiteinden van de cel.
+
+Bij het centromeer van elk chromosoom vormt een kinetochoor. Hierdoor kunnen
+microtubili zich aan beide kanten van elk chromosoom bevestigen. Als een
+microtubili aan een kinetochoor bevestigd, wordt het een kinetochoor
+microtubili genoemd. Als dat niet gebeurt, interacteert het met de microtubili
+aan de overkant, verlengt het de cel, en wordt het een nonkinetochoor
+microtubili genoemd.
+
+[*metafase*]
+De centrosomen liggen nu tegenover elkaar. De centromeren van de chromosomen
+liggen nu op de metafase plaat, precies in het midden van het spoelfiguur. De
+spoelfiguur is nu gecompleteerd.
+
+De chromosomen zijn nu het meest zichtbaar.
+
+[*anafase*]
+De cohesines worden door separase geknipt waardoor de zusterchromatiden los van
+elkaar komen, waardoor het individuele chromosomen worden. Ze gaan nu naar de
+polen van het spoelfiguur, wat met behulp van twee mechanismen kan gebeuren:
+
+- pacman mechanisme
+- reeling mechanisme
+
+Aan het eind hebben beide polen van het spoelfiguur een complete collectie aan
+chromosomen.
+
+Dit is de kortste fase.
+
+[*telofase*]
+Nucleaire enveloppen vormen waardoor de chromosomen geëncapsuleerd worden.
+Chromosomen decondenseren en worden dus langer en minder dik. De spoelfiguur
+wordt opgeruimd.
+
+Mitose is voltooid.
+
+[*cytokinese*]
+Duplicatie van het cytoplasma. In dierencellen ontstaat er een cleavage furrow,
+dat de cel in twee knijpt met behulp van microfilamenten, waarbij actine en
+myosine betrokken is.
+
+Bij plantencellen is dit niet het geval. Tijdens de telofase in planten komen
+de vesikels van het golgi apparaat en de microtubili in het midden van de cel
+elkaar tegen, ze vormen een cell plate. De cell plate deelt het cytoplasma in
+twee, en groeit naar de celwand.
+
+[*binaire splijting*]
+Prokaryoten ondergaan geen mitose, maar groeien tot twee keer hun
+oorspronkelijke grootte, waarna ze zich splitsen. Bij de meeste bacteriën
+worden de genen gedragen op één chromosoom dat een circulair DNA-molecuul
+bevat. In sommige bacteriën begint celdeling wanneer de origin of replication
+begint te repliceren.
+
+[*evolutie van mitose*]
+Mitose is ontstaan uit simpelere prokaryotische mechanismen. Het feit dat
+eiwitten van binaire splijting gerelateerd zijn aan de eiwitten in de mitose
+bevestigt deze hypothese.
+
+[*regulering celdeling*]
+De timing en snelheid van celdeling verschilt per celtype en organisme. Sommige
+gespecialiseerde cellen delen helemaal niet zoals zenuwcellen: zij zitten in de
+G₀ fase. Door groeifactoren kunnen sommige cellen uit de G₀ fase komen en zich
+alsnog gaan delen.
+
+Celdeling wordt gereguleerd door signaalmoleculen in het cytoplasma. Dit
+mechanisme wordt het cyclus control systeem genoemd.
+
+Checkpoint: een punt waar wordt bepaald of de celdeling door mag gaan of niet.
+Bevindt zich in de G₁, G₂, S en M fasen.
+
+Er zijn twee hoofdtypen van de signaalmoleculen:
+- cyclinen
+- cycline-afhankelijke kinasen (Cdks)
+
+Cycline-afhankelijke kinasen zijn in een constante concentratie aanwezig. Om
+actief te worden moeten ze aan cyclinen gebonden worden. Cyclinen worden in de
+S en G₂ fasen gevormd, waardoor de hoeveelheid Cdks geleidelijk toeneemt.
+
+MPF: mitose-promoting factor. Bepaalt of de M fase doorgaat of niet. Wordt
+actief gevormd wanneer cyclinen aan Cdks gaan binden tijdens de G₂ fase.
+Fosforyleert verschillende eiwitten waardoor de nucleaire envelop
+gefragmenteerd wordt. Er is ook bewijs dat het zorgt voor chromosoom
+condensatie en spoelfiguur vorming tijdens profase. Tijdens anafase zet het
+zichzelf weer uit door de gebonden cyclinen af te breken.
+
+G₁ checkpoint is het belangrijkste, en als dat doorgaat, is de kans groot dat
+de cel zich gaat delen.
+
+Density-dependent inhibition: cellen stoppen met delen wanneer de dichtheid van
+cellen te hoog wordt.
+
+Anchorage dependence: cellen moeten aan een ondergrond bevestigd zijn om te 
+kunnen delen.
+
+[*tumoren*]
+Tumoren hebben de capaciteit om hun eigen groeifactoren te produceren of om
+signalen te ontvangen die wijzen op de aanwezigheid van groeifactoren (terwijl
+die er niet zijn). Bovendien vertonen ze defecten in hun cyclus control
+systeem. Cellen die oneindig kunnen delen zijn een proces ondergaan genaamd
+transformation. Kankercellen vertonen noch density-dependent inhibition, noch
+anchorage dependence. Verder vindt er geen apoptose plaats.
+
+* voorbeeld *
+Groeifactor PDGF (Platelet Derived Growth Factor) wordt door bloedplaatjes
+afgegeven om een wond te genezen.
+
+Benigne tumor: een goedaardige tumor die niet in staat is om zich te
+verspreiden naar andere delen van het lichaam.
+
+Maligne tumor: een kwaadaardige tumor die in staat is om zich te verspreiden
+naar andere delen van het lichaam.
+
+Metastase: het proces waarbij kankercellen zich verspreiden naar andere delen
+van het lichaam, waar nieuwe tumoren gevormd worden.
+
+Wegsnijden, UV-bestraling of chemotherapie. Chemotherapie is gericht op
+sneldelende cellen (zoals haarcellen).

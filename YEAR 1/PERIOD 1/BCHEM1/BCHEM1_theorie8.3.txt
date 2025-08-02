@@ -1,0 +1,19 @@
+paragraaf 3
+[**reactions between acids and bases**]
+
+[*mono- en polyprotische stoffen*]
+Polyprotische stoffen, ook wel bekend als polyprotische zuren of basen, zijn
+moleculen die meer dan één proton (H+) kunnen doneren of accepteren in
+chemische reacties. Dit staat in tegenstelling tot monoprotische stoffen, die
+slechts één proton kunnen doneren of accepteren.
+
+Water (H20) is amfiprotisch omdat het zowel als zuur en als base kan fungeren.
+
+[*zuur-base reacties*]
+
+* sterke zuur en zwakke zuur*
+H2SO4 (aq) + H2O (l) --> HSO4- (aq) + H3O+ (aq)
+HSO4- (aq) + H2O (l) <--> SO4 2- (aq) + H3O+ (aq)
+
+* sterke base *
+O2- (aq) + H2O (l) --> 2 OH- (aq)

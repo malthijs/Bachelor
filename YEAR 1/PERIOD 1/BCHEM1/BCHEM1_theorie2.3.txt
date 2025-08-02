@@ -1,0 +1,25 @@
+paragraaf 3
+[**light, atomic Structure, and the Bohr atom**]
+
+[*spectroscopie*]
+De wetenschappelijke studie van de absorptie en emissie van licht door atomen
+en moleculen, die wordt gebruikt om inzicht te krijgen in de
+elektronenstructuur van deeltjes.
+
+Het emissiespectrum van waterstof heeft een cruciale rol gespeeld bij het
+ontwikkelen van ons huidige inzicht in de elektronenstructuur van het atoom.
+
+[*Bohr's atoom*]
+Niels Bohr verbeterde het model van Rutherford door het concept van
+energieniveaus en de baan van elektronen rondom de kern te introduceren.
+Wanneer energie aan het atoom wordt toegevoegd, kan een elektron naar een hoger
+energieniveau springen en zich verder van de kern bevinden. Dit proces staat
+bekend als absorptie, waarbij het elektron energie absorbeert.
+
+Aan de andere kant, wanneer een elektron van een hoger energieniveau naar een
+lager energieniveau terugkeert, geeft het energie af in de vorm van licht. Dit
+proces staat bekend als emissie.
+
+- ground state: de standaard energieniveau van een elektron in een atoom
+- excited state: promotie van een elektron naar een hogere energieniveau
+- relaxation: degradatie van een elektron naar een lagere energieniveau

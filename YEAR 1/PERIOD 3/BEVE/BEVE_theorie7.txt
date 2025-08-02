@@ -1,0 +1,154 @@
+[*reproductie*]
+Een soort is een populatie dat onderling geschikte en vruchtbare nakomelingen
+kan krijgen, maar niet met andere soorten (biological species concept).
+
+Een soort is een populatie dat aan specifieke bronnen geadapteerd is, genaamd
+een niche (ecological species concept).
+
+Een soort is een populatie dat op basis van subjectieve criteria op elkaar
+lijkt en van andere verschilt (morphological species concept).
+
+Als een soort met een andere soort een nakomeling voortbrengt, dan wordt dat
+een hybrid genoemd (interbreeding).
+
+- Prezygotische barriers:
+Geen paringspogingen:
+Habitat isolation (komen elkaar niet tegen)
+Temporal isolation (ligt aan wanneer ze broeden: seizoen, dag, avond, e.t.c.)
+Behavioral isolation (baltsgedrag)
+
+Paringspogingen:
+Mechanical isolation (morfologische verschillen)
+Gametic isolation (sperma kan ei niet bevruchten)
+
+- Postzygotische barriers:
+Fertilisatie:
+Reduced hybrid viability (lagere overlevingskans)
+Reduced hybrid fertility (steriel)
+Hybrid breakdown (nakomeling van F₁ heeft lagere overlevingskans of is steriel)
+
+Barriers voorkomen 'gene flow' waardoor de 'gene pool' geïsoleerd blijft.
+
+[*soortvorming*]
+Allopatrische soortvorming (other place):
+Uit een populatie ontstaan nieuwe soorten, doordat de oorspronkelijke populatie
+in subpopulaties gesplitst is.
+
+Sympatrische soortvorming (same place):
+Uit een populatie ontstaan nieuwe soorten, waarbij de oorspronkelijke populatie
+niet in subpopulaties gesplitst is.
+
+Polyploïde soortvorming:
+Het ontstaan van nieuwe soorten door fouten tijdens de celdeling.
+
+Autopolyploïdie: meer dan twee chromosoom sets van dezelfde soort
+Allopolyploïdie: meer dan twee chromosoom sets van verschillende soorten
+
+Sympatrische soortvorming kan ontstaan door seksuele selectie en habitat
+differentiatie.
+
+Seksuele selectie is de keuze van een partner op basis van eigenschappen die
+als aantrekkelijk gezien worden.
+
+Habitat differentiatie is de exploitatie van bronnen door een subpopulatie dat
+niet door de oorspronkelijke populatie gebruikt wordt.
+
+[*macro-evolutie*]
+Het ontstaan van leven op aarde:
+1. Synthese van organische moleculen (aminozuren)
+2. Samenklontering van organische moleculen (eiwitten)
+3. Opslaan van organische moleculen (protocellen)
+4. Vermenigvuldiging van protocellen (ribozymes)
+
+[*synthese*]
+"primitive soup": oplossing van organische moleculen.
+Leven misschien ontstaan met behulp van bliksem en UV-straling.
+
+Alternatieven:
+- vulkanen
+- hydrothermal vents
+- alkaline vents
+
+[*samenklontering*]
+Door aminozuren op hete zand, klei of steen te laten druppelen konden er
+misschien polymeren gevormd worden.
+
+[*opslaan*]
+Metabolisme misschien mogelijk gemaakt met behulp van een vesikel, dat uit een
+vloeistof bestaat dat omgeven is door een membraan.
+
+Vesikels kunnen spontaan ontstaan als organische moleculen aan water toegevoegd
+worden (bilaag).
+
+[*vermenigvuldiging*]
+Er was eerst een "RNA" world" en daarna pas een "DNA world", omdat DNA
+stabieler dan RNA is. RNA dat functioneert als een katalysator wordt een
+ribozyme genoemd. Misschien werden ribozymes per toeval in vesikels opgeslagen
+die hierdoor zich daarna konden repliceren waardoor protocellen geproduceerd
+konden worden. Hierna vond waarschijnlijk natuurlijke selectie plaats waardoor
+de beste protocellen overleefden.
+
+[*fossielen*]
+Oudste fossielen ooit gevonden zijn 3.5 biljoen jaar oud (stromatolieten).
+Verder bevinden fossielen zich in gesteenten, genaamd strata.
+
+Niet alle organismen van vroeger kunnen achterhaald worden:
+- fossielen verwoest door geologische processen
+- populaties die lang aanwezig waren en in een grote hoeveelheid worden eerder
+gevonden
+- hebben een skelet nodig om gefossiliseerd te worden
+
+Alternatieven:
+- amber (boom sap)
+- aarde
+
+Radiometric dating wordt gebruikt om de leeftijd van fossielen te bepalen. Dit
+is gebaseerd op het verval van radioactieve isotopen.
+
+Verval wordt met behulp van de halveringstijd gedefinieerd: de tijd dat het kost
+om de helft van de originele hoeveelheid te laten vervallen.
+
+- ratio van koolstofatomen (isotopen)
+
+[*ontstaan van leven*]
+- Eencellige prokaryoten waren de eerste organismen op aarde, waarbij ze in de
+oceaan leefde.
+
+- Fotosynthetische prokaryoten creëerde zuurstof als tussenproduct, zuurstof
+reageerde met elementen zoals ijzer dat neersloeg.
+
+- Uiteindelijk was de oceaan gesatureerd met zuurstof en kwam de zuurstof in de
+atmosfeer terecht. Veel anaerobe prokaryoten gingen dood omdat zuurstof giftig
+voor hun was ('oxygen revolution').
+
+- Eukaryoten zijn ontstaan door endosymbiose, waarbij een prokaryoot een
+kleinere prokaryoot opslokte die daarna tot een organel evolueerde.
+
+De serial endosymbiose theorie gaat verder en is een sequentie van
+endosymbiotische gebeurtenissen waarbij verschillende organellen zijn ontstaan.
+
+Multicellulaire eukaryoten vormde en de cambrische explosie vond plaats. Dit
+hield in dat er heel veel organismen abrupt begonnen te verschijnen.
+
+[*tektonische platen*]
+250 miljoen jaar geleden was er een supercontinent genaamd Pangaea. Door
+bewegingen in de mantel van de aarde bewegen de continenten, wat continental
+drift genoemd wordt. Over 250 miljoen jaar zal een nieuwe super continent
+gevormd worden, genaamd Pangaea Ultima.
+
+Tektonische platen drijven op de mantel, ze maken deel uit van de korst van de
+aarde.
+
+Gevolgen van continental drift:
+- klimaatverandering
+- allopatrische soortvorming
+- geografische distributie van uitgestorven organismen
+
+Verder kan continental drift uitsterving of zelfs massa-uitsterving van
+populaties veroorzaken.
+
+Adaptive radiations: als populaties evolueren tot nieuwe geadopteerde
+populaties die ecologische niche innemen.
+
+Heterochrony: is de verandering in snelheid en timing van de ontwikkeling van
+een organisme vergeleken met zijn voorouder.

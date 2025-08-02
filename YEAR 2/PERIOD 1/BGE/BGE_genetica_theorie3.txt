@@ -1,0 +1,196 @@
+[*genmutaties*]
+Puntmutaties (of substituties)
+Missense → andere aminozuur
+Nonsense → stopcodon
+Silent → hetzelfde aminozuur
+
+Frameshiftmutaties
+Insertie → toevoeging
+Deletie → verwijdering
+
+- Purines
+GA (2 ringen structuur)
+
+- Pyrimidines
+CUT (1 ring structuur)
+
+Transities
+purine --> purine
+pyrimidine --> pyrimidine
+
+Transversies
+purine --> pyrimidine
+pyrimidine --> purine
+
+[*locatie*]
+Somatic mutatie
+Mutatie in lichaamscellen
+Kan niet doorgegeven worden aan nageslacht
+
+Germline mutatie
+Mutatie in geslachtscellen
+Kan wel worden doorgegeven aan nageslacht
+
+Chromosoomniveau
+- autosomaal
+- x-linked mutatie
+- y-linked mutatie (komt minder vaak voor)
+
+[*fenotype*]
+Zichtbare mutatie
+- is zichtbaar
+Lethale mutatie
+- is lethaal
+
+Loss-of-function mutatie
+- verminderde of verlies van functie
+Gain-of-function mutatie
+- verbeterde of winst van functie
+Neutrale mutatie
+- geen verlies of winst van functie
+
+Biochemische mutaties
+- verandering of verlies van biochemische functie
+(stofwisselingziekten)
+Nutritionele mutatie
+- verandering of verlies voor het afbreken van voedingsstoffen
+Conditionele mutatie
+- gevoeligheid voor temperatuur
+(enzymen: denaturatie)
+
+Gedragsmutatie
+- verandering in gedrag
+(bv: paringsgedrag)
+Regulatoire mutatie
+- verandering in genexpressie
+(signaaltransductie: doorgeven of blokkeren van signalen)
+
+[*nucleotiden*]
+Ribose: rechtsonder wel OH
+        O
+HOH₂C-/   \-OH
+      \___/
+       | |
+      HO OH
+
+Deoxyribose: rechtsonder geen OH
+        O
+HOH₂C-/   \-OH
+      \___/
+       |
+      HO
+
+F, O en N kunnen waterstofbruggen vormen
+Elektronegativiteit
+* voorbeeld *
+Zuurstofatoom trekt harder aan gedeelde elektronenpaar dan
+waterstofatoom
+(waardoor een polaire lading ontstaat)
+
+A(UT) = 2 waterstofbruggen
+CG = 3 waterstofbruggen
+
+H = donor
+F, O en N = acceptor
+
+[*natuurlijke mutaties*]
+Tautomeric shifts
+Dit kan plaats vinden als een proton van een nucleotide naar een
+andere nucleotide overgedragen wordt (proton shift)
+
+Standaard
+Keto thymine met amino adenine
+Keto guanine met amino cytosine
+
+Ketogroep: C=O
+Aminogroep: C-NH₂
+
+Enolgroep: C=C-OH
+(winst van proton, dus kan 1 extra H binden)
+Iminogroep: C=NH
+(verlies van proton, dus kan 1 minder H binden)
+
+Keto en enol vormen bij thymine en guanine
+Amino en imino vormen bij cytosine en adenine
+
+Gevolg
+Thymine kan van keto naar enol gaan (2 → 3 waterstofbruggen)
+Adenine kan van amino naar imino gaan (3 → 2 waterstofbruggen)
+
+Conclusie
+Nu kunnen ze met een base paren waarmee ze dat normaal niet kunnen
+(= mutatie)
+
+Replication slippage
+(komt vaker voor in sequenties met veel repeats)
+- forward slippage: deletie
+Stukje wordt niet gekopieerd op de dochterstreng
+
+- backward slippage: insertie
+Extra stukje wordt gekopieerd op de dochterstreng
+
+Apurinic sites
+Verlies van een (meestal) purine: G of A (intacte DNA-helix)
+Tijdens replicatie wordt random nucleotide gekozen
+
+Deamination
+Aminogroep (C-NH₂) → ketogroep (C=O) in C en A, daardoor:
+
+Cytosine → Uracil + Adenine
+Adenine → Hypoxanthine + Cytosine
+
+Oxidation
+Hierbij wordt een electron van een nucleotide verwijdert
+Hierdoor kan het met andere basen paren
+
+Alkylation
+Toevoeging van een alkylgroep
+Hierdoor kan een nucleotide ook met andere basen paren
+
+[*geïnduceerde mutaties*]
+Base analogs
+Een molecuul dat erg op een nucleotide lijkt waardoor het met een
+"echte" nucleotide kan paren.
+
+Dit leidt dus tot een mutatie
+
+Acridyne dyes
+Kleurstof om DNA zichtbaar te maken
+Interfereren tussen purines en pyrimidines waardoor de afstand
+groter wordt (helix verstoort: deleties en inserties)
+
+* voorbeeld *
+Ethidium bromide
+SYBRsafe
+
+Deze stoffen zijn kankerverwekkend
+
+UV-straling
+Kan ervoor zorgen dat een covalente binding ontstaat tussen basen
+(dimeer: thymine is hier gevoelig voor)
+
+Ioniserende straling
+Creëert vrije radicalen: zeer reactive ionen
+Hierdoor ontstaan chemische reacties waardoor purines en pyrimidines
+veranderen (andere base paring → puntmutatie)
+
+Beschadigt DNA
+Gamma-straling: therapie voor kanker
+
+Ames test: hoe mutageen is een stof?
+* voorbeeld *
+1.
+- experimental tube
+- control tube
+
+2.
+- experimental tube: bacteriën en mutagene stof
+- control tube: bacteriën
+- medium: histidine
+
+3.
+Normaal kunnen de bacteriën geen histidine omzetten, maar als een
+specifieke mutatie plaats heeft gevonden dan kan dat wel
+
+Als dan opeens de bacteriën in het experimental tube beginnen te
+groeien, dan is dat een aanwijzing dat de stof mutageen is

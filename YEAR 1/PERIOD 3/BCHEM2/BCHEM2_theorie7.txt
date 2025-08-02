@@ -1,0 +1,78 @@
+[*lipiden*]
+Bestaan uit 4 typen:
+- Verzadigde en onverzadigde vetzuren
+- Glycerides
+- Non-glycerides
+- Complex lipids (lipoproteins)
+
+[*verzadigde vetzuren*]
+De koolstofketen bevat geen dubbele bindingen (gesatureerd met waterstof
+atomen)
+- apolair
+- hogere smelt- en kookpunt dan onverzadigde vetzuren
+Des te langer zo'n keten, des te sterker de london dispersie interactie is
+
+Is vast en komt vooral in dieren voor.
+
+[*onverzadigde vetzuren*]
+De koolstofketen bevat minstens één dubbele binding
+- apolair
+
+Is vloeibaar en komt vooral in planten en koudbloedige dieren voor.
+Worden ook wel oliën genoemd.
+
+[*vetzuren*]
+Balans is belangrijk:
+- omega-3: anti-ontsteking
+- omega-6: ontsteking
+
+Sommige vetzuren zijn essentieel en kan je lichaam niet maken, andere zijn weer
+niet essentieel en kan je lichaam wel maken.
+
+Prostaglandines:
+Is een hormoon en is betrokken bij de nieren, reproductieve systeem en
+bloedstolling.
+
+[*glycerides*]
+- mono-glycerides
+- di-glycerides
+- tri-glycerides
+
+Is een ester van glycerol met vetzuren: C₃H₈O₃
+Neutraal geladen: apolair
+
+Er zijn verschillende reacties mogelijk:
+- Verestering
+- Verzeping
+
+Zeep heeft apolaire staart en polaire kop
+
+Er bestaan ook fosfoglycerides:
+Fosfoglycerides:
+- gewoonlijk 1 fosfaat en 2 glycerols
+- vormt bilaag
+- hydrofoob
+- polair
+- london interactie
+- waterstofbruggen
+
+Laterale beweging (gebeurt vaak)
+Flipflop (gebeurt weinig)
+
+Fosfolipiden
+Sfingolipide
+Cholesterol
+
+[*nucleïnezuren*]
+DNA en RNA bestaan uit basen.
+Structuur: fosfaat-suiker-base
+
+Watson & Crick hadden dubbelehelixstructuur van DNA ontdekt door röntgenfoto
+van Rosalind Franklin. Mogelijk gemaakt door Maurice Wilkins die hier als
+eerste aan begon.
+
+interacties:
+- waterstofbruggen
+- hydrofobe
+- london dispersie
+- ion

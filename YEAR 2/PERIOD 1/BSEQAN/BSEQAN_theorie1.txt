@@ -1,0 +1,177 @@
+[*alignments*]
+Altijd in Courier New
+
+ACTTCCGAATTTGGCT
+|||*    **|||*||
+ACTC----GATTGCCT
+
+Match: 8 * 5 = 40
+Mismatch: 4 * -4 = -16
+Gap open: -10 * 1 = -10
+Gap extension: -1 * 3 = -3
+Score: 40 + -16 + -10 + -3 = 11
+
+GA = purine
+Guanine (G)
+Adenosine (A)
+
+CT = pyrimidine
+Cytosine (C)
+Tyrosine (T)
+
+Transitie
+purine --> purine
+pyrimidine --> pyrimidine
+
+Transversie
+purine --> pyrimidine
+pyrimidine --> purine
+
+[*DNA scoring matrices*]
+Jukes & Cantor
+Houdt transities en transversies niet bij
+
+Kimura
+Houdt transities en transversies wel bij
+
+Een (optimale) alignment is afhankelijk van de matrix, beloningen en
+straffen
+
+[*Jukes & Cantor model*]
+Gebaseerd op 1 parameter
+   A   T   C   G
+A  5  -4  -4  -4
+T -4   5  -4  -4
+C -4  -4   5  -4
+G -4  -4  -4   5
+
+[*Kimura model*]
+Gebaseerd op 2 parameters
+   A   T   C   G
+A  5  -4  -4   0
+T -4   5   0  -4
+C -4   0   5  -4
+G  0  -4  -4   5
+
+[*dotplots*]
+Om de similariteit van 2 sequenties grafisch zichtbaar te maken
+Om evolutionaire gebeurtenissen in sequenties grafisch zichtbaar
+te maken
+
+Polymorfisme duidt op variatie tussen sequenties
+Indel: insertie of deletie
+Duplicatie: verdubbeling
+Inversie: omdraaiing
+Translocatie: verplaatsing
+Palindroom: een sequentie dat van voor naar achter en van achter
+naar voor hetzelfde is
+Microsatellieten: korte tandemherhalingen van nucleotiden
+(< 10 bp)
+Minisatellieten: lange tandemherhalingen van nucleotiden
+(> 10 bp < 100 bp)
+
+Er is geen polymorfisme als de 2 sequenties hetzelfde zijn
+Punten zetten daar waar dezelfde letter staat
+
+[*dynamic model*]
+Stap 0
+Maak de matrix
+
+Stap 1
+Vul de velden in
+
+Horizontaal en verticaal gaan geeft een gap penalty
+Diagonaal gaan geeft geen gap penalty
+
+Waarom?
+Als je horizontaal of verticaal gaat dan introduceer je in een van
+de sequenties een gap
+
+Stap 2
+Plaats de pijlen
+
+Stap 3
+Draai de pijlen om
+
+Stap 4
+Maak de (optimale) alignment
+
+(terugloop = traceback)
+Is het proces waarbij de pijlen in de matrix gevolgd worden om de
+(optimale) alignment te construeren
+
+* voorbeeld *
+Needleman-Wunch
+ACTCGAATC---CT
+AC-CGAATTTTGCT
+
+Smith-Waterman
+CGAATCCT
+CGAATTTT
+
+Er zijn twee modellen:
+- Needleman-Wunch
+Aanname: matrix is vanaf linksboven gebouwd
+Globaal
+Bevat positieve en negatieve getallen
+Begint rechtsonder en gaat naar linksboven
+Stopt als linksboven bereikt is (inclusief)
+
+* voorbeeld *
+        | X4Y2 + gap = -5 + -5 = -10
+A = max { X4Y1 + transversie = -15 + -4 = -19
+        | X5Y1 + gap = -20 + -5 = -25
+A = -10
+
+        | X12Y2 + gap = -45 + -5 = -50
+B = max { X12Y1 + transitie = -55 + -0 = -55
+        | X13Y1 + gap = -60 + -5 = -65
+B = - 50
+
+        | X10Y4 + gap = -15 + -5 = -20
+C = max { X10Y3 + transversie = -25 + -4 = -29
+        | X11Y3 + gap = -30 + -5 = -35
+C = - 20
+
+        | X1Y5 + gap = -20 + -5 = -25
+D = max { X1Y4 + transitie = -15 + 0 = -15
+        | X2Y4 + gap = -5 + -5 = -10
+D = -10
+
+        | X6Y5 + gap = 6 - 5 = 1
+E = max { X6Y4 + match = 5 + 5 = 10
+        | X7Y4 + gap = 0 - 5 = -5
+E = 10
+
+- Smith-Waterman
+Aanname: matrix is vanaf linksboven gebouwd
+Lokaal
+Bevat alleen positieve getallen
+Begint bij het hoogste getal en gaat naar linksboven
+Stopt als 0 bereikt is (exclusief)
+
+* voorbeeld *
+        | X4Y2 + gap = 0 - 5 = -5
+A = max { X4Y1 + transversie = 0 - 4 = -4
+        | X5Y1 + gap = 0 - 5 = -5
+A = 0
+
+        | X9Y3 + gap = 1 - 5 = -4
+B = max { X9Y2 + transversie = 0 - 4 = -4
+        | X10Y2 + gap = 0 - 5 = -5
+B = 0
+
+        | X12Y5 + gap = 5 - 5 = 0
+C = max { X12Y4 + transversie = 1 - 4 = -3
+        | X13Y4 + gap = 0 - 5 = -5
+C = 0
+
+        | X1Y6 + gap = 0 - 5 = -5
+D = max { X1Y5 + match = 0 + 5 = 5
+        | X2Y5 + gap = 1 - 5 = -4
+D = 5
+
+        | X4Y6 + gap = 1 - 5 = -4
+E = max { X4Y5 + transversie = 1 - 4 = -3
+        | X5Y5 + gap = 2 - 5 = -3
+E = 0

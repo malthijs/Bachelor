@@ -1,0 +1,61 @@
+paragraaf 5
+[**oxidation-reduction processes**]
+
+[*redoxreactie*]
+Een redoxreactie betreft het overdragen van elektronen van het ene molecuul
+naar het andere. Reductie is het verlies van elektronen, terwijl oxidatie de
+winst van elektronen inhoudt.
+
+* voorbeeld *
+Verbranding, corrosie en bleking zijn redoxreacties waarbij elektronen
+uitgewisseld worden.
+
+[*standaardelektrodepotentiaal*]
+Is een maatstaf voor de neiging van een molecuul om elektronen af te staan of
+te accepteren. De standaardelektrodepotentiaal wordt gemeten in volt (V).
+
+Of een stof fungeert als oxidator of reductor wordt bepaald door de
+standaardelektrodepotentiaal, waarbij een stof met een hogere
+standaardelektrodepotentiaal neigt naar oxidator te zijn en een stof met een
+lagere standaardelektrodepotentiaal neigt naar reductor te zijn.
+
+[*halfreacties*]
+Een redoxreactie kan worden opgesplitst in twee deelreacties, de oxidatie en de
+reductie.
+
+Met behulp van de standaardelektrodepotentiaal van beide halfreacties kan je
+bepalen of een redoxreactie wel of niet verloopt, hiervoor gebruik je ΔVo, het
+verschil in standaardelektrodepotentiaal:
+
+ΔVo = Vo (oxidator) - Vo (reductor)
+
+- ΔVo >= 0.3V (aflopend)
+- ΔVo <= -0.3V (verloopt niet)
+- -0.3V < ΔVo < 0.3V (evenwicht)
+
+[*totaalreacties*]
+De som van alle halfreacties die zich voordoen in de redoxreactie
+
+* voorbeeld *
+F2 (g) + 2e- ---> 2F-       (x1) (oxidator, Δ2.87)
+Li (s)       ---> Li+ + e-  (x2) (reductor, Δ-3.04)
+--------------------------- + (ΔVo = 2.87 + 3.04 = 5.91 V; aflopend)
+F2 + 2Li     ---> 2F- + 2Li+
+
+[*elektrochemische cel*]
+Een elektrochemische cel is een apparaat dat elektriciteit genereert door
+middel van chemische reacties. In zo'n cel worden anionen en kationen gebruikt
+om elektronenstromen te creëren.
+
+Tijdens de chemische reactie aan de anode worden kationen gevormd en elektronen
+vrijgegeven. Aan de kathode kant worden de elektronen opgenomen waardoor
+anionen afgegeven worden. Dit creëert stroom (dus anode (-) staat kationen af
+(+) en de kathode (+) staat anionen af (-)).
+
+De zoutbrug zorgt ervoor dat de lading in beide oplossingen in evenwicht blijft
+door ervoor te zorgen dat de anionen naar de anode kunnen bewegen en de
+kationen naar de kathode kunnen bewegen.
+
+Tot slot is er een geleidende draad in een elektrochemische cel dat de anode
+met de kathode verbindt, waardoor elektronen van de anode naar de kathode
+kunnen stromen (elektronen stromen van - naar +)

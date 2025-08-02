@@ -1,0 +1,97 @@
+Eiwitten spelen een belangrijke rol in biologische processen
+Zijn polymeren van aminozuren
+
+Eiwitten hebben verschillende functies:
+- katalyseren van reacties
+- afweren van indringers
+- transport
+- regulatie
+- structuur
+
+Aminozuren bevatten een amino en een carboxyl groep.
+Amino groep is basisch
+Carboxyl groep is zuur.
+
+Er bestaan honderden aminozuren (natuurlijk en synthetisch)
+Maar 20 komen veel in de natuur voor
+
+Bij pH = 7
+De amino groep wint een H: +
+De carboxyl groep verliest een H: -
+Zwitterion
+
+Bij een specifieke pH kan een aminozuur een nettolading van 0
+hebben. Dit punt wordt het iso-elektrisch punt genoemd.
+
+pH < pKₐ: H+ door beide groepen opgenomen
+pH > pKₐ: H+ door beide groepen afgestaan
+
+De α-carbon is altijd chiraal, behalve bij glycine.
+Aminozuren in eiwitten zijn L-isomeren (ribosomen kunnen geen
+D-isomeren maken).
+
+De unieke eigenschappen van aminozuren worden veroorzaakt door de
+R-groep.
+
+Aminozuren worden in 4 groepen ingedeeld:
+1. niet-polair
+2. polair
+3. negatief geladen
+4. positief geladen
+
+Tussen de aminozuren van een eiwit zitten bindingen die peptide of
+amide bindingen genoemd worden.
+
+Als een aminozuur aan een ander aminozuur gebonden wordt, dan komt er
+water vrij (dehydratatie / condensatie)
+
+Peptide binding toont resonantie: gedeeltelijke karakter van een
+dubbele binding.
+
+Enzymen katalyseren (versnellen) reacties
+Een enzym wordt bij een reactie niet verbruikt
+
+Co-factoren zijn anorganisch en co-enzymen zijn organisch. Beide
+helpen ze enzymen met het katalyseren van reacties.
+
+Een apo-enzym is een enzym dat een co-factor nodig heeft, maar nog
+niet aan een co-factor gebonden is. Als een apo-enzym aan een
+co-factor gebonden is, dan wordt het een halo-enzym genoemd.
+
+Enzymen zijn pH en temperatuur afhankelijk (met een optimum).
+
+Enzymen kunnen gegroepeerd worden.
+1. oxidoreductases: oxidatie/reductie
+2. transferases: afstaan van een groep
+3. hydrolases: hydrolyse reactie (breken van bindingen m.b.v. H₂O)
+4. lyases: toevoeging of verwijdering van groepen waarbij dubbele
+bindingen gevormd worden
+5. isomerases: van het ene isomere structuur naar het andere isomere
+structuur
+6. ligases: het aan elkaar binden van twee substraten m.b.v. ATP
+
+EC = Enzyme Commission
+1 = actie
+2 = binding/groep
+3 = soort enzym (familie)
+4 = specifieke functie
+
+* voorbeeld *
+3.4.21.21
+
+RNA is geen enzym, maar heeft wel katalytische activiteit
+
+Een reactie verloopt spontaan als de vrije Gibbs energie negatief is
+omdat er dan geen energie van buitenaf nodig is om de reactie te
+starten en niet-spontaan als het positief is omdat dan wel energie
+van buitenaf nodig is om de reactie te starten:
+ΔG = ΔH - TΔS
+
+G < 0: exergonisch
+G > 0: endergonisch
+G = 0: evenwicht
+
+Verder is er activeringsenergie dat een enzym verlaagt en een
+transition state (onstabiele fase)
+
+Enzym vormt samen met een substraat een enzym-substraat complex

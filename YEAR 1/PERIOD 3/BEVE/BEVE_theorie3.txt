@@ -1,0 +1,143 @@
+[*genetische woordenschat*]
+Als iets overerfbaar is, wordt het een character genoemd. De varianten daarvan
+worden traits genoemd.
+
+* voorbeeld *
+Huidskleur is een character waarbij het type huidskleur de trait is.
+
+Homozygoot = een organisme dat een identieke paar aan allelen heeft
+Heterozygoot = een organisme dat niet een identieke paar aan allelen heeft
+Fenotype = observeerbare eigenschappen
+Genotype = genetische samenstelling van een organisme. Hoewel organismen
+hetzelfde fenotype kunnen vertonen, hoeven ze niet noodzakelijk hetzelfde
+genotype te hebben.
+
+[*Gregor Mendel*]
+Zijn publicatie werd niet meteen erkend. Hij noemde genen "heritable units".
+Verder maakte hij gebruik van true-breeding planten, waarbij nakomelingen met
+identieke fenotypen werden voortgebracht. Het kruisen van twee verschillende
+soorten wordt hybridisatie genoemd.
+
+Mendel kruiste twee verschillende true-breeding planten, die paars en wit
+waren. Zij waren de P (parental) generatie, en hun nakomelingen
+de F₁ (filial) generatie. De nakomelingen van de F₁ generatie werd de F₂
+generatie genoemd.
+
+De planten die hij gebruikte waren erwten, omdat:
+- goed beschikbaar
+- snelle reproductie
+- veel nakomelingen
+- veel variatie
+- controleerbare bevruchting
+
+In de 1800s heerste de blending hypothesis, maar Mendel ontkrachtte die met
+behulp van zijn experimenten waarbij aangetoond werd dat de traits niet met
+elkaar 'mengen'. In de eerste generatie was dit al duidelijk nadat witte- met
+paarse bloemen gekruist werden en paarse nakomelingen hadden, in plaats van
+roze. De nakomelingen van de F₁ generatie waren opvallend:
+- 3 keer paars
+- 1 keer wit
+Mendel verklaarde dat de witte eigenschap van de eerste generatie gemaskeerd
+was door de paarse eigenschap. Als hij de nakomelingen van de F₁ generatie
+niet gevolgd had, dan had hij dit niet concluderen. Hij noemde paars dominant
+en wit recessief.
+
+Mendel's model:
+- Wanneer twee allelen op een locus verschillen, bepaalt het dominante allel
+het uiterlijk van het organisme, terwijl het recessieve allel geen opmerkelijk
+effect heeft.
+- Elk organisme erft twee allelen van een gen voor elk trait, één van elke
+ouder.
+- Variatie in geërfde traits wordt veroorzaakt door verschillende allelen
+van genen.
+- De wet van segregatie stelt dat tijdens de vorming van geslachtscellen de
+twee allelen van een gen eerlijk aan de gameten verdeeld worden
+
+* voorbeeld *
+XY
+X → gameet 1
+Y → gameet 2
+Anafase I van meiose.
+
+- De wet van independent assortment stelt dat allelen onafhankelijk van elkaar
+aan gameten gedistribueerd worden.
+
+* voorbeeld *
+Aa
+Bb
+→ AB, Ab, aB, aa
+Metafase I van meiose.
+
+Punnet square: is een hulpmiddel dat wordt gebruikt om de mogelijke genotypen
+van nakomelingen te voorspellen op basis van de genotypen van de ouders.
+
+Testcross:
+Het kruisen van een organisme met een onbekend genotype met een recessieve
+homozygoot, onthult genotype van dat organisme.
+
+Het belangrijkste verschil tussen monohybride en dihybride kruising is dat bij
+monohybride kruising er één character wordt bestudeerd, terwijl bij dihybride
+kruising er twee characters worden bestudeerd.
+
+[*kansrekenen*]
+Multiplication rule: kans dat X en Y gebeurt
+Addition rule: kans dat X of Y gebeurt
+
+* voorbeeld *
+Dit is een dihybride kruising.
+
+Zwarte vacht = B
+Blonde vacht = b
+  B   b
+B BB Bb
+b Bb bb
+
+Korte staart = E
+Lange staart = e
+  E   e
+E EE Ee
+e Ee ee
+
+BbEe x BBEe
+Wat is de kans op twee honden met een zwarte vacht en lange staart?
+
+Bb x BB = 100%
+Ee x Ee = 25% * 1/2 = 12.5% (multiplication rule)
+
+En wat is de kans dat een hond homozygoot dominant of homozygoot recessief voor
+staart lengte is?
+Ee x Ee = 25% + 25% = 50% (addition rule)
+
+[*terminologie*]
+Complete dominance: bepaalt fenotype van een organisme, ongeacht van de
+recessieve allel.
+
+Incomplete dominance: bepaalt deels het fenotype van een organisme. Dit zou
+de blending hypothesis kunnen ondersteunen, maar is niet waar. Stel een rode-
+en een witte bloem krijgen een roze bloem als nakomeling. Als die roze bloem
+nakomelingen krijgt, dan is de ratio: 1:2:1 (dus niet allemaal roze).
+
+Codominance: beide allelen beïnvloeden het fenotype onafhankelijk van elkaar.
+
+* voorbeeld *
+Allel A codeert voor de productie van het antigeen A op het oppervlak van rode
+bloedcellen.
+Allel B codeert voor de productie van het antigeen B op het oppervlak van rode
+bloedcellen.
+Allel AB codeert voor de productie van het antigeen A en B op het oppervlak van
+rode bloedcellen (is dus universele acceptor: geen antistoffen aanwezig)
+
+LET OP:
+Voor elk character hangt de waargenomen dominante/recessieve relatie van
+allelen af van het niveau waarop het fenotype onderzocht wordt.
+
+Polygenic characters: afhankelijk van verschillende genen.
+
+Quantitative characters: afhankelijk van verschillende genen en
+andere factoren.
+
+Multifactorial: een character dat wordt beïnvloed door nature and nurture.
+
+Epistasis: een gen heeft een effect op een ander gen.
+
+Pleiotropy: als een gen twee of meer ongerelateerde fenotypen beïnvloed.

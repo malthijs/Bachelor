@@ -1,0 +1,216 @@
+[*linkage*]
+Als allelen samen op een chromosoom liggen en (bijna) altijd
+doorgegeven worden
+
+Crossing-over
+Recombinatie van homologe chromosomen
+
+Recombinante chromatiden (binnenkant)
+Er wordt genetische materiaal uitgewisseld
+Parentale chromatiden (buitenkant)
+Er vindt geen uitwisseling van genetische materiaal plaats
+
+Frequentie van crossing-over tussen bepaalde loci is een indicatie
+voor de afstand tussen allelen
+
+[*gameet formatie*]
+Dominante allelen worden ook wel wildtype genoemd
+Recessieve alleen worden ook wel mutante genoemd
+
+* voorbeeld *
+Zonder linkage:
+A-- --B
+A-- --B (recombinant)
+a-- --b (recombinant)
+a-- --b
+
+Resultaat
+1x AB
+1x ab
+1x Ab
+1x Ba
+
+* voorbeeld *
+Met linkage:
+A---B
+A---B (recombinant)
+a---b (recombinant)
+a---b
+
+Resultaat
+2x AB
+2x ab
+
+* voorbeeld *
+Met linkage en crossing-over:
+A---B
+A---B (recombinant)
+a---b (recombinant)
+a---b
+
+Resultaat
+1x AB
+1x ab
+1x Ab
+1x Ba
+
+Conclusie(s):
+Des te verder allelen van elkaar liggen des te vaker ze
+gerecombineerd worden
+
+Hoe dichter allelen bij elkaar liggen, hoe minder vaak ze
+gerecombineerd worden ("complete linkage")
+
+Mate van linkage gebruiken voor chromosome mapping
+
+[*complete autosomal linkage*]
+Genen op autosoom: 2 kopieën
+
+Genotype kruisingstabel:
+P1 generatie
+A---B
+A---B
+
+a---b
+a---b
+
+Resultaat
+4x
+A---B
+a---b
+
+F1 generatie
+A---B
+a---b
+
+A---B
+a---b
+
+Resultaat
+1x
+A---B
+A---B
+1x
+a---b
+a---b
+2x
+A---B
+a---b
+
+F2 generatie
+ratio = 1:2:1 ("complete linkage")
+
+[*complete x-linkage*]
+Genen op sekschromosoom:
+2 kopieën van X bij vrouwen
+1 kopie van X bij mannen
+
+LET OP:
+a---b = homozygoot recessief
+A---B = homozygoot dominant
+
+Fenotype kruisingstabel:
+P1 generatie
+Vrouw
+a---b
+a---b
+
+Man
+A---B
+----- (y-chromosoom)
+
+Resultaat
+2x
+A---B (alleen vrouwen)
+2x
+a---b (alleen mannen)
+
+F1 generatie
+Vrouw
+A---B
+a---b
+
+Man
+a---b
+----- (y-chromosoom)
+
+Resultaat
+2x
+A---B (vrouwen en mannen)
+2x
+a---b (vrouwen en mannen)
+
+F2 generatie
+ratio = 1:1 ("complete linkage")
+
+Conclusie(s):
+Morgan en Sturtevant vonden GEEN ratio van 1:1
+
+[*complete x-linkage met crossing-over*]
+F2 generatie
+ratio = 0.4975:0.4975:0.0025:0.0025
+
+RF = 0.0025 + 0.0025 = 0.0050
+(0.5% vertoont recombinant fenotype)
+
+[*chromosome mapping*]
+1% recombinatie = 1 map unit = 1 centiMorgan (cM)
+
+* voorbeeld *
+A-----B---------C
+  0.5     4.5
+
+[*interferentie*]
+Een crossing-over in een bepaalde regio van het chromosoom remt
+een crossing-over in een andere regio van het chromosoom
+
+I = 1 - C
+C = waargenomen DCO / verwachte DCO
+
+Indien I = 1, dan complete interferentie
+(er vindt dan geen dubbele crossing-over (DCO) plaats)
+
+Positieve I: er zijn minder dubbele crossing-overs dan verwacht
+Negatieve I: er zijn meer dubbele crossing-overs dan verwacht
+
+* voorbeeld *
+(1) Bepaal de volgorde van de drie genen en de map afstand ertussen
+(2) Is er sprake van positieve of negatieve interferentie?
+
+Fenotype    F1
+a b c       314 (NCO)
++ + +       280 (NCO)
++ b c       150
+a + +       156
+a + c       46
++ b +       30
+a b +       10 (DCO)
++ + c       14 (DCO)
+
+Om de volgorde van 3 of meer genen op een chromosoom te bepalen
+wordt er naar dubbele crossing-overs gekeken
+
+Volgorde
+a c b
++ + +
+
+Resultaat
+a + b
++ c +
+
+Observatie toont aan dat dit de juiste volgorde is
+
+Volgorde wordt gebruikt om de afstand tussen de genen te bepalen
+RF = 150 + 156 + 10 + 14 = 330
+(= 33,0 % recombinatie tussen a en c)
+
+RF = 46 + 30 + 10 + 14 = 100
+(= 10,0 % recombinatie tussen c en b)
+
+a----------c----b
+     33      10
+
+I = 1 - (0,024)/(0,33 * 0,10) = 0,273
+Er is positieve interferentie, dus een crossing-over in een bepaalde
+regio van het chromosoom remt een crossing-over in een andere regio
+van het chromosoom

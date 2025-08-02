@@ -1,0 +1,27 @@
+paragraaf 6
+[**electron arrangement and the periodic table**]
+
+[*octet regel, de regel van 8*]
+Edelgassen zijn uiterst stabiele elementen en worden als inert beschouwd omdat
+ze zelden geneigd zijn om chemische bindingen aan te gaan met andere elementen.
+Dit komt doordat hun buitenste elektronenschillen al volledig zijn gevuld,
+waardoor ze weinig behoefte hebben om elektronen te delen of over te dragen om
+een stabielere configuratie te bereiken.
+
+Helium (He), bijvoorbeeld, heeft een volledige buitenste schil met slechts 2
+elektronen, wat zijn stabiliteit verklaart.
+
+In tegenstelling tot de edelgassen moeten de niet-edelgassen nog elektronen
+krijgen of afstaan om de felbegeerde stabiele configuratie van 8
+valentie-elektronen te bereiken, bekend als de "edelgasconfiguratie". Dit doen
+ze door chemische bindingen aan te gaan met andere elementen, waarbij ze
+elektronen delen, opnemen of afstaan om een stabiele elektronenconfiguratie te
+bereiken, vergelijkbaar met die van de edelgassen.
+
+[*iso-elektronisch*]
+Het concept van iso-elektronische atomen benadrukt atomen van verschillende
+elementen die dezelfde elektronenconfiguratie delen.
+
+* voorbeeld *
+Aluminium (Al³⁺) en neon (Ne) hebben beide in totaal 10 elektronen, en worden
+ze beschouwd als iso-elektronisch.

@@ -1,0 +1,82 @@
+Alpha-helix
+Beta-sheet (beta-sheet bestaat uit beta-strands)
+
+Primaire structuur: N-terminus --> C-terminus (lineaire sequentie)
+Secundaire structuur: alpha-helices en beta-sheets
+
+Aminozuren hebben voorkeur voor een bepaalde secundaire structuur
+KALEM: alpha-helix
+WYFVIL: beta-strand
+GPSND: turn
+QRH: geen voorkeur
+
+Sommige aminozuren breken secundaire structuren zoals proline en
+glycine.
+
+Waar komt de secundaire structuur door:
+- waterstofbruggen
+- NH = donor
+- CO = acceptor
+
+Alpha-helix is meest voorkomend waarbij het in 2 vormen voorkomt:
+- coiled
+- helical
+Daarnaast kan het right- of left handed zijn (right handed helices
+komen meer voor, want die ondergaan minder steric hindrance).
+
+Eigenschappen alpha-helix:
+- Repeat distance of pitch is 5.4 Å.
+- 3.6 aminozuren per turn.
+- φ (phi) en ψ (psi) tussen -50 en -60.
+
+Een alpha-helix heeft een dipoolmoment. Positief geladen aminozuren
+aan N-terminus en negatief geladen aminozuren aan C-terminus.
+
+Beta-sheets komen in twee vormen voor:
+1. parallel: in dezelfde richting
+2. anti-parallel: in tegenovergestelde richting
+
+Bij parallel staan de waterstofbruggen scheef en bij anti-parallel
+recht (anti-parallelle beta-sheets zijn meer voorkomend, want die
+ondergaan minder steric hindrance).
+
+De aminozuren in beta-strands wisselen tussen hydrofobe en
+hydrofiele aminozuren af.
+
+Chameleon sequenties. Kort. Alpha-helix of beta-sheet.
+
+Loops en turns:
+- Turn is 180°.
+- Loop is langer dan een turn.
+- Maakt tertiare structuur mogelijk (verbindt alpha-helices of
+beta-sheets).
+- Lange loops zijn instabiel.
+- Stabiliteit kan vergroot worden door internal packing (omega-loop)
+of metaalbinding.
+
+Motieven (super secundaire structuren):
+1. Helix-turn-helix (HTH) motief
+2. EF-hand motief
+3. Greek key motief
+4. Beta-alpha-beta motief
+
+HTH:
+Bindt aan DNA.
+1e helix bindt aan DNA-backbone.
+2e helix bindt aan major groove.
+Vaak in dimeer (palindroom).
+
+EF-hand:
+Een calcium wordt gebonden door 7 zuurstof: 6 van eiwit 1 van water.
+
+Greek key:
+Geen specifieke function.
+Komt vaak voor.
+Parallelle en anti-parallelle beta-sheets
+
+Beta-alpha-beta:
+Alpha-helix verbonden met parallelle beta-sheets.
+
+Domeinen:
+Vouwen onafhankelijk.
+Grotere eiwitten bevatten meerdere domeinen.

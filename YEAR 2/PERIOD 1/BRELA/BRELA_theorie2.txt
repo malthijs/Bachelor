@@ -1,0 +1,39 @@
+[*normalisatie*]
+Geen redundantie of anomalieën
+
+Normaalvormen
+0NF
+1NF
+2NF
+3NF
+4NF
+5NF
+
+[*1NF*]
+- Rijen bevatten gegevens over instanties van een entiteit
+- Er mogen geen identieke rijen voorkomen
+- Kolommen bevatten gegevens over attributen van een entiteit
+- Alle gegevens in een kolom zijn van hetzelfde datatype
+- Elke kolom heeft een unieke naam
+- Volgorde van kolommen en rijen niet van belang
+- Cellen van een entiteit bevatten enkelvoudige gegevens
+
+[*2NF*]
+Er is voldaan aan de voorwaarden van 1NF
+Alle niet-sleutelattributen zijn afhankelijk van de primary sleutel
+(composite keys: partial dependence)
+
+[*3NF*]
+Er is voldaan aan de voorwaarden van 2NF
+Er is geen transitieve afhankelijkheid
+(niet-sleutel attributen in een tabel zijn afhankelijk van de
+primaire sleutel)
+
+[*4NF*]
+Er is voldaan aan de voorwaarden van 3NF
+Er is geen meerwaardige afhankelijkheid
+(many-to-many relationship: koppeltabel)
+
+[*5NF*]
+Er is voldaan aan de voorwaarden van 4NF
+Er is geen join afhankelijkheid

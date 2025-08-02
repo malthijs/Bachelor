@@ -1,0 +1,37 @@
+Breuken
+1. addition
+- A/B + C/B = (A+C)/B
+- A/B + C/D = (AD)/(BD) + (BC)/(BD) = (AD + BC)/(BD)
+2. subtraction
+- A/B - C/B = (A-C)/B
+- A/B - C/D = (AD)/(BD) - (BC)/(BD) = (AD - BC)/(BD)
+3. product
+- A/B * C/D = (AC)/(BD)
+4. quotient
+- A/B * D/C = (AD)/(BC)
+
+Exponenten
+1. zero
+- A⁰ = 1
+2. negative exponent
+- A-ˣ = 1/Aˣ
+3. product
+- Aˣ * Aʸ = Aˣ+ʸ
+4. quotient
+- Aˣ / Aʸ = Aˣ-ʸ
+5. power
+- (Aˣ)ʸ = Aˣʸ
+6. power of product
+- Aˣ * Bˣ = (AB)ˣ
+7. power of quotient
+- Aˣ / Bˣ = (A/B)ˣ
+
+Logaritmen
+1. product
+- logₓ(A * B) = logₓ(A) + logₓ(B)
+2. quotient
+- logₓ(A / B) = logₓ(A) - logₓ(B)
+3. power
+- logₓ(Aʸ) = y * logₓ(A)
+4. change of base
+- logₓ(A) = logᵧ(A)/logᵧ(X)

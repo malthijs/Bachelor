@@ -1,0 +1,53 @@
+[*koolhydraten*]
+Chiraliteit: asymmetrie in de stereochemie.
+Een chiraal C-atoom heeft 4 verschillende groepen om zich heen
+Een achiraal C-atoom heeft minder dan 4 verschillende groepen om zich heen
+
+Isomeren worden onderverdeeld in structuurisomeren en stereoisomeren.
+Stereoisomeren worden onderverdeeld in enantiomeren en diastereoisomeren.
+Diastereoisomeren worden onderverdeeld in cis-trans-isomeren en anomeren.
+
+Structurele isomeren (zelfde hoeveelheid atomen, maar andere structuur)
+
+Enantiomeren: zelfde atomen, zelfde bindingen en zijn spiegelbeeld
+Diastereoisomeren: zelfde atomen, zelfde bindingen en zijn niet spiegelbeeld
+(basically niet alle delen van het molecuul zijn het spiegelbeeld van elkaar)
+
+cis-trans-isomerie:
+Cis: dezelfde kant
+Trans: tegenovergestelde kant
+
+Het centrum van een chiraal atoom wordt het chiraal centrum genoemd.
+50% van de biomassa op aarde bestaat uit suikers.
+Algemene formule: Cₙ(H₂0)ₙ
+1 suikermolecuul = mono
+2 suikermoleculen = di
+tussen de 3 en 10 suikermoleculen = oligo
+meer dan 10 suikermoleculen = poly
+
+Suiker met een keton groep = ketose
+Suiker met aldehyde groep = aldose
+
+Suiker ondergaat uit zichzelf een chemische reactie om een cirkel te vormen
+
+Fischer Projectie:
+atomen naar voren horizontaal
+atomen naar achter verticaal
+- Meest geoxideerde atoom is boven
+- Bij chirale atomen wordt een kruis getekend
+
+In de natuur D-glucose, maar L-glucose niet
+Als de OH groep van de onderste chirale atoom rechts is, wordt het suiker D
+genoemd, anders L.
+
+Als de rechter OH groep van een suikermolecuul onder is, wordt het alpha
+genoemd, anders beta. Glucose alpha en glucose beta zijn anomeren van elkaar.
+
+Haworth projectie:
+Om de cyclische structure van sachariden weer te geven.
+Stoel of boot
+
+Boot = steric hindrance, atomen te dicht bij elkaar
+
+Glycoside binding: covalente binding dat een koolhydraat verbindt met een
+andere koolhydraat

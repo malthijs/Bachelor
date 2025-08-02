@@ -1,0 +1,64 @@
+LES 4
+20-sep-2023
+
+Paragraaf 4
+[**drawing lewis structures of molecules and polyatomic ions**]
+
+[*lewis structuren*]
+- skeletstructuur
+Plaats het minst elektronegatieve element in het midden en de meest
+elektronegatieve elementen aan de buitenkant.
+
+- valentie-elektronen
+Bereken het totale aantal valentie-elektronen, dat de elektronen zijn in de
+buitenste schil van een atoom.
+
+Voor polyatomische kationen trek je één elektron af voor elke positieve lading.
+Voor polyatomische anionen voeg je één elektron toe voor elke negatieve lading.
+
+- bindingen
+Verbind het centrale atoom met omliggende atomen met enkele bindingen.
+
+- elektronenparen
+Verdeel de overgebleven elektronenparen zodat de atomen die gebonden zijn aan
+het centrale atoom voldoen aan de octetregel. Elektronen die niet betrokken
+zijn bij bindingen worden weergegeven als losse elektronenparen.
+
+[*soorten bindingen*]
+Enkele binding, dubbele binding en drievoudige binding verwijzen naar het
+aantal gedeelde elektronen tussen twee atomen, respectievelijk twee, vier en
+zes elektronen.
+
+[*uitzonderingen*]
+Er zijn uitzonderingen op de octetregel, wat betekent dat een element meer dan
+8 elektronen om zich heen kan hebben (zoals H2SO4).
+
+[*resonantie*]
+Soms kan een molecuul meerdere lewis-structuren hebben (zoals HNO3). Dit
+fenomeen staat bekend als resonantie, waarbij twee of meer lewis-structuren
+bijdragen aan de werkelijke structuur van een molecuul. Dit wordt ook wel
+mesomerie genoemd.
+
+[*bindingsenergie en -lengte*]
+Bindingsenergie is de energie die nodig is om een binding te verbreken. Hoe
+hoger de bindingsenergie, hoe sterker de binding.
+
+Bindingslengte verwijst naar de afstand tussen de kernen van de twee gebonden
+atomen. Over het algemeen geldt dat bij kortere bindingslengte de
+bindingsenergie hoger is, en omgekeerd.
+
+[*VSEPR theorie*]
+De Valence Shell Electron Pair Repulsion (VSEPR) theorie wordt gebruikt om de
+geometrie van moleculen te voorspellen. Het idee is dat alle elektronenparen
+rond het centrale atoom zich zo ver mogelijk van elkaar organiseren om
+elektronenafstoting te minimaliseren.
+
+De aanwezigheid van losse elektronenparen kan de moleculaire geometrie
+beïnvloeden, omdat ze extra elektronen afstoting creëren.
+
+[*geometrie*]
+- linear          180 graden
+- trigonaal vlak  120 graden
+- gebogen
+- trigonaal piramidaal
+- tetraëder

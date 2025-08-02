@@ -1,0 +1,48 @@
+[*carbonzuren*]
+Bevat hydroxyl groep (OH)
+Bevat carbonyl groep (C=O)
+
+Primaire alcohol + oxidatie --> aldehyde + oxidatie --> carbonzuur (zwak zuur)
+RCOOH ⇌ RCOO- + H30⁺
+
+London dispersie en dipool-dipool
+Polair, oplosbaar in water
+
+[*esters*]
+Deze reactie wordt verestering genoemd:
+Carbonzuur + Alcohol ⇌ Ester + Water (zuur als katalysator)
+
+Dit wordt saponification genoemd:
+Ester + Water ⇌ Carboxylaat-anion + Alcohol (base als katalysator)
+
+Zoals er te zien is, wordt er bij een zuur een carbonzuur gevormd, en bij een
+base een carboxylaat-anion.
+
+[*zeep*]
+Carbonzuur + Natronloog → Carbonzuur Zout + Water (NaOH is een sterke base)
+
+Hydrofobe staart en hydrofiele kop (maakt vuil oplosbaar in water)
+Micel: een bolvormige structuur waarbij het vet in het midden is en het water
+buiten.
+
+[*fosfaatesters*]
+De vorming van een fosfaatester gebeurt bijvoorbeeld in de glycolyse:
+R-OH + fosfaatzuur → fosfaatester + H₂O
+
+Fosfaatesters kunnen samen met fosfaatgroepen een polymeer vormen
+De bindingen daartussen bevatten heel veel energie en worden fosfoanhydride
+bindingen genoemd (zoals: ATP)
+
+[*thioesters*]
+                                            R₂
+                                            |
+Binding tussen een thiol en een ester: R₁-S-C=O
+Zoals: acetyl-coa
+
+[*amines en amides*]
+Belangrijk bij DNA en RNA
+London dispersie en dipool-dipool
+Polair, oplosbaar in water
+
+Aminen kunnen protonen opnemen, want het zijn basen
+Aminozuren zijn aan elkaar gebonden door peptidebindingen

@@ -1,0 +1,48 @@
+LES 2
+05-sep-2023
+
+paragraaf 4
+[**the periodic law and the periodic table**]
+
+[*periodiek systeem*]
+Het periodiek systeem is een overzichtstabel waarin elementen gerangschikt zijn
+op basis van hun oplopende atoomnummer.
+
+[*periode*]
+Elementen in dezelfde periode hebben dezelfde aantal energieniveaus of
+elektronenschillen. Hierdoor hebben ze vergelijkbare elektronische structuren
+en delen ze vaak overeenkomstige chemische eigenschappen.
+
+[*groep*]
+Elementen in dezelfde groep hebben dezelfde aantal valentie-elektronen, dat wil
+zeggen de elektronen in de buitenste schil van een atoom. Deze
+valentie-elektronen zijn verantwoordelijk voor chemische reacties en bindingen
+waardoor elementen in dezelfde groep vergelijkbare reactiegedrag vertonen.
+
+[*representatieve elementen*]
+- voorspelbare reacties
+- alkalimetalen (groep 1)
+- aardalkalimetalen (groep 2)
+- boorgroep (groep 13)
+- koolstofgroep (groep 14)
+- pnictogenen (groep 15)
+- chalcogenen (groep 16)
+- halogenen (groep 17)
+- edelgassen (groep 18; stabiel)
+
+[*transitie elementen*]
+- niet voorspelbaar
+- groep 3 tot en met groep 12
+
+[*metalen*]
+- geleiden elektriciteit
+- vaste vorm
+- staan elektronen af
+
+[*niet-metalen*]
+- geleiden elektriciteit niet
+- gassige vorm
+- nemen elektronen op
+
+[*metalloïden*]
+Hebben eigenschappen die zowel kenmerkend zijn voor metalen als niet-metalen.

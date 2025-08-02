@@ -1,0 +1,130 @@
+[*evolutie*]
+Charles Darwin was Brits en publiceerde een boek genaamd: "The Origin of
+Species by Means of Natural Selection".
+
+Hij had 3 observaties gemaakt:
+1. adaptatie aan de omgeving van organismen
+2. overeenkomsten tussen organismen
+3. diversiteit aan organismen
+Evolutie is het proces waarbij de genetische samenstelling van een populatie in
+de loop van de tijd verandert.
+
+Alternatieve theorieën:
+1.
+De Griekse filosoof Aristotle beschouwde soorten als vast (onveranderlijk). Hij
+concludeerde dat alle levende wezens gecategoriseerd kunnen worden op een
+schaal van toenemende complexiteit, genaamd scala naturae.
+
+Het feit dat soorten waren aangepast aan hun omgeving werd gezien als bewijs
+dat God elke soort met een specifiek doel had geschapen. De Zweed Carolus
+Linnaeus heeft de binomiale benaming van soorten (bv: Homo Sapiens) en het
+groeperen van soorten bedacht: Linnaean System of Classification
+
+2.
+De Franse bioloog Jean-Baptiste Lamarck stelde voor hoe leven over de tijd
+heen veranderd. Hij publiceerde zijn hypothese op het jaar dat Charles Darwin
+geboren was, en zij dat oudere fossielen geleidelijk overgaan naar jongere
+fossielen en uiteindelijk levende wezens. Hij ondersteunde de hypothese met
+twee principes hoe soorten over de tijd heen veranderen:
+- use and disuse
+Als je iets gebruikt wordt het sterker, en als je iets niet gebruikt wordt het
+slapper.
+
+* voorbeeld *
+Zoals giraffen die hun nekken strekken om bij de bladeren van bomen te kunnen
+komen.
+
+- inheritance of acquired characteristics
+De eigenschappen dat een individu tijdens zijn leven verwerft, worden
+doorgegeven aan de volgende generatie.
+
+* voorbeeld *
+Zoals giraffen die hun getrainde nekken aan nakomelingen doorgegeven.
+
+Verder bestudeerde Charles Darwin fossielen, de overblijfselen van organismen
+uit het verleden. De studie naar fossielen wordt paleontologie genoemd. De
+meeste fossielen worden gevonden in sediment, wat zich op de bodem van een
+oceaan, rivier of moeras bevindt. Nieuwe lagen sediment drukt oude lagen
+sediment samen: strata. Soms worden oude lagen strata blootgelegd doordat de
+nieuwe lagen door erosie worden weggesleten.
+
+3.
+De Franse wetenschapper George Cuvier had verschillende observaties over strata
+gedaan:
+- des te ouder de stratum, des te ouder de fossielen waren en des te minder ze
+op de huidige levensvormen leken.
+- sommige soorten verdwenen op een bepaalde laag, terwijl er andere verschenen:
+extinctie. Hij concludeerde dat dit gebeurde door plotselinge gebeurtenissen,
+zoals een overstroming.
+
+Maar, de Schotse geologist James Hutton verklaarde dat de geologische kenmerken
+van de aarde gevormd waren uit geleidelijke mechanismen, zoals valleien uit
+rivieren. De geologist Charles Lyell voegde hieraan toe dat de snelheid van
+deze processen gelijk blijft.
+
+Door deze geologen concludeerde Charles Darwin dat de aarde heel oud moet zijn,
+omdat erosie een sloom proces is.
+
+[*HMS Beagle*]
+In December 1831 ging Charles Darwin op reis om de Zuid-Amerikaanse kust in
+kaart te brengen, waarbij Robert Fitzroy de kapitein was. Op de
+Galapagoseilanden verzamelde Charles Darwin verschillende mockingbirds, die op
+elkaar leken, maar toch verschillend waren. Hij concludeerde adaptatie: geërfde
+kenmerken van organismen dat hun kansen van overleven en reproductie in
+een specifieke omgeving verhoogt. Dit was afhankelijk van natuurlijke selectie:
+een proces waarbij individuen door geërfde kenmerken overleven en reproduceren.
+
+Charles Lyell was nog niet overtuigd van evolutie, maar drang Charles Darwin
+aan om zijn bevindingen te publiceren voordat iemand anders dat deed. En die
+voorspelling kwam uit. De Britse naturalist Alfred Russel Wallace had een bijna
+identieke verklaring voor natuurlijke selectie als Charles Darwin. Zijn paper
+werd gepubliceerd. 1 jaar later publiceerde Charles Darwin zijn boek.
+
+[*natuurlijke selectie*]
+Artificiële selectie: selectie op basis van gewilde eigenschappen.
+
+Darwin zei dat door selectie soorten steeds meer van hun voorouders gaan
+verschillen.
+
+Observatie:
+- individuen van een populatie variëren in hun geërfde eigenschappen
+- individuen van een populatie produceren meer nakomelingen dan hun omgeving
+aan kan, en veel daarvan gaan dood
+
+Gevolg:
+- individuen die eigenschappen erven dat hun een hogere kans op overleving
+geven, krijgen meer nakomelingen
+- dit zorgt voor een accumulatie van voordelige eigenschappen in de populatie
+
+De connectie tussen natuurlijke selectie en de capaciteit van een organisme om
+te overproduceren werd gemaakt nadat Charles Darwin een essay van econoom
+Thomas Malthus had gelezen.
+
+Individuen evolueren niet, het is de populatie dat over tijd evolueert.
+
+[*bewijs voor evolutie*]
+Descent with modification: kenmerken die aanwezig zijn in een organisme worden
+in de loop van de tijd veranderd (door natuurlijke selectie) in zijn
+nakomelingen, naarmate zij verschillende omgevingscondities tegenkomen.
+
+Bij convergente evolutie gaan twee niet verwanten soorten meer op elkaar
+lijken. Bij divergente evolutie gebeurt het tegenovergestelde.
+
+Analogie: de gelijkenis die voortkomt door gelijke omgeving.
+Homologie: de gelijkenis die voortkomt uit verwantschap.
+
+Homologe structuren zijn structuren die vergelijkbaar zijn met de structuren in
+andere organismen, wat wijst op een gemeenschappelijke evolutionaire oorsprong.
+
+Vestigiale structuren zijn structuren die in de loop van evolutie hun
+oorspronkelijke functie verloren hebben.
+
+Fossielen:
+Bewijst dat organismen uit het verleden verschillen van de huidige organismen.
+Ook bewijst het dat veel soorten zijn uitgestorven. Tot slot laat het zien dat
+evolutionaire veranderingen plaats hebben gevonden.
+
+Biogeografie:
+De wetenschappelijke studie naar de geografische distributie van soorten.
+Pangaea: was een supercontinent dat later opsplitste in verschillende
+continenten (continental drift)

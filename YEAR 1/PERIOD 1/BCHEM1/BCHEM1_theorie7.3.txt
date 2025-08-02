@@ -1,0 +1,49 @@
+paragraaf 7.3
+[**kinetics**]
+
+[*terugblik*]
+Thermodynamica richt zich op het bepalen van de spontaniteit van chemische
+reacties, terwijl chemische kinetiek de snelheid van reacties bestudeerd.
+
+[*activeringsenergie*]
+De minimale hoeveelheid energie die nodig is om een chemische reactie
+te starten, wordt de activeringsenergie (Ea) genoemd. Dit is de drempelenergie
+die overwonnen moet worden om de reactie te laten plaatsvinden.
+
+[*geactiveerde complex*]
+Het geactiveerde complex is een concept in de chemie dat verwijst naar een
+tijdelijke toestand voordat een chemische reactie plaatsvindt. In deze toestand
+hebben de reactanten voldoende energie verworven om de activeringsenergie te
+overwinnen, maar hebben ze nog een klein duwtje nodig om over te kunnen gaan
+naar de producten (meestal in de vorm van effectieve botsingen).
+
+[*reactiesnelheid*]
+1. structuur
+Reacties tussen stoffen met ionische, polair covalente en covalente bindingen.
+Over het algemeen geld dat reacties tussen stoffen met ionische bindingen
+sneller verlopen omdat er geen binding gebroken hoeft te worden.
+
+2. vorm en oriëntatie
+Grote moleculen kunnen reacties vertragen door bepaalde delen van het molecuul
+te blokkeren, dit effect is minder prominent bij kleinere moleculen.
+
+3. concentratie
+Hogere concentraties van stoffen leiden tot snellere reacties omdat er meerdere
+effectieve botsingen plaats vinden.
+
+4. temperatuur
+Hogere temperaturen verhogen de reactiesnelheid omdat moleculen sneller gaan
+bewegen waardoor er meerdere effectieve botsingen plaats vinden.
+
+5. fase
+De fysieke toestand van reactanten (vast, vloeibaar, gas) beïnvloedt de
+reactiesnelheid, waarbij reacties meestal sneller verlopen in gas- en vloeibare
+fasen en trager in de vaste fase.
+
+6. katalysator
+Katalysatoren verlagen de activeringsenergie en versnellen reacties zonder zelf
+te worden verbruikt. Dit is van groot belang in de industrie en kan de
+efficiëntie en winstgevendheid van bepaalde processen verbeteren.
+
+Biologische katalysatoren genaamd enzymen controleren en versnellen
+essentiële biochemische reacties.

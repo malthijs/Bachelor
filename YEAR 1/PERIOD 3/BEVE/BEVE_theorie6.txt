@@ -1,0 +1,137 @@
+[*introductie*]
+Evolutie op de laagste schaal wordt micro-evolutie genoemd, waarbij de
+genetische samenstelling van één populatie veranderd.
+
+Slechts enkele jaren na het artikel van Charles Darwin publiceerde Gregor
+Mendel een artikel over erfelijkheid.
+
+Een verandering in genetische samenstelling kan plaats vinden door mutaties,
+natuurlijke selectie, genetic drift of gene flow.
+
+[*variatie*]
+De diversiteit aan genetische samenstellingen wordt genetic variation genoemd.
+
+- Mutaties
+Zijn de kern van variatie. Ontstaan toevallig of door fouten bij het kopiëren
+van DNA.
+
+Punt mutatie (één nucleotide veranderd):
+Silent
+Missense
+Nonsense
+
+Shapeshift mutatie (verandert reading frame):
+Deletion
+Insertion
+
+Er zijn genoeg mutaties die niet schadelijk zijn voor een organisme, wat tot
+neutral variation kan leiden, een verschil in DNA-sequentie dat geen selectieve
+voordeel of nadeel geeft. Denk bijvoorbeeld aan een mutatie op een intron, dat
+niet-coderend is.
+
+Verder is gen duplicatie een potentiële bron voor variatie door unequal
+crossing over, slippage tijdens DNA replicatie of door de activiteit van
+transposons of retrotransposons.
+
+- Seksuele voortplanting
+Is een bron van variatie:
+Crossing over
+Independent assortment
+Random fertilization
+
+[*micro-evolutie*]
+Sommige allelen komen in de volgende generatie meer voor dan voorheen
+Andere allelen komen minder voor
+
+Micro-evolutie is dus de verandering van allelfrequenties in één populatie
+over generaties heen.
+
+Allelfrequenties veranderen onder invloed van 4 mechanismen:
+- Mutaties
+- Natuurlijke selectie
+- Genetic drift
+- Gene flow
+
+[*meten van micro-evolutie*]
+Een populatie is een groep van individuen van dezelfde soort dat op hetzelfde
+land leeft, geschikte en fertiele nakomelingen produceert.
+
+Gene pool, set van alle allelen dat een populatie heeft.
+
+Hardy-Weinberg equilibrium:
+1. geen mutaties
+2. willekeurig paren
+3. geen natuurlijke selectie
+4. grote populatie (genetic drift vindt plaats in kleine populaties)
+5. geen geneflow
+
+Formules:
+p + q = 1 (allelen)
+p² + 2pq + q² = 1 (genotypen)
+
+Hiermee kunnen twee dingen berekend worden:
+1. allelfrequentie
+2. genotypefrequentie
+
+* voorbeeld *
+Taaislijmziekte is een recessieve aandoening die ongeveer 1 op de 2.500 baby's
+treft.
+
+Allelfrequenties:
+- a = √(1/2500) = 0,02
+- A = 1 - 0,02 = 0,98
+
+Genotypefrequenties:
+- AA = 0,98 * 0,98 = 0,9604
+- Aa = 0,04 = 0,0392 = 0,0392
+- aa = 1 - (0,9604 + 0,0392) = 1/2500
+
+[*natuurlijke selectie*]
+Als een trait leidt tot een hogere kans op overleving en reproductie (survival
+of the fittest).
+
+Kan leiden tot adaptieve evolutie, waarbij bepaalde allelen meer gewild zijn
+dan andere. Deze allelen nemen in de loop van tijd toe (denk aan vliegen die
+immuun worden voor insecticiden).
+
+Struggle for existence: competitie tussen individuen van een soort om te
+overleven en reproduceren
+Relative fitness: meet het voortplantingssucces van een individu in
+vergelijking met anderen in de populatie
+
+Er zijn drie manieren waarop natuurlijke selectie de allelfrequentie
+verandert:
+Directionele selectie: één extremum van fenotypische eigenschappen worden
+selectief begunstigd.
+Disruptieve selectie: de extremen van fenotypische eigenschappen worden
+selectief begunstigd ten kosten van de gemiddelde varianten.
+Stabiliserende selectie: de gemiddelde variant van fenotypische eigenschappen
+worden selectief begunstigd, terwijl de extremen worden benadeeld.
+
+Seksuele selectie:
+- Intraseksuele selectie: sterke mannen jagen zwakke mannen weg
+- Interseksuele selectie: vrouwen geven voorkeur aan bepaalde mannen
+
+Dit was een van de bijzondere dingen wat Darwin verraste. Waarom zouden
+mannetjes opvallende en mooie kleuren willen hebben als ze makkelijker door
+predatoren gepakt worden. Blijkbaar omdat de reproductieve kans dan toeneemt.
+
+[*genetic drift*]
+Kans evenementen die allelfrequenties beïnvloeden, heeft een groot effect op
+kleine populaties (verlies van allelen).
+
+- Founder effect
+Klein aantal individuen starten een populatie.
+Allelfrequentie door toeval anders dan oorspronkelijke populatie.
+
+- Bottleneck effect
+Populatie sterk gereduceerd door een plotselinge gebeurtenis.
+Allelfrequentie door toeval anders dan oorspronkelijke populatie.
+
+[*gene flow*]
+Import en export van allelen.
+- door migratie
+- door stuifmeel
+
+Verkleint vaak verschillen tussen populaties
+Kan 'voordelige' allelen verspreiden

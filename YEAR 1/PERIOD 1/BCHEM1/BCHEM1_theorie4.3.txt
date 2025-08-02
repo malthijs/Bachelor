@@ -1,0 +1,23 @@
+Paragraph 3
+[**the chemical equation and the information it conveys**]
+
+[*combinatie reactie*]
+Dit type reactie doet zich voor wanneer twee of meer stoffen samenkomen om een
+enkele stof te vormen.
+
+[*decompositie reactie*]
+Bij dit type reactie valt een molecuul uiteen in twee of meer eenvoudigere
+stoffen.
+
+[*vervanging reactie*]
+Hierbij wordt een atoom vervangen door een ander atoom in een molecuul. Er
+zijn twee subtypen:
+
+[*enkelvoudige vervanging reactie*]
+Een atoom vervangt een overeenkomstig atoom in een molecuul, waarbij een
+nieuwe verbinding wordt gevormd.
+
+[*meervoudige vervanging reactie*]
+In dit type reactie vindt een uitwisseling plaats van atomen in
+meerdere moleculen. Dit resulteert in de vorming van twee of meer nieuwe
+moleculen.

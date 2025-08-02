@@ -1,0 +1,36 @@
+[*databases*]
+Een startpunt in veel onderzoeken.
+
+- DNA sequenties
+- Eiwit sequenties
+- Eiwit structuren
+
+- Informatie over genen
+- Informatie over biologische processen (waarbij het betrokken is)
+
+nucleotide databases (DNA/RNA)
+- NCBI
+https://www.ncbi.nlm.nih.gov/Sitemap/samplerecord.html
+
+PubMed:
+Is een database die toegang biedt tot uitgebreide biomedische literatuur.
+RefSeq:
+Is een database die toegang biedt tot nucleotidensequenties en de bijbehorende
+eiwitproducten.
+
+- ENA
+https://www.ebi.ac.uk/ena/browser/view/U49845
+
+eiwit databases
+- UniProt
+Algemene informatie over eiwitten
+
+- PDB
+Informatie over 3D-structuren van eiwitten
+
+eiwitnetwerk databases
+- KEGG
+Informatie over pathways van eiwitten
+
+EC: enzymcommissienummer (bv: 2.7.1.1)
+Links naar rechts → steeds specifieker (subsets)

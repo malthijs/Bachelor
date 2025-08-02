@@ -1,0 +1,31 @@
+Ramachandran plot:
+Visualiseert de backbone hoeken van aminozuren in een eiwit.
+φ (phi): C-N-Cα-C
+ψ (psi): N-Cα-C-N
+
+Deze hoeken dat een aminozuur kan maken is afhankelijk van de
+R-groep.
+
+Tot slot is er ook een ω (omega) hoek: 180°.
+Peptide binding.
+
+Algemeen:
+Links boven beta-sheets, links in het midden right handed
+alpha-helices en rechts in het midden left handed alpha-helices.
+
+Uitzonderingen:
+Glycine is erg flexibel en kan veel draaien, maar proline niet.
+
+Homology modelling:
+Je wilt de structuur van een eiwit weten, maar die is niet bekend.
+- Eiwit zuiveren en structuur ophelderen met NMR, cryo-electron of
+x-ray → maanden.
+- Zoek homoloog eiwit (PDB of SWISS-model) → uur.
+- Gebruik AlphaFold 2 om structuur te voorspellen → minuten.
+
+Hoe homoloog moet een eiwit zijn?:
+Safe zone
+Twilight zone
+
+Validatie:
+ramachandran plot

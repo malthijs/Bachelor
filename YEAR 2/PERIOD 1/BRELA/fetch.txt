@@ -1,0 +1,22 @@
+import psycopg2
+
+if __name__ == "__main__":
+    conn = psycopg2.connect(host='145.97.18.240',
+                            dbname='s1128088_db',
+                            user='s1128088',
+                            password='s1128088')
+    cursor = conn.cursor()
+    try:
+        sql = "select * from subtax where tax_name = 'Beetles'"
+        cursor.execute(sql)
+
+        # je ziet de query niet, je moet het fetchen
+        rijen = cursor.fetchall()
+        for rij in rijen:
+            print(rij)
+
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        print(e)
+        conn.close()

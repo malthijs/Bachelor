@@ -1,0 +1,20 @@
+paragraaf 3
+[**properties of ionic and covalent compounds**]
+
+[*ionische verbindingen*]
+Ionische verbindingen vertonen specifieke eigenschappen als gevolg van de
+sterke elektrostatische krachten tussen de positieve en negatieve ionen:
+- vaste stoffen
+- hoog kookpunt
+- hoog smeltpunt
+- geordend kristalrooster
+- goed oplosbaar
+
+[*covalente verbindingen*]
+Covalente verbindingen daarentegen vertonen een reeks verschillende
+eigenschappen:
+- vaste, vloeibare en gassige stoffen
+- laag kookpunt
+- laag smeltpunt
+- ongeordend kristalrooster (amorf)
+- slecht oplosbaar

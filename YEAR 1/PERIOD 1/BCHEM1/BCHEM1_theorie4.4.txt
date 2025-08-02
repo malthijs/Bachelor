@@ -1,0 +1,9 @@
+paragraaf 4
+[**balancing chemical equations**]
+
+CaCO3 (s) --> CaO (s)  + CO2 (g)
+
+1. chemische componenten worden met chemische symbolen weergegeven
+2. reactanten links en producten rechts
+3. fase wordt weergegeven met (g), (l) of (s)
+4. moet kloppen (evenveel van elk atoom en lading links en rechts)

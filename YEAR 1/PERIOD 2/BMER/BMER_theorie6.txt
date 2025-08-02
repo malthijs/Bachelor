@@ -1,0 +1,59 @@
+[*variate tussen genomen*]
+Haploid: enkele set van chromosomen
+Diploid: twee sets van chromosomen
+
+Genomen van bacteriën zijn ongeveer even groot als de genomen van archaea.
+Eukaryote genomen zijn groter, waarbij eencellige kleinere genomen hebben dan
+meercellige.
+
+Bacteriën en archaea hebben een grotere percentage genen in hun genoom dan
+een- en meercellige eukaryoten (wordt gecompenseerd met alternative splicing
+waardoor een diverse hoeveelheid van polypeptiden gemaakt kunnen worden).
+
+Opvallend is dat eukaryoten, zoals de mens, veel meer noncoding DNA hebben dan
+prokaryoten.
+
+[*menselijk genoom*]
+- 1.5% exonen (coderen voor eiwitten).
+- ~20% intronen (coderen niet voor eiwitten).
+
+- 5% regulerende sequenties: beïnvloed expressie van genen.
+
+- 15% uniek noncoding DNA: gen fragmenten en pseudogenen; voormalige genen die
+inactief zijn geworden door mutaties.
+
+- 14% repetitief DNA (algemeen): kan heel veel oorzaken hebben, waarvan fouten
+in DNA replicatie één daarvan is.
+
+Tandem repeats: twee of meer bp herhalingen, aaneensluitend.
+
+- 44% repetitief DNA (transposons en retrotransposons): kunnen zich verplaatsen
+in het genoom
+
+Transposons: wordt gerepliceerd en daarna ingevoegd op een willekeurige locatie
+of geknipt en daarna ingevoegd op een willekeurige locatie.
+
+Retrotransposons: wordt getranscribeerd, daarna met behulp van reverse
+transcriptase weer omgezet in DNA en tot slot ingevoegd op een willekeurige
+locatie.
+
+Multigene families: een groep van genen die afkomstig zijn van hetzelfde gen en
+daardoor een vergelijkbare functie en sequentie hebben (zoals α-globine en
+β-globine).
+
+Apart is dat α-globine op een andere chromosoom zit dan β-globine, wat
+waarschijnlijk door transposons veroorzaakt is.
+
+[*genoom evolutie*]
+Een chromosoom bestaat uit twee chromatiden, die verbonden zijn door een
+centromeer, de uiteinden worden telomeren genoemd.
+
+Mutaties zijn de basis van genoom evolutie.
+
+Fouten in de meiose kunnen leiden tot de duplicatie van chromosomen en/of
+regio's van chromosomen.
+- unequal crossing over
+- slippage
+
+Exon shuffling: mixen van exonen op een gen
+Exon duplication: duplicatie van een exon op een gen

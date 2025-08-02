@@ -1,0 +1,165 @@
+[*termen: onderdelen*]
+Een fylogenetische boom representeert een hypothese over de
+evolutionaire geschiedenis van een set van eigenschappen
+(sequenties)
+
+Branch: tak van een boom
+Node: vertakking van een boom
+Root: begin van een boom
+
+Root node: begin van een boom
+Internal node: midden in een boom
+Terminal node: einde van een boom
+Wordt ook wel een leaf node of OTU genoemd
+(operational taxonomic unit)
+
+Bomen kunnen een verschillende opmaak hebben, maar betekenen
+hetzelfde
+
+[*termen: verwantschappen*]
+Paraloge genen ontstaan door gen duplicatie
+(α- en β-hemoglobine)
+
+Orthologe genen ontstaan door gen speciatie
+(soortvorming: α-muis en α-kikker)
+
+[*termen: topologie*]
+De volgorde (of onderlinge relatie) van de takken en nodes in een
+stamboom
+
+[*volgorde van takken*]
+Het doel van fylogenie is om de correcte volgorde van takken te
+bepalen
+
+Polytomieën \ Multifurcaties
+Een node waar drie of meer takken vanaf komen
+
+Bifurcaties
+Een node waar twee takken vanaf komen
+
+Volledig onopgelost: ster fylogenie
+Gedeeltelijk opgelost
+Volledig opgelost: bifurcating fylogenie
+
+Unrooted tree
+Relaties tussen organismen zonder informatie van tijd
+
+Rooted tree
+Een node wordt genomen als common ancestor: er ontstaat een pad van
+evolutionaire tijd
+
+Lengte van takken geeft geen zekerheid over een gemeenschappelijke
+voorouder
+
+Met een root geef je aan wel zekerheid te hebben
+
+[*rooted trees maken*]
+1.
+Outgroep: includeer iets waarvan je weet dat het minder
+gerelateerd/verwant is aan de andere sequenties dan zij onderling
+
+2.
+Als je de afstanden tussen OTU's (terminal nodes) hebt:
+- Voeg root toe op het middelpunt van het pad tussen de verste
+knooppunten
+
+* voorbeeld *
+d(A, C) = 10 + 3 + 5 = 18
+Middelpunt: 18 / 2 = 9
+
+[*aantal mogelijke bomen*]
+Unrooted:
+Nᵤ = (2n - 5)!/(2ⁿ⁻³(n - 3)!)
+
+Rooted:
+Nᵣ = (2n - 3)!/(2ⁿ⁻²(n - 2)!)
+
+Veel meer rooted dan unrooted trees
+
+* voorbeeld *
+Bereken het aantal unrooted en rooted trees voor
+9 organismen (= 9 OTU's)
+
+Nᵤ = (2 x 9 - 5)!/(2⁹⁻³(9 - 3)!) = 135135
+
+Nᵣ = (2 x 9 - 3)!/(2⁹⁻²(9 - 2)!) = 2027025
+
+[*fylogenetische bomen maken*]
+Distance:
+1.
+Paarsgewijze afstanden berekenen op basis van sequentie
+alignments (score)
+
+2.
+Distance matrix: (score --> afstanden)
+
+3.
+Fylogenetische boom wordt bepaald door een clustering algoritme met
+de berekende afstanden (bv: UPGMA)
+
+[*UPGMA*]
+Unweighted Pair Group Method with Arithmetic mean
+1. Zoek het laagste getal in de matrix
+2. Bereken de branch afstand door het laagste getal door 2 te delen
+3. Groepeer de twee geclusterde sequenties en bereken de afstanden
+voor de nieuwe matrix
+
+* voorbeeld *
+Gegeven is de volgende matrix:
+    A   B   C   D   E
+A   -
+B 0.1   -
+C 0.8 0.8   -
+D 0.8 1.0 0.3   -
+E 0.9 0.9 0.3 0.2   -
+Maak de fylogenetische boom.
+
+Branch afstand: 0.1/2 = 0.05
+AB --> C: (0.8 + 0.8)/2 = 0.8
+AB --> D: (0.8 + 1.0)/2 = 0.9
+AB --> E: (0.9 + 0.9)/2 = 0.9
+
+    AB   C   D   E
+AB   -
+C  0.8   -
+D  0.9 0.3   -
+E  0.9 0.3 0.2   -
+
+Branch afstand: 0.2/2 = 0.1
+DE --> C: (0.3 + 0.3)/2 = 0.3
+DE --> AB: (0.9 + 0.9)/2 = 0.9
+
+    AB   C   DE
+AB   -
+C  0.8   -
+DE 0.9 0.3   -
+
+Branch afstand: 0.3/2 = 0.15
+AB --> CDE: (0.8 + 0.9)/2 = 0.85
+
+    AB   CDE
+AB   -
+CDE 0.85  -
+
+Branch afstand: 0.85/2 = 0.425
+Internal branch (AB) = 0.425 - 0.05 = 0.375
+Internal branch (DE) = 0.15 - 0.10 = 0.05
+Internal branch (CDE) = 0.425 - 0.15 = 0.275
+
+A ------|     0.375
+   0.05 |---------------|
+B ------|               |
+                        |
+D ------| 0.05          |
+   0.10 |------|--------|
+E ------|      |  0.275
+               |
+C -------------|
+       0.15
+
+[*bootstrapping*]
+Is een statistische procedure die gebruikmaakt van het herhaaldelijk
+nemen van steekproeven (met teruglegging)
+
+Boostrap % ("support values") moeten worden weergeven in een goede
+fylogenetische boom

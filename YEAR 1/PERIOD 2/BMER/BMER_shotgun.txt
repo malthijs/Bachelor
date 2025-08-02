@@ -1,0 +1,86 @@
+-------------------------------------------------------------------------------
+Hallo allemaal. Vandaag ga ik het hebben over shotgun sequencing; waarbij een
+puzzel van DNA gemaakt wordt die daarna weer in elkaar wordt gezet.
+
+Bij deze presentatie komen verschillende kwesties aanbod:
+1.	Een introductie
+2.	Daarna een korte geschiedenis
+3.	Vervolgens wordt er verteld wat shotgun sequencing is
+4.	En tot slot zal er een korte samenvatting van deze presentatie gegeven
+worden
+-------------------------------------------------------------------------------
+Het verhaal van het DNA begint in de cel.
+
+Bij prokaryoten is het relatief simpel en ligt het DNA los in een regio genaamd
+de nucleoïde.
+
+Bij eukaryoten aan de andere kant bevindt het DNA zich in de celkern waar het
+in chromosomen is opgevouwen.
+
+Alhoewel DNA anders is opgeslagen bij prokaryoten en eukaryoten, bevat het
+genen die voor een groot deel bepalen hoe een organisme functioneert
+
+Als bio-informaticus wil je dan misschien weten wat de functie van zo'n gen is
+zodat je een doelgerichte behandeling kan ontwikkelen als het defect is.
+
+Dit is een voorbeeld waarbij het in kaart van het DNA een toepassing heeft.
+Daarom zijn er technieken, zoals shotgun sequencing ontwikkelt om DNA op een
+efficiënte manier te kunnen verwerken.
+-------------------------------------------------------------------------------
+Maar voordat we overgaan naar wat shotgun sequencing is, gaan we terug de
+geschiedenis in: hoe is DNA ontdekt.
+------------------------------------------------------------------------------
+Het begint allemaal in 1869 waarbij Friedrich Miescher ontdekte dat in de
+celkern van een cel een fosforhoudende stof zich bevond. Dit bleek
+desoxyribonucleïnezuur oftewel DNA te zijn.
+
+Daarna 84 jaar later kwamen Watson & Crick met de ontdekking dat de structuur
+van DNA een dubbele helix is.
+
+Na deze ontdekking beginnen ook andere onderzoekers belangstelling te tonen
+voor het bestuderen van DNA, en neemt de interesse in DNA-onderzoek gestaag
+toe. 24 jaar later wordt daarom bijvoorbeeld al de eerste DNA-sequencing
+technieken ontwikkelt door Frederick Sanger zoals sanger sequencing en shotgun
+sequencing, waarbij shotgun sequencing een variant van sanger sequencing was.
+
+En zes jaar later wordt de PCR-techniek voor DNA geïntroduceerd door Kary
+Mullis waardoor kunstmatige kopieën van DNA-sequenties gemaakt konden
+worden.
+
+De PCR-techniek werd tot slot gevold door het genoomproject dat in 2003 als
+gecompleteerd beschouwd werd; waarbij 92% van het menselijk genoom ontcijferd
+was.
+
+Maar dat was 20 jaar geleden. Durft iemand daarom een gokje te wagen hoeveel
+procent van het menselijk genoom nu ontcijferd is?
+
+Nu is dat vrijwel 100%.
+-------------------------------------------------------------------------------
+Nu de belangrijkste achtergrondinformatie behandeld is gaan we het hebben over
+shotgun sequencing.
+-------------------------------------------------------------------------------
+De eerste stap bij shotgun sequencing is het verkrijgen van een DNA-sequentie,
+oftewel een monster.
+
+De tweede stap, kenmerkend voor shotgun-sequencing, is het willekeurig
+fragmenteren van de DNA-sequentie in talloze kleine sequenties met behulp van
+enzymen (het willekeurige aspect hiervan is van groot belang).
+
+Daarna, in de derde stap, worden deze sequenties geamplificeerd en dus
+gekopieerd door middel van de PCR-techniek (zodat de concentratie verhoogt
+wordt).
+
+Een DNA-sequencer geeft dan de afgelezen sequenties terug; die reads genoemd
+worden (een read is een string van de afgelezen nucleotiden).
+
+In de vijfde stap worden de reads naast elkaar geplaatst door een computer
+algoritme dat ze onderling vergelijkt en zoekt naar overlappende gedeelten.
+
+Tot slot wordt de verkregen data geanalyseerd door een bio-informaticus. Die
+op basis van het resultaat een uitspraak kan doen, of een behandeling kan
+ontwikkelen voor een defect gen zoals cystic fibrosis (wat erfelijk is).
+-------------------------------------------------------------------------------
+Samenvattend is shotgun sequencing een methode voor het in kaart brengen van
+DNA. Dit was mijn presentatie, hopelijk hebben jullie het een beetje begrepen.
+Zijn er nog vragen?
+-------------------------------------------------------------------------------

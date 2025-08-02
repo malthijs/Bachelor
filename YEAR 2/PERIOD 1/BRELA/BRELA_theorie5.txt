@@ -1,0 +1,84 @@
+[*SQL-query's*]
+soms kan een "join" korter als "using" gebruikt wordt
+join tabel_x using(attribuut_x)
+let op: attribuut_x moet in beide tabellen dezelfde naam hebben
+
+daarnaast zijn er verschillende soorten:
+- "join":
+selecteer alleen instanties die matchen
+- "left join":
+selecteer alleen instanties de met instanties in de linker tabel
+matchen
+als ze niet matchen krijgen ze NULL als waarde
+- "right join":
+selecteer alleen instanties die met instanties in de rechter tabel
+matchen
+als ze niet matchen krijgen ze NULL als waarde
+- "full join":
+selecteer alle instanties
+als ze niet matchen krijgen ze NULL als waarde
+- "self join":
+een tabel wordt met zichzelf "gejoind"
+
+* voorbeeld *
+select attribuut_x, ... from tabel_1 as tabel_2
+join tabel_2 on tabel_1.attribuut_x != tabel_2.attribuut_x;
+
+- "cross join":
+lijkt erg op "self join"
+enige verschil is dat twee verschillende tabellen gecombineerd
+worden waarbij alle mogelijke combinaties gepaard worden
+
+- "natural join":
+lijkt erg op "join"
+alleen wordt er automatisch op een attribuut gejoind
+ook wordt hierbij geen "on" clausule gebruikt
+let op: attribuut_x moet in beide tabellen dezelfde naam hebben
+
+een "join" kan (meestal) vervangen worden met een subquery
+(select attribuut_x from tabel_x where ... having ...)
+subquery kan in een "select", "from", "where" en "having"
+voorkomen
+
+"with" wordt gebruikt om tijdelijke tabellen aan te maken
+with tabel_x as (
+    select attribuut_x, ... from tabel_x
+    where ...
+)
+select * from tabel_x
+
+"view" wordt gebruikt om permanente tabellen aan te maken
+create view_x as
+select attribuut_x, ... from tabel_x
+where ...
+select * from view_x
+
+length()
+bepalen van lengte van een woord
+substring(woord, begin, lengte)
+tonen van een deel van een woord
+
+aggregatiefuncties:
+count()
+max()
+min()
+sum()
+avg()
+
+naast "limit" is er ook "offset"
+"offset" slaat "x" rijen over
+
+ook is er een "in" clausule
+kan gebruikt worden om alleen instanties te selecteren die aan
+bepaalde voorwaarden voldoen
+
+* voorbeeld *
+select * from employees
+where department in ("biology", "chemistry");
+
+bij complexe voorwaarden wordt "case" gebruikt
+bij meerdere voorwaarden wordt case meerdere keren gebruikt worden
+case when attribuut_x ... then '...' else '...' end as ...
+case when attribuut_y ... then '...' else '...' end as ...
+kan in een "select", "where", "order by", "group by" en "having"
+ook wordt (vaak) any() en all() gebruikt bij complexe voorwaarden

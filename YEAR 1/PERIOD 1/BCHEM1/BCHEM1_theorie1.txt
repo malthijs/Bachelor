@@ -1,0 +1,62 @@
+[*atoom, of atomos = ondeelbaar*]
+Kleinste eenheid van een scheikundig element dat de chemische eigenschappen van
+dat element bezit. Een element is een stof dat niet via chemische processen
+gesplitst kan worden in een andere stof (via radioactief verval kan het wel
+gesplitst worden).
+
+[*periodiek systeem*]
+Elementen zijn gerangschikt op basis van het atoomnummer (aantal protonen).
+Alle elementen in een kolom of periode komen op de een of andere manier met
+elkaar overeen.
+
+[*kern*]
+Kleine, dichte, positieve geladen regio in het midden van een atoom. Een proton
+is positief, een neutron is ongeladen en een elektron is negatief, bevindt zich
+buiten de kern en beweegt erg snel in een relatief grote ruimte.
+
+[*massa getal*]
+massa getal = protonen + neutronen (geen elektronen, want die zitten niet in de
+kern en zijn heel licht)
+
+[*isotopen*]
+Atomen van hetzelfde element met een verschillende massa en identieke chemische
+eigenschappen. Ze hebben dezelfde hoeveelheid protonen, verschillend aantal
+neutronen en zijn vaak instabiel.
+
+* voorbeeld *
+- waterstof - 1 (protium)
+- waterstof - 2 (deuterium)
+- waterstof - 3 (tritium)
+
+[*atoommassa*]
+Een atoommassa (amu) is een handige eenheid om met atoom- en molecuulmassa's te
+werken in plaats van grammen. Het is gedefinieerd als één twaalfde van de massa
+van een koolstof-12 atoom, wat neerkomt op ongeveer 1.661 * 10^-24 gram.
+
+De atoommassa van een element is het gewogen gemiddelde van alle isotopen
+waarbij sommige waarden meer "gewicht" of invloed hebben dan andere omdat ze
+met een grotere hoeveelheid in de natuur voorkomen.
+
+* voorbeeld *
+99.63 % stikstof-14: 14.003 amu
+0.3700 % stikstof-15: 15.000 amu
+
+wat is de atoommassa van stikstof?
+0.9963 * 14.003 + 0.003700 * 15.000 = 14.007 amu
+
+[*ionen*]
+Elektrisch geladen deeltjes die het gevolg zijn van het "opnemen" of het
+"afstaan" van elektronen door een atoom.
+
+* voorbeeld *
+Kation: positief geladen: Li ---> Li+ + 1e- (metaal)
+Anion: negatief geladen: F + 1e- ---> F- (niet-metaal)
+
+[*significantie*]
+Bij het optellen of aftrekken van getallen wordt het aantal decimalen in het
+resultaat bepaald door het getal met het minste aantal decimalen.
+
+Bij vermenigvuldigen en delen wordt het aantal decimalen in het resultaat
+bepaald door het getal met het meeste aantal decimalen dat vermenigvuldigd of
+gedeeld wordt.
+

@@ -1,0 +1,25 @@
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM32866v1
+#!genome-build-accession NCBI_Assembly:GCF_000328665.1
+#!annotation-date 10/21/2024 21:04:19
+#!annotation-source NCBI RefSeq GCF_000328665.1-RS_2024_10_21
+##sequence-region NC_019977.1 1 2428904
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=867904
+NC_019977.1	RefSeq	region	1	2428904	.	+	.	ID=NC_019977.1:1..2428904;Dbxref=taxon:867904;Is_circular=true;Name=ANONYMOUS;country=Netherlands: The Dekkerswald Institute%2C Nijmegen;culture-collection=DSM:15978;gbkey=Src;genome=chromosome;isolation-source=Anaerobic top layer (5 to 10 cm) of sediment (depth%2C 50 cm) in a eutrophic freshwater pond at the Dekkerswald Institute%2C Nijmegen%2C The Netherlands;mol_type=genomic DNA;strain=DSM 15978;type-material=type strain of Methanomethylovorans hollandica
+NC_019977.1	RefSeq	gene	638	1873	.	+	.	ID=gene-METHO_RS00005;Dbxref=GeneID:14408512;Name=METHO_RS00005;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS00005;old_locus_tag=Metho_0001
+NC_019977.1	Protein Homology	CDS	638	1873	.	+	0	ID=cds-WP_015323470.1;Parent=gene-METHO_RS00005;Dbxref=GenBank:WP_015323470.1,GeneID:14408512;Name=WP_015323470.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015323470.1;locus_tag=METHO_RS00005;product=ORC1-type DNA replication protein;protein_id=WP_015323470.1;transl_table=11
+NC_019977.1	RefSeq	gene	1898	2455	.	-	.	ID=gene-METHO_RS00010;Dbxref=GeneID:14407701;Name=METHO_RS00010;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS00010;old_locus_tag=Metho_0002
+NC_019977.1	Protein Homology	CDS	1898	2455	.	-	0	ID=cds-WP_048830917.1;Parent=gene-METHO_RS00010;Dbxref=GenBank:WP_048830917.1,GeneID:14407701;Name=WP_048830917.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015323471.1;locus_tag=METHO_RS00010;product=S26 family signal peptidase;protein_id=WP_048830917.1;transl_table=11
+NC_019977.1	RefSeq	gene	2618	4171	.	+	.	ID=gene-METHO_RS00015;Dbxref=GeneID:14407702;Name=METHO_RS00015;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS00015;old_locus_tag=Metho_0003
+NC_019977.1	Protein Homology	CDS	2618	4171	.	+	0	ID=cds-WP_015323472.1;Parent=gene-METHO_RS00015;Dbxref=GenBank:WP_015323472.1,GeneID:14407702;Name=WP_015323472.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015323472.1;locus_tag=METHO_RS00015;product=DNA-directed DNA polymerase II small subunit;protein_id=WP_015323472.1;transl_table=11
+##sequence-region NC_019972.1 1 285109
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=867904
+NC_019972.1	RefSeq	region	1	285109	.	+	.	ID=NC_019972.1:1..285109;Dbxref=taxon:867904;Is_circular=true;Name=pMETHO01;country=Netherlands: The Dekkerswald Institute%2C Nijmegen;culture-collection=DSM:15978;gbkey=Src;genome=plasmid;isolation-source=Anaerobic top layer (5 to 10 cm) of sediment (depth%2C 50 cm) in a eutrophic freshwater pond at the Dekkerswald Institute%2C Nijmegen%2C The Netherlands;mol_type=genomic DNA;plasmid-name=pMETHO01;strain=DSM 15978;type-material=type strain of Methanomethylovorans hollandica
+NC_019972.1	RefSeq	gene	342	1604	.	+	.	ID=gene-METHO_RS11810;Dbxref=GeneID:14401686;Name=METHO_RS11810;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS11810;old_locus_tag=Metho_2462
+NC_019972.1	Protein Homology	CDS	342	1604	.	+	0	ID=cds-WP_015313734.1;Parent=gene-METHO_RS11810;Dbxref=GenBank:WP_015313734.1,GeneID:14401686;Name=WP_015313734.1;Ontology_term=GO:0006270,GO:0051301,GO:0005524;gbkey=CDS;go_function=ATP binding|0005524||IEA;go_process=DNA replication initiation|0006270||IEA,cell division|0051301||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015313734.1;locus_tag=METHO_RS11810;product=Cdc6/Cdc18 family protein;protein_id=WP_015313734.1;transl_table=11
+NC_019972.1	RefSeq	gene	2628	4937	.	-	.	ID=gene-METHO_RS11815;Dbxref=GeneID:14401426;Name=METHO_RS11815;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS11815;old_locus_tag=Metho_2463
+NC_019972.1	Protein Homology	CDS	2628	4937	.	-	0	ID=cds-WP_015313735.1;Parent=gene-METHO_RS11815;Dbxref=GenBank:WP_015313735.1,GeneID:14401426;Name=WP_015313735.1;Ontology_term=GO:0003676,GO:0005524;gbkey=CDS;go_function=nucleic acid binding|0003676||IEA,ATP binding|0005524||IEA;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015313735.1;locus_tag=METHO_RS11815;product=DEAD/DEAH box helicase;protein_id=WP_015313735.1;transl_table=11
+NC_019972.1	RefSeq	gene	5008	5184	.	-	.	ID=gene-METHO_RS13800;Dbxref=GeneID:43009747;Name=METHO_RS13800;gbkey=Gene;gene_biotype=protein_coding;locus_tag=METHO_RS13800;old_locus_tag=Metho_2464
+NC_019972.1	Protein Homology	CDS	5008	5184	.	-	0	ID=cds-WP_015313736.1;Parent=gene-METHO_RS13800;Dbxref=GenBank:WP_015313736.1,GeneID:43009747;Name=WP_015313736.1;gbkey=CDS;inference=COORDINATES: similar to AA sequence:RefSeq:WP_015313736.1;locus_tag=METHO_RS13800;product=hypothetical protein;protein_id=WP_015313736.1;transl_table=11
+

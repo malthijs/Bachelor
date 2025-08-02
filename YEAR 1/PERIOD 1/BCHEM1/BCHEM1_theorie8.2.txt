@@ -1,0 +1,13 @@
+paragraaf 2
+[**pH: a measurement scale for acids and bases**]
+
+[*zuurtegraad*]
+pH is een maat voor de zuurgraad en wordt gemeten op een schaal van 0
+(erg zuur) tot 14 (erg basisch). Een pH van 7 wordt als neutraal beschouwd,
+wat betekent dat de concentratie van H3O+ en OH- ionen in evenwicht is.
+
+pH = -log[H3O+]
+[H3O+] = 10**(-pH)
+
+pH kan worden gemeten met indicatoren zoals pH-papier en pH-meter of door
+middel van titratie.

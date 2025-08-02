@@ -1,0 +1,29 @@
+[*6-frame translation*]
+Reading frame: De volledige sequentie, gelezen in groepen van drie nucleotiden.
+Open reading frame: Een specifiek deel van de sequentie dat de potentie heeft
+om vertaald te worden naar een eiwit, beginnend met een start-codon en
+eindigend met een stop-codon.
+
+Onderstaande website toont 6 reading frames, waarbij de open reading frames in
+het rood zijn gemarkeerd. De langste open reading frame is waarschijnlijk de
+correcte:
+- https://web.expasy.org/translate/
+
+Protparam:
+https://web.expasy.org/protparam/
+
+Genvoorspellingssoftware:
+- Genscan
+http://hollywood.mit.edu/GENSCAN.html (stopcodon wordt niet meegeteld)
+- GeneId
+https://genome.crg.es/geneid.html (stopcodon wordt meegeteld)
+
+Note: selecteer bij GeneId als output format: "geneid"
+
+Opzoeken van homologen
+- https://blast.ncbi.nlm.nih.gov/Blast.cgi
+
+GeneWise:
+- voorspelt locaties van exonen en intronen (bouwt een betere genstructuur op):
+1: eiwit sequentie
+2: DNA sequentie

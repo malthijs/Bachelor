@@ -1,0 +1,41 @@
+[*fylogenetica*]
+Achterhalen van evolutie
+
+- bepaling verwantschap van organismen
+- bepaling afstamming van gen
+- bepaling functie van gen
+
+Boom opzetten:
+Multiple sequence alignment
+Substitutie model bepalen
+Boom bouwen
+Evalueren; bootstrapping (90% is betrouwbaar)
+
+Een boom bestaat uit een root, nodes, branches en leaves.
+Neutrale mutaties: geen nadelig effect, aminozuur is onveranderd (3de base)
+
+Alleen DNA als 70% overeenkomt
+Eerst pairwise alignment (opzoeken en selecteren van homologen)
+Daarna multiple alignment (en dan verwantschapsanalyse)
+
+Transities:
+A ↔ G purines
+C ↔ T pyrimidines
+
+Transversies:
+A ↔ T
+C ↔ G
+
+Cladogram: wordt gebruikt om de evolutionaire relaties tussen organismen te
+bepalen (zonder tijdscomponent)
+
+Fylogram: ontrafelen van de historie van leven op aarde
+
+Polytomieën: te weinig informatie beschikbaar om iets te kunnen zeggen over
+verwantschap (als een node onduidelijke vertakkingen heeft)
+
+Ingroup: groep van organismen in de boom die je bestudeert (meest verwant)
+Outgroup: externe referentiegroep (minst verwant)
+
+- ClustalW
+https://www.genome.jp/tools-bin/clustalw

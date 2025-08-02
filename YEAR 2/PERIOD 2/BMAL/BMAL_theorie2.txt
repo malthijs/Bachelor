@@ -1,0 +1,163 @@
+[*analyse van data*]
+In elke stap van data mining is het belangrijk dat je je data kent:
+BIO-informatica
+
+Bedenk (van tevoren) wat je verwacht te zien in je data
+- data kwaliteit: hoe goed is je data?
+- data verdeling: is je data normaal verdeeld?
+- preprocessing: kan je data geoptimaliseerd worden?
+
+[*visualisatie van data*]
+Verwacht je een (anti-)correlatie?
+Scatterplot
+
+Verwacht je (g)een verschil?
+Vergelijken van gemiddelden
+Barplot
+Boxplot
+
+Bepalen van de hoeveelheid essentiële attributen om te behouden
+Screeplot
+
+Als je iets ziet dat je niet had verwacht
+- corrigeren
+- verwijderen
+- meenemen in model als verklarend attribuut
+
+[*missing values*]
+Meetpunten die niet aanwezig zijn in dataset
+
+[*outliers*]
+Meetpunten die ver buiten andere meetpunten liggen
+
+Het zijn niet altijd meetfouten
+Bewerken van data zodat het je verwachtingen volgt: "data massage"
+(is niet toegestaan)
+
+Vinden van outliers
+- kijk naar een verwachte correlatie tussen twee attributen
+- indien een meetpunt ver buiten andere meetpunten ligt, dan outlier
+
+Statistische testen voor outliers
+Grubbs test
+- aangepaste T-test
+Criterium van Chauvenet
+(gebruiken normaal verdeling)
+
+Criterium van Pierces
+(gebruikt geen normaal verdeling)
+
+[*imputeren*]
+Wat moet je doen met missing values en outliers?
+Herhaal metingen indien mogelijk
+
+Imputeer (substitueer) data indien metingen niet herhaalbaar zijn
+- is data numeriek?
+Vervang door gemiddelde of mediaan
+- is data niet normaal verdeeld?
+Vervang door dichtstbijzijnde buur
+- is data categorisch?
+Vervang door meest voorkomende categorie
+
+Vervang met een willekeurige waarde
+Verwijder attribuut, entiteit of laat het leeg
+
+KNN-based imputation
+Selecteer de attribuut-waarde van de instantie uit de dataset dat
+het dichtst bij de instantie met de missende waarde ligt
+
+Model-based imputation (data-driven approach)
+Waarde schatten op basis van de waarden van andere attributen
+Over het algemeen de meest accurate schatting
+
+LET OP:
+Circulair redeneren
+A voorspelt B (B heeft missende waarde(s)
+B voorspelt C (C heeft missende waarde(s)
+
+[*transformeren*]
+Aanpassen van data
+Samenvoegen, samenvatten, filteren, selecteren, splitsen,
+normaliseren, verwijderen, e.t.c.
+
+* voorbeeld *
+Leeftijd berekenen door middel van geboortedatum
+BMI berekenen met gewicht en lengte
+Hoeveelheid dagen uit hoeveelheid weken berekenen
+Dimensie reductie van meerdere attributen
+Niet alle attributen zijn relevant → selecteren/splitsen/verwijderen
+
+Normaliseren
+- herschalen van variabelen tussen 0 en 1
+
+Log-transformeren
+- herschalen van variabelen zodat ze met elkaar vergeleken kunnen
+worden
+
+[*discretiseren*]
+Wordt ook wel "binning" genoemd
+Omzetten van numerieke data naar nominale data
+
+1. sorteer de data
+2. scheidt (partitioneer) de op volgorde gezette data door
+breekpunten te zetten
+3. converteer de data
+
+Unsupervised
+Discretiseren zonder kennis van de klassen die de instanties hebben
+- gelijke frequenties
+- gelijke intervallen
+
+Supervised
+Discretiseren met kennis van de klassen die de instanties hebben
+- intervallen op basis van klasse label
+
+Discretiseren wordt toegepast om data makkelijker te interpreteren
+(veel data mining algoritmes werken niet met discrete data)
+
+* voorbeeld *
+Unsupervised
+Gelijke frequenties
+5x 5x 5x 5x
+
+Gelijke intervallen
+Leeftijd
+20-40-60-80
+
+Supervised
+Klasse labels
+Kind, tiener, volwassenen en bejaard
+
+Soms krijg je erg veel categorieën
+- bepaal een minimum aantal keer dat de meest voorkomende klasse
+aanwezig moet zijn in partitie
+
+* voorbeeld *
+Data: 15, 16, 16, 16, 17, 18, 18, 18
+Minimum: 3
+Splitsing: [15, 16, 16, 16] | [17, 18, 18, 18]
+
+[*PCA*]
+Principal Component Analysis
+Speciale vorm van preprocessing
+
+Waar zit de meeste variatie?
+- eerste component vat de meeste variatie samen
+- tweede component vat de op een na grootste bron van variatie samen
+dat loodrecht op de eerste component staat (e.t.c.)
+
+Samenvatten van attributen
+1. Elk attribuut krijgt per component een waarde, dat aangeeft
+hoeveel dat attribuut bijdraagt aan het component
+2. Elke instantie krijgt per component een waarde, dat aangeeft
+waar de instantie zich bevindt op dat component
+3. Screeplot, dat aangeeft hoeveel variatie door elk component
+wordt beschreven
+
+Normaliseren is essentieel voor PCA
+Toepassingen PCA
+- Data exploratie
+- Quality control
+- Dimensie reductie
+Zie je wat je verwacht te zien?
+Outliers? Sample swaps?

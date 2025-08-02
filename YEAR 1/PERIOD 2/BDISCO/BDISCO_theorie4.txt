@@ -1,0 +1,46 @@
+[*similariteit en homologie*]
+Similariteit: mate van overeenkomst (% identiek)
+
+Homologie: conclusie op basis van similariteit (j/n)
+Genen die geëvolueerd zijn uit één gemeenschappelijke voorouder.
+
+In de homologie zijn er orthologen en paralogen:
+Orthologen: genen gescheiden door speciatie (vorming van een nieuwe soort)
+Paralogen: genen ontstaan uit duplicatie die daarna uit elkaar gegroeid zijn
+
+[*dot plot*]
+Weergeeft de similariteit tussen twee sequenties (nucleotide of aminozuur).
+Teken een bolletje waar de x-as en y-as met elkaar overeenkomen.
+
+Polymorfisme duidt op variatie tussen sequenties:
+Indel: Insertie of deletie
+Duplicatie: Verdubbeling
+Transpositie: Verplaatsing
+Inversie: Omkering
+Palindroom: Een sequentie die hetzelfde blijft wanneer het achterstevoren
+gelezen wordt
+Microsatellieten: Korte tandemherhalingen van nucleotiden
+Minisatellieten: Langere tandemherhalingen van nucleotiden
+
+Er is dus geen polymorfisme als de opgegeven sequenties exact hetzelfde zijn.
+
+- maken van een dot plot:
+https://dotlet.vital-it.ch/
+
+[*alignment*]
+Is een andere aanpak dan dot plots, maar heeft hetzelfde doel: weergeven van
+similariteit tussen twee sequenties.
+
+Pair wise alignment: alignment van twee sequenties
+Multiple alignment: alignment van meer dan twee sequenties
+Scoringsmatrix: des te hoger de score des te hoger de similariteit
+
+Overeenkomst (wordt met een "|" weergegeven)
+Verschil (wordt met een '*' weergegeven)
+Gap opening en gap extensie (wordt met een "-" weergegeven)
+
+Scoringsmatrix op basis van eiwitten (aminozuren):
+PAM of BLOSUM
+
+PAM1: less divergent (1% van de aminozuren zijn veranderd)
+BLOSUM1: more divergent (1% van de aminozuren zijn identiek)

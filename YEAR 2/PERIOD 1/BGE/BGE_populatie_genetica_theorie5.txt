@@ -1,0 +1,157 @@
+[*linkage map*]
+Vroeger ingewikkelde kruisingsschema's
+Later moleculaire markers
+Nu nieuwe technieken die hele chromosomen in kaart brengen
+
+Genoom assembly maakt van reads contigs
+Om die contigs in de juiste volgorde te zetten, is er een linkage
+map nodig
+
+[*DNA-reparatie*]
+Kleine lesies
+Enkelstrengsbreuken
+Dubbelstrengsbreuken
+
+[*kleine lesies*]
+Proofreading: DNA-polymerase kan verkeerde geplaatste nucleotiden
+detecteren waarna het 3' to 5' de verkeerde basen verwijderd
+(daarna gaat het 5' to 3' de correcte basen invoegen)
+
+Mismatch repair: gespecialiseerde eiwitten herkennen mismatches
+en lossen ze op
+
+[*enkelstrengsbreuken*]
+Postreplication repair
+Herstel van fouten in één streng
+Gebruikt de complementaire streng om de juiste base te incorporeren
+
+Een enkelstreng met een lesie wordt voorzien met nucleotiden door
+DNA-polymerase III
+De locatie waar de lesie aanwezig is, wordt niet met nucleotiden
+gevuld
+(want lesie verstoort structuur)
+Nucleotiden van de complementaire streng worden geleend om die
+nucleotiden in te voeren
+Hierna worden de geleende nucleotiden van de complementaire streng
+door DNA-polymerase III aangevuld en door DNA-ligase aan elkaar
+geplakt
+
+Nucleotide excision repair
+Herstel van fouten in één streng
+Gebruikt de complementaire streng om de juiste base te incorporeren
+
+Het gebied van de enkelstreng met een lesie wordt eruit geknipt
+(nuclease)
+Nucleotiden van de complementaire streng worden geleend om die
+nucleotiden in te voeren
+Hierna worden de geleende nucleotiden van de complementaire streng
+door DNA-polymerase I aangevuld en door DNA-ligase aan elkaar
+geplakt
+
+[*dubbelstrengsbreuken*]
+Homologous end joining
+Herstel van fouten in twee strengen
+Gebruikt zusterchromatide als template
+Alleen mogelijk na DNA-replicatie (S of G₂)
+
+Non-homologous end joining
+Herstel van fouten in twee strengen
+Geen template nodig (plakt simpel weg de eindes aan elkaar vast)
+Tijdens G₁ fase
+Fout gevoelig
+Veroorzaakt chromosoom rearrangements (duplicaties, transposities,
+deleties, inserties)
+
+[*geen DNA-reparatie*]
+McCutcheon en Moran model
+
+* voorbeeld *
+Endosymbionten
+Leven in kleine populaties
+
+Het model is gebaseerd op natuurlijke selectie waarbij
+endosymbionten alleen maar de essentiële genen bewaren om te kunnen
+overleven
+(de populatie dat het efficiëntst is, heeft hogere kans op
+overleving en kan zich dus meer voortplanten)
+
+Selectie vindt plaats doordat endosymbionten DNA-schade oplopen
+Deze schade wordt niet-efficiënt opgeruimd
+Uiteindelijk raakt DNA-reparatie beschadigt, waardoor een ophoping
+van fouten ontstaat
+Genoom neemt af in lengte, waarbij de niet-efficiënte genen
+verdwijnen
+(als essentiële genen schade oplopen, dan gaat de endosymbiont dood)
+
+* voorbeeld *
+Tremblaya princeps
+Ook hun tRNA kwijt
+Kunnen zelf geen eiwitten aanmaken
+Volledig afhankelijk van gastheer
+
+[*transposons*]
+Ongeveer 1-10 Kb
+Coderen voor eiwitten die nodig zijn voor transpositie of gebruiken
+de eiwitten die door autonome elementen geproduceerd worden om rond
+te kunnen springen
+Komen voor in alle eukaryoten
+
+Typen:
+- Cut-and-paste
+- Copy-and-paste
+
+LTR: Long Terminal Repeats
+
+[*DNA-transposons*]
+Cut-and-paste
+
+Transposase herkent inverted repeats (IR) en knipt de transposon uit
+het DNA
+Daarna knipt transposase een andere stuk DNA, waarbij de
+transposon ingeplakt wordt
+
+DNA-transposons kunnen zich vermeerderen (S-fase)
+
+[*LTR en non-LTR transposons*]
+Copy-and-paste
+
+Transcriptie
+Translatie
+Omgekeerde transcriptie en integratie
+
+[*algemeen*]
+DNA-transposons: 2.8%
+LTR transposons: 7.9%
+Non-LTR transposons: 31.2%
+
+Mensen hebben erg veel non-LTR transposons (evolutie)
+
+Voordelen
+Vermeerderen zich: "selfish genes" (verlaten de cel niet)
+Genetische variatie
+
+Nadelen
+Genetic conflict
+
+Opruimen:
+Methylatie
+piRNA
+
+Transcriptie effecten:
+Sense
+Cis-disruption
+Cis-addition
+Antisense
+Silencing
+
+Posttranscriptie effecten:
+Alternative polyadenylation
+miRNA targeting
+Alternative splicing
+Exonization
+
+Transposons en andere selfish elementen vermeerdering zich in het
+genoom van gastheer
+Verhoogde fitness ten koste van fitness van gastheer
+Gastheer heeft afweermechanismen
+Soms hebben transposons positieve effecten op gastheer

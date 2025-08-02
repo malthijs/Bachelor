@@ -1,0 +1,11 @@
+paragraaf 2
+[**development of atomic theory**]
+
+[*Rutherford's atoom*]
+In de vroege jaren 1900 werd geloofd dat protonen en elektronen
+gelijkmatig verdeeld waren doorheen het atoom (neutronen waren toen nog niet
+ontdekt). Echter leidde een experiment van Hans Wilhelm Geiger
+(goudfolie-experiment) Ernest Rutherford tot de suggestie dat het merendeel van
+de massa en positieve lading van het atoom zich bevond in een kleine, dichte
+kern, de nucleus, met kleine, negatief geladen elektronen die een veel groter
+volume buiten de nucleus innamen.

@@ -1,0 +1,54 @@
+[*alcoholen*]
+Methanol, ethanol, glucose, fructose, e.t.c.
+Koolhydraten, eiwitten, lipiden, e.t.c.
+
+Het koolstofatoom waaraan de functionele groep alcohol vast zit heet carbinol
+carbon: R-OH
+
+Tertiare alcoholen kan je niet omzetten (heeft geen H om af te staan en dus
+geen oxidatie reactie).
+
+Tertiare alcoholen zijn het meest geoxideerd (stabiel)
+Primaire alcohol zijn het meeste gereduceerd (onstabiel)
+
+Oxidatie: verlies elektronen
+Reductie: winst elektronen
+
+[*fysische eigenschappen*]
+London dispersie en dipool-dipool (waterstofbruggen)
+Waterstofbruggen zijn belangrijk voor de vouwing van eiwitten, net als
+zwavelbruggen (zoals thiolen: R-SH)
+
+Polair, oplosbaar in water
+Des te meer OH, des te beter oplosbaar
+Des te langer de koolstofketen, des te slechter oplosbaar
+
+[*maken van alcoholen*]
+Reductie:
+Aldehyde --> primaire alcohol
+Keton --> secundaire alcohol
+
+[*maken van aldehyden en ketonen*]
+Oxidatie:
+primaire alcohol --> aldehyde
+secundaire alcohol --> keton
+
+[*Aldehyden & Ketonen*]
+Tollens test: een spiegel wordt gevormd
+Aldehyden worden gescheiden omdat ze makkelijker dan ketonen oxideren (want, ze
+zijn onstabieler)
+
+Aldehyde + alcohol --> Hemiacetal + alcohol --> Acetal
+Keton + alcohol --> Hemiketal + alcohol --> Ketal
+
+Keto-enol tautomeren: zijn isomeren die verschillen in de plaatsing van één
+waterstofatoom en één dubbele binding. Ketonen en aldehyden kunnen in twee
+vormen voorkomen:
+1. Keto vorm, stabiel
+2. Enol vorm, onstabiel
+
+Tautomeer shifts:
+- normaal A-T, C-G, door keto vorm (2 - 3 waterstofbruggen)
+- abnormaal: A-C, T-G, door enol vorm (3 - 2 waterstofbruggen)
+
+Hierdoor kan kanker veroorzaakt worden.

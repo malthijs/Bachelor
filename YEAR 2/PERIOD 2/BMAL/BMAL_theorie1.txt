@@ -1,0 +1,62 @@
+[*data mining*]
+Extractie van (voorheen onbekende en mogelijk nuttige) informatie
+uit data
+
+Data
+Opgeslagen feiten
+
+Informatie
+Patronen in data
+
+Kennis
+Betekenis van patronen?
+Voorspellingen doen!
+
+Inzicht krijgen in data door te zoeken naar patronen en relaties
+(verkrijgen van een voorspellend model is niet noodzakelijk)
+
+[*machine learning*]
+Richt zich op de ontwikkeling van algoritmes die voorspellingen
+kunnen doen op basis van data: het maken van een model om ongeziene
+data te voorspellen
+
+Concept = wat er geleerd moet worden
+Concept description = output van het algoritme
+
+[*concept descriptions*]
+Classificatie → klasse
+- Regels
+- Beslisbomen
+- Statistische modellen
+- Neurale netwerken
+- KNN
+
+Numerieke voorspellingen → getal
+
+Clusters → verband
+Hierarchical
+- Agglomerative
+- Divisive
+
+Non-hierarchical
+- K-means
+- Mean shift
+- DBSCAN
+- EM
+
+Associatie → verband
+Regels = pure associatie
+
+[*data*]
+rijen = instanties
+kolommen = attributen
+klasse = speciale attribuut dat je wilt voorspellen
+
+Soorten data
+Categorisch
+- ordinaal (volgorde)
+- nominaal (categorieën)
+
+Numeriek
+- discreet (integers)
+- continue (floats)

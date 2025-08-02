@@ -1,0 +1,75 @@
+1.
+select count(*) from county;
+
+2.
+select count(*) from sighting
+where "year" is null;
+
+3.
+select subtax_name, tax_name from subtax
+limit 15;
+
+4.
+select count(*) from biological_entity
+where subtax_name like '%Turtles%';
+
+5.
+select distinct subtax_name from biological_entity
+where description like '%Game with open season%';
+
+6.
+select extract(year from min("year")) as oud from sighting;
+
+7.
+select count(*) from sighting
+where extract(year from "year") = 2001;
+
+8.
+select count(description) as "Rare Status" from biological_entity
+where description like '%Rare%';
+
+9.
+select count(description), subtax_name from biological_entity
+group by subtax_name having count(description) > 100;
+
+10.
+select county_name, count(*) from sighting
+where county_name like '_e%'
+group by county_name
+order by count(*);
+
+11.
+select county_name, count(scientific_name) from sighting
+where county_name like '%l%'
+group by county_name;
+
+12.
+select county_name from sighting
+group by county_name having count(*) = 9;
+
+13.
+select description from status
+order by description desc;
+
+14.
+select subtax_name, tax_name from subtax
+where tax_name like '%Beetles';
+
+15.
+select tax_name from taxonomy
+order by tax_name asc;
+
+16.
+select count(biological_entity.common_name) as "aantal_vleermuizen" from biological_entity
+join sighting on sighting.scientific_name = biological_entity.scientific_name
+where common_name like '%Bat%';
+
+17.
+select scientific_name, common_name, biological_entity.subtax_name, description from biological_entity
+join subtax on subtax.subtax_name = biological_entity.subtax_name
+where subtax.tax_name like '%Beetles%';
+
+18.
+select common_name, description from biological_entity
+join subtax on subtax.subtax_name = biological_entity.subtax_name
+where subtax.tax_name like '%Snails%';

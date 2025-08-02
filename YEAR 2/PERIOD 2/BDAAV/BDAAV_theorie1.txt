@@ -1,0 +1,17 @@
+Gebruik maken van verschillende (open source) python tools en
+packages/libraries
+
+Tools
+Anaconda
+Jupyter
+
+Packages/libraries
+Biopython
+NumPy
+Matplotlib
+Pandas
+Scikit-learn
+
+Overig
+JSON
+Requests

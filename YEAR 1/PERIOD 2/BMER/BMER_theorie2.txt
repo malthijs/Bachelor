@@ -1,0 +1,73 @@
+[*celademhaling*]
+Is een katabolisch proces waarbij cellen organische moleculen oxideren en daar
+energie uit halen in de vorm van ATP:
+glucose + 6 O₂ + 6 H₂O → 6 CO₂ + 12 H₂O
+
+Glucose oxideert (reductor): verliest elektronen en waterstofatomen (vormt
+koolstofdioxide met behulp van de overige zuurstofatomen in water)
+Zuurstof reduceert (oxidator): wint elektronen en waterstofatomen (vormt water)
+
+1. glycolyse
+2. pyruvaat oxidatie
+3. citroenzuurcyclus
+4. oxidatieve fosforylatie
+
+[*mitochondrium*]
+Is een celorganel dat bestaat uit een buitenmembraan, een intermembraan, een
+binnenmembraan en matrix. Daarnaast vormt de binnenmembraan plooien die cristae
+genoemd worden; vergroot de capaciteit van de mitochondrium waardoor meer ATP
+gesynthetiseerd kan worden.
+
+[*glycolyse*]
+Hierbij wordt glucose afgebroken tot 2 pyruvaat in het cytosol van het
+cytoplasma. Hiervoor is nog geen zuurstof nodig.
+
+Er zijn 3 fasen:
+1. energie investeringsfase:
+- glucose en 2 ATP
+
+2. energie uitbetalingsfase:
+- 4 ADP + 4 Pᵢ → 4 ATP
+- 2 NAD⁺ + 4 H → 2 NADH + 2 H⁺
+
+3. nettofase:
+- 2 ATP
+- 2 NADH + 2 H⁺
+- 2 pyruvaat en 2 H₂O
+
+- stap 1 - 5: kost energie
+- stap 6 - 10: levert energie
+
+→ pyruvaat wordt actief naar de matrix getransporteerd met behulp van
+transporteiwitten
+
+→ NADH wordt passief naar de electron transport chain getransporteerd met
+behulp van transporteiwitten.
+
+Indien de omgeving anaeroob is, vindt er fermentatie plaats:
+pyruvaat + NADH + H⁺ → lactaat + NAD⁺
+
+Hierbij wordt NAD+ hergebruikt om de glycolyse in stand te houden (bij gist
+wordt er CO₂ uitgestoten en ethanol gevormd).
+
+[*pyruvaat oxidatie*]
+In de matrix van de mitochondrium (cytosol bij prokaryoten) wordt pyruvaat met
+behulp van het pyruvaat-dehydrogenase-complex omgezet in:
+
+1. acetyl-H
+CO₂ koppelt los
+
+2. acetyl (de andere H komt van coa-SH)
+NAD⁺ + 2 H → NADH + H⁺
+
+3. acetyl-S-coa
+co-enzym A bindt hieraan dat het molecuul naar de citroenzuurcyclus begeleid
+
+[*citroenzuurcyclus*]
+Dit vindt ook plaats in de matrix van de mitochondrium:
+
+Input:
+oxaalacetaat + acetyl-S-coa + 3 H₂O + GDP + Pᵢ + 3 NAD⁺ + FAD + 8 H
+
+Output:
+oxaalacetaat + coa-SH + H₂O + 2 CO₂ + GTP + 3 NADH + FADH₂ + 3 H⁺

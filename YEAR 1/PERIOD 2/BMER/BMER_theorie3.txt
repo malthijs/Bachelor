@@ -1,0 +1,79 @@
+[*oxidatieve fosforylering*]
+Dit vindt plaats op het binnenmembraan van de mitochondrium. Hierin komen de
+co-enzymen (NADH en FADH₂) terecht van de glycolyse, pyruvaat oxidatie en
+citroenzuurcyclus.
+
+Als een elektron naar een molecuul met een hogere elektron affiniteit
+getransporteerd wordt, dan geeft het elektron energie af (elektron gaat dus
+steeds naar een lagere energieniveau). Dit wordt stapsgewijs toegepast in de
+electron transport chain wat uit 6 eiwitten bestaat: I, II, co-enzym Q, III,
+cytochroom c en IV.
+
+De volgende 3 eiwitten pompen protonen (H⁺) naar buiten: I, III en IV. Dit wekt
+een concentratie- en ladingsverschil op dat de proton-motive force genoemd
+wordt.
+
+Eiwit I:
+NADH + H⁺ → NAD⁺ + 2 H⁺ + 2e⁻
+
+Eiwit II:
+FADH₂ → FAD + 2 H⁺ + 2e⁻
+
+Eiwit III:
+Geeft de elektronen door aan cytochroom c.
+
+Eiwit IV:
+24 H⁺ + 24e⁻ + 6 O₂ → 12 H₂O
+
+Co-enzym Q en cytochroom c: helpt met het transporteren van elektronen.
+
+De proton-motive force wordt optimaal benut door een enzym genaamd:
+ATP-synthetase.
+
+Dit enzym maakt gebruik van het fenomeen chemiosmosis: beweging van ionen over
+een semipermeabele membraan, naar een lagere elektrochemische gradient.
+
+ATP-synthetase maakt ATP van ADP en Pᵢ:
+1. H⁺ ionen vloeien in een kanaal genaamd de stator.
+2. H⁺ ionen belanden in de rotor en gaan binden op bindingsplaatsen waardoor
+de rotor rond gaat draaien.
+3. H⁺ ionen draaien 1x rond en belanden dan via een tweede kanaal in de
+matrix van de mitochondrium.
+
+4. Rotor is verbonden aan de internal rod dat mee gaat draaien.
+5. Daaronder ligt de catalytic knob dat stationair gehouden wordt door een
+onderdeel van de stator. Hierin draait de internal rod rond waardoor
+katalytische locaties geactiveerd worden:
+ADP + Pᵢ → ATP
+
+[*ATP-productie*]
+- 2 NADH of 2 FADH₂ van de glycolyse, ligt aan de transporteiwitten
+
+- 2 NADH van pyruvaat oxidatie.
+
+- 6 NADH en 2 FADH₂ van citroenzuurcyclus.
+
+Totaal: (10 NADH en 2 FADH₂) of (8 NADH en 4 FADH₂).
+
+NADH levert 2.5 ATP per molecuul en FADH₂ levert 1.5 ATP per molecuul.
+
+Hierdoor kan cellulaire respiratie (32 ATP) of (30 ATP) produceren per glucose
+molecuul.
+
+[*eiwitten en vetten*]
+Naast glucose kunnen ook andere organische moleculen fungeren als brandstof
+voor cellulaire respiratie:
+
+- eiwitten:
+Worden afgebroken tot aminozuren waarna deamination plaats vindt (NH₃ wordt
+verwijderd). Hierna kunnen ze in de glycolyse, pyruvaat oxidatie en
+citroenzuurcyclus terecht.
+
+- vetten:
+Worden in glycerol of vetzuren afgebroken.
+
+Glycerol wordt gebruikt om glyceraldehyde-3-fosfaat te kunnen vormen
+(tussenproduct glycolyse)
+
+Vetzuren worden gebruikt om acetyl-S-coa te kunnen vormen (door middel van
+beta-oxidatie)

@@ -1,0 +1,47 @@
+hoofdstuk 7
+[***energy, rate, and equilibrium***]
+
+paragraaf 1
+[**thermodynamica**]
+
+[*1e wet van de thermodynamica*]
+De totale hoeveelheid energie in het universum blijft constant.
+
+Exotherme reacties geven energie af aan de omgeving, terwijl endotherme
+reacties energie uit de omgeving opnemen.
+
+Als de benodigde energie om een binding te verbreken kleiner is dan de energie
+die vrijkomt bij het vormen van de binding, resulteert dit in een afgifte van
+energie: exotherme reactie (bijvoorbeeld vuur).
+
+Als de benodigde energie om een binding te verbreken groter is dan de energie
+die vrijkomt bij het vormen van de binding, moet er energie van buitenaf worden
+toegevoegd: endotherme reactie (bijvoorbeeld de vorming van ijzer in de zon).
+
+ΔE = Ee - Eb (e = eind en b = begin)
+Een reactie is exotherm als de ΔE negatief is en endotherm als ΔE positief is.
+
+[*enthalpie*]
+Dit wordt ook wel de reactiewarmte (ΔH) genoemd. Bij energieopname is het
+positief en bij energieafgifte is het negatief.
+
+* voorbeeld *
+2NH3(g) -> N2(g) + 3H2(g) +92 kJ = endotherm
+
+CH4(g) + 2O2(g) -> CO2(g) + 2H2O(g) -883 kJ = exotherm
+
+[2e Wet van de Thermodynamica]
+Het universum evolueert van nature in de richting van toenemende wanorde
+(toenemende entropie); chaos blijft gelijk of neemt toe.
+
+* voorbeeld *
+vaste stof = weinig wanorde
+vloeistof = iets meer wanorde
+gas = veel wanorde
+
+[*vrije Gibbs energie*]
+Een reactie verloopt spontaan als de vrije Gibbs energie negatief is omdat er
+dan geen energie van buitenaf nodig is om de reactie te starten en
+niet-spontaan als het positief is omdat dan wel energie van buitenaf nodig
+is om de reactie te starten (kan ook temperatuur afhankelijk zijn):
+ΔG = ΔH - TΔS

@@ -1,0 +1,96 @@
+[*afwijking in chromosoomstructuur*]
+Ontstaan door breuken en de reparatie daarvan
+
+Deletie
+Duplicatie
+Inversie
+Translocatie
+Fragiele sites
+
+[*deletie*]
+Wanneer een chromosoom een deel mist
+Verlies van genetische informatie
+
+Terminal deletion
+Wanneer een chromosoom een deel aan het uiteinde mist
+Het afgebroken deel raakt verloren
+
+Intercalary deletion
+Wanneer een chromosoom een deel in het midden mist
+Het afgebroken loop raakt verloren
+
+Cri-du-chat (46 5p-)
+Kleine deletie
+- levensvatbaar
+Grote deletie
+- lethaal
+
+Wordt ook wel gedeeltelijke monosomie genoemd
+
+[*duplicatie*]
+Wanneer een chromosoom een extra deel heeft
+
+Ongelijke crossing-over
+Wanneer verschillende loci, die vergelijkbaar zijn in sequentie,
+homologe recombinatie ondergaan
+
+Duplicatie
+Gen redundantie
+Gen amplificatie (extra eiwitproductie)
+
+Nieuwe functie
+Evolutie van genfamilies
+
+* voorbeeld *
+Hemoglobine
+Myoglobine
+
+[*inversie*]
+Pericentrische inversie
+Wanneer een "break" in één arm plaatsvindt en "rejoining" in de
+andere arm (inclusief het centromeer)
+- verhouding van de armen kan veranderen
+
+Paracentrische inversie
+Wanneer een "break" en "rejoining" in dezelfde arm plaatsvindt
+(exclusief het centromeer)
+- verhouding van de armen verandert niet
+- vorming van acentrische en dicentrische chromosomen
+
+Break --> Gap --> Rejoining ("sticky ends")
+
+Resultaat:
+- deletie en duplicatie in 2 sequenties (SCO)
+- inversie in 1 sequentie (NCO)
+- 1 sequentie onaangetast (NCO)
+
+Voordelen
+Onderdrukking van crossing-over en dus recombinatie
+(en anders niet levensvatbaar)
+Nakomeling krijgt een betere combinatie van allelen die behouden
+zijn (B-c-D beter dan B-C-D of b-c-d)
+
+[*translocatie*]
+Reciproke translocatie
+Chromosomale segmenten worden tussen twee niet-homologe chromosomen
+uitgewisseld (twee richtingen)
+
+Nonreciproke translocatie
+Chromosomale segment wordt aan een niet-homologe chromosoom
+afgegeven (één richting)
+
+Resultaat:
+- duplicatie en deficient in 2 sequenties (SCO)
+- gebalanceerde translocatie in 1 sequentie (NCO)
+- 1 sequentie onaangetast (NCO)
+
+* voorbeeld *
+Erfelijke vorm van Down
+(simpel gezegd bevat een chromosoom, dat niet 21 is, een deel of
+geheel van chromosoom 21)
+
+[*fragiele-x syndroom*]
+X-chromosoom gerelateerd
+Eindeloze GCG repeats aan uiteinde
+Instabiel
+FMR1 gen niet aanwezig, belangrijk voor hersenen

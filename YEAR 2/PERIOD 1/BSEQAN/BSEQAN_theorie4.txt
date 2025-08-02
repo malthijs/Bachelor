@@ -1,0 +1,122 @@
+[*blast*]
+Basic Local Alignment Search Tool
+Aantal hits = lengte query * lengte database ("search space")
+
+Neemt short-cuts door per stap te filteren op scores van lokale
+alignments ("heuristische regel")
+- score drempelwaarde
+- 6 stappen
+
+Stappenplan:
+1.
+Knip de query door middel van "word size"
+2.
+Kies een scoringsmatrix (standaard: BLOSUM62)
+Creëer lijst met query-woorden met scores boven threshold
+3.
+Scan database met "words" boven threshold
+4.
+Segment bepalen
+5.
+HSP bepalen met cut-off score S (high-scoring segment pair)
+6.
+MSP bepalen met cut-off score S (maximum-segment pair)
+
+* voorbeeld *
+1.
+Query: GSVEDTTGSLAALLNKCKTPQPQRLVNQWIKQPLMDKNRIEERLNLVEAFV
+EDAELRQTLQEDSVEDTTGSLAALLNKCKTPQG
+
+Woordlengte: 3 (bij DNA is dit standaard 12)
+GSV EDT TGS LAA LLN KCK TPQ PQR LVN QWI KQP LMD KNR IEE RLN LVE AFV
+EDA ELR QTL QED SVE DTT GSL AAL LNK CKT PQG
+
+2.
+Matrix: PAM250
+
+Threshold (T): 12
+Gekozen woord: PQG
+Som(P --> P, Q --> Q, G --> G) = 6 + 4 + 4 = 15
+
+15 > 12: meenemen PQG
+
+Som(P --> A, Q --> A, G --> A) = 1 + 0 + 1 = 2
+2 < 15: verwerpen AAA
+
+3.
+Zoek met behulp van de gevonden woorden naar sequenties in een
+database ("subject")
+
+4.
+Leg nu de "query" tegenover de gevonden "subject"
+
+Kies een woord om te beginnen
+Breidt uit links en rechts tot een negatieve waarde
+LET OP: meerdere woorden per segment mogelijk
+
+5.
+Kies een cut-off score: 24
+Bewaar alleen de HSP (high-scoring segment pair)
+
+6.
+HSP (high-scoring segment pair) wordt verlengd tot de score onder S
+komt: MSP (maximum-segment pair)
+
+Resultaat: alignment
+
+[*snelheid vs gevoeligheid*]
+Cut-off score "S" bepaalt de gevoeligheid van BLAST
+Lage S: veel resultaten, veel rekentijd
+Hoge S: weinig resultaten, weinig rekentijd
+
+Des te langer een query des te lager de kans op een FP
+(= geen verwantschap/evolutionaire relatie)
+
+[*bit score*]
+S' = (λS - ln(K))/(ln(2))
+
+S' = bit score
+K = search space parameter
+λ = scoring system parameter
+S = raw score (som van scores "met de hand")
+
+De bit score is een genormaliseerde "raw score" die onafhankelijk is
+van de "search space" en "scoring system"
+
+Bit scores kunnen vergeleken worden tussen databases of zelfs
+tussen scoringsmatrices
+
+BLAST score "S" volgt ongeveer een normaalverdeling
+Je wilt aan de rechter kant zitten
+
+[*e-value*]
+Het aantal gevonden HSP's/MSP's met gelijke of hogere score "S" dan
+wordt verwacht in de gezochte database door toeval
+
+E = K(mn)e**(-λS)
+E = mn * 2**(-S')
+K = search space parameter
+λ = scoring system parameter
+m = query lengte
+n = database lengte
+mn = search space
+S = raw score
+S' = bit score
+
+E geeft de waarschijnlijkheid van "false positives" weer
+
+[*effective search space*]
+De waarde van E hangt af van "search space"
+- de grootte van de database
+- de lengte van de query
+→ effective search space wordt door deze factoren genormaliseerd
+
+Esp = (m - L)(n - xL)
+m = query lengte
+n = database lengte
+x = aantal sequenties in database
+L = gemiddelde lengte alignment
+
+Combinaties = L - k + 1
+L = totale lengte
+k = substring (wordt ook wel een "k-mer" genoemd)

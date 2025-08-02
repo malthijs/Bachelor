@@ -1,0 +1,105 @@
+[*sequence similarity searching*]
+Een van de eerste stappen bij de analyse van een nieuwe sequentie
+
+Effectief en betrouwbaar omdat van sequenties met significante
+similariteit afgeleid kunnen worden dat ze homoloog zijn:
+ze delen een gemeenschappelijke voorouder
+
+Eiwit (aminozuur) similarity searches zijn gevoeliger dan DNA
+(basen) searches
+
+[*PAM*]
+Accepted Point Mutation: een verandering van 1 AA, geaccepteerd door
+natuurlijke selectie
+
+Gebaseerd op basis van de eigenschappen van aminozuren
+Als de chemische en fysische eigenschappen van de gemuteerde
+aminozuur op de oude lijkt, dan resulteert dat in een lage penalty
+of zelfs een beloning
+
+We zijn niet geïnteresseerd in fatale mutaties
+
+Margaret Dayhoff
+Ze keek naar de gemeenschappelijke voorouder van 2 sequenties
+(fylogenetische analyse)
+
+Stap 1:
+Tellen van waargenomen mutaties in nauw verwante eiwitfamilies
+
+Stap 2:
+Genormaliseerde frequenties van aminozuren
+Wordt ook wel Dayhoff data genoemd
+Totaal = 1
+
+Stap 3:
+Relative mutability: hoe groot is de kans dat een bepaald aminozuur
+muteert (markov model)
+
+* voorbeeld *
+W verandert bijna nooit
+S erg vaak
+
+MPM: Mutation Probability Matrix
+Som kolom = 10000
+
+MAAR:
+Matrix is niet symmetrisch en bevat grote getallen
+
+Stap 4:
+Log-Odds Scoring Matrix
+
+Score(S)
+AAᵢ = vervangende aminozuur
+AAⱼ = originele aminozuur = 10000
+MutationProbability = mutatie waarschijnlijkheid
+AminoAcidFrequency = frequentie dat AAⱼ voorkomt
+
+S(AAᵢ, AAⱼ) = 10 * log(
+MutationProbability(AAᵢ, AAⱼ)/AminoAcidFrequency(AAⱼ)
+)
+
+* voorbeeld *
+Alanine naar Arginine
+S(R, A) = 10 * log(1/10000/0.041) = -26
+
+Arginine naar Alanine
+S(A, R) = 10 * log(2/10000/0.087) = -26
+
+      divergentie
+PAM0 -------------> PAM∞
+           x
+
+Des te hoger x des te hoger divergentie
+
+Divergentie
+Sequenties ondergaan mutaties waardoor ze minder op elkaar gaan
+lijken
+
+PAM1 = matrix berekend met behulp van een sequentie vergelijking
+met gemiddeld 99% sequentie identiteit (=1 mutatie per 100 AA)
+
+PAM250 = PAM1 250x met zichzelf vermenigvuldigd: gemiddeld 20%
+sequentie identiteit (=250 mutaties per 100 AA)
+
+[*BLOSUM*]
+BLOck SUbstitution Matrix
+Des te hoger x des te hoger convergentie
+
+Gelijke sequenties boven een grenswaarde (cluster threshold) van %
+identiteit worden geclusterd: ze nemen deel aan de cluster als
+één "block"
+- reduceert redundantie
+- hogere precisie bij verre verwantschap
+
+Blocks worden gebruikt om de scores voor een BLOSUM-matrix te
+berekenen
+
+Block
+- groep van lokale multiple sequence alignments (ungapped)
+- geconserveerde regionen in eiwitten die aan elkaar verwant zijn
+
+BLOSUM: 2x log₂ ratio
+(log-odd score bepaling)
+
+BLOSUM62: sequenties met een minimale identiteit van 62%
+BLOSUM80: sequenties met een minimale identiteit van 80%

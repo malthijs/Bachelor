@@ -1,0 +1,108 @@
+[*NJ en moleculaire klok*]
+Distance
+- UPGMA
+- NJ
+- MSA distance-clustering methode
+
+Maximum parsimony
+Maximum likelihood
+Bayesian
+
+[*maken van bomen*]
+Distance: een fylogenetische boom wordt bepaald door een
+clusteringsalgoritme met de berekende afstanden
+- pairwise distances
+- minimizes distances between nearest neighbors
+- very fast
+- easily trapped in local optima
+- useful for creating a tentative tree or choosing among multiple
+trees
+
+Maximum parsimony: de fylogenetische boom met het minimum aantal
+evolutionaire veranderingen wordt geselecteerd
+- only uses shared derived characters
+- minimizes total distance
+- slow
+- assumptions fail when evolution is rapid
+- best option when tractable (< 30 taxa and homoplasy rare)
+
+Maximum likelihood: de fylogenetische boom met de hoogste
+waarschijnlijkheid wordt geselecteerd
+- uses all data
+- maximizes tree likelihood given specific parameter values
+- very slow
+- highly dependent on assumed evolution model
+- useful for small datasets and testing trees built using other
+methods
+
+[*UPGMA VS NJ*]
+UPGMA
+- ultrametric
+- rooted
+
+NJ:
+- non-ultrametric
+- unrooted
+
+[*NJ*]
+1: Maak een afstandsmatrix
+
+2. Bereken per paar OTU’s de onderlinge afstand terwijl je de totale
+afstand voor elke OTU in dat paar meeweegt
+Q(i, j) = (n - 2) * d(i, j) - sigma d(i, k) - sigma d(j, k)
+
+3. Creëer de Q-matrix door de berekende Q-waarden in te vullen
+
+4. In de Q-matrix bepaal je de kleinste afstand
+(hiermee bepaal je het nieuwe cluster en een nieuwe interne node)
+
+5. Bereken de afstand van elke OTU in het paar uit stap 2 tot de
+nieuwe interne node ("u")
+
+6. Bereken de nieuwe paarsgewijze afstandstabel van alle andere
+OTU’s tot de nieuwe node
+
+7. Terug naar stap 2 en matrix reduceren tot de boom compleet is
+
+[*MSA*]
+1. Bepaling verwantschap (BLAST)
+2. Guide tree maken (UPGMA)
+3. Meest verwante sequenties clusteren
+4. Daarna de volgende meest verwante sequentie alignen tegen de
+reeds gemaakt alignment
+
+Werkt alleen goed bij sequenties die nauw verwant aan elkaar zijn
+
+[*kimura's theorie*]
+Moleculaire klok tikt als een metronoom
+Dat is niet altijd zo!
+
+Klok tikt sneller bij
+- snellere stofwisseling: meer vrije radicalen
+- Kortere generatietijd: meer DNA-mutaties
+- Grotere populaties: meer kans op fixatie van mutaties
+
+Klokt tikt anders bij
+- 1e/2e vs 3e codon posities
+Mutatie op het 3e codon heeft over het algemeen geen invloed op het
+uiteindelijke aminozuur ("wobble")
+- verschillende genkopieën
+Meer mutaties in pseudogenen die sneller kunnen muteren dan een
+functionele gen
+
+Aantal mutaties vaak onderschat
+Er zijn maar 4 nucleotiden:
+A --> C --> A
+
+Dₐ꜀ = genetische afstand
+Tₐ꜀ = leeftijd van voorouder
+R = dₐ꜀/Tₐ꜀ = mutation rate = aantal verwachte mutaties per
+tijdseenheid
+
+De meeste moleculaire variatie in populaties en soorten is neutraal
+Wel:
+genetic drift
+Random mutatie
+
+Niet:
+selectie

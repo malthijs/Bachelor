@@ -1,0 +1,103 @@
+[*neurale netwerken*]
+Classificatie algoritme
+(gebaseerd op neuronen in hersenen)
+
+Wordt gebruikt voor complexe datasets met veel attributen
+(image analysis: elke pixel is een attribuut)
+
+Input: data
+Hidden: data wordt verwerkt
+Output: voorspelling
+
+Deep learning: meerdere hidden layers
+Output = g(w1 * x1 + w2 * x2 + ...)
+
+[*squash functies*]
+g(x)
+
+Sigmoid functie
+Transformeren naar een getal tussen 0 en 1
+Uitkomst ≤ 0: onwaar
+Uitkomst > 0: waar
+
+Tanh
+ReLU
+Leaky ReLU
+
+Introduceren van non-linearity in model
+Scheiden van klassen
+
+[*nodes*]
+Veel netwerken gebruiken een standaard input
+- bias node
+(is altijd aan)
+
+Neurale netwerken verschillen onderling door
+- verschillende gewichten
+- verschillende layers
+
+Neurale netwerken zijn computationeel intensief
+- erg goed voor grote datasets
+- veel attributen
+- veel klassen
+
+* voorbeeld *
+Stel bias node = -5
+Stel x1 = 1 en w1 = 10
+Stel x2 = 1 en w2 = 15
+Berekening: 1 * -5 + 1 * 10 + 1 * 15 = 20: TRUE
+
+Indien andersom:
+Berekening: 1 * -5 + 0 * 10 + 0 * 15 = -5: FALSE
+
+Voordelen
+Leren van complexe patronen
+Robuustheid tegen ruis
+Goede prestaties bij grote datasets
+
+Nadelen
+Data afhankelijkheid
+Rekenintensief en tijdrovend
+Blackbox
+Overfitting: model dat goed werkt op specifieke data, maar niet op
+andere data
+
+[*cost*]
+Elke pixel heeft een intensiteit, waarbij zwart = 0 en wit = 1
+(grijs ligt er tussen in)
+
+Eerst gaan de voorspellingen erg slecht
+Wordt steeds beter: gradient descent
+(vinden van minimum)
+
+Vinden van het correcte minimum:
+- veel runnen
+
+Voor iets wat je niet wilt voorspellen: (x - 0)²
+Voor iets wat je wel wilt voorspellen: (x - 1)²
+Cost = totaal
+
+Toekomst
+Zelfsturende auto's
+Medische diagnoses
+Tekst generatoren
+Crime prediction
+En natuurlijk BI-toepassingen
+
+[*LLM*]
+Generative pre-trained transformer (CHAT GPT)
+Genereert het volgende token in de sequentie
+Getrained op grote hoeveelheden data
+
+1. Tokenization
+2. Attention block
+3. Feedforward layer
+Elke vector ondergaat zijn eigen aanpassing, op basis van vragen die
+erover worden gesteld, om de vector te finetunen
+4. Transformer
+Herhaling totdat de betekenis in de vectoren is gevangen
+5. Output
+
+LLM models zijn imitators
+Bevatten veel parameters om te finetunen
+Waarmee ze afbeeldingen en tekst uit hun data kunnen "imiteren"

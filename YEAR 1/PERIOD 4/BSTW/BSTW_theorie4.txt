@@ -1,0 +1,32 @@
+Oppervlakte onder een normaalverdeling (z-toets)
+z = (y - μ)/σ
+y = grenswaarde
+μ = verwachtingswaarde
+σ = standaarddeviatie
+
+Indien grenswaarden gegeven
+Grote kans - kleine kans
+
+Indien grenswaarden gevraagd en oppervlakte gegeven
+Lees z-score af
+y = zσ + μ
+
+Gemiddelde
+μₓ₊ᵧ = μₓ + μᵧ
+μₓ₋ᵧ = μₓ - μᵧ
+
+Variantie
+σ²ₓ₊ᵧ = σ²ₓ + σ²ᵧ
+σ²ₓ₋ᵧ = σ²ₓ - σ²ᵧ
+
+* voorbeeld *
+Wie heeft grotere kans om te winnen?
+Jan: μ = 56 σ = 4
+Piet: μ = 54 σ = 5
+
+μ(v) = 56 - 54 = 2 (verwachtingswaarde van verschil)
+σ(v) = √(4² + 5²) = 6.4 (standaarddeviatie van verschil)
+
+z = (0 - 2)/6.40 = -0.3125 = 0.3783 = 37.83 %
+
+Piet heeft grotere kans om te winnen.
