@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>TicTacToe</title>
+    <link rel='icon' href='../static/backgrounds/favicon.png'>
+    <link rel='stylesheet' href='../static/styles/game.css'>
+    <style>
+        body {
+            background-image: url('../static/backgrounds/{{ background }}')
+        }
+    </style>
+    <script src="../static/scripts/game.js"></script>
+</head>
+
+
+<body>
+    {% if mode == 'pvp' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check()"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'bot' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bot('{{ bot }}', '{{ skin }}', '{{ sound }}', '{{ sound_switch }}')}, 1000)"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Said' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); said('{{ skin }}')"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Bo' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {bo('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div><br>
+        <button id="return" onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Jan' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="4"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div><br>
+        <button id="return" onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Tom' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {tom('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="2"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {tom('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {tom('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {tom('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {tom('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="8"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+        </div><br>
+        <button id="return" onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Suzan' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}', 5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {suzan('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Jacob' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="1"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('{{ skin }}', 3); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('{{ skin }}',5); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="7"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jacob('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if mode == 'map' and boss == 'Jeroen' %}
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('{{ skin }}', 0); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('{{ skin }}', 1); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('{{ skin }}', 2); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+            <div class="column"><button id="4" onclick="image('{{ skin }}', 4); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="5"><img src='../static/backgrounds/mountain.png' alt=''></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('{{ skin }}', 6); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('{{ skin }}', 7); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('{{ skin }}', 8); audio('{{ sound }}', '{{ sound_switch }}'); check(); setTimeout(function() {jeroen('{{ skin }}', '{{ sound }}', '{{ sound_switch }}', )}, 1000)"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+    {% endif %}
+
+    {% if music_switch == 'on' %}
+    <audio id='audio' controls loop autoplay>
+        <source src='../static/musics/{{ music }}' type='audio/mpeg'>
+    </audio>
+    {% endif %}
+</body>
+</html>

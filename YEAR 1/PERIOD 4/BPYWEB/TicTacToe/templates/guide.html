@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>TicTacToe</title>
+    <link rel='icon' href='../static/backgrounds/favicon.png'>
+    <link rel='stylesheet' href='../static/styles/guide.css'>
+</head>
+
+
+<body>
+    <div><button onclick="location.href='/'">Return</button></div>
+    <h1>TicTacToe</h1>
+    Is een spel waarbij je met symbolen in een 3x3 rooster speelt.
+
+    <h2>How To Play</h2>
+    Het wordt aangeraden om eerst naar de settings te gaan om die in te stellen.<br><br>
+    Er zijn drie gamemodes:<br>
+    - MAP<br>
+    - PVP<br>
+    - BOT<br><br>
+
+    MAP weergeeft verschillende tegenstanders die je moet verslaan om dit spel uit te kunnen spelen.<br>
+    Bij de optie PVP kan je tegen mensen spelen.<br>
+    Bij de optie BOT kan je tegen een AI spelen.<br><br>
+
+    {% if defeated_teachers < 7 and player_1 != '' and player_2 != '' %}
+        <h3>Veel Plezier {{ player_1 }} en {{ player_2 }}!!!</h3>
+    {% elif defeated_teachers < 7 and player_1 != '' and player_2 == '' %}
+        <h3>Veel Plezier {{ player_1 }}!!!</h3>
+    {% elif defeated_teachers < 7 and player_1 == '' and player_2 != '' %}
+        <h3>Veel Plezier {{ player_2 }}!!!</h3>
+    {% elif defeated_teachers < 7 and player_1 == '' and player_2 == '' %}
+        <h3>Veel plezier!!!</h3>
+    {% elif defeated_teachers == 7 %}
+        <h3>Er zit een tekstbestand in je TicTacToe directory!!!</h3>
+    {% elif defeated_teachers == 8 %}
+        <h3>Je hebt het spel uitgespeeld!!! Gefeliciteerd!!!</h3>
+    {% endif %}
+</body>
+</html>

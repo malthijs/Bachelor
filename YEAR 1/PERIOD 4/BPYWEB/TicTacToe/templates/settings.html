@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>TicTacToe</title>
+    <link rel='icon' href='../static/backgrounds/favicon.png'>
+    <link rel='stylesheet' href='../static/styles/guide.css'>
+</head>
+
+
+<body>
+    <button onclick="location.href='/'">Return</button><br><br> <!-- RETURN -->
+    <form action='game.html' method='post'>
+        <!-- NAMES -->
+        <label for='PL1' ><b>Player 1</b></label><br>
+        <input type='text' name='player_1' id='PL1' value='{{ player_1 }}'><br><br>
+        <label for='PL2'><b>Player 2</b></label><br>
+        <input type='text' name='player_2' id='PL2' value='{{ player_2 }}'><br><br>
+
+        <!-- BACKGROUNDS -->
+        <b>Select background</b><br>
+        <input type='radio' name='background' id='BA1' value='background_1.png' checked='checked'>
+        <label for="BA1">Default</label><br>
+        <input type='radio' name='background' id='BA2' value='background_2.png'>
+        <label for='BA2'>Lego</label><br>
+        <input type='radio' name='background' id='BA3' value='background_3.png'>
+        <label for='BA3'>Cat</label><br><br>
+
+        <!-- SKINS -->
+        <label for='SK'><b>Select skin</b></label><br>
+        <select id='SK' name='skin'>
+            <option value='skin_1'>Default</option>
+            <option value='skin_2'>Lego</option>
+            <option value='skin_3'>Cat</option>
+        </select><br><br>
+
+        <!-- SOUNDS -->
+        <label for='SO'><b>Select sound</b></label><br>
+        <select id='SO' name='sound'>
+            <option value='sound_1.mp3'>Default</option>
+            <option value='sound_2.mp3'>Lego</option>
+            <option value='sound_3.mp3'>Cat</option>
+        </select>
+        <input type='checkbox' id='SOC' name='sound_switch' value='on' checked='checked'>
+        <label for='SOC'></label><br><br>
+
+        <!-- MUSICS -->
+        <label for='MU'><b>Select music</b></label><br>
+        <select id='MU' name='music'>
+            <option value='music_1.mp3'>Default</option>
+            <option value='music_2.mp3'>Lego</option>
+            <option value='music_3.mp3'>Cat</option>
+        </select>
+        <input type='checkbox' id='MUC' name='music_switch' value='on' checked='checked'>
+        <label for='MUC'></label><br><br>
+        <button type='submit'>Submit</button> <!-- SUBMIT -->
+    </form>
+</body>
+</html>

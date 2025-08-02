@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>TicTacToe</title>
+    <link rel='icon' href='../static/backgrounds/favicon.png'>
+    <link rel="stylesheet" href="../static/styles/map.css">
+</head>
+
+
+<body>
+    <div>
+        <div class="row" >
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Said</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Bo</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Jan</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Tom</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Suzan</b></button></div>
+        <div class="column"><button ></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Jacob</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_text"><b><br>Jeroen</b></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="boss_text"><b><br>André</b></button></div>
+    </div>
+        <div class="row" >
+        <div class="column"><button ></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Said'"><img src="../static/backgrounds/said.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Bo'"><img src="../static/backgrounds/bo.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Jan'"><img src="../static/backgrounds/jan.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Tom'"><img src="../static/backgrounds/tom.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Suzan'"><img src="../static/backgrounds/suzan.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Jacob'"><img src="../static/backgrounds/jacob.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='game.html?mode=map&boss=Jeroen'"><img src="../static/backgrounds/jeroen.png" alt=''></button></div>
+        <div class="column"><button></button></div>
+        <div class="column"><button class="teacher_image" onclick="location.href='phase_1.html'"><img src="../static/backgrounds/andre.png" alt=''></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'"><b>RETURN</b></button>
+    </div>
+
+    {% if music_switch == 'on' %}
+    <audio id='audio' controls loop autoplay>
+        <source src='../static/musics/map.mp3' type='audio/mpeg'>
+    </audio>
+    {% endif %}
+</body>
+</html>

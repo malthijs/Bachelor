@@ -1,0 +1,74 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+Lactobacillus_brevis_ATCC_367_      --------TCTAACAATCGGCTACTT--ATGTCAGAAAACCTAACATGAA
+Oceanobacillus_iheyensis_HTE83      --------TAAAGGGACAGACAATTTC-ATGTTAGAAATACTAACATTTG
+Geobacillus_thermodenitrifican      ----------GAACAGCAGTTGATTTGTTTGTGAGAAAATGTAACATCTC
+Geobacillus_kaustophilus_HTA42      ----------GAACAGCGGTTGATTTGTTTGTGAGGAAACATCACGTTTC
+Geobacillus_WCH70_uid59045|239      --------TGGAAAAACAATTACTTTCTTTGTAAGGAAATCTAACATTTC
+Lactococcus_lactis_cremoris_MG      -----TAAATTTCAAATAAAAAGAACTGATGTGAGAAAATCTCACATTGA
+Lactococcus_lactis_Il1403_uid5      -----AATATTTCAAATAAAATAAACCGATGTGAGAAAATCTCACATTAA
+Lactococcus_lactis_cremoris_SK      --TAATAAATTTCAAATAAAAAGAACTGATGTGAGAAAATCTCACATTGA
+Streptococcus_agalactiae_2603V      -CTAAAAAATAACAAATTATAG--TTTGATGTCATAAAATCTCACATGAG
+Pediococcus_pentosaceus_ATCC_2      ------AAGAAACGTTCTTTA---ACTGATGTTAGAAAATGTAACATCAG
+Enterococcus_faecalis_V583_uid      -------TATCAGGTTTTTTG---TTTTATGTTAGAAAATCTAACATAAG
+Streptococcus_thermophilus_CNR      ATACAATGTTCGGGTTTTTCT---TATTGTGTAAGAAAAAGTGACATTAT
+Lactobacillus_sakei_23K_uid582      -----GTTTACCTTTTTTTATGGCATTCATGTCAGAAAACCTAACATGAA
+Bacillus_amyloliquefaciens_FZB      -----------AATTTTCAAAGAATTTGATGTTAAGATTCCTTACATTGT
+Bacillus_anthracis_Ames_uid579      -------------ATTTTTAAAAAAATCATGTAAGAAAAGCTGACATC-T
+Bacillus_pumilus_SAFR_032_uid5      -----------TGCTCAATAAAAAATTCATGTTAATATTCCTAACATAGT
+Exiguobacterium_sibiricum_255_      --------GTCTGACTTGTAAGAAAGTCATGTTAACTTTCCTTACATC-T
+Streptococcus_pyogenes_MGAS823      -----ATGGTTTAACAAAAAACACAGTGATGTTAGATAATATAACATA-T
+Exiguobacterium_AT1b_uid59093|      ----------ATTTGTAACCAATCTGTCATGTTAACTTTCTTAACATC-T
+Bacillus_cereus_ATCC_10987_uid      -------------AAATTATAAAAAATCATGTAAGAAAAGCTAACATC-T
+Bacillus_subtilis_168_uid57675      -----------AAATTTCTCTGGATTTGATGTTAAGAATCCTTACATCGT
+Bacillus_licheniformis_ATCC_14      ----------AAAATAAAGAATATTTTCATGTAAAGAATCCTTACATCGA
+                                                            :    *** *  :::  * **.*   
+
+Lactobacillus_brevis_ATCC_367_      TTCTTGACGTCAGCTGTCAACGTGGTATGATAACAGCATAGTTTGAAGGG
+Oceanobacillus_iheyensis_HTE83      TTTGACATATAAGCTGACGTTG-AATATAATAGGATTATAAATGAAAAGG
+Geobacillus_thermodenitrifican      ATTGACTCATTTCTTAACATTATGGTAAAATAAAGGTATCAAAAGCGAGG
+Geobacillus_kaustophilus_HTA42      ATTGACTCATTTCCTGACATTATGGTAAAATAAAGGTATCAAAAGCGAGG
+Geobacillus_WCH70_uid59045|239      ATTGACATGTATTCTAACGTGATG--TAAAATAAATTATCATAAGCGAGG
+Lactococcus_lactis_cremoris_MG      AGCTTGACTTTG-CGAAAGACAAGGTCTATAATG---ATACGTATGGAGG
+Lactococcus_lactis_Il1403_uid5      AACTTGACTTTG-CTAATAACAAGGTCTATAATG---AAAGGCATGGAGG
+Lactococcus_lactis_cremoris_SK      AGCTTGACTTTG-CGAAAGACAAGGTCTATAATG---ATACGTATGGAGG
+Streptococcus_agalactiae_2603V      AG-TTGACATCA-AACTTTTTAAAGTTTATAATGGTTTAATGAAAGGAGG
+Pediococcus_pentosaceus_ATCC_2      CTATTGACGTAGCTATCATTGACTGTTAAACTTAGTTCAATATTAAAGGA
+Enterococcus_faecalis_V583_uid      TTCTTGACAATTTGTCATTCTATTGTTATTCTAAGAAATAACTAAGAGAG
+Streptococcus_thermophilus_CNR      CTGTTGACATGTAGTAAAATTCAGAATATAATTG-------TTAGGAAAG
+Lactobacillus_sakei_23K_uid582      ATATTGACCGTTAAGAAGTCGACTGGTAAGATAAAACG----CAAGTGAG
+Bacillus_amyloliquefaciens_FZB      GTTGACACAAAATATAACATCACCTATAATGAGACTAAGATAAGAAAAGG
+Bacillus_anthracis_Ames_uid579      ATTGACACTAAACATAACATGGTATAAAATGAGAAGCAGTTAAGGCGAAG
+Bacillus_pumilus_SAFR_032_uid5      GTTGACATATAATATAACATGACATATAATAAATTTAAGCAAAGAGGAGG
+Exiguobacterium_sibiricum_255_      CTTGACAACTTCCCTTACAGAGGTTTATTC--TCATGAAGTAAGGAAAAA
+Streptococcus_pyogenes_MGAS823      ATA---------CTTGACAGGTTATTTTTT--TCAGCCTATAATAAGGAA
+Exiguobacterium_AT1b_uid59093|      ATTGACAGGATTGTTGTCATAT-ATTATTC--TCACATTGTGAGACAGAA
+Bacillus_cereus_ATCC_10987_uid      ATTGACACCAAACATAACATGGTATAAAATGAGAAGCAGTTAAGGCGAAG
+Bacillus_subtilis_168_uid57675      ATTGACACATAATATAACATCACCTATAATGAAACTAAGTTAAGAAAAGG
+Bacillus_licheniformis_ATCC_14      GTTGACACATTATATAACATCACATATAAT-AAATTTATATAAGAAAAGG
+                                                               :                   ...
+
+Lactobacillus_brevis_ATCC_367_      GGCGGTAGTG-------
+Oceanobacillus_iheyensis_HTE83      GGGTCATCTT-------
+Geobacillus_thermodenitrifican      AGGAATTGGC-------
+Geobacillus_kaustophilus_HTA42      AGGAATTGGC-------
+Geobacillus_WCH70_uid59045|239      AGGAATTGGC-------
+Lactococcus_lactis_cremoris_MG      CGAGATTTG--------
+Lactococcus_lactis_Il1403_uid5      CGAGATTTG--------
+Lactococcus_lactis_cremoris_SK      CGAGAT-----------
+Streptococcus_agalactiae_2603V      CCATC------------
+Pediococcus_pentosaceus_ATCC_2      GTTATTGGT--------
+Enterococcus_faecalis_V583_uid      GAGGATGGAG-------
+Streptococcus_thermophilus_CNR      GAGGATTATC-------
+Lactobacillus_sakei_23K_uid582      GTGAAATAG--------
+Bacillus_amyloliquefaciens_FZB      AGGAAATTGAG------
+Bacillus_anthracis_Ames_uid579      GAGGAACTGAAACA---
+Bacillus_pumilus_SAFR_032_uid5      AGACAGTTGAG------
+Exiguobacterium_sibiricum_255_      GGAGGAACGAA------
+Streptococcus_pyogenes_MGAS823      GATGAAAGGAGTTTGTC
+Exiguobacterium_AT1b_uid59093|      AAGGAGGGGTAAGG---
+Bacillus_cereus_ATCC_10987_uid      GAGGAACTGAAGCA---
+Bacillus_subtilis_168_uid57675      AGGAAATTGAG------
+Bacillus_licheniformis_ATCC_14      AGGAAATTGAG------
+                                                     

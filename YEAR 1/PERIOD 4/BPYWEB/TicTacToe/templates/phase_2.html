@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>TicTacToe</title>
+    <link rel='icon' href='../static/backgrounds/favicon.png'>
+    <link rel='stylesheet' href='../static/styles/game.css'>
+    <style>
+        body {
+            background-image: url('../static/backgrounds/phase_2.png')
+        }
+    </style>
+    <script src="../static/scripts/phase_2.js"></script>
+</head>
+
+
+<body>
+    <div>
+        <div class="row">
+            <div class="column"><button id="0" onclick="image('0'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="1" onclick="image('1'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="2" onclick="image('2'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="3" onclick="image('3'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="4" onclick="image('4'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="5" onclick="image('5'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+        </div>
+        <div class="row">
+            <div class="column"><button id="6" onclick="image('6'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="7" onclick="image('7'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+            <div class="column"><button id="8" onclick="image('8'); fire('{{ sound_switch }}'); check('{{ sound_switch }}'); setTimeout(function() {andre('{{ sound_switch }}')}, 1000)"></button></div>
+        </div><br>
+        <button id='return' onclick="location.href='/'">RETURN</button>
+    </div>
+
+    {% if music_switch == 'on' %}
+    <audio id='audio' controls loop autoplay>
+        <source src='../static/musics/endgame.mp3' type='audio/mpeg'>
+    </audio>
+    {% endif %}
+</body>
+</html>

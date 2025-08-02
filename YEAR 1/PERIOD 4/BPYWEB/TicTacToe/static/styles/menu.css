@@ -1,0 +1,27 @@
+body {
+    background-image: url('../backgrounds/menu.png');
+    background-size: cover;
+    text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    zoom: 2;
+    transform-origin: 0 0;
+}
+h1 {
+    color: white;
+    font-size: 10vh;
+    font-family: 'Goudy Old Style', 'serif';
+}
+button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    padding: 2vh;
+    color: white;
+    font-size: 5vh;
+    font-family: 'Goudy Old Style', 'serif';
+
+}
+button:hover {
+    color: lightblue;
+}
